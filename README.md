@@ -1,7 +1,7 @@
 # Homiletiek Feedback
 ## Systematische feedback op preken
 
-**Bekijk twee voorbeelden van structurele feedback:** [wmotte.github.io/homiletiek_feedback](https://wmotte.github.io/homiletiek_feedback/)
+**Bekijk voorbeelden van structurele feedback:** [wmotte.github.io/homiletiek_feedback](https://wmotte.github.io/homiletiek_feedback/)
 
 ---
 
@@ -55,10 +55,7 @@ Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
 ### Voorbeelden
 
-In de map `input/` staan **voorbeeldpreken**, geschreven door W.M. Otte:
-- `voorbeeld_31_maart_2024_Otte.txt` (Paasmaandag)
-- `voorbeeld_5_mei_2025_Otte.txt` (Zondag na Hemelvaart)
-- `voorbeeld_Dorothee_Sölle.txt` (Gastpreek)
+In de map `input/` staan **voorbeeldpreken**:
 
 Deze preken zijn geanalyseerd met beide systemen. De resultaten staan in `outputs/` en zijn visueel te bekijken via de [web-interface](https://wmotte.github.io/homiletiek_feedback/).
 
@@ -106,12 +103,12 @@ GEMINI_API_KEY=jouw_api_sleutel_hier
 
 **Voor de Dekker-thesen:**
 ```bash
-python analyze_sermon_dekker.py --i input/voorbeeld_31_maart_2024_Otte.txt
+python analyze_sermon_dekker.py --i input/preek.txt
 ```
 
 **Voor de Kolb-leercyclus:**
 ```bash
-python analyze_kolb_cyclus.py --i input/voorbeeld_31_maart_2024_Otte.txt
+python analyze_kolb_cyclus.py --i input/preek.txt
 ```
 
 #### 5. Bekijk de resultaten
@@ -160,5 +157,7 @@ De twee voorbeeldpreken zijn geschreven door W.M. Otte en dienen als demonstrati
 ---
 
 ### Bronnen
+
+Sölle, D. (2023). Gesammelte Werke, Band 11: Löse die Fesseln des Unrechts, Verlag Herder.
 
 Dekker, W.M. (2025). "Wat is een preek? Thesen." *In de Waagschaal*, nr. 2, 8 februari 2025.
