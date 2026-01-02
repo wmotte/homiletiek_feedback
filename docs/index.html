@@ -222,24 +222,38 @@
 
         .dashboard-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 1.5rem;
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        @media (max-width: 1200px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .card {
             background: var(--bg-surface);
             border-radius: 12px;
-            padding: 1.5rem;
+            padding: 1.25rem;
             border: 1px solid var(--border-color);
             box-shadow: var(--shadow);
             display: flex;
             flex-direction: column;
         }
 
-        .full-width { grid-column: span 2; }
-        @media (max-width: 900px) { .full-width { grid-column: 1; } }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        @media (max-width: 1200px) {
+            .full-width {
+                grid-column: 1;
+            }
+        }
 
         .card-header {
             display: flex;
@@ -251,7 +265,7 @@
         }
 
         .card-title {
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 700;
             color: var(--text-main);
         }
@@ -272,18 +286,31 @@
         .text-content {
             line-height: 1.6;
             color: var(--text-main);
-            font-size: 0.95rem;
+            font-size: 0.9rem;
+        }
+
+        .text-content p {
+            margin: 0.75rem 0;
+        }
+
+        .text-content p:first-child {
+            margin-top: 0;
+        }
+
+        .text-content p:last-child {
+            margin-bottom: 0;
         }
 
         .quote-box {
             background-color: var(--bg-element);
             border-left: 3px solid var(--accent-color);
-            padding: 1rem;
-            margin: 1rem 0;
+            padding: 0.75rem 1rem;
+            margin: 1rem 0 0 0;
             border-radius: 0 6px 6px 0;
             font-style: italic;
             color: var(--text-muted);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            line-height: 1.6;
         }
 
         .quote-header {
@@ -306,14 +333,15 @@
         }
 
         .summary-columns {
-            display: flex;
-            gap: 2rem;
-            margin-top: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
         }
         .summary-col { flex: 1; }
-        .summary-col h3 { font-size: 1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;}
+        .summary-col h3 { font-size: 0.95rem; margin-bottom: 0.75rem; font-weight: 700;}
         .summary-list { margin: 0; padding-left: 1.2rem; }
-        .summary-list li { margin-bottom: 0.4rem; color: var(--text-muted); }
+        .summary-list li { margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.875rem; line-height: 1.5; }
 
         #sermon-view {
             max-width: 800px;
@@ -333,22 +361,15 @@
             white-space: pre-wrap;
         }
 
-        .meta-stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        
         .stat-item {
             background: var(--bg-element);
-            padding: 1rem;
+            padding: 0.75rem 1rem;
             border-radius: 8px;
             text-align: center;
         }
-        
-        .stat-val { display: block; font-size: 1.25rem; font-weight: 700; color: var(--primary-color); }
-        .stat-lbl { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; }
+
+        .stat-val { display: block; font-size: 1.1rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.25rem; }
+        .stat-lbl { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
 
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: var(--bg-body); }
@@ -363,6 +384,47 @@
             border: 5px solid var(--bg-body); 
         }
         #tab-sermon::-webkit-scrollbar-thumb:hover { background: var(--accent-color); }
+
+        .info-block {
+            background: var(--bg-element);
+            border-left: 4px solid var(--primary-color);
+            padding: 1rem 1.5rem;
+            margin: 0 2rem 2rem 2rem;
+            border-radius: 0 8px 8px 0;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .info-block-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .info-block-text {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .section-info {
+            background: var(--bg-element);
+            border-left: 3px solid var(--accent-color);
+            padding: 0.5rem 0.75rem;
+            margin: 1.5rem 2rem 0.75rem 2rem;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.78rem;
+            line-height: 1.4;
+            color: var(--text-muted);
+            font-style: italic;
+            grid-column: 1 / -1;
+        }
 
     </style>
 </head>
@@ -379,8 +441,14 @@
         </h1>
         
         <select class="example-selector" id="example-select">
-            <option value="voorbeeld_31_maart_2024_Otte">Preek 31 maart 2024</option>
-            <option value="voorbeeld_5_mei_2025_Otte">Preek 5 mei 2025</option>
+            <option value="voorbeeld_31_maart_2024_Otte">Preek 31 maart 2024 - Otte</option>
+            <option value="voorbeeld_5_mei_2025_Otte">Preek 5 mei 2025 - Otte</option>
+            <option value="voorbeeld_Dorothee_Sölle">Preek Dorothee Sölle</option>
+        </select>
+
+        <select class="example-selector" id="analysis-type-select">
+            <option value="kolb">Kolb analyse</option>
+            <option value="dekker">Dekker analyse</option>
         </select>
 
         <nav class="tab-nav">
@@ -404,6 +472,13 @@
 
 <main>
     <div id="tab-analysis" class="tab-content active">
+        <div id="analysis-info-block" class="info-block">
+            <div class="info-block-title">
+                Over deze analyse
+                <a href="#" id="info-block-link" target="_blank" class="info-link" title="Lees meer">i</a>
+            </div>
+            <p class="info-block-text" id="info-block-text">Laden...</p>
+        </div>
         <div class="dashboard-grid" id="dashboard-content">
             <div class="card full-width"><em>Laden...</em></div>
         </div>
@@ -451,27 +526,56 @@
         return text;
     }
 
+    const analysisInfo = {
+        'kolb': {
+            text: 'De leercyclus van Kolb beschrijft leren als transformatie van ervaring in kennis door vier fasen: concrete ervaring (voelen), reflectieve observatie (kijken), abstracte conceptualisering (denken), en actief experimenteren (doen). Deze analyse beoordeelt hoe goed de preek door deze cyclus beweegt en verschillende leerstijlen aanspreekt (Doener, Dromer, Denker, Beslisser).',
+            link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/kolbs_leercyclus.md'
+        },
+        'dekker': {
+            text: 'De thesen van Willem Maarten Dekker definiëren een preek als "uitleg en toepassing van een specifiek Bijbelgedeelte". De analyse beoordeelt de preek volgens de 3-2-1-regel: de drie stukken (ellende, verlossing, dankbaarheid), de twee wegen (ten verderve en ten leven), en de ene Heer (Christus als telos).',
+            link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/wat_is_een_preek_dekker.md'
+        }
+    };
+
+    function updateInfoBlock(analysisType) {
+        const info = analysisInfo[analysisType];
+        document.getElementById('info-block-text').textContent = info.text;
+        document.getElementById('info-block-link').href = info.link;
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
         loadTheme();
-        const selector = document.getElementById('example-select');
-        loadExample(selector.value);
+        const exampleSelector = document.getElementById('example-select');
+        const analysisTypeSelector = document.getElementById('analysis-type-select');
+        updateInfoBlock(analysisTypeSelector.value);
+        loadExample(exampleSelector.value, analysisTypeSelector.value);
 
-        selector.addEventListener('change', (e) => loadExample(e.target.value));
+        exampleSelector.addEventListener('change', (e) => loadExample(e.target.value, analysisTypeSelector.value));
+        analysisTypeSelector.addEventListener('change', (e) => {
+            updateInfoBlock(e.target.value);
+            loadExample(exampleSelector.value, e.target.value);
+        });
         document.getElementById('sermon-upload').addEventListener('change', handleSermonUpload);
         document.getElementById('json-upload').addEventListener('change', handleJsonUpload);
     });
 
-    async function loadExample(baseName) {
+    async function loadExample(baseName, analysisType) {
         try {
             const textRes = await fetch(`${baseName}.txt`);
             if(!textRes.ok) throw new Error(`Kon ${baseName}.txt niet laden`);
             const text = await textRes.text();
             renderSermon(text);
 
-            const jsonRes = await fetch(`${baseName}.json`);
-            if(!jsonRes.ok) throw new Error(`Kon ${baseName}.json niet laden`);
+            const jsonSuffix = analysisType === 'kolb' ? '_kolb' : '';
+            const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
+            if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
             const data = await jsonRes.json();
-            renderAnalysis(data);
+
+            if (analysisType === 'kolb') {
+                renderAnalysisKolb(data);
+            } else {
+                renderAnalysisDekker(data);
+            }
         } catch (err) {
             console.error("Fout bij laden voorbeeld:", err);
         }
@@ -529,7 +633,7 @@
         document.getElementById('sermon-content').textContent = toCurlyQuotes(text);
     }
 
-    function renderAnalysis(data) {
+    function renderAnalysisDekker(data) {
         const container = document.getElementById('dashboard-content');
         container.innerHTML = '';
 
@@ -539,7 +643,7 @@
             <div class="card-header">
                 <span class="card-title">Algehele beoordeling</span>
             </div>
-            <div class="meta-stats">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
                  <div class="stat-item">
                     <span class="stat-val">${data.metadata.geschatte_tijdsduur_minuten} min</span>
                     <span class="stat-lbl">Tijdsduur</span>
@@ -605,6 +709,231 @@
             `;
             container.appendChild(card);
         }
+    }
+
+    function renderAnalysisKolb(data) {
+        const container = document.getElementById('dashboard-content');
+        container.innerHTML = '';
+
+        // Totaalbeeld card
+        const summaryCard = document.createElement('div');
+        summaryCard.className = 'card full-width';
+        summaryCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Totaalbeeld - Kolb leercyclus analyse</span>
+                <span class="score-badge score-high">${data.totaalbeeld.overall_kolb_score}/10</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_tijdsduur_minuten} min</span>
+                    <span class="stat-lbl">Tijdsduur</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_woordlengte}</span>
+                    <span class="stat-lbl">Woorden</span>
+                 </div>
+                 <div class="stat-item">
+                    ${(() => {
+                        const stijl = data.totaalbeeld.primaire_homiletische_stijl;
+                        const parts = stijl.split('. ');
+                        const hoofdterm = parts[0];
+                        const beschrijving = parts.slice(1).join('. ');
+                        return `
+                            <span class="stat-val">${toCurlyQuotes(hoofdterm)}</span>
+                            ${beschrijving ? `<span style="font-size: 0.75rem; color: var(--text-muted); line-height: 1.3; margin-top: 0.25rem; display: block;">${toCurlyQuotes(beschrijving)}</span>` : ''}
+                            <span class="stat-lbl">Stijl</span>
+                        `;
+                    })()}
+                 </div>
+            </div>
+            <div class="summary-columns" style="gap: 1rem; margin-top: 0;">
+                <div class="summary-col">
+                    <h3 style="color: var(--success-color); font-size: 0.95rem;">Sterke punten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld.sterke_punten_top_5.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="summary-col">
+                    <h3 style="color: var(--danger-color); font-size: 0.95rem;">Verbeterpunten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld.verbeterpunten_top_5.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+        `;
+        container.appendChild(summaryCard);
+
+        // Kolb fasen info
+        const fasenInfo = document.createElement('div');
+        fasenInfo.className = 'section-info';
+        fasenInfo.innerHTML = `
+            💡 <strong>De vier fasen van Kolb:</strong> Deze kaarten analyseren hoe goed de preek elke stap van de leercyclus doorloopt. Een effectieve preek begint met concrete ervaring (CE - voelen), beweegt naar reflectieve observatie (RO - kijken), dan abstracte conceptualisering (AC - denken), en eindigt met actief experimenteren (AE - doen).
+        `;
+        container.appendChild(fasenInfo);
+
+        // Kolb fasen
+        const kolbFasen = data.kolb_fasen_analyse;
+        const kolbFasenTitles = {
+            'fase_1_concrete_ervaring': 'Fase 1: Concrete ervaring',
+            'fase_2_reflectieve_observatie': 'Fase 2: Reflectieve observatie',
+            'fase_3_abstracte_conceptualisering': 'Fase 3: Abstracte conceptualisering',
+            'fase_4_actief_experimenteren': 'Fase 4: Actief experimenteren'
+        };
+
+        for (const [key, value] of Object.entries(kolbFasen)) {
+            let scoreClass = 'score-low';
+            if (value.score >= 8) scoreClass = 'score-high';
+            else if (value.score >= 6) scoreClass = 'score-mid';
+
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            let quotesHtml = '';
+            if (value.quotes && value.quotes.length > 0) {
+                quotesHtml = `
+                    <div class="quote-box">
+                        <span class="quote-header">Quotes</span>
+                        ${value.quotes.map(q => toCurlyQuotes(`"${q}"`)).join('<br><br>')}
+                    </div>
+                `;
+            }
+
+            let sterkePuntenHtml = '';
+            if (value.sterke_punten && value.sterke_punten.length > 0) {
+                sterkePuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--success-color); font-size: 0.9rem;">Sterke punten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.sterke_punten.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let verbeterpuntenHtml = '';
+            if (value.verbeterpunten && value.verbeterpunten.length > 0) {
+                verbeterpuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--danger-color); font-size: 0.9rem;">Verbeterpunten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.verbeterpunten.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">${kolbFasenTitles[key]}</span>
+                    <span class="score-badge ${scoreClass}">${value.score}/10</span>
+                </div>
+                <div class="text-content">
+                    ${toCurlyQuotes(value.analyse)}
+                    ${value.homiletische_manifestaties ? `<p style="margin-top: 0.75rem; font-size: 0.85rem;"><strong>Homiletische manifestaties:</strong> ${toCurlyQuotes(value.homiletische_manifestaties)}</p>` : ''}
+                </div>
+                ${quotesHtml}
+                ${sterkePuntenHtml}
+                ${verbeterpuntenHtml}
+            `;
+            container.appendChild(card);
+        }
+
+        // Leerstijlen info en analyse
+        const leerstijlenInfo = document.createElement('div');
+        leerstijlenInfo.className = 'section-info';
+        leerstijlenInfo.innerHTML = `
+            💡 <strong>Leerstijlen:</strong> Elke leerstijl combineert twee van de vier fasen hierboven. De Doener (CE+AE) leert door ervaring en doen, de Dromer (CE+RO) door ervaring en reflectie, de Denker (AC+RO) door theorie en reflectie, en de Beslisser (AC+AE) door theorie en toepassing. Deze analyse beoordeelt hoe goed de preek verschillende types hoorders aanspreekt.
+        `;
+        container.appendChild(leerstijlenInfo);
+
+        const leerstijlenCard = document.createElement('div');
+        leerstijlenCard.className = 'card full-width';
+        const leerstijlen = data.leerstijlen_analyse;
+
+        const leerstijlNamen = {
+            'assimilator_AC_RO': 'Denker (AC-RO)',
+            'assimilator_ac_ro': 'Denker (AC-RO)',
+            'converger_AC_AE': 'Beslisser (AC-AE)',
+            'converger_ac_ae': 'Beslisser (AC-AE)',
+            'accommodator_CE_AE': 'Doener (CE-AE)',
+            'accommodator_ce_ae': 'Doener (CE-AE)',
+            'diverger_CE_RO': 'Dromer (CE-RO)',
+            'diverger_ce_ro': 'Dromer (CE-RO)'
+        };
+
+        leerstijlenCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Leerstijlen analyse</span>
+            </div>
+            <div class="summary-columns" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+                ${Object.entries(leerstijlen).map(([key, value]) => {
+                    let scoreClass = 'score-low';
+                    if (value.score >= 8) scoreClass = 'score-high';
+                    else if (value.score >= 6) scoreClass = 'score-mid';
+
+                    const title = leerstijlNamen[key] || key.replace(/_/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+                    return `
+                        <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <strong>${title}</strong>
+                                <span class="score-badge ${scoreClass}" style="font-size: 0.8rem;">${value.score}/10</span>
+                            </div>
+                            <p style="font-size: 0.85rem; margin: 0.5rem 0;"><strong>Analyse:</strong> ${toCurlyQuotes(value.analyse)}</p>
+                            ${value.risicos ? `<p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--danger-color);"><strong>Risico's:</strong> ${toCurlyQuotes(value.risicos)}</p>` : ''}
+                        </div>
+                    `;
+                }).join('')}
+            </div>
+        `;
+        container.appendChild(leerstijlenCard);
+
+        // Integraliteit info en analyse
+        const integraliteitInfo = document.createElement('div');
+        integraliteitInfo.className = 'section-info';
+        integraliteitInfo.innerHTML = `
+            💡 <strong>Integraliteit & cyclus:</strong> Deze meta-analyse beoordeelt hoe goed de preek als geheel door de leercyclus beweegt. Doorloopt de preek alle vier de fasen? Is er balans tussen de fasen, of domineert bijvoorbeeld theorie (AC) ten koste van ervaring (CE)? En spreekt de preek hoofd, hart én handen aan (holistisch leren)?
+        `;
+        container.appendChild(integraliteitInfo);
+
+        const integraliteitCard = document.createElement('div');
+        integraliteitCard.className = 'card full-width';
+        const integraliteit = data.integraliteit_en_cyclus;
+
+        integraliteitCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Integraliteit & cyclus</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                        <h3 style="font-size: 0.95rem; margin: 0; font-weight: 700;">Cyclus compleetheid</h3>
+                        <span class="score-badge ${integraliteit.cyclus_compleetheid.score >= 8 ? 'score-high' : integraliteit.cyclus_compleetheid.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${integraliteit.cyclus_compleetheid.score}/10</span>
+                    </div>
+                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${toCurlyQuotes(integraliteit.cyclus_compleetheid.analyse)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Volgorde en flow:</strong> ${toCurlyQuotes(integraliteit.cyclus_compleetheid.volgorde_en_flow)}</p>
+                </div>
+
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                        <h3 style="font-size: 0.95rem; margin: 0; font-weight: 700;">Balans tussen fasen</h3>
+                        <span class="score-badge ${integraliteit.balans_tussen_fasen.score >= 8 ? 'score-high' : integraliteit.balans_tussen_fasen.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${integraliteit.balans_tussen_fasen.score}/10</span>
+                    </div>
+                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${toCurlyQuotes(integraliteit.balans_tussen_fasen.analyse)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Dominante fase:</strong> ${toCurlyQuotes(integraliteit.balans_tussen_fasen.dominante_fase)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Onderdrukte fase:</strong> ${toCurlyQuotes(integraliteit.balans_tussen_fasen.onderdrukte_fase)}</p>
+                </div>
+
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                        <h3 style="font-size: 0.95rem; margin: 0; font-weight: 700;">Holistisch leren</h3>
+                        <span class="score-badge ${integraliteit.holistisch_leren.score >= 8 ? 'score-high' : integraliteit.holistisch_leren.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${integraliteit.holistisch_leren.score}/10</span>
+                    </div>
+                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${toCurlyQuotes(integraliteit.holistisch_leren.analyse)}</p>
+                </div>
+            </div>
+        `;
+        container.appendChild(integraliteitCard);
     }
 </script>
 </body>
