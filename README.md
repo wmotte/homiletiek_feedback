@@ -1,6 +1,10 @@
 # Homiletiek Feedback
 ## Systematische feedback op preken
 
+**Bekijk twee voorbeelden van structurele feedback:** [wmotte.github.io/homiletiek_feedback](https://wmotte.github.io/homiletiek_feedback/)
+
+---
+
 ### Het belang van feedback voor voorgangers
 
 Preken is het centrale ambacht van het predikantschap. Een dominee die niet kan preken is, zoals Dr. W.M. Dekker het formuleert, "als een fietsenmaker die het wiel van de fiets niet goed monteert." Toch is het opvallend hoe weinig structurele, inhoudelijk-theologische feedback voorgangers ontvangen op hun preken.
@@ -20,7 +24,7 @@ Dit project biedt een hulpmiddel voor die evaluatie door te illustreren hoe een 
 ### Wat doet dit project?
 
 Dit project analyseert preken systematisch aan de hand van de **acht thesen** die Dr. Willem Maarten Dekker formuleerde in zijn artikel **"Wat is een preek? Thesen"** (*In de Waagschaal*, nr. 2, 8 februari 2025).
-Er zijn vele manieren om preken te analyseren, maar deze thesen zijn gekozen omdat ze preek geïsoleerd benaderen. 
+Er zijn vele manieren om preken te analyseren, maar deze thesen zijn gekozen omdat ze de preek geïsoleerd benaderen. 
 Meer contextuele theologische analyses vragen ook om het meenemen van situationele informatie, de inhoud van de gebeden en liederen, etc. 
 
 De huidige analyse gebeurt met behulp van een Large Language Model, die de preektekst beoordeelt op:
@@ -36,7 +40,7 @@ De huidige analyse gebeurt met behulp van een Large Language Model, die de preek
 
 Elke these krijgt een score (1-10), onderbouwing met letterlijke citaten uit de preek, bevindingen en concrete verbeterpunten.
 
-**Artikel online:** Het volledige artikel van Dekker is te lezen op [In de Waagschaal](https://indewaagschaal.nl) en is opgenomen in de repository onder `misc/wat_is_een_preek_dekker.md`.
+**Artikel online:** Het volledige artikel van Dekker is te lezen op [In de Waagschaal](https://www.karlbarth.nl/wat-is-een-preek-thesen/) en is opgenomen in de repository onder `misc/wat_is_een_preek_dekker.md`.
 
 ---
 
