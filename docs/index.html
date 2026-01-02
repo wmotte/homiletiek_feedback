@@ -6,25 +6,25 @@
     <title>Homiletische Analyse - Dekker</title>
     <style>
         :root {
-            /* Light Theme Defaults */
-            --primary-hue: 210;
+            /* Light Theme Defaults - Warmer Palette */
+            --primary-hue: 30;
             --primary-color: hsl(var(--primary-hue), 60%, 40%);
             --accent-color: hsl(var(--primary-hue), 70%, 50%);
             
-            --bg-body: #f0f2f5;
+            --bg-body: #fdf8f4;
             --bg-surface: #ffffff;
-            --bg-element: #f8f9fa;
+            --bg-element: #fcf3eb;
             
-            --text-main: #2d3436;
-            --text-muted: #636e72;
+            --text-main: #3d3028;
+            --text-muted: #7a6a5e;
             --text-inverse: #ffffff;
             
-            --border-color: #dfe6e9;
-            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --border-color: #eaddd5;
+            --shadow: 0 4px 6px -1px rgba(61, 48, 40, 0.1), 0 2px 4px -1px rgba(61, 48, 40, 0.06);
             
-            --success-color: #00b894;
-            --warning-color: #fdcb6e;
-            --danger-color: #d63031;
+            --success-color: #558b2f;
+            --warning-color: #ffa000;
+            --danger-color: #b71c1c;
             
             --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
             --font-mono: 'Consolas', monospace;
@@ -32,24 +32,24 @@
         }
 
         [data-theme="dark"] {
-            /* Dark Theme Overrides */
+            /* Dark Theme Overrides - Warmer Palette */
             --primary-color: hsl(var(--primary-hue), 50%, 60%);
             --accent-color: hsl(var(--primary-hue), 60%, 70%);
             
-            --bg-body: #1a1a1a;
-            --bg-surface: #2d2d2d;
-            --bg-element: #363636;
+            --bg-body: #1f1b18;
+            --bg-surface: #2b2621;
+            --bg-element: #38302a;
             
-            --text-main: #dfe6e9;
-            --text-muted: #b2bec3;
-            --text-inverse: #1e272e;
+            --text-main: #f4ede6;
+            --text-muted: #b0a49a;
+            --text-inverse: #1f1b18;
             
-            --border-color: #404040;
-            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            --border-color: #4a4038;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
             
-            --success-color: #00b894;
-            --warning-color: #ffeaa7;
-            --danger-color: #ff7675;
+            --success-color: #8bc34a;
+            --warning-color: #ffca28;
+            --danger-color: #ff7043;
         }
 
         * { box-sizing: border-box; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
@@ -279,9 +279,9 @@
             color: #fff;
         }
 
-        .score-high { background-color: var(--success-color); color: #000; }
-        .score-mid { background-color: var(--warning-color); color: #000; }
-        .score-low { background-color: var(--danger-color); color: #fff; }
+        .score-high { background-color: var(--success-color); }
+        .score-mid { background-color: var(--warning-color); }
+        .score-low { background-color: var(--danger-color); }
 
         .text-content {
             line-height: 1.6;
@@ -502,24 +502,24 @@
     function toCurlyQuotes(text) {
         if (!text) return text;
 
-        // Step 1: Handle Dutch possessive/genitive 's at start of words
-        // Protect patterns like 's ochtends, 's avonds, 's morgens, 's werelds, etc.
-        text = text.replace(/\b's\b/g, '\u2019s');
-
-        // Step 2: Convert double quotes
-        // Opening double quote: after whitespace, start of line, or opening punctuation
+        // Step 1: Handle double quotes
+        // Opening: after whitespace or punctuation
         text = text.replace(/(^|[\s\(\[\{—–])"(?=\S)/gm, '$1\u201c');
-        // Closing double quote: before whitespace, end of line, or closing punctuation
+        // Closing: after text
         text = text.replace(/(\S)"(?=[\s\)\]\}\.,;:!?—–]|$)/gm, '$1\u201d');
-        // Remaining quotes (fallback - assume closing)
+        // Fallback for double quotes
         text = text.replace(/"/g, '\u201d');
 
-        // Step 3: Convert single quotes (but preserve already converted 's)
-        // Opening single quote: after whitespace, start of line, or opening punctuation
+        // Step 2: Handle Dutch specific apostrophes at start of words ('s, 't, 'n)
+        text = text.replace(/(^|\s)'(s|t|n)\b/gi, '$1\u2019$2');
+
+        // Step 3: Handle apostrophes inside words (Risico's, it's, baby's)
+        text = text.replace(/([a-zA-Z])'([a-zA-Z])/g, '$1\u2019$2');
+
+        // Step 4: Handle opening single quotes
         text = text.replace(/(^|[\s\(\[\{—–])'(?=\S)/gm, '$1\u2018');
-        // Closing single quote: before whitespace, end of line, or closing punctuation
-        text = text.replace(/(\S)'(?=[\s\)\]\}\.,;:!?—–]|$)/gm, '$1\u2019');
-        // Remaining single quotes (fallback)
+
+        // Step 5: Handle all remaining single quotes as closing/apostrophe
         text = text.replace(/'/g, '\u2019');
 
         return text;
@@ -689,7 +689,7 @@
             if (value.quotes && value.quotes.length > 0) {
                 quotesHtml = `
                     <div class="quote-box">
-                        <span class="quote-header">Quotes</span>
+                        <span class="quote-header">Citaten</span>
                         ${value.quotes.map(q => toCurlyQuotes(`"${q}"`)).join('<br>')}
                     </div>
                 `;
@@ -719,7 +719,7 @@
         summaryCard.className = 'card full-width';
         summaryCard.innerHTML = `
             <div class="card-header">
-                <span class="card-title">Totaalbeeld - Kolb leercyclus analyse</span>
+                <span class="card-title">Totaalbeeld \u2013 Kolb leercyclus analyse</span>
                 <span class="score-badge score-high">${data.totaalbeeld.overall_kolb_score}/10</span>
             </div>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
@@ -766,7 +766,7 @@
         const fasenInfo = document.createElement('div');
         fasenInfo.className = 'section-info';
         fasenInfo.innerHTML = `
-            💡 <strong>De vier fasen van Kolb:</strong> Deze kaarten analyseren hoe goed de preek elke stap van de leercyclus doorloopt. Een effectieve preek begint met concrete ervaring (CE - voelen), beweegt naar reflectieve observatie (RO - kijken), dan abstracte conceptualisering (AC - denken), en eindigt met actief experimenteren (AE - doen).
+            💡 <strong>De vier fasen van Kolb:</strong> Deze kaarten analyseren hoe goed de preek elke stap van de leercyclus doorloopt. Een effectieve preek begint met concrete ervaring (CE \u2013 voelen), beweegt naar reflectieve observatie (RO \u2013 kijken), dan abstracte conceptualisering (AC \u2013 denken), en eindigt met actief experimenteren (AE \u2013 doen).
         `;
         container.appendChild(fasenInfo);
 
@@ -791,7 +791,7 @@
             if (value.quotes && value.quotes.length > 0) {
                 quotesHtml = `
                     <div class="quote-box">
-                        <span class="quote-header">Quotes</span>
+                        <span class="quote-header">Citaten</span>
                         ${value.quotes.map(q => toCurlyQuotes(`"${q}"`)).join('<br><br>')}
                     </div>
                 `;
@@ -879,7 +879,7 @@
                                 <span class="score-badge ${scoreClass}" style="font-size: 0.8rem;">${value.score}/10</span>
                             </div>
                             <p style="font-size: 0.85rem; margin: 0.5rem 0;"><strong>Analyse:</strong> ${toCurlyQuotes(value.analyse)}</p>
-                            ${value.risicos ? `<p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--danger-color);"><strong>Risico's:</strong> ${toCurlyQuotes(value.risicos)}</p>` : ''}
+                            ${value.risicos ? `<p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--danger-color);"><strong>Risico\u2019s:</strong> ${toCurlyQuotes(value.risicos)}</p>` : ''}
                         </div>
                     `;
                 }).join('')}
