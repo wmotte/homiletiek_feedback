@@ -389,11 +389,10 @@
             background: var(--bg-element);
             border-left: 4px solid var(--primary-color);
             padding: 1rem 1.5rem;
-            margin: 0 2rem 2rem 2rem;
+            margin: 0 auto 2rem auto;
             border-radius: 0 8px 8px 0;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
+            max-width: calc(1200px - 4rem);
+            width: calc(100% - 4rem);
         }
 
         .info-block-title {
@@ -441,9 +440,9 @@
         </h1>
         
         <select class="example-selector" id="example-select">
-            <option value="voorbeeld_31_maart_2024_Otte">Preek 31 maart 2024 - Otte</option>
-            <option value="voorbeeld_5_mei_2025_Otte">Preek 5 mei 2025 - Otte</option>
-            <option value="voorbeeld_Dorothee_Sölle">Preek Dorothee Sölle</option>
+            <option value="voorbeeld_Dorothee_Sölle">Preek Dorothee Sölle - 8 januari 1968</option>
+            <option value="voorbeeld_31_maart_2024_Otte">Preek Wim Otte - 31 maart 2024</option>
+            <option value="voorbeeld_5_mei_2025_Otte">Preek Wim Otte - 5 mei 2025</option>
         </select>
 
         <select class="example-selector" id="analysis-type-select">
@@ -528,11 +527,11 @@
 
     const analysisInfo = {
         'kolb': {
-            text: 'De leercyclus van Kolb beschrijft leren als transformatie van ervaring in kennis door vier fasen: concrete ervaring (voelen), reflectieve observatie (kijken), abstracte conceptualisering (denken), en actief experimenteren (doen). Deze analyse beoordeelt hoe goed de preek door deze cyclus beweegt en verschillende leerstijlen aanspreekt (Doener, Dromer, Denker, Beslisser).',
+            text: 'Binnen de homiletiek wordt de prediking gezien als een cyclisch proces waarin de hoorder wordt uitgenodigd om door verschillende stadia van perceptie en verwerking te bewegen. Gebaseerd op Kolbs theorie analyseert dit model de transformatie van ervaring in geloofskennis via vier fasen: concrete ervaring (voelen), reflectieve observatie (kijken), abstracte conceptualisering (denken) en actief experimenteren (doen). Een integrale preek doorloopt deze hele cyclus om elke hoorder (Dromer, Denker, Beslisser, Doener) aan te spreken en tot spirituele groei te leiden.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/kolbs_leercyclus.md'
         },
         'dekker': {
-            text: 'De thesen van Willem Maarten Dekker definiëren een preek als "uitleg en toepassing van een specifiek Bijbelgedeelte". De analyse beoordeelt de preek volgens de 3-2-1-regel: de drie stukken (ellende, verlossing, dankbaarheid), de twee wegen (ten verderve en ten leven), en de ene Heer (Christus als telos).',
+            text: 'De thesen van Willem Maarten Dekker definiëren een preek als "uitleg en toepassing van een specifiek Bijbelgedeelte". De analyse beoordeelt de preek volgens de 3-2-1-regel: de drie stukken (ellende, verlossing, dankbaarheid) als existentiële lagen, de twee wegen (ten verderve en ten leven) die de mens als verantwoordelijk wezen aanspreken, en de ene Heer (Christus) als het telos van de preek. Daarnaast wordt getoetst op de onlosmakelijke verbinding tussen exegese en concrete toepassing.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/wat_is_een_preek_dekker.md'
         }
     };
