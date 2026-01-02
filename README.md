@@ -23,11 +23,20 @@ Dit project biedt een hulpmiddel voor die evaluatie door te illustreren hoe een 
 
 ### Wat doet dit project?
 
-Dit project analyseert preken systematisch aan de hand van de **acht thesen** die Dr. Willem Maarten Dekker formuleerde in zijn artikel **"Wat is een preek? Thesen"** (*In de Waagschaal*, nr. 2, 8 februari 2025).
-Er zijn vele manieren om preken te analyseren, maar deze thesen zijn gekozen omdat ze de preek geïsoleerd benaderen. 
-Meer contextuele theologische analyses vragen ook om het meenemen van situationele informatie, de inhoud van de gebeden en liederen, etc. 
+Dit project biedt twee methoden voor de systematische analyse van preken:
 
-De huidige analyse gebeurt met behulp van een Large Language Model, die de preektekst beoordeelt op:
+#### 1. De Leercyclus van Kolb (Homiletic Window)
+Analyseert of de preek de volledige cyclus van ervaringsgericht leren doorloopt, zodat verschillende typen hoorders (leerstijlen) worden aangesproken. Dit is gebaseerd op de homiletische typologie van **Kenton Anderson**:
+
+- **Concrete Ervaring** (Visionaire structuur - *Waarom is dit belangrijk?*)
+- **Reflectieve Observatie** (Narratieve structuur - *Wat gebeurt er?*)
+- **Abstracte Conceptualisering** (Declaratieve structuur - *Wat is de waarheid?*)
+- **Actief Experimenteren** (Pragmatische structuur - *Hoe werkt het?*)
+
+**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/kolbs_leercyclus.md`.
+
+#### 2. De Thesen van Dekker
+Analyseert preken aan de hand van de **acht thesen** die Dr. Willem Maarten Dekker formuleerde in zijn artikel **"Wat is een preek? Thesen"** (*In de Waagschaal*, nr. 2, 8 februari 2025). Deze criteria focussen op de theologische kern en de klassieke 3-2-1-regel (3 stukken, 2 wegen, 1 Heer):
 
 1. **Specifiek Bijbelgedeelte** - Ligt één specifieke pericoop ten grondslag?
 2. **Exegese** - Is er adequate uitleg van de oorspronkelijke context?
@@ -38,19 +47,20 @@ De huidige analyse gebeurt met behulp van een Large Language Model, die de preek
 7. **Christocentrisch** - Is Christus het telos van de preek?
 8. **Diepgang en lengte** - Duurt de preek minimaal 20 minuten?
 
-Elke these krijgt een score (1-10), onderbouwing met letterlijke citaten uit de preek, bevindingen en concrete verbeterpunten.
+Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
-**Artikel online:** Het volledige artikel van Dekker is te lezen op [In de Waagschaal](https://www.karlbarth.nl/wat-is-een-preek-thesen/) en is opgenomen in de repository onder `misc/wat_is_een_preek_dekker.md`.
+**Artikelen:** De bronteksten van Dekker en de toelichting op Kolb zijn opgenomen in de map `misc/`.
 
 ---
 
 ### Voorbeelden
 
-In de map `input/` staan **twee eigen voorbeeldpreken**, ambachtelijk geschreven door W.M. Otte:
+In de map `input/` staan **voorbeeldpreken**, geschreven door W.M. Otte:
 - `voorbeeld_31_maart_2024_Otte.txt` (Paasmaandag)
 - `voorbeeld_5_mei_2025_Otte.txt` (Zondag na Hemelvaart)
+- `voorbeeld_Dorothee_Sölle.txt` (Gastpreek)
 
-Deze preken zijn geanalyseerd met het systeem. De resultaten staan in `outputs/` als JSON-bestanden met gedetailleerde feedback per criterium.
+Deze preken zijn geanalyseerd met beide systemen. De resultaten staan in `outputs/` en zijn visueel te bekijken via de [web-interface](https://wmotte.github.io/homiletiek_feedback/).
 
 ---
 
@@ -59,16 +69,17 @@ Deze preken zijn geanalyseerd met het systeem. De resultaten staan in `outputs/`
 ```
 homiletiek_feedback/
 ├── README.md                          # Dit bestand
-├── analyze_sermon_dekker.py           # Hoofdscript voor analyse
+├── analyze_kolb_cyclus.py             # Analyse op basis van Kolb/Anderson
+├── analyze_sermon_dekker.py           # Analyse op basis van Dekker-thesen
 ├── .env                               # API-sleutel configuratie (niet in git)
 ├── input/                             # Preekteksten (*.txt)
-│   ├── voorbeeld_31_maart_2024_Otte.txt
-│   └── voorbeeld_5_mei_2025_Otte.txt
 ├── outputs/                           # Analyse-resultaten (*.json)
-├── prompts/                           # LLM prompt met Dekker-criteria
+├── prompts/                           # LLM prompts
+│   ├── analyze_kolb_cyclus.md
 │   └── analyze_sermon_dekker.md
 ├── misc/                              # Achtergronddocumentatie
-│   └── wat_is_een_preek_dekker.md     # Volledige tekst van het artikel
+│   ├── kolbs_leercyclus.md
+│   └── wat_is_een_preek_dekker.md
 └── technical/                         # Hulpscripts
 ```
 
@@ -92,13 +103,15 @@ GEMINI_API_KEY=jouw_api_sleutel_hier
 ```
 
 #### 4. Voer een analyse uit
+
+**Voor de Dekker-thesen:**
 ```bash
 python analyze_sermon_dekker.py --i input/voorbeeld_31_maart_2024_Otte.txt
 ```
 
-Of gebruik de standaard input:
+**Voor de Kolb-leercyclus:**
 ```bash
-python analyze_sermon_dekker.py
+python analyze_kolb_cyclus.py --i input/voorbeeld_31_maart_2024_Otte.txt
 ```
 
 #### 5. Bekijk de resultaten
