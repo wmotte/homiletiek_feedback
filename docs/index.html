@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="nl" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homiletische Analyse - Dekker</title>
+    <style>
+        :root {
+            /* Light Theme Defaults */
+            --primary-hue: 210;
+            --primary-color: hsl(var(--primary-hue), 60%, 40%);
+            --accent-color: hsl(var(--primary-hue), 70%, 50%);
+            
+            --bg-body: #f0f2f5;
+            --bg-surface: #ffffff;
+            --bg-element: #f8f9fa;
+            
+            --text-main: #2d3436;
+            --text-muted: #636e72;
+            --text-inverse: #ffffff;
+            
+            --border-color: #dfe6e9;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            
+            --success-color: #00b894;
+            --warning-color: #fdcb6e;
+            --danger-color: #d63031;
+            
+            --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            --font-mono: 'Consolas', monospace;
+            --font-serif: 'Georgia', serif;
+        }
+
+        [data-theme="dark"] {
+            /* Dark Theme Overrides */
+            --primary-color: hsl(var(--primary-hue), 50%, 60%);
+            --accent-color: hsl(var(--primary-hue), 60%, 70%);
+            
+            --bg-body: #1a1a1a;
+            --bg-surface: #2d2d2d;
+            --bg-element: #363636;
+            
+            --text-main: #dfe6e9;
+            --text-muted: #b2bec3;
+            --text-inverse: #1e272e;
+            
+            --border-color: #404040;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            
+            --success-color: #00b894;
+            --warning-color: #ffeaa7;
+            --danger-color: #ff7675;
+        }
+
+        * { box-sizing: border-box; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
+
+        body {
+            font-family: var(--font-main);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+        }
+
+        header {
+            background-color: var(--bg-surface);
+            padding: 0 2rem;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: var(--shadow);
+            z-index: 10;
+        }
+
+        .header-left { display: flex; align-items: center; gap: 1.5rem; }
+        
+        h1 {
+            margin: 0;
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--text-main);
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .info-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: var(--text-inverse);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-decoration: none;
+            font-style: normal;
+            transition: all 0.2s;
+        }
+
+        .info-link:hover {
+            background-color: var(--accent-color);
+            transform: scale(1.1);
+        }
+
+        .example-selector {
+            background: var(--bg-element);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .example-selector:focus { border-color: var(--primary-color); }
+
+        .tab-nav {
+            display: flex;
+            gap: 2rem;
+            height: 70px;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            height: 100%;
+            padding: 0 0.5rem;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover { color: var(--primary-color); }
+        .tab-btn.active {
+            color: var(--primary-color);
+            border-bottom-color: var(--primary-color);
+        }
+
+        .controls {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .file-input-group {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+        
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            background: var(--bg-element);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn:hover { background: var(--border-color); }
+
+        input[type="file"] {
+            position: absolute;
+            font-size: 100px;
+            opacity: 0;
+            right: 0;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            padding: 0.5rem;
+            border-radius: 50%;
+        }
+        .theme-toggle:hover { background-color: var(--bg-element); color: var(--text-main); }
+
+        main {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tab-content {
+            display: none;
+            height: 100%;
+            overflow-y: scroll;
+            padding: 2rem;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .tab-content.active { display: block; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--bg-surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .full-width { grid-column: span 2; }
+        @media (max-width: 900px) { .full-width { grid-column: 1; } }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .score-badge {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            padding: 0.25rem 0.75rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #fff;
+        }
+
+        .score-high { background-color: var(--success-color); color: #000; }
+        .score-mid { background-color: var(--warning-color); color: #000; }
+        .score-low { background-color: var(--danger-color); color: #fff; }
+
+        .text-content {
+            line-height: 1.6;
+            color: var(--text-main);
+            font-size: 0.95rem;
+        }
+
+        .quote-box {
+            background-color: var(--bg-element);
+            border-left: 3px solid var(--accent-color);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 6px 6px 0;
+            font-style: italic;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .quote-header {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            display: block;
+            font-style: normal;
+        }
+
+        .advice-box {
+            margin-top: auto;
+            padding-top: 1rem;
+            border-top: 1px dashed var(--border-color);
+            color: var(--danger-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .summary-columns {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .summary-col { flex: 1; }
+        .summary-col h3 { font-size: 1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;}
+        .summary-list { margin: 0; padding-left: 1.2rem; }
+        .summary-list li { margin-bottom: 0.4rem; color: var(--text-muted); }
+
+        #sermon-view {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-surface);
+            padding: 3rem;
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .sermon-text {
+            font-family: var(--font-serif);
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-main);
+            white-space: pre-wrap;
+        }
+
+        .meta-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .stat-item {
+            background: var(--bg-element);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-val { display: block; font-size: 1.25rem; font-weight: 700; color: var(--primary-color); }
+        .stat-lbl { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; }
+
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: var(--bg-body); }
+        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 5px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+        #tab-sermon::-webkit-scrollbar { width: 25px; }
+        #tab-sermon::-webkit-scrollbar-track { background: var(--bg-body); border-left: 1px solid var(--border-color); }
+        #tab-sermon::-webkit-scrollbar-thumb { 
+            background: var(--primary-color); 
+            border-radius: 12px; 
+            border: 5px solid var(--bg-body); 
+        }
+        #tab-sermon::-webkit-scrollbar-thumb:hover { background: var(--accent-color); }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+        <h1>
+            <span>Preekanalyse <span style="font-weight:400; color:var(--text-muted); font-size: 0.9em;">// Dekker</span></span>
+            <a href="https://github.com/wmotte/homiletiek_feedback/blob/main/misc/wat_is_een_preek_dekker.md"
+               target="_blank"
+               class="info-link"
+               title="Lees de thesen van Dekker">i</a>
+        </h1>
+        
+        <select class="example-selector" id="example-select">
+            <option value="voorbeeld_31_maart_2024_Otte">Preek 31 maart 2024</option>
+            <option value="voorbeeld_5_mei_2025_Otte">Preek 5 mei 2025</option>
+        </select>
+
+        <nav class="tab-nav">
+            <button class="tab-btn active" onclick="switchTab('analysis')">Analyse dashboard</button>
+            <button class="tab-btn" onclick="switchTab('sermon')">Preektekst</button>
+        </nav>
+    </div>
+
+    <div class="controls">
+        <div class="file-input-group">
+            <div class="btn">📂 Upload Preek (.txt)</div>
+            <input type="file" id="sermon-upload" accept=".txt">
+        </div>
+        <div class="file-input-group">
+            <div class="btn">📊 Upload JSON</div>
+            <input type="file" id="json-upload" accept=".json">
+        </div>
+        <button class="theme-toggle" onclick="toggleTheme()" title="Wissel Thema">🌗</button>
+    </div>
+</header>
+
+<main>
+    <div id="tab-analysis" class="tab-content active">
+        <div class="dashboard-grid" id="dashboard-content">
+            <div class="card full-width"><em>Laden...</em></div>
+        </div>
+    </div>
+
+    <div id="tab-sermon" class="tab-content">
+        <div id="sermon-view">
+            <div id="sermon-content" class="sermon-text">
+                <em>Geen preektekst geladen.</em>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    let currentTheme = 'dark';
+
+    /**
+     * Converts straight quotes to curly quotes with proper Dutch language support.
+     * Handles cases like 's ochtends, 's avonds, etc.
+     */
+    function toCurlyQuotes(text) {
+        if (!text) return text;
+
+        // Step 1: Handle Dutch possessive/genitive 's at start of words
+        // Protect patterns like 's ochtends, 's avonds, 's morgens, 's werelds, etc.
+        text = text.replace(/\b's\b/g, '\u2019s');
+
+        // Step 2: Convert double quotes
+        // Opening double quote: after whitespace, start of line, or opening punctuation
+        text = text.replace(/(^|[\s\(\[\{—–])"(?=\S)/gm, '$1\u201c');
+        // Closing double quote: before whitespace, end of line, or closing punctuation
+        text = text.replace(/(\S)"(?=[\s\)\]\}\.,;:!?—–]|$)/gm, '$1\u201d');
+        // Remaining quotes (fallback - assume closing)
+        text = text.replace(/"/g, '\u201d');
+
+        // Step 3: Convert single quotes (but preserve already converted 's)
+        // Opening single quote: after whitespace, start of line, or opening punctuation
+        text = text.replace(/(^|[\s\(\[\{—–])'(?=\S)/gm, '$1\u2018');
+        // Closing single quote: before whitespace, end of line, or closing punctuation
+        text = text.replace(/(\S)'(?=[\s\)\]\}\.,;:!?—–]|$)/gm, '$1\u2019');
+        // Remaining single quotes (fallback)
+        text = text.replace(/'/g, '\u2019');
+
+        return text;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        loadTheme();
+        const selector = document.getElementById('example-select');
+        loadExample(selector.value);
+
+        selector.addEventListener('change', (e) => loadExample(e.target.value));
+        document.getElementById('sermon-upload').addEventListener('change', handleSermonUpload);
+        document.getElementById('json-upload').addEventListener('change', handleJsonUpload);
+    });
+
+    async function loadExample(baseName) {
+        try {
+            const textRes = await fetch(`${baseName}.txt`);
+            if(!textRes.ok) throw new Error(`Kon ${baseName}.txt niet laden`);
+            const text = await textRes.text();
+            renderSermon(text);
+
+            const jsonRes = await fetch(`${baseName}.json`);
+            if(!jsonRes.ok) throw new Error(`Kon ${baseName}.json niet laden`);
+            const data = await jsonRes.json();
+            renderAnalysis(data);
+        } catch (err) {
+            console.error("Fout bij laden voorbeeld:", err);
+        }
+    }
+
+    function switchTab(tabId) {
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+        document.getElementById(`tab-${tabId}`).classList.add('active');
+        const btns = document.querySelectorAll('.tab-btn');
+        if(tabId === 'analysis') btns[0].classList.add('active');
+        if(tabId === 'sermon') btns[1].classList.add('active');
+    }
+
+    function toggleTheme() {
+        const html = document.documentElement;
+        const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+    }
+
+    function loadTheme() {
+        const saved = localStorage.getItem('theme');
+        if(saved) document.documentElement.setAttribute('data-theme', saved);
+    }
+
+    function handleSermonUpload(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            renderSermon(e.target.result);
+            switchTab('sermon');
+        };
+        reader.readAsText(file);
+    }
+
+    function handleJsonUpload(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            try {
+                const json = JSON.parse(e.target.result);
+                renderAnalysis(json);
+                switchTab('analysis');
+            } catch (error) {
+                alert("Ongeldig JSON bestand!");
+            }
+        };
+        reader.readAsText(file);
+    }
+
+    function renderSermon(text) {
+        document.getElementById('sermon-content').textContent = toCurlyQuotes(text);
+    }
+
+    function renderAnalysis(data) {
+        const container = document.getElementById('dashboard-content');
+        container.innerHTML = '';
+
+        const summaryCard = document.createElement('div');
+        summaryCard.className = 'card full-width';
+        summaryCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Algehele beoordeling</span>
+            </div>
+            <div class="meta-stats">
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_tijdsduur_minuten} min</span>
+                    <span class="stat-lbl">Tijdsduur</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_woordlengte}</span>
+                    <span class="stat-lbl">Woorden</span>
+                 </div>
+            </div>
+            <div class="text-content">
+                <p><strong>Samenvatting:</strong> ${toCurlyQuotes(data.algehele_beoordeling.samenvatting)}</p>
+                <p><strong>Eindoordeel (Dekker):</strong> ${toCurlyQuotes(data.algehele_beoordeling.eindoordeel_volgens_dekker)}</p>
+            </div>
+            <div class="summary-columns">
+                <div class="summary-col">
+                    <h3 style="color: var(--success-color)">Sterke punten</h3>
+                    <ul class="summary-list">
+                        ${data.algehele_beoordeling.sterke_punten.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="summary-col">
+                    <h3 style="color: var(--danger-color)">Aandachtspunten</h3>
+                    <ul class="summary-list">
+                        ${data.algehele_beoordeling.zwakke_punten.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+        `;
+        container.appendChild(summaryCard);
+
+        const criteria = data.analyse_per_criterium;
+        for (const [key, value] of Object.entries(criteria)) {
+            let scoreClass = 'score-low';
+            if (value.score_1_tot_10 >= 8) scoreClass = 'score-high';
+            else if (value.score_1_tot_10 >= 6) scoreClass = 'score-mid';
+
+            const cleanTitle = key.replace(/^\d+_/, '').replace(/_/g, ' ');
+            const formattedTitle = cleanTitle.charAt(0).toUpperCase() + cleanTitle.slice(1);
+
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            let quotesHtml = '';
+            if (value.quotes && value.quotes.length > 0) {
+                quotesHtml = `
+                    <div class="quote-box">
+                        <span class="quote-header">Quotes</span>
+                        ${value.quotes.map(q => toCurlyQuotes(`"${q}"`)).join('<br>')}
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">${formattedTitle}</span>
+                    <span class="score-badge ${scoreClass}">${value.score_1_tot_10}/10</span>
+                </div>
+                <div class="text-content">${toCurlyQuotes(value.bevindingen)}</div>
+                ${quotesHtml}
+                <div class="advice-box">
+                    👉 ${toCurlyQuotes(value.verbeterpunt)}
+                </div>
+            `;
+            container.appendChild(card);
+        }
+    }
+</script>
+</body>
+</html>
