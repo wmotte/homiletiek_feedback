@@ -1,3 +1,5 @@
+![Voorbereiding Banner](misc/banner.png)
+
 # Homiletiek Feedback
 ## Systematische feedback op preken
 
