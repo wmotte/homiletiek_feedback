@@ -154,12 +154,14 @@ Dit project is ontwikkeld als een **prototype voor theologische feedbacksystemen
 - Objectieve second opinion naast collegiaal overleg
 - Hulpmiddel voor homiletisch onderwijs
 
-De twee voorbeeldpreken zijn geschreven door W.M. Otte en dienen als demonstratie van het systeem.
+Er is een voorbeeldpreek van Schillebeeckx en Sölle. Twee andere voorbeeldpreken zijn (op ambachtelijke wijze) geschreven door W.M. Otte. Deze voorbeelden dienen als demonstratie van het systeem.
 
 ---
 
 ### Bronnen
 
 Sölle, D. (2023). Gesammelte Werke, Band 11: Löse die Fesseln des Unrechts, Verlag Herder.
+
+Schillebeeckx, E. (1982). Evangelie verhalen, H. Nelissen.
 
 Dekker, W.M. (2025). "Wat is een preek? Thesen." *In de Waagschaal*, nr. 2, 8 februari 2025.
