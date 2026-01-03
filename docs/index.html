@@ -440,6 +440,7 @@
         </h1>
         
         <select class="example-selector" id="example-select">
+            <option value="voorbeeld_Edward_Schillebeeckx">Preek Edward Schillebeeckx - datum onbekend</option>
             <option value="voorbeeld_Dorothee_Sölle">Preek Dorothee Sölle - 8 januari 1968</option>
             <option value="voorbeeld_31_maart_2024_Otte">Preek Wim Otte - 31 maart 2024</option>
             <option value="voorbeeld_5_mei_2025_Otte">Preek Wim Otte - 5 mei 2025</option>
@@ -525,9 +526,40 @@
         return text;
     }
 
+    /**
+     * Replaces English learning style terminology with Dutch equivalents
+     */
+    function toNederlandseTerminologie(text) {
+        if (!text) return text;
+
+        // Replace English learning style terms with Dutch equivalents
+        // Case-insensitive replacements
+        text = text.replace(/\bassimilator(en)?\b/gi, (match) => {
+            return match.toLowerCase() === 'assimilatoren' ? 'denkers' : 'denker';
+        });
+        text = text.replace(/\bconverger(s)?\b/gi, (match) => {
+            return match.toLowerCase() === 'convergers' ? 'beslissers' : 'beslisser';
+        });
+        text = text.replace(/\baccommodator(en|s)?\b/gi, (match) => {
+            return match.toLowerCase() === 'accommodatoren' || match.toLowerCase() === 'accommodators' ? 'doeners' : 'doener';
+        });
+        text = text.replace(/\bdiverger(s)?\b/gi, (match) => {
+            return match.toLowerCase() === 'divergers' ? 'dromers' : 'dromer';
+        });
+
+        return text;
+    }
+
+    /**
+     * Formats text with both Dutch terminology and curly quotes
+     */
+    function formatText(text) {
+        return toCurlyQuotes(toNederlandseTerminologie(text));
+    }
+
     const analysisInfo = {
         'kolb': {
-            text: 'Binnen de homiletiek wordt de prediking gezien als een cyclisch proces waarin de hoorder wordt uitgenodigd om door verschillende stadia van perceptie en verwerking te bewegen. Gebaseerd op Kolbs theorie analyseert dit model de transformatie van ervaring in geloofskennis via vier fasen: concrete ervaring (voelen), reflectieve observatie (kijken), abstracte conceptualisering (denken) en actief experimenteren (doen). Een integrale preek doorloopt deze hele cyclus om elke hoorder (Dromer, Denker, Beslisser, Doener) aan te spreken en tot spirituele groei te leiden.',
+            text: 'Binnen de homiletiek wordt de prediking gezien als een cyclisch proces waarin de hoorder wordt uitgenodigd om door verschillende stadia van perceptie en verwerking te bewegen. Gebaseerd op Kolbs theorie analyseert dit model de transformatie van ervaring in geloofskennis via vier fasen:\n\n• CE (Concrete Ervaring) – voelen en ervaren (Dromer, Doener)\n• RO (Reflectieve Observatie) – kijken en luisteren (Dromer, Denker)\n• AC (Abstracte Conceptualisering) – denken en logica (Denker, Beslisser)\n• AE (Actief Experimenteren) – doen en toepassen (Beslisser, Doener)\n\nEen integrale preek doorloopt deze hele cyclus om elke hoorder aan te spreken en tot spirituele groei te leiden.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/kolbs_leercyclus.md'
         },
         'dekker': {
@@ -538,7 +570,9 @@
 
     function updateInfoBlock(analysisType) {
         const info = analysisInfo[analysisType];
-        document.getElementById('info-block-text').textContent = info.text;
+        // Convert newlines to <br> tags for HTML rendering
+        const formattedText = info.text.replace(/\n/g, '<br>');
+        document.getElementById('info-block-text').innerHTML = formattedText;
         document.getElementById('info-block-link').href = info.link;
     }
 
@@ -734,12 +768,20 @@
                  <div class="stat-item">
                     ${(() => {
                         const stijl = data.totaalbeeld.primaire_homiletische_stijl;
-                        const parts = stijl.split('. ');
-                        const hoofdterm = parts[0];
-                        const beschrijving = parts.slice(1).join('. ');
+                        // Try splitting on " - " first, then fall back to ". "
+                        let hoofdterm, beschrijving;
+                        if (stijl.includes(' - ')) {
+                            const parts = stijl.split(' - ');
+                            hoofdterm = parts[0];
+                            beschrijving = parts.slice(1).join(' - ');
+                        } else {
+                            const parts = stijl.split('. ');
+                            hoofdterm = parts[0];
+                            beschrijving = parts.slice(1).join('. ');
+                        }
                         return `
-                            <span class="stat-val">${toCurlyQuotes(hoofdterm)}</span>
-                            ${beschrijving ? `<span style="font-size: 0.75rem; color: var(--text-muted); line-height: 1.3; margin-top: 0.25rem; display: block;">${toCurlyQuotes(beschrijving)}</span>` : ''}
+                            <span class="stat-val">${formatText(hoofdterm)}</span>
+                            ${beschrijving ? `<span style="font-size: 0.75rem; color: var(--text-muted); line-height: 1.3; margin-top: 0.25rem; display: block;">${formatText(beschrijving)}</span>` : ''}
                             <span class="stat-lbl">Stijl</span>
                         `;
                     })()}
@@ -749,13 +791,13 @@
                 <div class="summary-col">
                     <h3 style="color: var(--success-color); font-size: 0.95rem;">Sterke punten</h3>
                     <ul class="summary-list">
-                        ${data.totaalbeeld.sterke_punten_top_5.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                        ${data.totaalbeeld.sterke_punten_top_5.map(p => `<li>${formatText(p)}</li>`).join('')}
                     </ul>
                 </div>
                 <div class="summary-col">
                     <h3 style="color: var(--danger-color); font-size: 0.95rem;">Verbeterpunten</h3>
                     <ul class="summary-list">
-                        ${data.totaalbeeld.verbeterpunten_top_5.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                        ${data.totaalbeeld.verbeterpunten_top_5.map(p => `<li>${formatText(p)}</li>`).join('')}
                     </ul>
                 </div>
             </div>
@@ -792,7 +834,7 @@
                 quotesHtml = `
                     <div class="quote-box">
                         <span class="quote-header">Citaten</span>
-                        ${value.quotes.map(q => toCurlyQuotes(`"${q}"`)).join('<br><br>')}
+                        ${value.quotes.map(q => formatText(`"${q}"`)).join('<br><br>')}
                     </div>
                 `;
             }
@@ -803,7 +845,7 @@
                     <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
                         <strong style="color: var(--success-color); font-size: 0.9rem;">Sterke punten:</strong>
                         <ul class="summary-list" style="margin-top: 0.5rem;">
-                            ${value.sterke_punten.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                            ${value.sterke_punten.map(p => `<li>${formatText(p)}</li>`).join('')}
                         </ul>
                     </div>
                 `;
@@ -815,7 +857,7 @@
                     <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
                         <strong style="color: var(--danger-color); font-size: 0.9rem;">Verbeterpunten:</strong>
                         <ul class="summary-list" style="margin-top: 0.5rem;">
-                            ${value.verbeterpunten.map(p => `<li>${toCurlyQuotes(p)}</li>`).join('')}
+                            ${value.verbeterpunten.map(p => `<li>${formatText(p)}</li>`).join('')}
                         </ul>
                     </div>
                 `;
@@ -827,8 +869,8 @@
                     <span class="score-badge ${scoreClass}">${value.score}/10</span>
                 </div>
                 <div class="text-content">
-                    ${toCurlyQuotes(value.analyse)}
-                    ${value.homiletische_manifestaties ? `<p style="margin-top: 0.75rem; font-size: 0.85rem;"><strong>Homiletische manifestaties:</strong> ${toCurlyQuotes(value.homiletische_manifestaties)}</p>` : ''}
+                    ${formatText(value.analyse)}
+                    ${value.homiletische_manifestaties ? `<p style="margin-top: 0.75rem; font-size: 0.85rem;"><strong>Homiletische manifestaties:</strong> ${formatText(value.homiletische_manifestaties)}</p>` : ''}
                 </div>
                 ${quotesHtml}
                 ${sterkePuntenHtml}
@@ -878,8 +920,8 @@
                                 <strong>${title}</strong>
                                 <span class="score-badge ${scoreClass}" style="font-size: 0.8rem;">${value.score}/10</span>
                             </div>
-                            <p style="font-size: 0.85rem; margin: 0.5rem 0;"><strong>Analyse:</strong> ${toCurlyQuotes(value.analyse)}</p>
-                            ${value.risicos ? `<p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--danger-color);"><strong>Risico\u2019s:</strong> ${toCurlyQuotes(value.risicos)}</p>` : ''}
+                            <p style="font-size: 0.85rem; margin: 0.5rem 0;"><strong>Analyse:</strong> ${formatText(value.analyse)}</p>
+                            ${value.risicos ? `<p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--danger-color);"><strong>Risico\u2019s:</strong> ${formatText(value.risicos)}</p>` : ''}
                         </div>
                     `;
                 }).join('')}
@@ -909,8 +951,8 @@
                         <h3 style="font-size: 0.95rem; margin: 0; font-weight: 700;">Cyclus compleetheid</h3>
                         <span class="score-badge ${integraliteit.cyclus_compleetheid.score >= 8 ? 'score-high' : integraliteit.cyclus_compleetheid.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${integraliteit.cyclus_compleetheid.score}/10</span>
                     </div>
-                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${toCurlyQuotes(integraliteit.cyclus_compleetheid.analyse)}</p>
-                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Volgorde en flow:</strong> ${toCurlyQuotes(integraliteit.cyclus_compleetheid.volgorde_en_flow)}</p>
+                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${formatText(integraliteit.cyclus_compleetheid.analyse)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Volgorde en flow:</strong> ${formatText(integraliteit.cyclus_compleetheid.volgorde_en_flow)}</p>
                 </div>
 
                 <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
@@ -918,9 +960,9 @@
                         <h3 style="font-size: 0.95rem; margin: 0; font-weight: 700;">Balans tussen fasen</h3>
                         <span class="score-badge ${integraliteit.balans_tussen_fasen.score >= 8 ? 'score-high' : integraliteit.balans_tussen_fasen.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${integraliteit.balans_tussen_fasen.score}/10</span>
                     </div>
-                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${toCurlyQuotes(integraliteit.balans_tussen_fasen.analyse)}</p>
-                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Dominante fase:</strong> ${toCurlyQuotes(integraliteit.balans_tussen_fasen.dominante_fase)}</p>
-                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Onderdrukte fase:</strong> ${toCurlyQuotes(integraliteit.balans_tussen_fasen.onderdrukte_fase)}</p>
+                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${formatText(integraliteit.balans_tussen_fasen.analyse)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Dominante fase:</strong> ${formatText(integraliteit.balans_tussen_fasen.dominante_fase)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted);"><strong>Onderdrukte fase:</strong> ${formatText(integraliteit.balans_tussen_fasen.onderdrukte_fase)}</p>
                 </div>
 
                 <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
@@ -928,7 +970,7 @@
                         <h3 style="font-size: 0.95rem; margin: 0; font-weight: 700;">Holistisch leren</h3>
                         <span class="score-badge ${integraliteit.holistisch_leren.score >= 8 ? 'score-high' : integraliteit.holistisch_leren.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${integraliteit.holistisch_leren.score}/10</span>
                     </div>
-                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${toCurlyQuotes(integraliteit.holistisch_leren.analyse)}</p>
+                    <p style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0;">${formatText(integraliteit.holistisch_leren.analyse)}</p>
                 </div>
             </div>
         `;
