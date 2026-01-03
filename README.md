@@ -19,13 +19,13 @@ Na een eredienst krijgt een predikant vaak algemene complimenten ("mooie preek")
 
 **Structurele feedback is essentieel** voor de groei van elke voorganger. Net zoals een kunstenaar zijn werk laat recenseren of een wetenschapper zijn publicatie aan peer review onderwerpt, zo verdient ook de prediking systematische evaluatie aan de hand van heldere criteria.
 
-Dit project biedt een hulpmiddel voor die evaluatie door te illustreren hoe een grondige, professionele *feedback loop* zou kunnen functioneren.
+Dit project biedt een hulpmiddel voor die evaluatie - door te illustreren hoe een grondige, professionele *feedback loop* zou kunnen functioneren.
 
 ---
 
 ### Wat doet dit project?
 
-Dit project biedt twee methoden voor de systematische analyse van preken:
+Dit project biedt twee methoden voor de systematische analyse van preken aan:
 
 #### 1. De Leercyclus van Kolb (Homiletic Window)
 Analyseert of de preek de volledige cyclus van ervaringsgericht leren doorloopt, zodat verschillende typen hoorders (leerstijlen) worden aangesproken. Dit is gebaseerd op de homiletische typologie van **Kenton Anderson**:
@@ -51,7 +51,7 @@ Analyseert preken aan de hand van de **acht thesen** die Dr. Willem Maarten Dekk
 
 Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
-**Artikelen:** De bronteksten van Dekker en de toelichting op Kolb zijn opgenomen in de map `misc/`.
+**Artikelen:** De brontekst van Dekker en de toelichting op Kolb zijn opgenomen in de map `misc/`.
 
 ---
 
