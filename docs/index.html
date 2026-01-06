@@ -449,6 +449,7 @@
         <select class="example-selector" id="analysis-type-select">
             <option value="kolb">Kolb analyse</option>
             <option value="dekker">Dekker analyse</option>
+            <option value="aristoteles">Aristoteles analyse</option>
         </select>
 
         <nav class="tab-nav">
@@ -565,6 +566,10 @@
         'dekker': {
             text: 'De thesen van Willem Maarten Dekker definiëren een preek als "uitleg en toepassing van een specifiek Bijbelgedeelte". De analyse beoordeelt de preek volgens de 3-2-1-regel: de drie stukken (ellende, verlossing, dankbaarheid) als existentiële lagen, de twee wegen (ten verderve en ten leven) die de mens als verantwoordelijk wezen aanspreken, en de ene Heer (Christus) als het telos van de preek. Daarnaast wordt getoetst op de onlosmakelijke verbinding tussen exegese en concrete toepassing.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/wat_is_een_preek_dekker.md'
+        },
+        'aristoteles': {
+            text: 'De klassieke retorica van Aristoteles biedt drie fundamentele modi van overtuiging die de Rhetorical Triangle vormen. Deze analyse diagnosticeert welk element uit balans is:\n\n• Logos (Rationele Architectuur) – De logische structuur en interne consistentie van het betoog\n• Pathos (Emotionele Resonantie) – Het vermogen om de hoorder te raken in emoties en verlangens\n• Ethos (Geloofwaardigheid) – De authenticiteit en integriteit van de boodschapper\n\nDe drie modi corresponderen met de grote "orthos": Logos → Orthodoxie, Pathos → Orthopathie, Ethos → Orthopraxie. Een effectieve preek bereikt de hoorder via hoofd, hart én handen.',
+            link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/docs/aristotelische_modi_README.md'
         }
     };
 
@@ -599,13 +604,18 @@
             const text = await textRes.text();
             renderSermon(text);
 
-            const jsonSuffix = analysisType === 'kolb' ? '_kolb' : '';
+            let jsonSuffix = '';
+            if (analysisType === 'kolb') jsonSuffix = '_kolb';
+            else if (analysisType === 'aristoteles') jsonSuffix = '_aristoteles';
+
             const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
             if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
             const data = await jsonRes.json();
 
             if (analysisType === 'kolb') {
                 renderAnalysisKolb(data);
+            } else if (analysisType === 'aristoteles') {
+                renderAnalysisAristoteles(data);
             } else {
                 renderAnalysisDekker(data);
             }
@@ -975,6 +985,223 @@
             </div>
         `;
         container.appendChild(integraliteitCard);
+    }
+
+    function renderAnalysisAristoteles(data) {
+        const container = document.getElementById('dashboard-content');
+        container.innerHTML = '';
+
+        // Totaalbeeld card
+        const summaryCard = document.createElement('div');
+        summaryCard.className = 'card full-width';
+        summaryCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Totaalbeeld \u2013 Aristotelische Modi analyse</span>
+                <span class="score-badge score-high">${data.totaalbeeld.overall_retorische_score}/10</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_tijdsduur_minuten} min</span>
+                    <span class="stat-lbl">Tijdsduur</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_woordlengte}</span>
+                    <span class="stat-lbl">Woorden</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${formatText(data.totaalbeeld.primaire_retorische_stijl)}</span>
+                    <span class="stat-lbl">Retorische stijl</span>
+                 </div>
+            </div>
+            <div class="text-content">
+                <p>${formatText(data.totaalbeeld.samenvatting)}</p>
+                ${data.totaalbeeld.conclusie ? `<p><strong>Conclusie:</strong> ${formatText(data.totaalbeeld.conclusie)}</p>` : ''}
+            </div>
+            <div class="summary-columns" style="gap: 1rem; margin-top: 1rem;">
+                <div class="summary-col">
+                    <h3 style="color: var(--success-color); font-size: 0.95rem;">Sterke punten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld.sterke_punten_top_3.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="summary-col">
+                    <h3 style="color: var(--danger-color); font-size: 0.95rem;">Verbeterpunten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld.verbeterpunten_top_3.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+        `;
+        container.appendChild(summaryCard);
+
+        // Aristotelische Modi info
+        const modiInfo = document.createElement('div');
+        modiInfo.className = 'section-info';
+        modiInfo.innerHTML = `
+            💡 <strong>De drie Aristotelische Modi:</strong> Deze kaarten analyseren de drie fundamentele elementen van overtuiging. Logos (rationele architectuur) beoordeelt de logische structuur, Pathos (emotionele resonantie) de affectieve kracht, en Ethos (geloofwaardigheid) de authenticiteit van de boodschapper. Een effectieve preek balanceert alle drie.
+        `;
+        container.appendChild(modiInfo);
+
+        // Aristotelische Modi
+        const modi = data.aristotelische_modi_analyse;
+        const modiTitles = {
+            'logos': 'Logos \u2013 Rationele architectuur',
+            'pathos': 'Pathos \u2013 Emotionele resonantie',
+            'ethos': 'Ethos \u2013 Geloofwaardigheid'
+        };
+        const modiIcons = {
+            'logos': '🧠',
+            'pathos': '❤️',
+            'ethos': '🤝'
+        };
+
+        for (const [key, value] of Object.entries(modi)) {
+            let scoreClass = 'score-low';
+            if (value.score >= 8) scoreClass = 'score-high';
+            else if (value.score >= 6) scoreClass = 'score-mid';
+
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            let quotesHtml = '';
+            if (value.quotes && value.quotes.length > 0) {
+                quotesHtml = `
+                    <div class="quote-box">
+                        <span class="quote-header">Citaten</span>
+                        ${value.quotes.map(q => formatText(`"${q}"`)).join('<br><br>')}
+                    </div>
+                `;
+            }
+
+            let sterkePuntenHtml = '';
+            if (value.sterke_punten && value.sterke_punten.length > 0) {
+                sterkePuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--success-color); font-size: 0.9rem;">Sterke punten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.sterke_punten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let verbeterpuntenHtml = '';
+            if (value.verbeterpunten && value.verbeterpunten.length > 0) {
+                verbeterpuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--danger-color); font-size: 0.9rem;">Verbeterpunten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.verbeterpunten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">${modiIcons[key]} ${modiTitles[key]}</span>
+                    <span class="score-badge ${scoreClass}">${value.score}/10</span>
+                </div>
+                <div class="text-content">
+                    ${formatText(value.analyse)}
+                    ${value.specifieke_diagnose ? `<p style="margin-top: 0.75rem; font-size: 0.85rem;"><strong>Diagnose:</strong> ${formatText(value.specifieke_diagnose)}</p>` : ''}
+                </div>
+                ${quotesHtml}
+                ${sterkePuntenHtml}
+                ${verbeterpuntenHtml}
+            `;
+            container.appendChild(card);
+        }
+
+        // Retorische balans info
+        const balansInfo = document.createElement('div');
+        balansInfo.className = 'section-info';
+        balansInfo.innerHTML = `
+            💡 <strong>Retorische balans:</strong> Deze analyse beoordeelt hoe de drie modi zich tot elkaar verhouden. Is er een dominante modus die de preek kenmerkt? Is er een onderdrukte modus die versterkt moet worden? De balans bepaalt welk type hoorders bereikt worden en hoe overtuigend de preek is.
+        `;
+        container.appendChild(balansInfo);
+
+        // Retorische balans card
+        const balansCard = document.createElement('div');
+        balansCard.className = 'card full-width';
+        const balans = data.retorische_balans_analyse;
+
+        balansCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Retorische balans analyse</span>
+                <span class="score-badge ${balans.balans_score >= 8 ? 'score-high' : balans.balans_score >= 6 ? 'score-mid' : 'score-low'}">${balans.balans_score}/10</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">Dominante modus:</strong>
+                    <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem;">${formatText(balans.dominante_modus)}</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--danger-color);">Onderdrukte modus:</strong>
+                    <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem;">${formatText(balans.onderdrukte_modus)}</p>
+                </div>
+            </div>
+            <div class="text-content">
+                <p>${formatText(balans.analyse)}</p>
+            </div>
+            ${balans.consequenties_van_onbalans && balans.consequenties_van_onbalans.length > 0 ? `
+                <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                    <strong style="font-size: 0.9rem;">Consequenties van onbalans:</strong>
+                    <ul class="summary-list" style="margin-top: 0.5rem;">
+                        ${balans.consequenties_van_onbalans.map(c => `<li>${formatText(c)}</li>`).join('')}
+                    </ul>
+                </div>
+            ` : ''}
+            ${balans.aanbeveling_voor_balans ? `
+                <div class="advice-box">
+                    👉 ${formatText(balans.aanbeveling_voor_balans)}
+                </div>
+            ` : ''}
+        `;
+        container.appendChild(balansCard);
+
+        // Orthodoxie, Orthopathie, Orthopraxie info
+        const orthoInfo = document.createElement('div');
+        orthoInfo.className = 'section-info';
+        orthoInfo.innerHTML = `
+            💡 <strong>Orthodoxie, Orthopathie, Orthopraxie:</strong> Deze analyse verbindt de retorische modi met christelijke theologie. Logos correspondeert met Orthodoxie (rechte leer), Pathos met Orthopathie (rechte affectie), en Ethos met Orthopraxie (recht handelen). Een preek die alle drie in balans heeft, bedient de hele mens: hoofd, hart, en handen.
+        `;
+        container.appendChild(orthoInfo);
+
+        // Orthodoxie, Orthopathie, Orthopraxie card
+        const orthoCard = document.createElement('div');
+        orthoCard.className = 'card full-width';
+        const ortho = data.orthodoxie_orthopathie_orthopraxie;
+
+        orthoCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Orthodoxie, Orthopathie, Orthopraxie</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                        <strong>🧠 Orthodoxie (Logos)</strong>
+                        <span class="score-badge ${ortho.orthodoxie_logos.score >= 8 ? 'score-high' : ortho.orthodoxie_logos.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${ortho.orthodoxie_logos.score}/10</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0 0 0; line-height: 1.5;">${formatText(ortho.orthodoxie_logos.analyse)}</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                        <strong>❤️ Orthopathie (Pathos)</strong>
+                        <span class="score-badge ${ortho.orthopathie_pathos.score >= 8 ? 'score-high' : ortho.orthopathie_pathos.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${ortho.orthopathie_pathos.score}/10</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0 0 0; line-height: 1.5;">${formatText(ortho.orthopathie_pathos.analyse)}</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                        <strong>🤝 Orthopraxie (Ethos)</strong>
+                        <span class="score-badge ${ortho.orthopraxie_ethos.score >= 8 ? 'score-high' : ortho.orthopraxie_ethos.score >= 6 ? 'score-mid' : 'score-low'}" style="font-size: 0.8rem;">${ortho.orthopraxie_ethos.score}/10</span>
+                    </div>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0 0 0; line-height: 1.5;">${formatText(ortho.orthopraxie_ethos.analyse)}</p>
+                </div>
+            </div>
+        `;
+        container.appendChild(orthoCard);
     }
 </script>
 </body>

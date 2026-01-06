@@ -25,7 +25,7 @@ Dit project biedt een hulpmiddel voor die evaluatie - door te illustreren hoe ee
 
 ### Wat doet dit project?
 
-Dit project biedt twee methoden voor de systematische analyse van preken aan:
+Dit project biedt drie complementaire methoden voor de systematische analyse van preken aan:
 
 #### 1. De Leercyclus van Kolb (Homiletic Window)
 Analyseert of de preek de volledige cyclus van ervaringsgericht leren doorloopt, zodat verschillende typen hoorders (leerstijlen) worden aangesproken. Dit is gebaseerd op de homiletische typologie van **Kenton Anderson**:
@@ -49,9 +49,22 @@ Analyseert preken aan de hand van de **acht thesen** die Dr. Willem Maarten Dekk
 7. **Christocentrisch** - Is Christus het telos van de preek?
 8. **Diepgang en lengte** - Duurt de preek minimaal 20 minuten?
 
+#### 3. De Aristotelische Modi (Rhetorical Triangle)
+Analyseert preken aan de hand van de klassieke retorica van **Aristoteles**: Logos, Pathos en Ethos. Deze drie modi vormen de "Rhetorical Triangle" en zijn essentieel voor effectieve, overtuigende communicatie:
+
+- **Logos** (Rationele Architectuur) - De logische structuur en interne consistentie
+- **Pathos** (Emotionele Resonantie) - Het vermogen om de hoorder te raken in emoties en verlangens
+- **Ethos** (Geloofwaardigheid) - De authenticiteit en integriteit van de boodschapper
+
+Deze methode diagnosticeert welk element uit balans is en biedt gerichte feedback voor verbetering. De analyse verbindt de drie modi met christelijke theologie: Logos → Orthodoxie, Pathos → Orthopathie, Ethos → Orthopraxie.
+
+**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `docs/aristotelische_modi_README.md`.
+
+---
+
 Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
-**Artikelen:** De brontekst van Dekker en de toelichting op Kolb zijn opgenomen in de map `misc/`.
+**Artikelen:** De brontekst van Dekker, de toelichting op Kolb, en de uitleg over Aristotelische Modi zijn opgenomen in de map `misc/` en `docs/`.
 
 ---
 
@@ -70,12 +83,17 @@ homiletiek_feedback/
 ├── README.md                          # Dit bestand
 ├── analyze_kolb_cyclus.py             # Analyse op basis van Kolb/Anderson
 ├── analyze_sermon_dekker.py           # Analyse op basis van Dekker-thesen
+├── analyze_aristoteles.py             # Analyse op basis van Aristotelische Modi
 ├── .env                               # API-sleutel configuratie (niet in git)
 ├── input/                             # Preekteksten (*.txt)
 ├── outputs/                           # Analyse-resultaten (*.json)
 ├── prompts/                           # LLM prompts
 │   ├── analyze_kolb_cyclus.md
-│   └── analyze_sermon_dekker.md
+│   ├── analyze_sermon_dekker.md
+│   └── analyze_aristoteles.md
+├── docs/                              # Documentatie en voorbeelden
+│   ├── aristotelische_modi_README.md
+│   └── template_aristoteles.json
 ├── misc/                              # Achtergronddocumentatie
 │   ├── kolbs_leercyclus.md
 │   └── wat_is_een_preek_dekker.md
@@ -113,6 +131,11 @@ python analyze_sermon_dekker.py --i input/preek.txt
 python analyze_kolb_cyclus.py --i input/preek.txt
 ```
 
+**Voor de Aristotelische Modi:**
+```bash
+python analyze_aristoteles.py --i input/preek.txt
+```
+
 #### 5. Bekijk de resultaten
 Het script genereert een JSON-bestand in `outputs/` met:
 - Metadata (geschatte lengte, tijdsduur)
@@ -144,6 +167,25 @@ Dekker vat de inhoudelijke kern van de preek samen in de **3-2-1-regel**:
 **1 Heer:** Christus als telos van de preek
 
 Deze regel bewaart de prediking tegen zowel te objectieve als te subjectieve uitwassen en zorgt ervoor dat de mens als verantwoordelijk wezen én God als genadige Heer beide volledig ter sprake komen.
+
+---
+
+### De Drie Methoden: Complementaire Perspectieven
+
+De drie analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
+
+1. **Dekker's Thesen** beoordelen de **theologische inhoud**: Is de preek schriftuurlijk, christocentrisch, en existentieel?
+
+2. **Kolb's Leercyclus** evalueert de **pedagogische effectiviteit**: Worden alle leerstijlen aangesproken en wordt de hoorder door een complete cyclus geleid?
+
+3. **Aristoteles' Modi** diagnosticeren de **retorische kracht**: Is de preek logisch samenhangend (Logos), emotioneel resonant (Pathos), en authentiek gebracht (Ethos)?
+
+**Samen** vormen deze drie methoden een holistische evaluatie:
+- Dekker vraagt: "Is het **waar**?"
+- Kolb vraagt: "Wordt het **geleerd**?"
+- Aristoteles vraagt: "Is het **overtuigend**?"
+
+Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag) of missen van emotionele impact (Aristoteles: laag Pathos). Door alle drie de methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
 
 ---
 

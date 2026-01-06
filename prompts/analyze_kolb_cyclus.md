@@ -103,23 +103,24 @@ Analyseer de bijgeleverde preektekst grondig en systematisch aan de hand van Kol
 
 ## Algemeen
 - **Taal**: Nederlands
-- **Tone of Voice**: Academisch-professioneel, constructief, analytisch
+- **Tone of Voice**: Zakelijk-analytisch, nuchter, kritisch. Geen Amerikaanse superlatieven of overdreven lof. Denk: collegiale peer review, niet cheerleading.
 - **Quotes**: Onderbouw ELKE analyse met letterlijke citaten uit de preektekst
 - **Precisie**: Wees specifiek in je observaties en vermijd algemeenheden
 - **Balans**: Beoordeel niet alleen aanwezigheid maar ook kwaliteit en onderlinge balans
+- **Taalgebruik**: Vermijd "meesterwerk", "briljant", "fenomenaal", "excelleert", "uitmuntend". Gebruik neutrale termen: "sterke", "heldere", "effectieve", "navolgbare".
 
 ## Per Analysecategorie
 Voor **elke** fase, structuur, taak en leerstijl:
-1. **Score (1-10)**: Geef een gefundeerd cijfer
-   - 1-3: Zeer zwak/afwezig
-   - 4-5: Aanwezig maar oppervlakkig
-   - 6-7: Adequaat aanwezig
-   - 8-9: Sterk ontwikkeld
-   - 10: Excellent, voorbeeldig
-2. **Analyse**: Beschrijf wat je waarneemt (200-400 woorden)
+1. **Score (1-10)**: Geef een streng gefundeerd cijfer - scores boven 7 zijn uitzonderingen
+   - 1-3: Ernstig tekortschietend, fundamentele problemen
+   - 4-5: Zwak tot matig, duidelijke verbeterpunten
+   - 6-7: Redelijk tot goed ontwikkeld, maar met aanzienlijke verbeterpunten
+   - 8: Sterk ontwikkeld, enkele verfijningen mogelijk
+   - 9-10: Uitzonderlijk, modelvoorbeeld (zeer zeldzaam)
+2. **Analyse**: Beschrijf wat je waarneemt (200-400 woorden). Begin met wat ontbreekt of tekortschiet.
 3. **Quotes**: Geef 2-5 letterlijke citaten die je observatie ondersteunen
 4. **Sterke punten**: Benoem specifieke kwaliteiten (2-4 punten)
-5. **Verbeterpunten**: Geef concrete suggesties (2-4 punten)
+5. **Verbeterpunten**: Geef concrete suggesties (2-4 punten) - deze zijn even belangrijk als sterke punten
 
 ## Integraliteitsanalyse
 Beoordeel of de preek:
@@ -377,7 +378,7 @@ Genereer een volledig JSON object volgens onderstaande structuur. Vul ALLE velde
 
   "totaalbeeld": {
     "overall_kolb_score": 0,
-    "samenvatting": "Een synthese van 300-500 woorden die de belangrijkste bevindingen integreert",
+    "samenvatting": "Een zakelijke synthese van 300-500 woorden die de belangrijkste bevindingen integreert. Begin met wat tekortschiet of ontbreekt, daarna wat goed werkt. Gebruik neutrale taal zonder superlatieven.",
 
     "sterke_punten_top_5": [
       "Sterk punt 1 met concrete toelichting",
@@ -409,30 +410,73 @@ Genereer een volledig JSON object volgens onderstaande structuur. Vul ALLE velde
       "Strategisch advies 3"
     ],
 
-    "conclusie": "Een afsluitende paragraaf van 150-250 woorden met een overall kwalificatie van de preek vanuit Kolb-perspectief en een bemoediging voor de prediker"
+    "conclusie": "Een afsluitende paragraaf van 150-250 woorden met een nuchter, zakelijk oordeel over de preek vanuit Kolb-perspectief. Geen overdreven lof of bemoediging, maar een heldere diagnose: wat werkt, wat niet, en wat de prioriteit is voor verbetering."
   }
 }
 ```
 
 ---
 
+# Kritische Scorerichtlijnen - Lees Dit Zorgvuldig
+
+**BELANGRIJK: Scores zijn geen schoolcijfers maar diagnostische indicatoren.**
+
+- Een score van **5 of 6** betekent dat de fase redelijk aanwezig is, maar duidelijke verbeterpunten heeft.
+- Een score van **7** is al een positieve beoordeling: de fase is goed ontwikkeld.
+- Een score van **8** is uitstekend: de fase is sterk aanwezig en goed uitgewerkt.
+- Scores van **9-10** zijn uitzonderlijk zeldzaam en alleen voor preken die op die fase model kunnen staan.
+
+**Vermijd score-inflatie:**
+- Als een fase "aanwezig" is maar niet diepgaand, is dat een 4-5, geen 6-7.
+- Als een fase "goed ontwikkeld" is, is dat een 6-7, geen 8-9.
+- Als een fase "zeer goed" is, is dat een 7-8, geen 9-10.
+
+**Kritische vraag bij elke score:**
+"Zou ik deze preek als voorbeeld gebruiken in een homiletiek college om studenten te laten zien hoe [deze fase] eruit ziet?"
+- Nee → maximaal 6
+- Ja, maar met kanttekeningen → 7
+- Ja, zonder voorbehoud → 8
+- Ja, als modelpreek → 9-10 (zeer zeldzaam)
+
+---
+
+# Valkuilen bij Beoordeling van Kolb-fasen
+
+**Concrete Ervaring (CE):**
+- Een openingsverhaal betekent niet automatisch sterke CE. Het moet de hoorder echt raken en identificatie mogelijk maken.
+- Abstracte voorbeelden ("de mens van vandaag") scoren lager dan concrete, specifieke verhalen.
+
+**Reflectieve Observatie (RO):**
+- Cultuurkritiek of maatschappelijke analyse is geen garantie voor sterke RO. Het moet de hoorder helpen begrijpen "waarom dit zo is".
+- Oppervlakkige probleem-benoemen zonder diepgaande reflectie scoort laag.
+
+**Abstracte Conceptualisering (AC):**
+- Veel Bijbeltekst citeren is niet hetzelfde als sterke AC. Het gaat om theologische diepgang en heldere concepten.
+- Academisch jargon zonder heldere uitleg ondermijnt de AC-score.
+
+**Actief Experimenteren (AE):**
+- Algemene oproepen ("wees lief voor elkaar") scoren veel lager dan concrete, specifieke actiestappen.
+- De toepassing moet volgen uit de voorgaande fasen, niet als losse moralistische staart.
+
+---
+
 # Belangrijke Aandachtspunten
 
-1. **Wees Concreet**: Vermijd vage opmerkingen zoals "de preek is goed". Wees specifiek: "De concrete ervaring wordt sterk gefaciliteerd door de openingsillustratie over de thuisloze man (regels 12-18), waarmee de prediker direct de leefwereld van de stedelijke hoorder raakt."
+1. **Wees Concreet en Nuchter**: Vermijd vage opmerkingen zoals "de preek excelleert". Wees specifiek en zakelijk: "De concrete ervaring wordt gefaciliteerd door de openingsillustratie over de thuisloze man (regels 12-18)."
 
-2. **Gebruik Quotes**: Elk oordeel moet worden onderbouwd met letterlijke citaten. Dit maakt de analyse controleerbaar en leerzaam voor de prediker.
+2. **Gebruik Quotes**: Elk oordeel moet worden onderbouwd met letterlijke citaten. Dit maakt de analyse controleerbaar.
 
-3. **Balans in Beoordeling**: Geef zowel waardering als constructieve kritiek. Een preek die sterk is in Abstracte Conceptualisering maar zwak in Concrete Ervaring heeft beide aspecten nodig in de feedback.
+3. **Kritisch Evenwicht**: Feedback is diagnose, geen cheerleading. Begin analyses met wat ontbreekt of tekortschiet. Verbeterpunten zijn even belangrijk als sterke punten.
 
-4. **Contextuele Evaluatie**: Sommige teksten lenen zich meer voor bepaalde fasen. Een apocalyptische tekst nodigt uit tot Visionair preken; een Paulijnse brief tot Declaratief. Houd hier rekening mee.
+4. **Contextuele Evaluatie**: Sommige teksten lenen zich meer voor bepaalde fasen. Een apocalyptische tekst nodigt uit tot Visionair preken; een Paulijnse brief tot Declaratief. Houd hier rekening mee, maar wees niet te mild.
 
 5. **Pedagogische Meerwaarde**: De analyse moet de prediker niet alleen beoordelen maar ook onderwijzen. Leg uit *waarom* een bepaalde fase belangrijk is en *hoe* deze versterkt kan worden.
 
-6. **Pentecostale/Charismatische Sensitiviteit**: Als de preek duidelijk uit een pinkster- of charismatische context komt, erken de rol van 'anointing' en geestelijke ervaring, maar blijf analytisch over de structuur.
+6. **Geen Superlatieven**: Gebruik neutrale, zakelijke Nederlandse taal. NIET: "uitmuntend", "briljant", "fenomenaal". WEL: "sterke", "heldere", "effectieve".
 
-7. **Postmoderne Context**: Erken dat narratieve en visionaire elementen in de huidige cultuur vaak effectiever zijn dan puur declaratieve prediking, maar pleit voor integraliteit.
+7. **Postmoderne Context**: Erken dat narratieve en visionaire elementen belangrijk zijn, maar pleit voor integraliteit. Een preek die alleen verhaalt zonder te duiden of toe te passen, scoort laag.
 
-8. **Volwassen Leerders**: Besef dat de gemeente bestaat uit volwassen leerders die zelfsturing en relevantie nodig hebben. De preek moet geen schoolles zijn maar een leeromgeving.
+8. **Volwassen Leerders**: De preek moet verschillende leerstijlen aanspreken. Een preek die alleen Assimilatoren bedient (AC+RO) maar Accommodatoren (CE+AE) uitsluit, krijgt een lagere balans-score.
 
 ---
 
