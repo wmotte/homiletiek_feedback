@@ -58,7 +58,7 @@ Analyseert preken aan de hand van de klassieke retorica van **Aristoteles**: Log
 
 Deze methode diagnosticeert welk element uit balans is en biedt gerichte feedback voor verbetering. De analyse verbindt de drie modi met christelijke theologie: Logos → Orthodoxie, Pathos → Orthopathie, Ethos → Orthopraxie.
 
-**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/aristotelische_modi_README.md`.
+**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/aristotelische_modi.md`.
 
 ---
 
@@ -94,7 +94,7 @@ homiletiek_feedback/
 ├── docs/                              # Documentatie en voorbeelden
 │   └── template_aristoteles.json
 ├── misc/                              # Achtergronddocumentatie
-│   ├── aristotelische_modi_README.md
+│   ├── aristotelische_modi.md
 │   ├── kolbs_leercyclus.md
 │   └── wat_is_een_preek_dekker.md
 └── technical/                         # Hulpscripts
@@ -154,7 +154,7 @@ Het script genereert een JSON-bestand in `outputs/` met:
 
 **Tone of voice:** De feedback is professioneel, theologisch inhoudelijk, opbouwend maar scherp - passend bij de ernst van het preekambacht.
 
-**Tijdsberekening:** Het script rekent met 110 woorden per minuut spreektijd.
+**Tijdsberekening:** Het script rekent met 110 woorden per minuut spreektijd (dat is aan de hoge kant).
 
 ---
 
