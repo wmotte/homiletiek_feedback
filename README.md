@@ -174,9 +174,9 @@ Deze regel bewaart de prediking tegen zowel te objectieve als te subjectieve uit
 
 De drie analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
-1. **Dekker's Thesen** beoordelen de **theologische inhoud**: Is de preek schriftuurlijk, christocentrisch, en existentieel?
+1. **Dekkers Thesen** beoordelen de **theologische inhoud**: Is de preek schriftuurlijk, christocentrisch, en existentieel?
 
-2. **Kolb's Leercyclus** evalueert de **pedagogische effectiviteit**: Worden alle leerstijlen aangesproken en wordt de hoorder door een complete cyclus geleid?
+2. **Kolbs Leercyclus** evalueert de **pedagogische effectiviteit**: Worden alle leerstijlen aangesproken en wordt de hoorder door een complete cyclus geleid?
 
 3. **Aristoteles' Modi** diagnosticeren de **retorische kracht**: Is de preek logisch samenhangend (Logos), emotioneel resonant (Pathos), en authentiek gebracht (Ethos)?
 
