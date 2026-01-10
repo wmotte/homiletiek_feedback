@@ -49,7 +49,7 @@ Analyseer de bijgeleverde preektekst grondig en systematisch aan de hand van bov
 *   **Tone of Voice**: Kritisch, theologisch inhoudelijk, scherp. Feedback is diagnose, geen compliment. Geen superlatieven of Amerikaanse taal. Denk: collegiale peer review.
 *   **Taalgebruik**: NIET: "meesterwerk", "briljant", "fenomenaal", "uitstekend". WEL: "sterke", "heldere", "effectieve", "navolgbare", "adequate".
 *   **Quotes**: Onderbouw je oordeel bij ELK criterium met letterlijke quotes uit de preektekst. Plaats deze quotes in de daarvoor bestemde list in het JSON object.
-*   **Woordental**: Reken voor de tijdsduur met 110 woorden per minuut.
+*   **Woordental**: Reken voor de tijdsduur met 100 woorden per minuut (realistisch voor een preek in een galmende ruimte).
 *   **Diepgang**: Analyseer kritisch of de preek "datgene bevat wat nérgens anders in de Bijbel te vinden is" voor dit specifieke gedeelte.
 *   **Scores**: Wees streng. Een score van 7+ is een uitzondering. Voldoende = 5-6, goed = 6-7, sterk = 7-8, uitzonderlijk = 9-10 (zeer zeldzaam).
 

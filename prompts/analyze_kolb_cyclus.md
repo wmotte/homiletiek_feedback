@@ -150,6 +150,7 @@ Genereer een volledig JSON object volgens onderstaande structuur. Vul ALLE velde
     "bijbeltekst": "Pericoop waarover gepreekt wordt",
     "geschatte_woordlengte": 0,
     "geschatte_tijdsduur_minuten": 0,
+    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut",
     "notities": "Eventuele bijzonderheden over de preek"
   },
 

@@ -450,6 +450,7 @@
             <option value="kolb">Kolb analyse</option>
             <option value="dekker">Dekker analyse</option>
             <option value="aristoteles">Aristoteles analyse</option>
+            <option value="schulz">Schulz von Thun analyse</option>
         </select>
 
         <nav class="tab-nav">
@@ -570,6 +571,10 @@
         'aristoteles': {
             text: 'De klassieke retorica van Aristoteles biedt drie fundamentele modi van overtuiging die de Rhetorical Triangle vormen. Deze analyse diagnosticeert welk element uit balans is:\n\n• Logos (Rationele Architectuur) – De logische structuur en interne consistentie van het betoog\n• Pathos (Emotionele Resonantie) – Het vermogen om de hoorder te raken in emoties en verlangens\n• Ethos (Geloofwaardigheid) – De authenticiteit en integriteit van de boodschapper\n\nDe drie modi corresponderen met de grote "orthos": Logos → Orthodoxie, Pathos → Orthopathie, Ethos → Orthopraxie. Een effectieve preek bereikt de hoorder via hoofd, hart én handen.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/aristotelische_modi.md'
+        },
+        'schulz': {
+            text: 'Het communicatiemodel van Schulz von Thun analyseert de vier boodschappen die in elke preek tegelijkertijd klinken:\n\n• Zakelijke Inhoud (Blauw) – Feiten, exegese en theologische waarheid\n• Zelf-onthulling (Groen) – De authenticiteit en persoonlijkheid van de prediker\n• Relatie (Geel) – Hoe de prediker de gemeente ziet en aanspreekt\n• Appèl (Rood) – De oproep tot actie of geloof (Wet vs. Evangelie)\n\nDeze analyse toetst ook de congruentie (kloppen toon en inhoud?) en de balans, om te voorkomen dat de preek eenzijdig intellectualistisch (blauw), narcistisch (groen), betuttelend (geel) of moralistisch (rood) wordt.',
+            link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/schulz_von_thun.md'
         }
     };
 
@@ -607,6 +612,7 @@
             let jsonSuffix = '';
             if (analysisType === 'kolb') jsonSuffix = '_kolb';
             else if (analysisType === 'aristoteles') jsonSuffix = '_aristoteles';
+            else if (analysisType === 'schulz') jsonSuffix = '_schulz_von_thun';
 
             const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
             if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
@@ -616,6 +622,8 @@
                 renderAnalysisKolb(data);
             } else if (analysisType === 'aristoteles') {
                 renderAnalysisAristoteles(data);
+            } else if (analysisType === 'schulz') {
+                renderAnalysisSchulzVonThun(data);
             } else {
                 renderAnalysisDekker(data);
             }
@@ -724,7 +732,7 @@
             else if (value.score_1_tot_10 >= 6) scoreClass = 'score-mid';
 
             const cleanTitle = key.replace(/^\d+_/, '').replace(/_/g, ' ');
-            const formattedTitle = cleanTitle.charAt(0).toUpperCase() + cleanTitle.slice(1);
+            const formattedTitle = cleanTitle.charAt(0).toUpperCase() + cleanTitle.slice(1).toLowerCase();
 
             const card = document.createElement('div');
             card.className = 'card';
@@ -922,7 +930,7 @@
                     if (value.score >= 8) scoreClass = 'score-high';
                     else if (value.score >= 6) scoreClass = 'score-mid';
 
-                    const title = leerstijlNamen[key] || key.replace(/_/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                    const title = leerstijlNamen[key] || key.replace(/_/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
 
                     return `
                         <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
@@ -996,7 +1004,7 @@
         summaryCard.className = 'card full-width';
         summaryCard.innerHTML = `
             <div class="card-header">
-                <span class="card-title">Totaalbeeld \u2013 Aristotelische Modi analyse</span>
+                <span class="card-title">Totaalbeeld \u2013 Aristotelische modi analyse</span>
                 <span class="score-badge score-high">${data.totaalbeeld.overall_retorische_score}/10</span>
             </div>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
@@ -1038,7 +1046,7 @@
         const modiInfo = document.createElement('div');
         modiInfo.className = 'section-info';
         modiInfo.innerHTML = `
-            💡 <strong>De drie Aristotelische Modi:</strong> Deze kaarten analyseren de drie fundamentele elementen van overtuiging. Logos (rationele architectuur) beoordeelt de logische structuur, Pathos (emotionele resonantie) de affectieve kracht, en Ethos (geloofwaardigheid) de authenticiteit van de boodschapper. Een effectieve preek balanceert alle drie.
+            💡 <strong>De drie Aristotelische modi:</strong> Deze kaarten analyseren de drie fundamentele elementen van overtuiging. Logos (rationele architectuur) beoordeelt de logische structuur, Pathos (emotionele resonantie) de affectieve kracht, en Ethos (geloofwaardigheid) de authenticiteit van de boodschapper. Een effectieve preek balanceert alle drie.
         `;
         container.appendChild(modiInfo);
 
@@ -1164,7 +1172,7 @@
         const orthoInfo = document.createElement('div');
         orthoInfo.className = 'section-info';
         orthoInfo.innerHTML = `
-            💡 <strong>Orthodoxie, Orthopathie, Orthopraxie:</strong> Deze analyse verbindt de retorische modi met christelijke theologie. Logos correspondeert met Orthodoxie (rechte leer), Pathos met Orthopathie (rechte affectie), en Ethos met Orthopraxie (recht handelen). Een preek die alle drie in balans heeft, bedient de hele mens: hoofd, hart, en handen.
+            💡 <strong>Orthodoxie, orthopathie, orthopraxie:</strong> Deze analyse verbindt de retorische modi met christelijke theologie. Logos correspondeert met orthodoxie (rechte leer), Pathos met orthopathie (rechte affectie), en Ethos met orthopraxie (recht handelen). Een preek die alle drie in balans heeft, bedient de hele mens: hoofd, hart, en handen.
         `;
         container.appendChild(orthoInfo);
 
@@ -1175,7 +1183,7 @@
 
         orthoCard.innerHTML = `
             <div class="card-header">
-                <span class="card-title">Orthodoxie, Orthopathie, Orthopraxie</span>
+                <span class="card-title">Orthodoxie, orthopathie, orthopraxie</span>
             </div>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
                 <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
@@ -1202,6 +1210,189 @@
             </div>
         `;
         container.appendChild(orthoCard);
+    }
+
+    function renderAnalysisSchulzVonThun(data) {
+        const container = document.getElementById('dashboard-content');
+        container.innerHTML = '';
+
+        // Define interaction object early for use in summary
+        const interactie = data.congruentie_en_interactie || data.congruentie_en_storingen;
+
+        // Totaalbeeld card
+        const summaryCard = document.createElement('div');
+        summaryCard.className = 'card full-width';
+        summaryCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Totaalbeeld \u2013 Schulz von Thun communicatie analyse</span>
+                <span class="score-badge score-high">${data.totaalbeeld.overall_communicatie_score}/10</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_tijdsduur_minuten} min</span>
+                    <span class="stat-lbl">Tijdsduur</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_woordlengte}</span>
+                    <span class="stat-lbl">Woorden</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${formatText(interactie.dominante_zijde)}</span>
+                    <span class="stat-lbl">Dominante zijde</span>
+                 </div>
+            </div>
+            <div class="text-content">
+                <p>${formatText(data.totaalbeeld.samenvatting)}</p>
+                <div style="background: var(--bg-element); border-left: 3px solid var(--warning-color); padding: 0.75rem; margin-top: 1rem; font-size: 0.9rem;">
+                    <strong>Theologische toets:</strong> ${formatText(data.totaalbeeld.theologische_toets)}
+                </div>
+                ${data.totaalbeeld.barthiaanse_waarschuwing ? `
+                <div style="background: var(--bg-element); border-left: 3px solid var(--danger-color); padding: 0.75rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                    <strong>Barthiaanse waarschuwing:</strong> ${formatText(data.totaalbeeld.barthiaanse_waarschuwing)}
+                </div>` : ''}
+            </div>
+            <div class="summary-columns" style="gap: 1rem; margin-top: 1rem;">
+                <div class="summary-col">
+                    <h3 style="color: var(--success-color); font-size: 0.95rem;">Sterke punten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld.sterke_punten_top_3 ? data.totaalbeeld.sterke_punten_top_3.map(p => `<li>${formatText(p)}</li>`).join('') : data.totaalbeeld.top_3_sterke_punten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="summary-col">
+                    <h3 style="color: var(--danger-color); font-size: 0.95rem;">Verbeterpunten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld.verbeterpunten_top_3 ? data.totaalbeeld.verbeterpunten_top_3.map(p => `<li>${formatText(p)}</li>`).join('') : data.totaalbeeld.top_3_verbeterpunten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+        `;
+        container.appendChild(summaryCard);
+
+        // De 4 Zijden Info
+        const zijdenInfo = document.createElement('div');
+        zijdenInfo.className = 'section-info';
+        zijdenInfo.innerHTML = `
+            💡 <strong>De vier zijden van de boodschap:</strong> Elke uiting in de preek zendt vier signalen uit. De kunst is om deze zuiver en in balans te houden.
+        `;
+        container.appendChild(zijdenInfo);
+
+        // De 4 Zijden Cards
+        const zijden = data.schulz_von_thun_analyse;
+        const zijdenConfig = {
+            'zakelijk_inhoud_blauw': { title: '🟦 Zakelijke inhoud (blauw)', icon: '📘' },
+            'zelf_onthulling_groen': { title: '🟩 Zelf-onthulling (groen)', icon: '📗' },
+            'relatie_aspect_geel': { title: '🟨 Relatie (geel)', icon: '📒' },
+            'appel_aspect_rood': { title: '🟥 Appèl (rood)', icon: '📕' }
+        };
+
+        for (const [key, value] of Object.entries(zijden)) {
+            let scoreClass = 'score-low';
+            if (value.score >= 8) scoreClass = 'score-high';
+            else if (value.score >= 6) scoreClass = 'score-mid';
+
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            let quotesHtml = '';
+            if (value.quotes && value.quotes.length > 0) {
+                quotesHtml = `
+                    <div class="quote-box">
+                        <span class="quote-header">Citaten</span>
+                        ${value.quotes.map(q => formatText(`"${q}"`)).join('<br><br>')}
+                    </div>
+                `;
+            }
+
+            // Extra velden per zijde
+            let extraInfo = '';
+            if (key === 'zelf_onthulling_groen' && value.riemann_type_diagnose) {
+                extraInfo += `<p style="font-size: 0.85rem; margin-top: 0.5rem;"><strong>Type (Riemann):</strong> ${formatText(value.riemann_type_diagnose)}</p>`;
+            }
+            if (key === 'relatie_aspect_geel' && value.houding_tot_gemeente) {
+                extraInfo += `<p style="font-size: 0.85rem; margin-top: 0.5rem;"><strong>Houding:</strong> ${formatText(value.houding_tot_gemeente)}</p>`;
+            }
+            if (key === 'appel_aspect_rood' && value.aard_van_appel) {
+                extraInfo += `<p style="font-size: 0.85rem; margin-top: 0.5rem;"><strong>Aard:</strong> ${formatText(value.aard_van_appel)}</p>`;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">${zijdenConfig[key].title}</span>
+                    <span class="score-badge ${scoreClass}">${value.score}/10</span>
+                </div>
+                <div class="text-content">
+                    ${formatText(value.analyse)}
+                    ${extraInfo}
+                    ${value.specifieke_diagnose ? `<p style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--text-muted);"><strong>Diagnose:</strong> ${formatText(value.specifieke_diagnose)}</p>` : ''}
+                </div>
+                ${quotesHtml}
+            `;
+            container.appendChild(card);
+        }
+
+        // Congruentie & Luisteraar Simulatie
+        const interactieInfo = document.createElement('div');
+        interactieInfo.className = 'section-info';
+        interactieInfo.innerHTML = `
+            💡 <strong>Interactie & Receptie:</strong> Hoe komen de vier signalen samen (congruentie) en hoe worden ze ontvangen door de verschillende 'oren' van de gemeente?
+        `;
+        container.appendChild(interactieInfo);
+
+        // Congruentie Card
+        const congruentieCard = document.createElement('div');
+        congruentieCard.className = 'card full-width';
+        // Note: interactie is already defined at top of function
+
+        congruentieCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Congruentie & storingen</span>
+            </div>
+            <div class="text-content">
+                <p><strong>Analyse:</strong> ${formatText(interactie.congruentie_analyse || interactie.congruentie_oordeel)}</p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                    <div style="background: var(--bg-element); padding: 0.75rem; border-radius: 6px;">
+                        <strong style="font-size: 0.85rem; color: var(--danger-color);">Risico / storing:</strong>
+                        <p style="font-size: 0.85rem; margin: 0.25rem 0 0 0;">${formatText(interactie.risico_analyse || interactie.storingen || interactie.risico_voor_hoorder)}</p>
+                    </div>
+                    ${interactie.heilzame_storing ? `
+                    <div style="background: var(--bg-element); padding: 0.75rem; border-radius: 6px;">
+                        <strong style="font-size: 0.85rem; color: var(--success-color);">Heilzame Storing:</strong>
+                        <p style="font-size: 0.85rem; margin: 0.25rem 0 0 0;">${formatText(interactie.heilzame_storing)}</p>
+                    </div>` : ''}
+                </div>
+            </div>
+        `;
+        container.appendChild(congruentieCard);
+
+        // Luisteraar Simulatie Card
+        const simulatieCard = document.createElement('div');
+        simulatieCard.className = 'card full-width';
+        const simulatie = data.luisteraar_simulatie || data.receptie_simulatie;
+
+        simulatieCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">🎧 De 4 oren: Luisteraar simulatie</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">👂 Zakelijk oor</strong>
+                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">${formatText(simulatie.effect_op_zakelijk_oor || simulatie.receptie_zakelijk_oor || simulatie.het_zakelijk_oor_hoort || "N/A")}</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">👂 Relatie oor</strong>
+                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">${formatText(simulatie.effect_op_relatie_oor || simulatie.receptie_relatie_oor || simulatie.het_relatie_oor_hoort)}</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">👂 Zelf-onthulling oor</strong>
+                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">${formatText(simulatie.effect_op_zelfonthulling_oor || simulatie.receptie_zelfonthulling_oor || simulatie.het_zelfonthulling_oor_hoort)}</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">👂 Appèl oor</strong>
+                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">${formatText(simulatie.effect_op_appel_oor || simulatie.receptie_hypertrofisch_appel_oor || simulatie.het_appel_oor_hoort)}</p>
+                </div>
+            </div>
+        `;
+        container.appendChild(simulatieCard);
     }
 </script>
 </body>

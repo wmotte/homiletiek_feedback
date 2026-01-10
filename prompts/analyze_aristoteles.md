@@ -205,6 +205,7 @@ Lever je analyse aan in het volgende **JSON-formaat**:
     "bijbeltekst": "Hoofdtekst(en) van de preek",
     "geschatte_woordlengte": 0,
     "geschatte_tijdsduur_minuten": 0,
+    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut",
     "notities": "Eventuele contextuele opmerkingen"
   },
   "aristotelische_modi_analyse": {
