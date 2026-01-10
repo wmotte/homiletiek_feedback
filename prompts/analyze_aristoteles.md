@@ -60,7 +60,7 @@ Pathos gaat over het vermogen om de hoorder te raken in diens emoties, waarden e
   - (Bijvoorbeeld: vreugde bij Pasen, ernst bij boete)
 - Worden emoties opgeroepen op een authentieke, niet-manipulatieve wijze?
 - Resoneert de preek met de existentiële vragen van de hoorder?
-- Wordt er appèl gedaan op verlangen, hoop, schaamte, vreugde?
+- Wordt er appel gedaan op verlangen, hoop, schaamte, vreugde?
 
 **Homiletische Manifestaties:**
 - Beeldend taalgebruik dat zintuigen en emoties aanspreekt

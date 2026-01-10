@@ -553,10 +553,20 @@
     }
 
     /**
-     * Formats text with both Dutch terminology and curly quotes
+     * Formats text with Dutch terminology, curly quotes, and Markdown parsing
      */
     function formatText(text) {
-        return toCurlyQuotes(toNederlandseTerminologie(text));
+        if (!text) return text;
+        
+        let formatted = toCurlyQuotes(toNederlandseTerminologie(text));
+        
+        // Parse Markdown Bold (**text**)
+        formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        
+        // Parse Markdown Italic (*text*) - ensure we don't break list items
+        formatted = formatted.replace(/(^|[^\*])\*([^\*]+)\*/g, '$1<em>$2</em>');
+        
+        return formatted;
     }
 
     const analysisInfo = {
@@ -573,7 +583,7 @@
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/aristotelische_modi.md'
         },
         'schulz': {
-            text: 'Het communicatiemodel van Schulz von Thun analyseert de vier boodschappen die in elke preek tegelijkertijd klinken:\n\n• Zakelijke Inhoud (Blauw) – Feiten, exegese en theologische waarheid\n• Zelf-onthulling (Groen) – De authenticiteit en persoonlijkheid van de prediker\n• Relatie (Geel) – Hoe de prediker de gemeente ziet en aanspreekt\n• Appèl (Rood) – De oproep tot actie of geloof (Wet vs. Evangelie)\n\nDeze analyse toetst ook de congruentie (kloppen toon en inhoud?) en de balans, om te voorkomen dat de preek eenzijdig intellectualistisch (blauw), narcistisch (groen), betuttelend (geel) of moralistisch (rood) wordt.',
+            text: 'Het communicatiemodel van Schulz von Thun analyseert de vier boodschappen die in elke preek tegelijkertijd klinken:\n\n• Zakelijke Inhoud (Blauw) – Feiten, exegese en theologische waarheid\n• Zelf-onthulling (Groen) – De authenticiteit en persoonlijkheid van de prediker\n• Relatie (Geel) – Hoe de prediker de gemeente ziet en aanspreekt\n• Appel (Rood) – De oproep tot actie of geloof (Wet vs. Evangelie)\n\nDeze analyse toetst ook de congruentie (kloppen toon en inhoud?) en de balans, om te voorkomen dat de preek eenzijdig intellectualistisch (blauw), narcistisch (groen), betuttelend (geel) of moralistisch (rood) wordt.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/schulz_von_thun.md'
         }
     };
@@ -1243,9 +1253,10 @@
             </div>
             <div class="text-content">
                 <p>${formatText(data.totaalbeeld.samenvatting)}</p>
+                ${data.totaalbeeld.theologische_toets ? `
                 <div style="background: var(--bg-element); border-left: 3px solid var(--warning-color); padding: 0.75rem; margin-top: 1rem; font-size: 0.9rem;">
                     <strong>Theologische toets:</strong> ${formatText(data.totaalbeeld.theologische_toets)}
-                </div>
+                </div>` : ''}
                 ${data.totaalbeeld.barthiaanse_waarschuwing ? `
                 <div style="background: var(--bg-element); border-left: 3px solid var(--danger-color); padding: 0.75rem; margin-top: 0.5rem; font-size: 0.9rem;">
                     <strong>Barthiaanse waarschuwing:</strong> ${formatText(data.totaalbeeld.barthiaanse_waarschuwing)}
@@ -1282,7 +1293,7 @@
             'zakelijk_inhoud_blauw': { title: '🟦 Zakelijke inhoud (blauw)', icon: '📘' },
             'zelf_onthulling_groen': { title: '🟩 Zelf-onthulling (groen)', icon: '📗' },
             'relatie_aspect_geel': { title: '🟨 Relatie (geel)', icon: '📒' },
-            'appel_aspect_rood': { title: '🟥 Appèl (rood)', icon: '📕' }
+            'appel_aspect_rood': { title: '🟥 Appel (rood)', icon: '📕' }
         };
 
         for (const [key, value] of Object.entries(zijden)) {
@@ -1387,7 +1398,7 @@
                     <p style="font-size: 0.85rem; margin-top: 0.5rem;">${formatText(simulatie.effect_op_zelfonthulling_oor || simulatie.receptie_zelfonthulling_oor || simulatie.het_zelfonthulling_oor_hoort)}</p>
                 </div>
                 <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
-                    <strong style="color: var(--primary-color);">👂 Appèl oor</strong>
+                    <strong style="color: var(--primary-color);">👂 Appel oor</strong>
                     <p style="font-size: 0.85rem; margin-top: 0.5rem;">${formatText(simulatie.effect_op_appel_oor || simulatie.receptie_hypertrofisch_appel_oor || simulatie.het_appel_oor_hoort)}</p>
                 </div>
             </div>

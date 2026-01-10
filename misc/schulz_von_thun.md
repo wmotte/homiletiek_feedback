@@ -4,7 +4,7 @@
 
 De hedendaagse homiletiek bevindt zich op een kruispunt van disciplines. Enerzijds is zij geworteld in de eeuwenoude traditie van de theologie, waarin de *explicatio* (uitleg) en *applicatio* (toepassing) van de Heilige Schrift centraal staan. Anderzijds wordt zij, in een tijd van secularisatie en veranderende verstaanshorizonnen, gedwongen tot een intensieve dialoog met de communicatiewetenschappen. De vraag is niet langer slechts *wat* er gezegd moet worden (de orthodoxie van de inhoud), maar *hoe* het gezegd wordt opdat het daadwerkelijk 'landt' bij de hoorder (de orthopraxie van de communicatie). In dit spanningsveld heeft het werk van de Hamburgse communicatiepsycholoog Friedemann Schulz von Thun, met name zijn model van het 'Communicatievierkant' (of Vier-oren-model), een prominente, zij het soms omstreden, plaats verworven.1
 
-Dit onderzoeksrapport beoogt een exhaustieve analyse te bieden van de toepasbaarheid van Schulz von Thun’s vier dimensies – zakelijke inhoud, zelf-onthulling, relatie en appèl – op de prediking. Het doel is tweeledig: ten eerste een gedetailleerde uiteenzetting van de methodiek, taal en karakteristieken van het model zelf. Ten tweede een kritisch-theologisch onderzoek naar de bruikbaarheid ervan voor de homiletiek. Hierbij zal specifiek worden ingegaan op de vraag waar de psychologische categorieën botsen met de theologische eigenart van de preek als *Verbum Dei* (Woord van God), en welke kritische correcties, vanuit onder andere de theologie van Karl Barth, Rudolf Bohren en Gerrit Immink, noodzakelijk zijn om van een verantwoorde integratie te kunnen spreken.
+Dit onderzoeksrapport beoogt een exhaustieve analyse te bieden van de toepasbaarheid van Schulz von Thun’s vier dimensies – zakelijke inhoud, zelf-onthulling, relatie en appel – op de prediking. Het doel is tweeledig: ten eerste een gedetailleerde uiteenzetting van de methodiek, taal en karakteristieken van het model zelf. Ten tweede een kritisch-theologisch onderzoek naar de bruikbaarheid ervan voor de homiletiek. Hierbij zal specifiek worden ingegaan op de vraag waar de psychologische categorieën botsen met de theologische eigenart van de preek als *Verbum Dei* (Woord van God), en welke kritische correcties, vanuit onder andere de theologie van Karl Barth, Rudolf Bohren en Gerrit Immink, noodzakelijk zijn om van een verantwoorde integratie te kunnen spreken.
 
 De urgentie van dit onderzoek ligt in de praktijk van de zondagse eredienst. Predikanten worstelen met de vraag waarom zorgvuldig voorbereide preken, exegetisch verantwoord en dogmatisch zuiver, toch hun doel missen of zelfs averechts werken. Schulz von Thun biedt een vocabulaire om deze 'storingen' te analyseren. Echter, een onkritische overname van dit seculiere model kan leiden tot een functionalisering van het heilgeheim, waarbij de prediker verandert in een communicatiemanager en de Heilige Geest gereduceerd wordt tot een psychologisch effect. Dit rapport zal deze spanningen tot in detail verkennen.
 
@@ -41,13 +41,13 @@ De onderste zijde betreft de definitie van de relatie tussen zender en ontvanger
 * **De "Jij-Boodschap" en de "Wij-Definitie":** De boodschap bevat informatie over hoe de zender de ontvanger ziet ("Ik acht jou capabel" of "Ik acht jou hulpbehoevend") en hoe de relatie wordt gedefinieerd (hiërarchisch, vriendschappelijk, professioneel).  
 * **Non-verbale Dominantie:** Dit aspect wordt zelden expliciet verwoord ("Ik vind jou dom"), maar des te sterker gecommuniceerd via toon, mimiek, gebaren en context. Een opgetrokken wenkbrauw kan de zakelijke inhoud ("Dat is een interessant idee") volledig ontkrachten en veranderen in een relationele diskwalificatie.1
 
-#### **1.1.4 Het Appèl (Appell) – De Rode Zijde**
+#### **1.1.4 Het Appel (Appell) – De Rode Zijde**
 
 De rechterzijde is de directionele kracht van de boodschap. Communicatie is zelden l’art pour l’art; de zender wil invloed uitoefenen.
 
-* **Doelgerichtheid:** Het appèl antwoordt op de vraag: "Wat moet de ontvanger nu doen, denken of voelen?".  
-* **Manipulatie:** Wanneer het appèl verdekt is en de andere zijden worden misbruikt om de ontvanger een bepaalde kant op te sturen zonder dat dit expliciet wordt gevraagd, spreekt men van manipulatie.  
-* **Wens en Eis:** Het appèl kan variëren van een zachte wens tot een dwingend bevel.1
+* **Doelgerichtheid:** Het appel antwoordt op de vraag: "Wat moet de ontvanger nu doen, denken of voelen?".  
+* **Manipulatie:** Wanneer het appel verdekt is en de andere zijden worden misbruikt om de ontvanger een bepaalde kant op te sturen zonder dat dit expliciet wordt gevraagd, spreekt men van manipulatie.  
+* **Wens en Eis:** Het appel kan variëren van een zachte wens tot een dwingend bevel.1
 
 ### **1.2 De Ontvangstzijde: De Anatomie van de Vier Oren**
 
@@ -58,7 +58,7 @@ De complexiteit van het model – en de bron van veel 'storingen' die Schulz von
 | **Het Zakelijke Oor** | Richt zich puur op de feiten. | Controleert logica. Kan emotionele signalen missen ("Hij klaagt over de soep, dus er zit te veel zout in" i.p.v. "Hij heeft een rotweek gehad"). |
 | **Het Relatie-Oor** | Betrekt alles op zichzelf ("P.O.Z."). | Voelt zich snel aangevallen, bekritiseerd of betutteld. Is hypergevoelig voor toon en sfeer. "Wat vindt hij van mij?" |
 | **Het Zelf-onthullings-Oor** | Analyseert de zender (therapeutisch). | Luistert diagnostisch: "Waarom zegt hij dit zo fel? Hij zal wel gestrest zijn." Dit oor de-escaleert conflicten omdat het de boodschap bij de zender laat. |
-| **Het Appèl-Oor** | Richt zich op actie en dienstbaarheid. | Wil voldoen aan verwachtingen. "Wat moet ik doen?" Kan leiden tot een dwangmatige dienstbaarheid ("sprungbereit") en verlies van eigen autonomie. |
+| **Het Appel-Oor** | Richt zich op actie en dienstbaarheid. | Wil voldoen aan verwachtingen. "Wat moet ik doen?" Kan leiden tot een dwangmatige dienstbaarheid ("sprungbereit") en verlies van eigen autonomie. |
 
 ### **1.3 Congruentie en Incongruentie**
 
@@ -100,11 +100,11 @@ Op de 'gele zijde' speelt zich het drama van de autoriteit en de nabijheid af.
 * **Het Pastorale Oor:** De gemeente luistert vaak met een sterk ontwikkeld relatie-oor. Als de prediker boos is (misschien op de tekst of de wereld), kan de gemeente dit horen als: "Hij is boos op ons." Dit leidt tot weerstand. Schulz von Thun helpt de prediker bewust te worden van deze 'betrekkingsruis'.  
 * **De 'Gele' Boodschap van de Liturgie:** Niet alleen woorden, maar ook de inrichting (hoge kansel vs. lezenaar op de vloer) communiceert een relationele boodschap.16
 
-### **2.4 Het Appèl: De Spanning tussen Wet en Evangelie**
+### **2.4 Het Appel: De Spanning tussen Wet en Evangelie**
 
 De 'rode zijde' is theologisch het meest explosief. De preek wil immers iets bewerken: geloof, bekering, troost, actie.
 
-* **Impliciet vs. Expliciet:** Veel preken bevatten een impliciet appèl ("Wees een goed christen"). Schulz von Thun leert dat als het appèl vaag blijft, de hoorder het zelf invult, vaak vanuit zijn eigen angsten of schuldgevoelens.  
+* **Impliciet vs. Expliciet:** Veel preken bevatten een impliciet appel ("Wees een goed christen"). Schulz von Thun leert dat als het appel vaag blijft, de hoorder het zelf invult, vaak vanuit zijn eigen angsten of schuldgevoelens.  
 * **De Homiletische Intentie:** Wat wil de prediker dat de hoorder doet? Naar huis gaan en *iets doen* (ethiek)? Of naar huis gaan en *iets ontvangen hebben* (mystiek/genade)? Hier raakt het communicatiemodel de kern van de reformatische theologie (zie Deel III).1
 
 ## ---
@@ -113,18 +113,18 @@ De 'rode zijde' is theologisch het meest explosief. De preek wil immers iets bew
 
 Het toepassen van Schulz von Thun op de homiletiek is nuttig voor de *vormgeving*, maar stuit op harde grenzen als het gaat om de *inhoud* en *aard* van de prediking. De preek is geen therapeutische sessie en geen managementtoespraak. De volgende punten vereisen kritisch onderzoek.
 
-### **3.1 Het Conflict: Zuspruch (Toezegging) versus Appèl (Eis)**
+### **3.1 Het Conflict: Zuspruch (Toezegging) versus Appel (Eis)**
 
-Het grootste theologische bezwaar tegen een ongenuanceerde toepassing van het vierkant ligt in de categorie 'Appèl'. In de psychologie is een appèl een neutraal verzoek tot gedragsverandering. In de lutherse en gereformeerde theologie is de kern van het Evangelie echter geen *eis* (Wet), maar een *toezegging* of *geschenk* (Evangelie).
+Het grootste theologische bezwaar tegen een ongenuanceerde toepassing van het vierkant ligt in de categorie 'Appel'. In de psychologie is een appel een neutraal verzoek tot gedragsverandering. In de lutherse en gereformeerde theologie is de kern van het Evangelie echter geen *eis* (Wet), maar een *toezegging* of *geschenk* (Evangelie).
 
-* **Het Hypertrofische Appèl-Oor:** Veel kerkgangers luisteren met een overontwikkeld appèl-oor.7 Zij horen in elke Bijbeltekst een opdracht:  
+* **Het Hypertrofische Appel-Oor:** Veel kerkgangers luisteren met een overontwikkeld appel-oor.7 Zij horen in elke Bijbeltekst een opdracht:  
   * *Preek:* "Jezus had de melaatse lief."  
-  * *Hoor-reactie (Appèl-oor):* "Ik moet ook liefdevoller zijn voor de uitgestotenen. Ik schiet tekort."  
-* **De Val van de Prediker:** Als de prediker het model van Schulz von Thun volgt en denkt: "Ik moet mijn appèl-zijde versterken om effectief te zijn", voedt hij dit wetticisme. De preek wordt dan een moralistische zweepslag.  
-* **Theologische Correctie:** Homiletisch moet de 'rode zijde' herdefiniëerd worden. Het primaire appèl van het Evangelie is niet "Doe dit\!", maar "Geloof dit\!" (Vertrouw op de toezegging). In de theologie van **Manfred Josuttis** en **Rudolf Bohren** wordt gesproken over de *Zuspruch* die voorafgaat aan de *Anspruch*. Een preek die louter als appèl landt, heeft theologisch gefaald, zelfs als hij communicatief 'succesvol' was in het mobiliseren van mensen.12  
-  * *Tabel 1: Contrast tussen Psychologisch Appèl en Theologische Toezegging*
+  * *Hoor-reactie (Appel-oor):* "Ik moet ook liefdevoller zijn voor de uitgestotenen. Ik schiet tekort."  
+* **De Val van de Prediker:** Als de prediker het model van Schulz von Thun volgt en denkt: "Ik moet mijn appel-zijde versterken om effectief te zijn", voedt hij dit wetticisme. De preek wordt dan een moralistische zweepslag.  
+* **Theologische Correctie:** Homiletisch moet de 'rode zijde' herdefiniëerd worden. Het primaire appel van het Evangelie is niet "Doe dit\!", maar "Geloof dit\!" (Vertrouw op de toezegging). In de theologie van **Manfred Josuttis** en **Rudolf Bohren** wordt gesproken over de *Zuspruch* die voorafgaat aan de *Anspruch*. Een preek die louter als appel landt, heeft theologisch gefaald, zelfs als hij communicatief 'succesvol' was in het mobiliseren van mensen.12  
+  * *Tabel 1: Contrast tussen Psychologisch Appel en Theologische Toezegging*
 
-| Aspect | Psychologisch Appèl (Schulz von Thun) | Theologische Toezegging (Evangelie) |
+| Aspect | Psychologisch Appel (Schulz von Thun) | Theologische Toezegging (Evangelie) |
 | :---- | :---- | :---- |
 | **Richting** | Van Zender naar Ontvanger (Eis) | Van God naar Mens (Geschenk) |
 | **Doel** | Actie / Gedragsverandering | Geloof / Rust / Vertrouwen |
@@ -143,7 +143,7 @@ De nadruk op de *Selbstkundgabe* en de menselijke interactie roept de kritiek op
 
 Schulz von Thun stelt dat de ontvanger "vrije keuze" heeft met welk oor hij luistert. Dit is een constructivistisch standpunt: de hoorder maakt de boodschap.
 
-* **Pneumatologie:** In de theologie belijden we dat de Heilige Geest de ware Communicator is. De Geest kan door de barrières van de "vier oren" heen breken. Een preek die communicatief rammelt (incongruent is), kan door de Geest toch als een pijl in het hart (appèl/zakelijk) worden ervaren.  
+* **Pneumatologie:** In de theologie belijden we dat de Heilige Geest de ware Communicator is. De Geest kan door de barrières van de "vier oren" heen breken. Een preek die communicatief rammelt (incongruent is), kan door de Geest toch als een pijl in het hart (appel/zakelijk) worden ervaren.  
 * **Gerrit Immink:** Immink bekritiseert een te sterke focus op de subjectieve receptie. Hij benadrukt dat in de preek een "godsdienstig samenspel" plaatsvindt waarbij God als *Acting Subject* aanwezig is. Het communicatiemodel van Schulz von Thun is horizontaal gesloten; de homiletiek vereist een verticale opening. De hoorder is niet autonoom in zijn receptie; hij wordt *aangesproken* door een instantie buiten hemzelf.24
 
 ### **3.4 De Relationele Asymmetrie en het Ambt**
@@ -178,13 +178,13 @@ Is het model van Schulz von Thun bruikbaar voor de homiletiek? Het antwoord is e
 
 Het is **bruikbaar** als *analytisch instrument* voor de voorbereiding en evaluatie van preken. Het helpt de prediker om:
 
-1. **Eenzijdigheid te voorkomen:** Niet alleen doceren (zakelijk) of moraliseren (appèl), maar ook relatie bouwen en authentiek zijn.  
+1. **Eenzijdigheid te voorkomen:** Niet alleen doceren (zakelijk) of moraliseren (appel), maar ook relatie bouwen en authentiek zijn.  
 2. **Storingen te diagnosticeren:** Waarom kwam deze preek als een verwijt over? (Misschien was de toon incongruent met de inhoud).  
 3. **Bewust te worden van de luisteraar:** Met welk 'oor' luistert mijn gemeente waarschijnlijk naar dit gedeelte?
 
 Het is **ontoereikend** en zelfs **gevaarlijk** als *theologisch fundament*. De kritische punten die onderzocht en bewaakt moeten worden zijn:
 
-1. **De Aard van het Appèl:** Zorg dat het 'rode' aspect geworteld is in de 'blauwe' waarheid van de genade, en niet verwordt tot wettisch moralisme. Herdefinieer Appèl als een oproep tot geloof (*Zuspruch*).  
+1. **De Aard van het Appel:** Zorg dat het 'rode' aspect geworteld is in de 'blauwe' waarheid van de genade, en niet verwordt tot wettisch moralisme. Herdefinieer Appel als een oproep tot geloof (*Zuspruch*).  
 2. **De Rol van de Geest:** Erken dat communicatie in de kerk ten diepste een werk van de Geest is (*Pneumatologie*), dat de grenzen van psychologische modellen overstijgt. De prediker beheerst het proces niet.  
 3. **De Plaats van het Ego:** Gebruik *Selbstkundgabe* functioneel en diaconisch, niet narcistisch. De prediker is getuige, geen hoofdrolspeler.
 

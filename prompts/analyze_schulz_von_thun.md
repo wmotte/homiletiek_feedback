@@ -26,16 +26,16 @@ Elke preekuiting is een polyvalent 'pakket'. Je analyseert de preek op de volgen
 *   **Non-verbale Dominantie:** Let op signalen van autoriteit versus nabijheid. Wordt er "van bovenaf" gesproken of "op ooghoogte"?
 *   **Betrekkingsruis:** Analyseer of de 'gele' signalen (zoals toon of woordkeuze) de inhoud ondermijnen (bijv. een boze toon bij een boodschap van genade).
 
-### D. Het Appèl (Appell) – De Rode Zijde
+### D. Het Appel (Appell) – De Rode Zijde
 *   **Focus:** De directionele kracht. Wat moet de ontvanger doen, denken of voelen?
 *   **Kritische Correctie (Zuspruch vs. Anspruch):** In de theologie is de kern van het Evangelie een *toezegging* (Zuspruch/Geschenk) en niet louter een *eis* (Wet).
 *   **Contrast Tabel voor Analyse:**
-    | Aspect | Psychologisch Appèl | Theologische Toezegging |
+    | Aspect | Psychologisch Appel | Theologische Toezegging |
     | :--- | :--- | :--- |
     | Richting | Van Zender naar Ontvanger (Eis) | Van God naar Mens (Geschenk) |
     | Doel | Actie / Gedragsverandering | Geloof / Rust / Vertrouwen |
     | Effect | Druk / Schuldgevoel (bij overmaat) | Vrijheid / Dankbaarheid |
-*   **Valkuil:** Een preek die louter als appèl landt, heeft theologisch gefaald, zelfs als hij communicatief 'succesvol' was in het mobiliseren van mensen.
+*   **Valkuil:** Een preek die louter als appel landt, heeft theologisch gefaald, zelfs als hij communicatief 'succesvol' was in het mobiliseren van mensen.
 
 ---
 
@@ -45,7 +45,7 @@ De gemeente beschikt over 'vier oren' en kiest vaak onbewust welk oor dominant i
 *   **Het Zakelijke Oor:** Controleert de logica en exegese.
 *   **Het Relatie-Oor (P.O.Z.):** Betrekt alles op zichzelf. Voelt zich snel aangevallen of betutteld. Is hypergevoelig voor sfeer.
 *   **Het Zelf-onthullings-Oor:** Luistert therapeutisch/diagnostisch naar de prediker.
-*   **Het Appèl-Oor:** "Wat moet ik doen?" Kan leiden tot 'sprungbereite' dienstbaarheid en verlies van autonomie.
+*   **Het Appel-Oor:** "Wat moet ik doen?" Kan leiden tot 'sprungbereite' dienstbaarheid en verlies van autonomie.
 
 ---
 
@@ -74,7 +74,7 @@ Analyseer de preektekst. Je analyse moet **vlijmscherp, nuchter en theologisch o
 ### Specifieke opdrachten in de analyse:
 1.  **Diagnoseer de congruentie:** Waar wringen de zijden?
 2.  **Identificeer de 'Heilzame Storing':** Soms moet een preek de relatie onder druk zetten om de waarheid te dienen. Is hier sprake van een 'storing' van de Geest of slechts menselijke onhandigheid?
-3.  **Appèl-check:** Meet de verhouding tussen *Zuspruch* en *Anspruch*.
+3.  **Appel-check:** Meet de verhouding tussen *Zuspruch* en *Anspruch*.
 4.  **Riemann-check:** Benoem welk predikerstype doorschemert.
 
 ---

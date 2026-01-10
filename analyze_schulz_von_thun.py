@@ -3,7 +3,7 @@
 # Jan 2026 (w.m.otte@umcutrecht.nl)
 #
 # Analyse van preken aan de hand van het Vier-Zijden-Model van Schulz von Thun
-# Zakelijke inhoud, Zelf-onthulling, Relatie en Appèl
+# Zakelijke inhoud, Zelf-onthulling, Relatie en Appel
 #
 #####################################################
 import os
@@ -158,7 +158,7 @@ def print_summary(output_file):
                 "zakelijk_inhoud_blauw": "Zakelijk (Blauw)",
                 "zelf_onthulling_groen": "Zelf-onthulling (Groen)",
                 "relatie_aspect_geel": "Relatie (Geel)",
-                "appel_aspect_rood": "Appèl (Rood)"
+                "appel_aspect_rood": "Appel (Rood)"
             }
             
             sides = data["schulz_von_thun_analyse"]
@@ -191,7 +191,7 @@ Deze tool analyseert de preek op:
   • Zakelijk (Blauw): Feiten, inhoud, exegese
   • Zelf-onthulling (Groen): Authenticiteit, persoonlijkheid
   • Relatie (Geel): Houding tot de gemeente
-  • Appèl (Rood): Oproep tot actie of geloof
+  • Appel (Rood): Oproep tot actie of geloof
         """
     )
     parser.add_argument(

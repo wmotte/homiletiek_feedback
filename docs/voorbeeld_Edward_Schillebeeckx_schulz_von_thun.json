@@ -5,110 +5,111 @@
     "bijbeltekst": "Marcus 1:1-8",
     "geschatte_woordlengte": 1350,
     "geschatte_tijdsduur_minuten": 13,
-    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut (rustige, docerende dictie)",
-    "notities": "Preek van Edward Schillebeeckx, waarschijnlijk uitgesproken in een academische of kloosterlijke setting, gezien de intellectuele referenties."
+    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut (rustig, docerend tempo)",
+    "notities": "Preek van prof. mag. dr. Edward Schillebeeckx. Context: Liturgische setting, vermoedelijk in een kloostergemeenschap of universitaire parochie."
   },
   "schulz_von_thun_analyse": {
     "zakelijk_inhoud_blauw": {
       "score": 8,
-      "analyse": "De 'Sache' is hier dominant en van hoog intellectueel en theologisch niveau. Schillebeeckx bedrijft exegese op de kansel. Hij plaatst de tekst in een breed cultuurhistorisch kader (Babylonische processiewegen vs. de woestijnweg van JHWH). De theologische kern is sterk: God openbaart zich niet in triomfalisme, maar in de 'anti-triomf' van de woestijn. De inhoud is echter zeer compact en veronderstelt een hoog algemeen ontwikkelingsniveau (referenties aan Vondel, Cardenal, Neruda, Griekse vertaalfouten). Voor een gemiddelde gemeente dreigt het gevaar van een hoorcollege in plaats van een verkondiging.",
+      "analyse": "De blauwe zijde is dominant en van uitzonderlijk hoog theologisch niveau. Schillebeeckx bedrijft hier 'katheder-homiletiek'. Hij opent met een culturele vergelijking (Vondel's drama's) om de functie van de 'aggelos' (bode) te duiden, wat getuigt van een hoog abstractievermogen. De exegetische brug die hij slaat tussen Marcus, Maleachi en Deutero-Jesaja is meesterlijk. Hij deconstrueert het beeld van de 'weg' door de Babylonische context van processiewegen ('boulevards') te contrasteren met de Joodse 'woestijnweg'. Theologisch is dit ijzersterk: Gods heerlijkheid openbaart zich niet in pompeuze macht, maar in de 'onmacht' van de bevrijdingstocht door de woestijn. De inhoud is glashelder, maar de drempel is hoog. De luisteraar moet intellectueel 'aanhaken' om de theologische pointe te vatten. Het is eerder een college over God dan een directe ontmoeting, maar de inhoudelijke zuiverheid dwingt respect af.",
       "quotes": [
         "We moeten dit eerste gedeelte van de Mk.-proloog zo ongeveer zien als in de bijbelse drama's van Vondel",
-        "Gods macht zegeviert in onmacht; barre woestijn is de weg van zijn volk naar uiteindelijke bevrijding.",
-        "Evenwel, misleid door een verkeerde punctuatie en dus door een verkeerde Griekse vertaling..."
+        "Jesaja hanteert niettemin voor joden juist dit beeld van de heidense triomfstraat",
+        "Gods macht zegeviert in onmacht"
       ],
       "sterke_punten": [
-        "Briljante contrastwerking tussen Babylonische 'boulevards' en Gods weg door de woestijn.",
-        "Heldere christologische focus: Johannes verdwijnt zodat Christus kan verschijnen."
+        "Briljante contextuele exegese (Babylonische achtergrond)",
+        "Heldere theologische these (Macht vs. Onmacht)"
       ],
       "verbeterpunten": [
-        "De academische drempel is hoog; de exegetische details over punctuatiefouten leiden af van de kerygmatische kern.",
-        "Het risico bestaat dat het geloof een intellectueel inzicht wordt in plaats van een existentieel vertrouwen."
+        "Hoog abstractieniveau kan de eenvoudige hoorder buitensluiten",
+        "Risico op intellectualisme: geloof als 'begrip' in plaats van 'vertrouwen'"
       ],
-      "verstandelijkheid_check": "Hoog abstractieniveau. Geschikt voor een geschoolde elite, mogelijk vervreemdend voor de 'eenvoudige' hoorder."
+      "verstandelijkheid_check": "Hoog-academisch. Vereist voorkennis van cultuur en bijbelse theologie."
     },
     "zelf_onthulling_groen": {
-      "score": 7,
-      "analyse": "Schillebeeckx hanteert een klassieke 'diaconale' zelfonthulling: hij maakt zichzelf klein ten dienste van de tekst, precies zoals hij Johannes de Doper beschrijft. Er is weinig persoonlijk sentiment; de prediker verschijnt als de geleerde gids. Wat onbedoeld 'lekt', is de habitus van de intellectueel die de wereld duidt vanuit de studeerkamer, hoewel hij solidariteit betuigt met de armen. Zijn authenticiteit ligt in zijn rolvastheid als theoloog-prediker. Hij speelt geen volkse man, hij is wie hij is: een dominicaan en professor.",
+      "score": 6,
+      "analyse": "De prediker onthult zich hier primair als de 'Geleerde'. Er is weinig sprake van persoonlijke kwetsbaarheid in de zin van eigen geloofstwijfel of emotie. De zelf-onthulling zit hem in de eruditie: Schillebeeckx laat zien dat hij thuis is in archeologie, literatuur en exegese. Toch is er een subtiele, diaconale laag: hij identificeert zich (en zijn orde) met de taak van de 'onnutte dienstknecht'. Hij verschuilt zich achter de tekst, precies zoals hij Johannes beschrijft. Dit is congruent, maar creëert afstand. Riemann-technisch neigt dit sterk naar het schizoïde type: de focus ligt op objectiviteit, afstand en onafhankelijkheid. De 'ik' is veilig opgeborgen in de rol van de exegeet. Hij spreekt over 'bloed en tranen', maar zijn toon blijft analytisch.",
       "quotes": [
-        "Het is soms goed te verwijlen bij het voor-stadium van de christelijke verlossing.",
-        "Dát is de bestaansreden van onze dominicaanse roeping..."
+        "Het is soms goed te verwijlen bij het voor-stadium",
+        "Dát is de bestaansreden van onze dominicaanse roeping",
+        "Allebei voelen ze zich onnutte dienstknechten"
       ],
-      "riemann_type_diagnose": "Schizoïde trekken (afstandelijk, objectiverend, focus op waarheid en inzicht) gemengd met een inhoudelijke focus op solidariteit (Depressieve waarden, maar cognitief benaderd).",
-      "diaconale_kwaliteit": "Hoog. De prediker staat nergens in de weg, behalve door zijn eigen eruditie.",
+      "riemann_type_diagnose": "Schizoïde (Afstandelijk/Intellectualiserend) met een vleugje Dwangmatig (Systematisch). De prediker zoekt veiligheid in kennis en structuur.",
+      "diaconale_kwaliteit": "De prediker maakt zich klein ten opzichte van de tekst ('dienstbaar'), maar maakt zich groot ten opzichte van de hoorder door zijn kennisvoorsprong.",
       "sterke_punten": [
-        "Geen ijdele 'Selbstdarstellung'; hij cijfert zichzelf weg achter de boodschap.",
-        "Congruent met de boodschap van de Doper: hij wijst aan, maar is het niet zelf."
+        "Geen ijdele 'Selbstdarstellung' van emoties",
+        "Authentieke identificatie met de dominicaanse traditie"
       ],
       "verbeterpunten": [
-        "De prediker blijft op veilige afstand; er is weinig persoonlijke aanvechting of kwetsbaarheid voelbaar."
+        "Gebrek aan existentiële nabijheid",
+        "De prediker blijft 'buiten schot' als mens"
       ]
     },
     "relatie_aspect_geel": {
-      "score": 6,
-      "analyse": "De relatie is asymmetrisch: Leraar tot Leerling. Schillebeeckx legt uit ('Om te begrijpen wat hier bedoeld wordt...'), corrigeert misverstanden en duidt de geschiedenis. Hij spreekt de gemeente aan als medestanders in een intellectuele en politieke strijd ('een zelfde beleving als wij nu meemaken bij...'). Er is sprake van solidariteit in de 'wij'-vorm, maar de toon blijft docerend. De 'gele' zijde straalt uit: 'Ik heb de kennis die u nodig heeft om uw situatie te duiden'.",
+      "score": 5,
+      "analyse": "Hier scoort de preek het laagst. De relatie is asymmetrisch: de leraar spreekt tot de leerlingen. De toon is docerend ('We moeten dit zien als...', 'Om te begrijpen wat hier bedoeld wordt...'). De prediker neemt de hoorder bij de hand, niet als gelijke in aanvechting, maar als onwetende die verlicht moet worden. Er is sprake van een 'wij', maar dit is vaak een retorisch of exclusief wij (de dominicanen, de theologen). De afstand is groot. De hoorder wordt niet direct aangesproken op zijn hart, maar op zijn intellect. De 'betrekkingsruis' is die van de collegezaal: de luisteraar leunt achterover en maakt aantekeningen, in plaats van op het puntje van de stoel te zitten omdat zijn leven in het geding is.",
       "quotes": [
-        "Tot goed verstaan van deze korte passage... is het van belang te zien...",
-        "Je zièt in deze dynamische teksten de ballingen in beweging komen...",
-        "Of consequent christendom ons ooit in de gevangenis brengt, mogen we openlaten."
+        "Het zal u in deze Mt.-proloog opgevallen zijn",
+        "Om te begrijpen wat hier bedoeld wordt met het voor ons bizarre begrip",
+        "Je zièt in deze dynamische teksten de ballingen in beweging komen"
       ],
-      "betrekkingsruis_check": "Intellectualisme kan als afstandelijk of elitair worden ervaren ('boven' vs. 'onder').",
-      "houding_indicatie": "Docerend, Gidsend, Beschouwend.",
+      "betrekkingsruis_check": "De academische toon kan paternalistisch overkomen ('Ik zal u eens uitleggen hoe de wereld in elkaar zit').",
+      "houding_indicatie": "Docerend / Exegetisch-Gidsend",
       "sterke_punten": [
-        "Hij neemt de intelligentie van de hoorder serieus.",
-        "Hij creëert een 'wij' rondom de opdracht van de kerk (dominicaanse roeping)."
+        "Neemt de intelligentie van de hoorder serieus"
       ],
       "verbeterpunten": [
-        "Meer 'ooghoogte' en minder katheder-houding zou de existentiële impact vergroten.",
-        "De afstand tot de 'gewone man' in de kerkbank is aanzienlijk."
+        "Weinig 'ooghoogte' of pastorale warmte",
+        "De 'Jij' ontbreekt nagenoeg volledig"
       ]
     },
     "appel_aspect_rood": {
-      "score": 6,
-      "analyse": "Het appèl is sterk gekleurd door bevrijdingstheologie. De 'eis' is: wij moeten, net als Johannes, voorlopers zijn en de weg banen. Dit is geen passief geloof, maar actief 'bevrijdingswerk'. Theologisch is dit riskant: de grens tussen Gods handelen en menselijk politiek activisme vervaagt. De 'Zuspruch' (God bevrijdt) wordt direct omgezet in een zware 'Anspruch' (wij moeten door de woestijn, bloed en tranen). Voor de vermoeide hoorder kan dit als een zware last voelen.",
+      "score": 7,
+      "analyse": "Het appel is krachtig maar risicovol. Schillebeeckx koppelt de theologie van de bevrijding aan een ethisch imperatief. De 'weg door de woestijn' is niet alleen een heilsfeit (God doet het), maar wordt direct een opdracht (wij moeten het doen). De *Zuspruch* (God is op komst) dreigt overschaduwd te worden door de *Anspruch* (wij moeten voorlopers zijn, wij moeten door de woestijn, bevrijdingswerk kost bloed). Dit is typisch voor een politiek-theologische hermeneutiek. Het appel is: 'Wordt zoals Johannes'. Dit kan leiden tot activisme. De genade is dat God 'de Komende' blijft, maar de druk ligt op de mens om die komst aan te wijzen en voor te bereiden. Voor een vermoeide gelovige kan dit appel zwaar wegen: 'Ik moet ook nog bevrijden en lijden'.",
       "quotes": [
-        "Bevrijdingswerk, 'de weg van God', kost bloed en tranen...",
-        "Jezus' komen... is zo onopvallend dat hij onbekend zou blijven... áls WIJ-ZELF hem niet voortdurend... zouden verkondigen.",
-        "Doén wat die jesajaanse profeet deed; doén wat Johannes de Voorloper deed."
+        "Ons bevrijdingswerk is geen gladde, vanzelfsprekende triomfantelijke weg",
+        "Dát is (...) de opdracht van onze ambtelijke dienst",
+        "Deemoedige en toch durvende voorlopers zijn er daarom altijd nodig"
       ],
-      "zuspruch_vs_anspruch_balans": "Hellend vlak richting Anspruch. De verlossing lijkt afhankelijk van onze aanwijzing ('als wij hem niet verkondigen, blijft hij onbekend').",
-      "risico_op_moralisme": "Hoog. Het wordt een ethisch imperatief om 'bevrijding waar te maken'.",
+      "zuspruch_vs_anspruch_balans": "Hellend vlak richting Anspruch. De indicatief ('God komt') wordt snel een imperatief ('Wijs Hem aan').",
+      "risico_op_moralisme": "Hoog. Het 'bevrijdingswerk' wordt een zware ethische last.",
       "sterke_punten": [
-        "Duidelijke mobilisatie van de gemeente: geloof is geen privézaak.",
-        "Realistisch over de kosten van navolging (geen 'goedkoop' evangelie)."
+        "Duidelijke richting: christendom is geen comfort maar navolging",
+        "Concreet gemaakt in de taak van de kerk (aanwijzen)"
       ],
       "verbeterpunten": [
-        "Meer nadruk op dat Christus de weg *is*, voordat wij de weg moeten *banen*.",
-        "De troost voor wie faalt in het 'bevrijdingswerk' ontbreekt nagenoeg."
+        "Meer nadruk op Gods eenzijdige genade voor wie faalt in de woestijn",
+        "Het 'moeten' overheerst het 'mogen'"
       ]
     }
   },
   "congruentie_en_storingen": {
-    "congruentie_oordeel": "De preek is intern congruent: een intellectuele preek van een intellectueel over een tekst die vraagt om inzicht. Vorm en inhoud kloppen bij de spreker.",
-    "dominante_zijde": "Blauw (Zakelijke Inhoud)",
-    "storingen": "De voornaamste storing is de 'academische ruis'. De exegetische details over de Griekse vertaling van Jesaja zijn interessant voor theologen, maar ruis voor de ziel die zoekt naar God.",
-    "heilzame_storing": "Ja, de deconstructie van de 'Babylonische triomfstraat' is een heilzame storing. Het haalt de hoorder uit de illusie dat geloof succes betekent."
+    "congruentie_oordeel": "De preek is intern congruent (de vorm past bij de spreker), maar homiletisch uit balans. Een professor die een college geeft over nederigheid is een paradox.",
+    "dominante_zijde": "Blauw (Zakelijk/Inhoud)",
+    "storingen": "Intellectualiserings-storing: De emotionele lading van 'woestijn' en 'lijden' wordt geanalyseerd in plaats van voelbaar gemaakt.",
+    "heilzame_storing": "Ja, de deconstructie van 'Gods macht' (geen boulevard maar woestijn) is een heilzame theologische correctie op triomfalisme."
   },
   "receptie_simulatie": {
-    "het_zakelijk_oor_hoort": "Een fascinerende uiteenzetting over intertekstualiteit tussen Marcus, Jesaja en Exodus, en de culturele context van Babylonische processies.",
-    "het_relatie_oor_hoort": "De professor legt ons uit hoe het zit. Wij moeten luisteren en leren. Hij vindt ons wel belangrijk genoeg om deze kennis mee te delen.",
-    "het_appel_oor_hoort": "Ik moet aan de slag. Bevrijding komt niet vanzelf. Ik moet de woestijn in, lijden riskeren en Jezus aanwijzen, anders blijft Hij onbekend.",
-    "het_zelfonthulling_oor_hoort": "Deze man heeft veel gelezen en kijkt met een kritische, politiek-bewuste blik naar de bijbel en de wereld."
+    "het_zakelijk_oor_hoort": "Een fascinerende uiteenzetting over de intertekstualiteit tussen Marcus en Jesaja, en de historische context van Babylonische processiewegen.",
+    "het_relatie_oor_hoort": "Hij weet het allemaal heel goed. Ik voel me klein. Ik moet luisteren naar de meester.",
+    "het_appel_oor_hoort": "Ik mag niet stilzitten. Ik moet de woestijn in. Ik moet bevrijding brengen, ook al kost het bloed en tranen. Aan het werk!",
+    "het_zelfonthulling_oor_hoort": "Deze man is diep intellectueel en zeer betrokken bij de theologie van de bevrijding, maar hij laat zijn eigen hart niet zien."
   },
   "totaalbeeld": {
-    "overall_communicatie_score": 7,
-    "samenvatting": "Schillebeeckx levert een homiletisch bouwwerk af dat typisch is voor zijn tijd en statuur: inhoudelijk rijk, exegetisch verantwoord en maatschappelijk betrokken. De kracht ligt in de 'blauwe' zijde: de herinterpretatie van Gods macht als onmacht en de woestijnmetafoor is theologisch goud. Echter, communicatief leunt de preek zwaar op het intellect. De 'rode' zijde (het appèl) vertoont kenmerken van een activistische soteriologie waarbij de menselijke inzet (het aanwijzen, het banen van de weg) cruciaal wordt gemaakt voor de effectiviteit van Gods komst. Dit is inspirerend voor de sterken, maar potentieel verpletterend voor de zwakken.",
-    "barthiaanse_waarschuwing": "Er is sprake van een subtiele verschuiving van het *Subject* (God die komt) naar het *object* van onze activiteit (wij die de weg moeten banen). Barth zou waarschuwen: maak van de 'komst van de Heer' niet afhankelijk van onze 'dominicaanse roeping' of politieke inzet. De openbaring staat of valt niet met onze vingerwijzing, hoewel wij wel geroepen zijn te wijzen.",
+    "overall_communicatie_score": 6.5,
+    "samenvatting": "Schillebeeckx levert een preek af die intellectueel schittert maar relationeel schuurt. Vanuit het Vier-Zijden-Model is de 'Blauwe' zijde overontwikkeld ten koste van de 'Groene' en 'Gele' zijde. Hij spreekt *over* God en *over* lijden, met een indrukwekkende exegetische diepgang. De metafoor van de 'Babylonische boulevard' versus de 'Woestijnweg' is een homiletische voltreffer die theologisch zuiver is (Theologia Crucis). Echter, de preek blijft hangen in de sfeer van een hoorcollege. De hoorder wordt geïnformeerd en geactiveerd, maar nauwelijks getroost of existentieel ontmoet. Het is een preek voor het hoofd en de wil, minder voor het hart.",
+    "barthiaanse_waarschuwing": "Er is sprake van een subtiele antropocentrische wending. Hoewel God 'De Komende' is, verschuift het zwaartepunt in het slot naar *ons* bevrijdingswerk en *onze* taak om te wijzen. God dreigt het object van onze theologie en onze actie te worden, in plaats van het soevereine Subject dat spreekt.",
     "top_3_sterke_punten": [
-      "Theologische diepgang in het contrast Macht (Babylon) vs. Onmacht (God).",
-      "Consistente lijn vanuit de tekst (Johannes als model).",
-      "Vermijding van goedkoop sentiment of religieuze clichés."
+      "Uitmuntende exegetische en culturele duiding",
+      "Sterke theologie van de 'onmacht' (anti-triomfalisme)",
+      "Heldere structuur en lijn"
     ],
     "top_3_verbeterpunten": [
-      "Te hoog abstractieniveau en academisch jargon ('aggelos', punctuatiefouten).",
-      "Onderwaardering van de 'Zuspruch': de genade dreigt ondergesneeuwd te raken door de ethische opdracht.",
-      "Gebrek aan existentiële nabijheid; de preek blijft een beschouwing van bovenaf."
+      "Te hoog abstractieniveau en academisch jargon",
+      "Gebrek aan persoonlijke kwetsbaarheid en pastorale nabijheid",
+      "Appel neigt naar ethisch activisme (Wet) boven genade (Evangelie)"
     ],
-    "conclusie": "Een sterke, inhoudelijke preek voor een gevorderd gehoor, die echter theologisch balanceert op de rand van moralisme en communicatief lijdt onder een teveel aan doceren."
+    "conclusie": "Een inhoudelijk rijke, maar communicatief afstandelijke preek. Geschikt voor een intellectuele elite, maar mist de eenvoud en warmte om de 'gewone' gelovige existentieel te raken in zijn aanvechting."
   }
 }
