@@ -1,92 +1,91 @@
 {
   "metadata": {
-    "liturgie_check": "Schriftlezingen aanwezig (Psalm 8 en Lukas 24)",
-    "geschatte_woordlengte": 2350,
-    "geschatte_tijdsduur_minuten": 21
+    "liturgie_check": "Schriftlezingen zijn aanwezig (Psalm 8 en Lukas 24).",
+    "geschatte_woordlengte": 1980,
+    "geschatte_tijdsduur_minuten": 20
   },
   "analyse_per_criterium": {
     "1_specifiek_bijbelgedeelte": {
-      "score_1_tot_10": 7,
-      "bevindingen": "De preek neemt formeel twee teksten als uitgangspunt (Psalm 8 en Lukas 24). Volgens Dekkers thesen moet er één specifieke pericoop ten grondslag liggen om veralgemenisering te voorkomen. Hoewel de prediker thematisch een sterke brug slaat tussen de mensvisie in de Psalm en de christologie in Lukas, dreigt hierdoor het gevaar dat de preek een thematische verhandeling over 'lichamelijkheid' wordt in plaats van een pure proclamatie van één tekst. Desalniettemin wordt de tekst serieus genomen en niet slechts als kapstok gebruikt.",
+      "score_1_tot_10": 6,
+      "bevindingen": "De preek focust op specifieke details (de wonden, de vis), wat positief is. Echter, de koppeling tussen Psalm 8 en Lukas 24 voelt thematisch gestuurd ('het lichaam') eerder dan dat één pericoop volledig heerst. De preek gebruikt de teksten om een punt over lichamelijkheid te maken, in plaats van dat de tekst zelf het onverwachte Woord spreekt. Het gevaar van een 'toespraak over een thema' (lichamelijkheid) ligt op de loer.",
       "quotes": [
         "De tekst van de overdenking is genomen uit de gelezen schriftgedeeltes en wel Psalm 8:5 en 6.",
         "En in het heilig evangelie, Lukas 24: 39 en 40"
       ],
-      "verbeterpunt": "Kies radicaal voor één pericoop (bijv. Lukas 24) en laat Psalm 8 enkel als resonantie op de achtergrond meedoen, of andersom. Dit dwingt tot nog diepere boring in de specificiteit van die ene tekst."
+      "verbeterpunt": "Laat één tekst de leiding nemen. Nu dienen twee teksten een vooropgezet theologisch thema (anti-gnostiek). Graaf dieper in wat Lukas 24 uniek maakt ten opzichte van andere opstandingsverhalen zonder direct naar Psalm 8 te springen."
     },
     "2_exegese_oorspronkelijke_context": {
-      "score_1_tot_10": 8,
-      "bevindingen": "De prediker toont gedegen exegetische kennis, met name in de behandeling van de Septuagint-vertaling van Psalm 8 versus de Hebreeuwse grondtekst ('elohim' vs 'angelos'). Hij legt uit waarom de vertalers moeite hadden met de tekst, wat een uitstekende manier is om de theologische weerstand van de hoorder te spiegelen aan de historie.",
+      "score_1_tot_10": 7,
+      "bevindingen": "Er is aandacht voor de grondtekst en vertaalgeschiedenis (Septuaginta vs. Masoretische tekst). De prediker toont exegetische bagage door het verschil tussen 'elohim' en 'engelen' te benoemen. De psychologisering van de vertalers ('krabt in zijn baard') is speculatief maar functioneel.",
       "quotes": [
-        "Tijdens het vertaalproces lopen de geleerden echter vast in Psalm 8.",
-        "Ze veranderen in hun overzetting van Hebreeuws naar Grieks het woordje ‘God’ in het woordje ‘engel’."
+        "Ze veranderen in hun overzetting van Hebreeuws naar Grieks het woordje ‘God’ in het woordje ‘engel’.",
+        "De mens bijna op het niveau van God, dat staat er in het Hebreeuws."
       ],
-      "verbeterpunt": "De exegese van Lukas 24 is iets minder taalkundig/historisch diepgaand dan die van Psalm 8. Meer aandacht voor de Joodse opstandingsverwachting vs. Grieks dualisme in de context van Lukas zou de exegese balanceren."
+      "verbeterpunt": "De exegese van Lukas 24 blijft wat achter bij die van Psalm 8. De Joodse context van lichamelijke opstanding tegenover Grieks dualisme wordt goed aangestipt, maar had scherper uit de Lukas-tekst zelf gehaald kunnen worden."
     },
     "3_toepassing_concreet_actueel": {
-      "score_1_tot_10": 9,
-      "bevindingen": "De toepassing is zeer concreet en vermijdt algemene waarheden. Er wordt gesproken over specifieke lichamelijke ongemakken (rugwervel, tanden, DNA-slijtage) en moderne fenomenen (uploaden naar internet, virtual reality). De prediker heeft goed oog voor de 'tijdgeest' van lichamelijke perfectie en de wens om eraan te ontsnappen.",
+      "score_1_tot_10": 7,
+      "bevindingen": "De toepassing is concreet en herkenbaar. De prediker noemt specifieke hedendaagse fenomenen (long-covid, DNA-slijtage, het verlangen om te uploaden naar het internet). Dit raakt de tijdgeest van transhumanisme en lichaamsafwijzing. Het vermijdt de valkuil van vrome algemeenheden.",
       "quotes": [
-        "Of desnoods een virtueel wezen, door jezelf uploaden naar het internet ofzo.",
-        "Al voor de geboorte van je lichaam, in de moederschoot, begint je DNA te slijten.",
-        "Ik weet niet of u weleens drie dagen en drie nachten ziek op bed heeft gelegen – met koorts, bijvoorbeeld."
+        "Traag maar onomkeerbaar wordt het stervensproces ingezet, terwijl de navelstreng er nog aanzit.",
+        "Of desnoods een virtueel wezen, door jezelf uploaden naar het internet ofzo."
       ],
-      "verbeterpunt": "Geen; de concretisering van het abstracte dogma 'opstanding des vlezes' naar alledaagse lichamelijke ervaringen is uitstekend geslaagd."
+      "verbeterpunt": "De toepassing aan het einde ('de luiken open', 'arm om schouder') vervalt in moreel activisme en is minder scherp dan de diagnose van het fysieke verval."
     },
     "4_verwevenheid_uitleg_toepassing": {
-      "score_1_tot_10": 8,
-      "bevindingen": "Uitleg en toepassing lopen vloeiend in elkaar over. De exegetische notitie over Psalm 8 wordt direct verbonden aan de menselijke schaamte voor het lichaam. De beschrijving van Jezus' wonden wordt direct verbonden aan onze eigen 'gaten' en imperfecties. De hoorder wordt effectief in de tekst getrokken.",
+      "score_1_tot_10": 6,
+      "bevindingen": "Er is een redelijke verwevenheid. De uitleg van de 'vette vis' en de 'wonden' vloeit over in de menselijke ervaring van ziekte en schaamte. Toch is er een duidelijk blok 'menselijke ervaring' (fietsen, ouderdom) dat los lijkt te staan van de directe exegese, waarna de tekst als antwoord wordt aangedragen.",
       "quotes": [
-        "Wat Jezus hier doet is niet minder dan een schandaal voor het oude Griekenland.",
-        "Ook dat. Je schaamt je als je in de spiegel kijkt, je schaamt je voor de mensen om je heen"
+        "Ik weet niet of u weleens drie dagen en drie nachten ziek op bed heeft gelegen...",
+        "Na drie dagen en die nachten ziek zijn, eet je geen bak met kibbeling."
       ],
-      "verbeterpunt": "De overgang van de 'preek over het lichaam' naar de opdracht 'gaat dan heen' (Jeruzalem) aan het slot voelt iets meer als een losstaand imperatief na een lange indicatief. Probeer de zending nog meer in de beweging van de tekst zelf te laten ontstaan."
+      "verbeterpunt": "Trek de hoorder directer *in* de scene van Lukas 24, in plaats van eerst een algemene beschouwing over het lichaam te geven en dan pas naar Jezus te gaan."
     },
     "5_drie_stukken_ellende_verlossing_dankbaarheid": {
-      "score_1_tot_10": 9,
-      "bevindingen": "De structuur van de Heidelbergse Catechismus is impliciet maar krachtig aanwezig. Ellende: de broosheid en schaamte van het lichaam en de neiging tot 'ontsnapping'. Verlossing: Jezus' lichamelijke opstanding en acceptatie van de wonden. Dankbaarheid: het naar buiten gaan, de ander fysiek dienen. De psychologische duiding (schaamte) wordt theologisch correct ingekaderd.",
+      "score_1_tot_10": 5,
+      "bevindingen": "De structuur is aanwezig, maar de inhoud is verschoven. 'Ellende' wordt hier gedefinieerd als 'fysieke eindigheid/kwetsbaarheid' in plaats van 'zonde/schuld tegenover God'. De verlossing is 'solidariteit/herkenning' in plaats van 'verzoening'. De dankbaarheid is 'erop uit gaan'. Dit is een psychologisering en medicalisering van de drie stukken.",
       "quotes": [
-        "Ons lichaam is het bewijs dat we niet als God zijn. (Ellende)",
-        "Jezus’ identiteit zijn de gaten en de wonden. (Verlossing)",
-        "Buiten de kerk zijn er handen om vast te pakken, voeten om te verbinden... (Dankbaarheid)"
+        "Ellende: 'Onze sterfelijkheid en onze lichamelijke onvolmaaktheid maakt de vergelijking tussen mens en God zeer ongemakkelijk.'",
+        "Verlossing: 'Hij is een steun voor iedereen die worstelt met pijn, teleurstelling en schaamte.'"
       ],
-      "verbeterpunt": "De 'ellende' wordt sterk psychologisch/fysiek geduid. De theologische dimensie van de zonde (de wil om als God te zijn door het lichaam te verwerpen) wordt genoemd, maar kan nog scherper worden aangezet als de wortel van de ellende."
+      "verbeterpunt": "De 'Ellende' moet theologischer: het gaat niet alleen om een kapot lichaam (natuurlijk kwaad), maar om de gebroken relatie met God. De preek blijft hangen in de 'tragedy of life' in plaats van de 'misery of sin'. De verlossing moet meer zijn dan 'Jezus snapt mijn pijn'."
     },
     "6_twee_wegen_ernst_van_keuze": {
-      "score_1_tot_10": 6,
-      "bevindingen": "Dit is het zwakste punt volgens de criteria van Dekker. De preek is sterk therapeutisch en bemoedigend ('je hoeft je niet te schamen'). De notie van de 'twee wegen' (verloren gaan versus behouden worden) is aanwezig in de contrasten 'ontsnappen/vluchten' versus 'aanvaarden/opstanding', maar het existentiële gewicht van het 'verloren kunnen gaan' (tijdelijk of eeuwig) klinkt gedempt. Het 'oordeel' over de gnostische vluchtweg is helder, maar de consequentie voor de hoorder blijft zacht.",
+      "score_1_tot_10": 3,
+      "bevindingen": "Dit aspect ontbreekt nagenoeg. Er is geen sprake van 'verloren gaan' in bijbelse zin (oordeel), enkel van 'verloren gaan' in existentiële zin (vluchten in virtualiteit, schaamte). De ernst van de keuze voor of tegen Christus als Rechter en Redder ontbreekt. Het is therapeutisch: acceptatie vs. schaamte, niet leven vs. dood.",
       "quotes": [
-        "Nee, wie naar zijn lichaam kijkt kan maar één ding concluderen: wij zijn geen goden.",
-        "Het is ook niet christelijk, want God heeft ons juist geschapen met een lijf."
+        "De wens om te ontsnappen kan dan zomaar aan het oppervlakte komen.",
+        "Ook dat. Je schaamt je als je in de spiegel kijkt..."
       ],
-      "verbeterpunt": "Durf de 'brede weg' van de lichaamsvlucht niet alleen als 'niet christelijk' of 'jammer' te schetsen, maar als een weg die leidt tot de dood en verlies van mens-zijn. Het contrast mag scherper: kiezen voor het lichaam is kiezen voor Gods schepping, het verwerpen is een vorm van ongeloof."
+      "verbeterpunt": "Breng de notie van oordeel en genade terug. De 'twee wegen' zijn hier gereduceerd tot 'je lichaam accepteren of niet'. Dekker vraagt om het besef dat een mens in tijd en eeuwigheid verloren kan gaan door ongeloof."
     },
     "7_christocentrisch_genade": {
-      "score_1_tot_10": 10,
-      "bevindingen": "De preek is radicaal christocentrisch. Christus is het 'telos'. De preek draait om Zijn lichaam, Zijn wonden, Zijn eten van de vis. De theologie van de incarnatie en de twee naturen (God en mens) staat centraal. Het heil wordt volledig buiten de mens (extra nos) in de opgestane Christus gezocht, die vervolgens ons leven heiligt.",
+      "score_1_tot_10": 6,
+      "bevindingen": "Christus staat centraal, zeker in Zijn opstanding en lichamelijkheid (anti-docetisme). Echter, Hij fungeert voornamelijk als 'bemoediging' en 'voorbeeld'. De preek benadrukt de incarnatie en opstanding, maar de noodzaak van Zijn offer (verzoening) is impliciet. Christus is hier de 'Great Sympathizer'.",
       "quotes": [
-        "Het wonder van de Paasontmoeting is dat Jezus zijn identiteit, zijn zelf, vindt in zijn lichaam.",
-        "Zie Mijn handen en Mijn voeten, want Ik ben het Zelf."
+        "Jezus’ identiteit zijn de gaten en de wonden.",
+        "Hij is een antwoord op alle vormen van gebrokenheid die een lijfelijke plek krijgen."
       ],
-      "verbeterpunt": "Geen. Dit is een voorbeeldige uitwerking van Karl Barths nadruk op de concrete openbaring in het vlees."
+      "verbeterpunt": "Christus moet meer zijn dan een spiegel die zegt 'het is oké om kapot te zijn'. Hij is het Telos omdat Hij God is die redt, niet alleen God die mee-lijdt. De 'genade' is nu vooral 'zelfacceptatie door goddelijke acceptatie'."
     },
     "8_diepgang_en_lengte": {
       "score_1_tot_10": 8,
-      "bevindingen": "Met circa 2350 woorden komt de preek uit op ruim 21 minuten. Dit voldoet aan de eis van Dekker dat diepte breedte nodig heeft. De preek neemt de tijd om een complex theologisch punt (lichamelijkheid vs. docetisme) uit te werken zonder haast.",
-      "verbeterpunt": "De lengte wordt goed benut, hoewel de anekdote over het fietsen relatief lang is. De theologische dichtheid is voldoende."
+      "bevindingen": "Met circa 2000 woorden voldoet de preek ruim aan de lengte-eis van 20 minuten. Er wordt tijd genomen om gedachten te ontwikkelen.",
+      "verbeterpunt": "Geen opmerkingen over lengte, de diepgang zit hem in de uitwerking van het lichamelijke, hoewel de theologische diepgang (dogmatiek) soms wijkt voor pastorale duiding."
     }
   },
   "algehele_beoordeling": {
-    "samenvatting": "Een inhoudelijk sterke, theologisch verantwoorde preek die de opstanding fysiek en concreet maakt. De prediker verstaat de kunst om dogmatiek (anti-docetisme, incarnatie) te vertalen naar de existentiële ervaring van de moderne mens (schaamte, medicalisering). De preek voldoet grotendeels aan de thesen van Dekker, met name in de verwevenheid van uitleg en toepassing en de christocentrische focus.",
+    "samenvatting": "De preek is een sterk pleidooi voor de waardering van het lichamelijke bestaan tegenover gnostieke en moderne vluchtwegen. Volgens de thesen van Dekker schiet de preek echter tekort op het dogmatische vlak: de 'ellende' is gemedicaliseerd (fysiek verval) en de 'twee wegen' (oordeel/redding) ontbreken volledig. Het is een therapeutische preek die Christus presenteert als solidaire bondgenoot in onze broosheid, eerder dan als de Rechter en Redder die verzoening brengt.",
     "sterke_punten": [
-      "Uitstekende concretisering van de lichamelijke opstanding (kibbeling, wonden, DNA).",
-      "Radicale christocentriciteit: Jezus' lichaam is de sleutel.",
-      "Goede culturele analyse van de menselijke wens om te 'ontsnappen' aan het lichaam."
+      "Concrete en actuele toepassing (transhumanisme, fysieke aftakeling).",
+      "Heldere exegese van de 'anti-gnostieke' elementen in Lukas 24 (vis eten, wonden).",
+      "Voldoende lengte om de gedachten goed neer te zetten."
     ],
     "zwakke_punten": [
-      "Gebruik van twee tekstgedeeltes in plaats van één centrale pericoop verwatert de focus iets.",
-      "De 'twee wegen' (ernst van verloren gaan) blijven onderbelicht ten gunste van bemoediging."
+      "Vervanging van theologische categorieën (zonde/oordeel) door psychologische/biologische categorieën (schaamte/verval).",
+      "Afwezigheid van de 'twee wegen' en de ernst van het verloren gaan.",
+      "Christocentriek neigt naar exemplarisch ('Hij accepteert Zijn wonden, dus wij ook') in plaats van soteriologisch."
     ],
-    "eindoordeel_volgens_dekker": "Deze preek is een waardige gestalte van het Woord van God. De prediker is geen fietsenmaker die het wiel verkeerd monteert, maar verstaat zijn vak. Hij durft theologisch inhoudelijk te zijn en weerstaat de verleiding tot algemene religieuze praatjes. Met iets meer scherpte op de 'twee wegen' en een striktere beperking tot één tekst zou het de perfectie benaderen."
+    "eindoordeel_volgens_dekker": "Een invoelende en troostrijke toespraak die de Schrift serieus neemt in haar materiële aspecten, maar dogmatisch te 'zacht' is om volledig als preek in de zin van Dekker te gelden. De scherpte van de Wet en de radicaliteit van het Evangelie zijn afgezwakt tot de tragiek van het leven en de troost van de herkenning."
   }
 }
