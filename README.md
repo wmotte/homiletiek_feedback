@@ -5,6 +5,8 @@
 
 **Bekijk voorbeelden van structurele feedback:** [wmotte.github.io/homiletiek_feedback](https://wmotte.github.io/homiletiek_feedback/)
 
+** ⚡ UPDATE 10 januari 2026 ⚡ **: *Naar aanleiding van de verzoeken van voorgangers om gebruik te maken van deze tool, start er een publieke pilot. Elke maandagochtend verschijnt hier een contextuele analyse van de lezingen uit het oecumenisch leesrooster voor de komende zondag, uitgewerkt voor drie willekeurige PKN-gemeenten.*
+
 ---
 
 ### Het belang van feedback voor voorgangers
