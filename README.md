@@ -103,13 +103,15 @@ homiletiek_feedback/
 ├── prompts/                           # LLM prompts
 │   ├── analyze_kolb_cyclus.md
 │   ├── analyze_sermon_dekker.md
-│   └── analyze_aristoteles.md
+│   ├── analyze_aristoteles.md
+│   └── analyze_schulz_von_thun.md
 ├── docs/                              # Documentatie en voorbeelden
 │   └── template_aristoteles.json
 ├── misc/                              # Achtergronddocumentatie
 │   ├── aristotelische_modi.md
 │   ├── kolbs_leercyclus.md
-│   └── wat_is_een_preek_dekker.md
+│   ├── wat_is_een_preek_dekker.md
+│   └── schulz_von_thun.md
 └── technical/                         # Hulpscripts
 ```
 
@@ -228,3 +230,11 @@ Sölle, D. (2023). Gesammelte Werke, Band 11: Löse die Fesseln des Unrechts, Ve
 Schillebeeckx, E. (1982). Evangelie verhalen, H. Nelissen.
 
 Dekker, W.M. (2025). "Wat is een preek? Thesen." *In de Waagschaal*, nr. 2, 8 februari 2025.
+
+Kolb, D.A. (1984). *Experiential Learning: Experience as the Source of Learning and Development*. Prentice Hall.
+
+Anderson, K.C. (2006). *Choosing to Preach: A Comprehensive Introduction to Sermon Design and Delivery*. Zondervan.
+
+Aristoteles. *Retorica*. (Zie ook: Rapp, C. (2022). "Aristotle's Rhetoric", *The Stanford Encyclopedia of Philosophy*. [https://plato.stanford.edu/entries/aristotle-rhetoric/](https://plato.stanford.edu/entries/aristotle-rhetoric/))
+
+Schulz von Thun, F. (1981). *Miteinander reden 1: Störungen und Klärungen. Allgemeine Psychologie der Kommunikation*. Rowohlt. (Zie ook: [Het Communicatievierkant - Schulz von Thun Institut](https://www.schulz-von-thun.de/die-modelle/das-kommunikationsquadrat))
