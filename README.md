@@ -25,7 +25,7 @@ Dit project biedt een hulpmiddel voor die evaluatie - door te illustreren hoe ee
 
 ### Wat doet dit project?
 
-Dit project biedt drie complementaire methoden voor de systematische analyse van preken aan:
+Dit project biedt vier complementaire methoden voor de systematische analyse van preken aan:
 
 #### 1. De Leercyclus van Kolb (Homiletic Window)
 Analyseert of de preek de volledige cyclus van ervaringsgericht leren doorloopt, zodat verschillende typen hoorders (leerstijlen) worden aangesproken. Dit is gebaseerd op de homiletische typologie van **Kenton Anderson**:
@@ -60,11 +60,23 @@ Deze methode diagnosticeert welk element uit balans is en biedt gerichte feedbac
 
 **Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/aristotelische_modi.md`.
 
+#### 4. Het Communicatiemodel van Schulz von Thun
+Analyseert de communicatieve balans van de preek via de vier oren van de luisteraar (het Communicatievierkant):
+
+- **Zakelijk** (De 'Sache' - *Wat wordt er feitelijk gezegd?*)
+- **Zelf-onthulling** (Expressie - *Wat toont de prediker van zichzelf?*)
+- **Relatie** (Betrekking - *Hoe staat de prediker tegenover de gemeente?*)
+- **Appel** (Sturing - *Wat moet de hoorder doen?*)
+
+Deze analyse waakt voor 'homiletische incongruentie' (waar toon en inhoud botsen) en toetst of het theologische onderscheid tussen *Zuspruch* (toezegging) en *Anspruch* (eis) zuiver blijft.
+
+**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/schulz_von_thun.md`.
+
 ---
 
 Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
-**Artikelen:** De brontekst van Dekker, de toelichting op Kolb, en de uitleg over Aristotelische Modi zijn opgenomen in de map `misc/`.
+**Artikelen:** De brontekst van Dekker, de toelichting op Kolb, de uitleg over Aristotelische Modi en de analyse van Schulz von Thun zijn opgenomen in de map `misc/`.
 
 ---
 
@@ -72,7 +84,7 @@ Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
 In de map `input/` staan **voorbeeldpreken**:
 
-Deze preken zijn geanalyseerd met beide systemen. De resultaten staan in `outputs/` en zijn visueel te bekijken via de [web-interface](https://wmotte.github.io/homiletiek_feedback/).
+Deze preken zijn geanalyseerd met alle systemen. De resultaten staan in `outputs/` en zijn visueel te bekijken via de [web-interface](https://wmotte.github.io/homiletiek_feedback/).
 
 ---
 
@@ -84,6 +96,7 @@ homiletiek_feedback/
 ├── analyze_kolb_cyclus.py             # Analyse op basis van Kolb/Anderson
 ├── analyze_sermon_dekker.py           # Analyse op basis van Dekker-thesen
 ├── analyze_aristoteles.py             # Analyse op basis van Aristotelische Modi
+├── analyze_schulz_von_thun.py         # Analyse op basis van Schulz von Thun
 ├── .env                               # API-sleutel configuratie (niet in git)
 ├── input/                             # Preekteksten (*.txt)
 ├── outputs/                           # Analyse-resultaten (*.json)
@@ -136,6 +149,11 @@ python analyze_kolb_cyclus.py --i input/preek.txt
 python analyze_aristoteles.py --i input/preek.txt
 ```
 
+**Voor het Communicatievierkant (Schulz von Thun):**
+```bash
+python analyze_schulz_von_thun.py --i input/preek.txt
+```
+
 #### 5. Bekijk de resultaten
 Het script genereert een JSON-bestand in `outputs/` met:
 - Metadata (geschatte lengte, tijdsduur)
@@ -170,9 +188,9 @@ Deze regel bewaart de prediking tegen zowel te objectieve als te subjectieve uit
 
 ---
 
-### De Drie Methoden: Complementaire Perspectieven
+### De Vier Methoden: Complementaire Perspectieven
 
-De drie analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
+De vier analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
 1. **Dekkers Thesen** beoordelen de **theologische inhoud**: Is de preek schriftuurlijk, christocentrisch, en existentieel?
 
@@ -180,12 +198,15 @@ De drie analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
 3. **Aristoteles' Modi** diagnosticeren de **retorische kracht**: Is de preek logisch samenhangend (Logos), emotioneel resonant (Pathos), en authentiek gebracht (Ethos)?
 
-**Samen** vormen deze drie methoden een holistische evaluatie:
+4. **Schulz von Thun** onderzoekt de **communicatieve integriteit**: Is de boodschap congruent en landt deze zuiver op de vier oren van de hoorder?
+
+**Samen** vormen deze vier methoden een holistische evaluatie:
 - Dekker vraagt: "Is het **waar**?"
 - Kolb vraagt: "Wordt het **geleerd**?"
 - Aristoteles vraagt: "Is het **overtuigend**?"
+- Schulz von Thun vraagt: "Is het **congruent**?"
 
-Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag) of missen van emotionele impact (Aristoteles: laag Pathos). Door alle drie de methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
+Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag) of missen van emotionele impact (Aristoteles: laag Pathos). Door alle vier de methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
 
 ---
 
