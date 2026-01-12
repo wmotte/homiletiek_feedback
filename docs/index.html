@@ -451,6 +451,7 @@
             <option value="dekker">Dekker analyse</option>
             <option value="aristoteles">Aristoteles analyse</option>
             <option value="schulz">Schulz von Thun analyse</option>
+            <option value="esthetiek">Esthetiek analyse</option>
         </select>
 
         <nav class="tab-nav">
@@ -585,6 +586,10 @@
         'schulz': {
             text: 'Het communicatiemodel van Schulz von Thun analyseert de vier boodschappen die in elke preek tegelijkertijd klinken:\n\n• Zakelijke Inhoud (Blauw) – Feiten, exegese en theologische waarheid\n• Zelf-onthulling (Groen) – De authenticiteit en persoonlijkheid van de prediker\n• Relatie (Geel) – Hoe de prediker de gemeente ziet en aanspreekt\n• Appel (Rood) – De oproep tot actie of geloof (Wet vs. Evangelie)\n\nDeze analyse toetst ook de congruentie (kloppen toon en inhoud?) en de balans, om te voorkomen dat de preek eenzijdig intellectualistisch (blauw), narcistisch (groen), betuttelend (geel) of moralistisch (rood) wordt.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/schulz_von_thun.md'
+        },
+        'esthetiek': {
+            text: 'De esthetische wending in de homiletiek benadrukt dat een preek niet alleen theologisch correct moet zijn, maar ook esthetisch overtuigend. Deze analyse toetst op twee domeinen:\n\n• Domein A: Poëtica van de Taal (Micro-Esthetiek) – Beeldend taalgebruik, zorgvuldigheid en precisie, muzikaliteit en ritme\n• Domein B: Dramaturgie van de Structuur (Macro-Esthetiek) – Narratieve spanningsboog, integratie van tekst en context, openheid vs. geslotenheid\n\nDaarnaast wordt getoetst op Anti-Kitsch (afwezigheid van goedkope emotie en religieuze clichés) en Ruimte voor Genade (Cilliers\' centrale concept: een preek moet ruimte laten voor het mysterie). Gebaseerd op het werk van Johan Cilliers, Ciska Stark, Gerrit Immink, Paul Scott Wilson, Thomas Long en anderen.',
+            link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/esthetische_wending.md'
         }
     };
 
@@ -623,6 +628,7 @@
             if (analysisType === 'kolb') jsonSuffix = '_kolb';
             else if (analysisType === 'aristoteles') jsonSuffix = '_aristoteles';
             else if (analysisType === 'schulz') jsonSuffix = '_schulz_von_thun';
+            else if (analysisType === 'esthetiek') jsonSuffix = '_esthetiek';
 
             const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
             if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
@@ -634,6 +640,8 @@
                 renderAnalysisAristoteles(data);
             } else if (analysisType === 'schulz') {
                 renderAnalysisSchulzVonThun(data);
+            } else if (analysisType === 'esthetiek') {
+                renderAnalysisEsthetiek(data);
             } else {
                 renderAnalysisDekker(data);
             }
@@ -1404,6 +1412,293 @@
             </div>
         `;
         container.appendChild(simulatieCard);
+    }
+
+    function renderAnalysisEsthetiek(data) {
+        const container = document.getElementById('dashboard-content');
+        container.innerHTML = '';
+
+        // Totaalbeeld card
+        const summaryCard = document.createElement('div');
+        summaryCard.className = 'card full-width';
+        summaryCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Totaalbeeld – Esthetische analyse</span>
+                <span class="score-badge score-high">${data.totaalbeeld_esthetiek.overall_esthetische_score}/10</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_tijdsduur_minuten} min</span>
+                    <span class="stat-lbl">Tijdsduur</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${data.metadata.geschatte_woordlengte}</span>
+                    <span class="stat-lbl">Woorden</span>
+                 </div>
+                 <div class="stat-item">
+                    ${(() => {
+                        const stijl = data.totaalbeeld_esthetiek.primaire_esthetische_stijl;
+                        // Try splitting on " - " first, then fall back to ". "
+                        let hoofdterm, beschrijving;
+                        if (stijl.includes(' - ')) {
+                            const parts = stijl.split(' - ');
+                            hoofdterm = parts[0];
+                            beschrijving = parts.slice(1).join(' - ');
+                        } else {
+                            const parts = stijl.split('. ');
+                            hoofdterm = parts[0];
+                            beschrijving = parts.slice(1).join('. ');
+                        }
+                        return `
+                            <span class="stat-val">${formatText(hoofdterm)}</span>
+                            ${beschrijving ? `<span style="font-size: 0.75rem; color: var(--text-muted); line-height: 1.3; margin-top: 0.25rem; display: block;">${formatText(beschrijving)}</span>` : ''}
+                            <span class="stat-lbl">Esthetische Stijl</span>
+                        `;
+                    })()}
+                 </div>
+            </div>
+            <div class="summary-columns" style="gap: 1rem; margin-top: 0;">
+                <div class="summary-col">
+                    <h3 style="color: var(--success-color); font-size: 0.95rem;">Sterke punten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld_esthetiek.sterke_punten_top_3.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="summary-col">
+                    <h3 style="color: var(--danger-color); font-size: 0.95rem;">Verbeterpunten</h3>
+                    <ul class="summary-list">
+                        ${data.totaalbeeld_esthetiek.verbeterpunten_top_3.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+        `;
+        container.appendChild(summaryCard);
+
+        // Domein scores overview
+        const domeinScoresCard = document.createElement('div');
+        domeinScoresCard.className = 'card full-width';
+        domeinScoresCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">📊 Domeinen overzicht</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">Poëtica van de Taal</strong>
+                    <p style="font-size: 1.5rem; margin: 0.5rem 0; font-weight: 600;">${data.domein_a_poetica_van_de_taal.gemiddelde_score_taal}/10</p>
+                    <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0;">Micro-Esthetiek</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">Dramaturgie Structuur</strong>
+                    <p style="font-size: 1.5rem; margin: 0.5rem 0; font-weight: 600;">${data.domein_b_dramaturgie_van_de_structuur.gemiddelde_score_structuur}/10</p>
+                    <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0;">Macro-Esthetiek</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">Anti-Kitsch</strong>
+                    <p style="font-size: 1.5rem; margin: 0.5rem 0; font-weight: 600;">${data.kitsch_diagnose.anti_kitsch_score}/10</p>
+                    <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0;">Authenticiteit</p>
+                </div>
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px;">
+                    <strong style="color: var(--primary-color);">Ruimte voor Genade</strong>
+                    <p style="font-size: 1.5rem; margin: 0.5rem 0; font-weight: 600;">${data.ruimte_voor_genade_analyse.ruimte_score}/10</p>
+                    <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0;">Openheid</p>
+                </div>
+            </div>
+        `;
+        container.appendChild(domeinScoresCard);
+
+        // Domein A info
+        const domeinAInfo = document.createElement('div');
+        domeinAInfo.className = 'section-info';
+        domeinAInfo.innerHTML = `
+            💡 <strong>Domein A: Poëtica van de Taal (Micro-Esthetiek):</strong> Dit domein evalueert de taalkundige kwaliteit op het niveau van woorden, zinnen en beelden. Het beoordeelt beeldend taalgebruik (imagery & metaphor), zorgvuldigheid en precisie (stewardship of language), en muzikaliteit en ritme.
+        `;
+        container.appendChild(domeinAInfo);
+
+        // Domein A criteria
+        const domeinA = data.domein_a_poetica_van_de_taal;
+        const criteriaA = {
+            'criterium_a1_beeldend_taalgebruik': 'A1: Beeldend taalgebruik',
+            'criterium_a2_zorgvuldigheid_en_precisie': 'A2: Zorgvuldigheid en precisie',
+            'criterium_a3_muzikaliteit_en_ritme': 'A3: Muzikaliteit en ritme'
+        };
+
+        for (const [key, title] of Object.entries(criteriaA)) {
+            const value = domeinA[key];
+            let scoreClass = 'score-low';
+            if (value.score >= 8) scoreClass = 'score-high';
+            else if (value.score >= 6) scoreClass = 'score-mid';
+
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            let quotesHtml = '';
+            if (value.quotes && value.quotes.length > 0) {
+                quotesHtml = `
+                    <div class="quote-box">
+                        <span class="quote-header">Citaten</span>
+                        ${value.quotes.map(q => formatText(`"${q}"`)).join('<br><br>')}
+                    </div>
+                `;
+            }
+
+            let sterkePuntenHtml = '';
+            if (value.sterke_punten && value.sterke_punten.length > 0) {
+                sterkePuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--success-color); font-size: 0.9rem;">Sterke punten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.sterke_punten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let verbeterpuntenHtml = '';
+            if (value.verbeterpunten && value.verbeterpunten.length > 0) {
+                verbeterpuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--danger-color); font-size: 0.9rem;">Verbeterpunten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.verbeterpunten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">${title}</span>
+                    <span class="score-badge ${scoreClass}">${value.score}/10</span>
+                </div>
+                <div class="text-content">
+                    ${formatText(value.analyse)}
+                </div>
+                ${quotesHtml}
+                ${sterkePuntenHtml}
+                ${verbeterpuntenHtml}
+            `;
+            container.appendChild(card);
+        }
+
+        // Domein B info
+        const domeinBInfo = document.createElement('div');
+        domeinBInfo.className = 'section-info';
+        domeinBInfo.innerHTML = `
+            💡 <strong>Domein B: Dramaturgie van de Structuur (Macro-Esthetiek):</strong> Dit domein evalueert de structurele en architectonische kwaliteit van de preek als geheel. Het beoordeelt de narratieve spanningsboog (plot), de integratie van tekst en context (reframing), en de openheid vs. geslotenheid (open kunstwerk).
+        `;
+        container.appendChild(domeinBInfo);
+
+        // Domein B criteria
+        const domeinB = data.domein_b_dramaturgie_van_de_structuur;
+        const criteriaB = {
+            'criterium_b1_narratieve_spanningsboog': 'B1: Narratieve spanningsboog',
+            'criterium_b2_integratie_tekst_en_context': 'B2: Integratie tekst en context',
+            'criterium_b3_openheid_vs_geslotenheid': 'B3: Openheid vs. geslotenheid'
+        };
+
+        for (const [key, title] of Object.entries(criteriaB)) {
+            const value = domeinB[key];
+            let scoreClass = 'score-low';
+            if (value.score >= 8) scoreClass = 'score-high';
+            else if (value.score >= 6) scoreClass = 'score-mid';
+
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            let quotesHtml = '';
+            if (value.quotes && value.quotes.length > 0) {
+                quotesHtml = `
+                    <div class="quote-box">
+                        <span class="quote-header">Citaten</span>
+                        ${value.quotes.map(q => formatText(`"${q}"`)).join('<br><br>')}
+                    </div>
+                `;
+            }
+
+            let sterkePuntenHtml = '';
+            if (value.sterke_punten && value.sterke_punten.length > 0) {
+                sterkePuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--success-color); font-size: 0.9rem;">Sterke punten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.sterke_punten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let verbeterpuntenHtml = '';
+            if (value.verbeterpunten && value.verbeterpunten.length > 0) {
+                verbeterpuntenHtml = `
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color);">
+                        <strong style="color: var(--danger-color); font-size: 0.9rem;">Verbeterpunten:</strong>
+                        <ul class="summary-list" style="margin-top: 0.5rem;">
+                            ${value.verbeterpunten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">${title}</span>
+                    <span class="score-badge ${scoreClass}">${value.score}/10</span>
+                </div>
+                <div class="text-content">
+                    ${formatText(value.analyse)}
+                </div>
+                ${quotesHtml}
+                ${sterkePuntenHtml}
+                ${verbeterpuntenHtml}
+            `;
+            container.appendChild(card);
+        }
+
+        // Speciale analyses info
+        const specialeInfo = document.createElement('div');
+        specialeInfo.className = 'section-info';
+        specialeInfo.innerHTML = `
+            💡 <strong>Speciale analyses:</strong> Anti-Kitsch beoordeelt de afwezigheid van goedkope emotie en religieuze clichés. Ruimte voor Genade (Cilliers' centrale concept) evalueert of de preek ruimte laat voor het mysterie en de vrijheid van God.
+        `;
+        container.appendChild(specialeInfo);
+
+        // Anti-Kitsch card
+        const kitschCard = document.createElement('div');
+        kitschCard.className = 'card';
+        const kitsch = data.kitsch_diagnose;
+        let kitschScoreClass = 'score-low';
+        if (kitsch.anti_kitsch_score >= 8) kitschScoreClass = 'score-high';
+        else if (kitsch.anti_kitsch_score >= 6) kitschScoreClass = 'score-mid';
+
+        kitschCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Anti-Kitsch diagnose</span>
+                <span class="score-badge ${kitschScoreClass}">${kitsch.anti_kitsch_score}/10</span>
+            </div>
+            <div class="text-content">
+                ${formatText(kitsch.analyse)}
+            </div>
+        `;
+        container.appendChild(kitschCard);
+
+        // Ruimte voor Genade card
+        const genadeCard = document.createElement('div');
+        genadeCard.className = 'card';
+        const genade = data.ruimte_voor_genade_analyse;
+        let genadeScoreClass = 'score-low';
+        if (genade.ruimte_score >= 8) genadeScoreClass = 'score-high';
+        else if (genade.ruimte_score >= 6) genadeScoreClass = 'score-mid';
+
+        genadeCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Ruimte voor Genade</span>
+                <span class="score-badge ${genadeScoreClass}">${genade.ruimte_score}/10</span>
+            </div>
+            <div class="text-content">
+                ${formatText(genade.analyse)}
+            </div>
+        `;
+        container.appendChild(genadeCard);
     }
 </script>
 </body>

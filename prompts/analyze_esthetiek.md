@@ -77,9 +77,11 @@ Echter, zoals Cilliers betoogt, is deze tegenstelling vals. De esthetiek van de 
 
 ---
 
-# De Drie Domeinen van Esthetische Toetsing
+# De Twee Domeinen van Esthetische Toetsing
 
-De esthetische toetsing van een preek is multidimensionaal. We onderscheiden drie hoofddomeinen die elk specifieke criteria en karakteristieken kennen.
+De esthetische toetsing van een preek is multidimensionaal. We onderscheiden twee hoofddomeinen die uit een geschreven preektekst afleidbaar zijn en elk specifieke criteria en karakteristieken kennen.
+
+**Let op:** De daadwerkelijke *uitvoering* (performance, stemgebruik, lichaamstaal, liturgische dynamiek) valt buiten deze analyse. We beoordelen uitsluitend wat uit de geschreven tekst zelf kan worden afgeleid.
 
 ## DOMEIN A: De Poëtica van de Taal (Micro-Esthetiek)
 
@@ -249,83 +251,6 @@ In het spoor van Ciska Stark's 'open kunstwerk': de preek moet ruimte laten voor
 
 ---
 
-## DOMEIN C: De Esthetiek van de Performance (Embodiment)
-
-De preek bestaat niet op papier, maar in de daadwerkelijke uitvoering. Dit domein is moeilijker te beoordelen vanuit een geschreven tekst, maar bepaalde kwaliteiten zijn wel af te leiden.
-
-### Criterium C1: Authenticiteit en Presence (Ethos)
-
-**Theoretische Basis:**
-Immink benadrukt de rol van de prediker als persoon in het liturgische drama. Johan Cilliers waarschuwt tegen 'vrome taal' die een masker is. Authenticiteit is cruciaal: de prediker moet 'aanwezig' zijn, niet verscholen achter een rol.
-
-**Evaluatieve Kernvragen (voor zover af te leiden uit de tekst):**
-- Is er congruentie tussen wat gezegd wordt en hoe het gezegd wordt?
-- Spreekt de prediker vanuit persoonlijke betrokkenheid of als distante docent?
-- Is er kwetsbaarheid zichtbaar, of verschuilt de prediker zich achter autoriteit?
-- Wordt er in de eerste persoon gesproken waar dat passend is?
-- Is de toon authentiek of kunstmatig?
-
-**Karakteristiek van Sterke Authenticiteit (score 7-8):**
-- Gebruik van persoonlijke ervaring of getuigenis (niet als hoofdverhaal, maar als illustratie)
-- Kwetsbare taal: "Ook ik worstel met..."
-- Spreken vanuit de gemeente, niet boven de gemeente
-- De toon is oprecht, niet gekunsteld of overtrokken vroom
-
-**Karakteristiek van Zwakke Authenticiteit (score 3-5):**
-- Distante, akademische toon zonder persoonlijke betrokkenheid
-- Moraliseren zonder zelfkritiek
-- Vrome taal die als een masker aanvoelt
-- Geen enkele persoonlijke inbreng of kwetsbaarheid
-
-### Criterium C2: Orale Kwaliteit en Spreekbaarheid
-
-**Theoretische Basis:**
-De preek is geschreven om uitgesproken te worden. "Papieren taal" (taal die alleen op papier werkt maar niet uit de mond komt) faalt als preektaal.
-
-**Evaluatieve Kernvragen:**
-- Is de taal geschreven om uitgesproken te worden?
-- Zijn er zinnen die zo complex zijn dat ze niet in één adem uit te spreken zijn?
-- Is de taal natuurlijk spreekbaar of academisch-schriftelijk?
-- Zijn er natuurlijke pauzes en ademruimtes ingebouwd?
-- Zou deze tekst goed klinken als hij hardop wordt voorgelezen?
-
-**Karakteristiek van Sterke Orale Kwaliteit (score 7-8):**
-- De zinnen zijn spreekbaar, niet te lang of complex
-- De taal klinkt natuurlijk, niet boekig
-- Er zijn natuurlijke pauzes en rustpunten
-- De tekst nodigt uit tot lezen/spreken met variatie in tempo en toon
-
-**Karakteristiek van Zwakke Orale Kwaliteit (score 3-5):**
-- Lange, complexe zinnen die moeilijk uit te spreken zijn
-- Academische, schriftelijke stijl ("papieren taal")
-- Geen aandacht voor spreekritme of pauzes
-- De tekst is geschreven voor het oog, niet voor het oor
-
-### Criterium C3: Liturgische Inbedding
-
-**Theoretische Basis:**
-De preek staat niet op zichzelf maar is ingebed in een liturgisch geheel. Immink spreekt over de dramaturgie van de dienst. De preek is een scène in een groter drama.
-
-**Evaluatieve Kernvragen (voor zover af te leiden):**
-- Sluit de preek aan bij de liturgische context (seizoen, feestdag)?
-- Wordt er verwezen naar liederen, gebeden of andere liturgische elementen?
-- Is de toon passend bij de liturgische context?
-- Draagt de preek bij aan de totale eredienst als 'Gesamtkunstwerk'?
-
-**Karakteristiek van Sterke Liturgische Inbedding (score 7-8):**
-- Duidelijke aansluiting bij liturgisch seizoen of thema
-- Verwijzingen naar liederen of andere onderdelen van de dienst
-- De toon past bij de liturgische context (ernst bij boete, vreugde bij Pasen)
-- De preek voelt als een organisch onderdeel van het geheel
-
-**Karakteristiek van Zwakke Liturgische Inbedding (score 3-5):**
-- Geen enkele aansluiting bij liturgische context
-- De preek zou in elke dienst kunnen staan
-- Geen verwijzing naar andere liturgische elementen
-- De toon past niet bij de liturgische context
-
----
-
 # Belangrijke Specialisten en Hun Bijdragen
 
 Voor contextualisering en autoriteit vermeldt de analyse waar relevant de bijdragen van:
@@ -348,16 +273,19 @@ Analyseer de bijgeleverde preektekst grondig en systematisch aan de hand van de 
 
 1. **Poëtica van de Taal**: Beeldkracht, taalzorg, muzikaliteit
 2. **Dramaturgie van de Structuur**: Spanningsboog, integratie tekst-context, openheid
-3. **Esthetiek van de Performance**: Authenticiteit, orale kwaliteit, liturgische inbedding
-4. **Kitsch-diagnose**: Is er sprake van religieuze kitsch, of van authentieke esthetische diepgang?
-5. **Ruimte voor Genade**: Wordt er ruimte geopend of wordt de ruimte gesloten?
+3. **Kitsch-diagnose**: Is er sprake van religieuze kitsch, of van authentieke esthetische diepgang?
+4. **Ruimte voor Genade**: Wordt er ruimte geopend of wordt de ruimte gesloten?
 
 Geef voor elk criterium:
 - Een **score van 1-10**
-- Een **uitgebreide analyse** (minimaal 100 woorden)
-- **Quotes** uit de preek die het oordeel onderbouwen (minimaal 2-3 per criterium)
+- Een **uitgebreide analyse** (minimaal 100 woorden, maximaal 200 woorden per analyse-veld)
+- **Quotes** uit de preek die het oordeel onderbouwen (exact 3 quotes per criterium)
 - **Sterke punten** (wat werkt goed en waarom?)
 - **Verbeterpunten** (specifieke, concrete aanbevelingen)
+
+**Berekening gemiddelde scores:**
+- Bereken `gemiddelde_score_taal` als het rekenkundig gemiddelde van de drie criteria-scores in Domein A (A1, A2, A3)
+- Bereken `gemiddelde_score_structuur` als het rekenkundig gemiddelde van de drie criteria-scores in Domein B (B1, B2, B3)
 
 ---
 
@@ -368,13 +296,15 @@ Lever je analyse aan in het volgende **JSON-formaat**:
 ```json
 {
   "metadata": {
-    "datum_analyse": "YYYY-MM-DD",
+    "datum_analyse": "2026-01-12",
     "titel_preek": "Titel van de preek indien vermeld",
+    "prediker": "Naam van de prediker indien vermeld",
     "bijbeltekst": "Hoofdtekst(en) van de preek",
     "geschatte_woordlengte": 0,
     "geschatte_tijdsduur_minuten": 0,
     "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut",
-    "liturgische_context": "Zondag/feestdag indien vermeld",
+    "liturgische_context": "Zondag/feestdag/context indien vermeld",
+    "historische_context": "Wanneer is deze preek gehouden? Relevante historische of culturele context",
     "notities": "Eventuele contextuele opmerkingen"
   },
   "domein_a_poetica_van_de_taal": {
@@ -505,73 +435,9 @@ Lever je analyse aan in het volgende **JSON-formaat**:
     "gemiddelde_score_structuur": 0,
     "samenvatting_structuur": "Korte samenvatting van de macro-esthetische kwaliteit van de structuur (100 woorden)"
   },
-  "domein_c_esthetiek_van_de_performance": {
-    "criterium_c1_authenticiteit_en_presence": {
-      "score": 0,
-      "analyse": "Uitgebreide analyse van authenticiteit, kwetsbaarheid en geloofwaardigheid (ethos)...",
-      "quotes": [
-        "Citaat 1 dat authenticiteit toont of gebrek daaraan",
-        "Citaat 2 dat kwetsbaarheid illustreert",
-        "Citaat 3 dat de persoonlijke inzet demonstreert"
-      ],
-      "sterke_punten": [
-        "Punt 1: wat werkt goed in authenticiteit",
-        "Punt 2: ...",
-        "Punt 3: ..."
-      ],
-      "verbeterpunten": [
-        "Punt 1: specifieke suggestie voor meer authenticiteit",
-        "Punt 2: ...",
-        "Punt 3: ..."
-      ],
-      "kwetsbaarheid_aanwezig": "Is er sprake van persoonlijke kwetsbaarheid of verschuilt de prediker zich?"
-    },
-    "criterium_c2_orale_kwaliteit": {
-      "score": 0,
-      "analyse": "Uitgebreide analyse van spreekbaarheid en orale kwaliteit van de taal...",
-      "quotes": [
-        "Citaat 1 dat orale kwaliteit of papieren taal toont",
-        "Citaat 2 dat spreekbaarheid illustreert",
-        "Citaat 3 dat complexiteit van zinsbouw demonstreert"
-      ],
-      "sterke_punten": [
-        "Punt 1: wat werkt goed in orale kwaliteit",
-        "Punt 2: ...",
-        "Punt 3: ..."
-      ],
-      "verbeterpunten": [
-        "Punt 1: specifieke suggestie voor betere spreekbaarheid",
-        "Punt 2: ...",
-        "Punt 3: ..."
-      ],
-      "papieren_vs_orale_taal": "Papieren taal of orale taal?"
-    },
-    "criterium_c3_liturgische_inbedding": {
-      "score": 0,
-      "analyse": "Uitgebreide analyse van de liturgische inbedding en dramaturgische rol in de eredienst...",
-      "quotes": [
-        "Citaat 1 dat liturgische verbinding toont of ontbrekende verbinding",
-        "Citaat 2 dat aansluiting bij seizoen/context illustreert",
-        "Citaat 3 dat toon en passendheid demonstreert"
-      ],
-      "sterke_punten": [
-        "Punt 1: wat werkt goed in liturgische inbedding",
-        "Punt 2: ...",
-        "Punt 3: ..."
-      ],
-      "verbeterpunten": [
-        "Punt 1: specifieke suggestie voor betere liturgische integratie",
-        "Punt 2: ...",
-        "Punt 3: ..."
-      ],
-      "liturgische_coherentie": "Voelt de preek als organisch onderdeel van de dienst?"
-    },
-    "gemiddelde_score_performance": 0,
-    "samenvatting_performance": "Korte samenvatting van de performatieve kwaliteit (100 woorden)"
-  },
   "kitsch_diagnose": {
-    "kitsch_score": 0,
-    "analyse": "Uitgebreide analyse: is er sprake van religieuze kitsch (voorgekauwde emoties, clichés, goedkope oplossingen) of van authentieke esthetische diepgang? Hoe verhouden sentiment en echte emotie zich tot elkaar?",
+    "anti_kitsch_score": 0,
+    "analyse": "Uitgebreide analyse: is er sprake van religieuze kitsch (voorgekauwde emoties, clichés, goedkope oplossingen) of van authentieke esthetische diepgang? Hoe verhouden sentiment en echte emotie zich tot elkaar? LET OP: Score de AFWEZIGHEID van kitsch. Een HOGE anti-kitsch score (8-10) betekent WEINIG of GEEN kitsch (goed). Een LAGE anti-kitsch score (1-3) betekent VEEL kitsch aanwezig (slecht).",
     "voorbeelden_van_kitsch": [
       "Voorbeeld 1 van kitsch indien aanwezig",
       "Voorbeeld 2 indien aanwezig"
@@ -592,7 +458,7 @@ Lever je analyse aan in het volgende **JSON-formaat**:
   },
   "totaalbeeld_esthetiek": {
     "overall_esthetische_score": 0,
-    "samenvatting": "Een algehele samenvatting van de esthetische kwaliteit van de preek over de drie domeinen heen (200-300 woorden)",
+    "samenvatting": "Een algehele samenvatting van de esthetische kwaliteit van de preek over de twee domeinen heen (200-300 woorden)",
     "sterke_punten_top_3": [
       "Sterkste esthetische punt van de preek",
       "Tweede sterkste punt",
@@ -628,7 +494,7 @@ Lever je analyse aan in het volgende **JSON-formaat**:
 
 4. **Denk diagnostisch**: Welk esthetisch element is sterk, welk is zwak, en wat is daarvan het effect op de hoorder?
 
-5. **Contextualiseer**: Houd rekening met de liturgische en confessionele context (gereformeerde soberheid vs. evangelische uitbundigheid).
+5. **Contextualiseer**: Houd rekening met de liturgische, confessionele én historische context. Een preek uit 1968 (context studentenprotest, secularisatie) moet anders beoordeeld worden dan een preek uit 2026. Een gereformeerde preek heeft andere esthetische normen dan een evangelische. Wees hier expliciet over in je analyse.
 
 6. **Wees streng in scores** - een score van 7 of hoger is een uitzondering, niet de norm:
    - 1-3: Ernstige esthetische tekorten, fundamentele problemen
@@ -651,7 +517,7 @@ Lever je analyse aan in het volgende **JSON-formaat**:
     - NIET: "verbluffende beeldspraak"
     - WEL: "effectieve beeldspraak" of "sterke metaforen"
 
-11. **Verbeterpunten voorop**: Begin analyses niet met lofzangen. Benoem eerst wat ontbreekt of tekortschiet, daarna wat goed gaat.
+11. **Balans in feedback**: De JSON-structuur vraagt eerst om sterke punten, dan om verbeterpunten. Volg deze structuur, maar wees wel kritisch - laat sterke punten niet overstemmen waar verbetering nodig is. Wees eerlijk en direct over tekortkomingen.
 
 12. **Ruimte voor genade**: Het centrale criterium is altijd: wordt er ruimte geopend of gesloten? Een preek die dichtgetimmerd is met moralisering of dogma scoort laag, ook al is de taal mooi.
 
@@ -695,7 +561,10 @@ Lever je analyse aan in het volgende **JSON-formaat**:
 "De prediker spreekt openhartig over eigen twijfel en worsteling, wat authenticiteit uitstraalt (C1: 7/10). De taal is echter academisch en complex, met lange zinnen die moeilijk uit te spreken zijn (C2: 4/10). De preek is geschreven voor het oog, niet voor het oor. Aanbeveling: herformuleer zinnen zodat ze natuurlijk klinken bij hardop voorlezen. Test door de preek hardop voor te lezen."
 
 **Voorbeeld 3: Kitsch in plaats van Diepte**
-"De preek maakt gebruik van veel emotionele taal ('God houdt zó veel van je!'), maar dit voelt als sentiment, niet als echte emotie (Kitsch-score: 3/10). De pijn van het lijden wordt niet serieus genomen; er wordt te snel naar de 'oplossing' gegaan. Dit is religieuze kitsch die de ruimte sluit in plaats van opent. De preek biedt troost zonder eerst de klacht uit te houden. Aanbeveling: durf langer in de spanning te blijven. Laat de vraag 'waar is God?' eerst echt pijn doen voordat het evangelie wordt verkondigd."
+"De preek maakt gebruik van veel emotionele taal ('God houdt zó veel van je!'), maar dit voelt als sentiment, niet als echte emotie (Anti-kitsch score: 2/10 - veel kitsch aanwezig). De pijn van het lijden wordt niet serieus genomen; er wordt te snel naar de 'oplossing' gegaan. Dit is religieuze kitsch die de ruimte sluit in plaats van opent. De preek biedt troost zonder eerst de klacht uit te houden. Aanbeveling: durf langer in de spanning te blijven. Laat de vraag 'waar is God?' eerst echt pijn doen voordat het evangelie wordt verkondigd."
+
+**Voorbeeld 4: Moralisering vs. Ruimte voor Genade**
+"De preek is theologisch helder en exegetisch sterk (Logos-elementen goed), maar sluit de ruimte voor genade door moraliserend te eindigen ('Dus nu moeten wij...', 'Het ligt aan ons om...') zonder de verticale dimensie open te houden (Ruimte-voor-genade-score: 3/10). De preek maakt van het evangelie een opdracht in plaats van een geschenk. Het mysterie wordt wegverklaard: 'God is simpelweg dat wij elkaar liefhebben.' Dit leidt tot zware last op de hoorder. Aanbeveling: laat naast de ethische imperatief ook ruimte voor het onbeschikbare, voor verwondering, voor ontvangen. Eindig niet met 'wij moeten', maar met 'God geeft' of een open vraag die de hoorder in het mysterie laat staan."
 
 ---
 

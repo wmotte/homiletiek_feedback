@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "datum_analyse": "2026-01-12",
+    "titel_preek": "... dat wij kunnen liefhebben",
+    "prediker": "Dorothee Sölle",
+    "bijbeltekst": "1 Johannes 3:11–18",
+    "geschatte_woordlengte": 1350,
+    "geschatte_tijdsduur_minuten": 13,
+    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut",
+    "liturgische_context": "Evangelische Academie Bad Boll (lezing/preek)",
+    "historische_context": "8 januari 1968. Hoogtepunt van de studentenbeweging, secularisatie en de 'God-is-dood'-theologie. Een tijd van radicale herijking van autoriteit en dogma.",
+    "notities": "Dit is een programmatische preek, kenmerkend voor de politieke theologie van de late jaren '60."
+  },
+  "domein_a_poetica_van_de_taal": {
+    "criterium_a1_beeldend_taalgebruik": {
+      "score": 4,
+      "analyse": "De preek scoort laag op zintuiglijke beeldkracht. Sölle hanteert een abstract, intellectueel vocabulaire ('horizontaliteit', 'superego', 'structurele samenleving'). Ze spreekt *over* de werkelijkheid in concepten in plaats van deze te *tonen* in beelden. De metafoor van het 'taalgebouw' dat moet vervallen is functioneel, maar wordt niet zintuiglijk uitgewerkt (we ruiken het stof niet, we zien de stenen niet). De preek blijft hangen in 'telling' en mist de 'showing' die Wilson bepleit. Het is een betoog, geen schildering.",
+      "quotes": [
+        "Deze banale waarheid is in de loop van de tijd... ontwricht geraakt.",
+        "Het veld waarbinnen we de banaliteit van het evangelie aannemen... is het veld van de horizontaliteit.",
+        "Ik geloof niet dat Jezus zich tot het superego heeft gericht."
+      ],
+      "sterke_punten": [
+        "De metafoor van het 'vervallen gebouw' van de dogmatiek is helder als concept.",
+        "Het gebruik van de Beatles-tekst werkt als een sterk cultureel icoon/beeld.",
+        "De taal is direct en onomwonden."
+      ],
+      "verbeterpunten": [
+        "Vertaal de 'honger in de Derde Wereld' naar een concreet beeld van één persoon of situatie.",
+        "Maak de 'dood' en het 'leven' uit 1 Johannes zintuiglijk in plaats van conceptueel.",
+        "Gebruik metaforen die de 'warmte' van liefde oproepen in plaats van alleen de ethische noodzaak."
+      ],
+      "show_vs_tell_balans": "Sterke dominantie van 'telling' (uitleggen, argumenteren) boven 'showing'."
+    },
+    "criterium_a2_zorgvuldigheid_en_precisie": {
+      "score": 7,
+      "analyse": "Sölle is uiterst zorgvuldig in wat ze *niet* wil zeggen. Ze deconstrueert het traditionele religieuze jargon ('Kanaänitisch') bewust en vervangt dit door een politiek-filosofisch vocabulaire. Haar taal is scherp, economisch en intellectueel precies. Er is geen woord teveel. Ze vermijdt vrome clichés, wat getuigt van 'stewardship'. Echter, de taal is soms koud en klinisch ('superego', 'instanties'), wat de relationele warmte van de tekst (liefde) kan ondermijnen.",
+      "quotes": [
+        "Ze heeft christologie en ecclesiologie... triniteit, erfzonde en eeuwigheid toegevoegd.",
+        "De traditie heeft de kern binnen een verticaal schema van boven naar beneden ontplooid.",
+        "Liefhebbend verlaat hij zich op iets anders dan wat hij zelf is."
+      ],
+      "sterke_punten": [
+        "Radicale vermijding van betekenisloze religieuze stoplappen.",
+        "Heldere definities van wat ze verwerpt en wat ze voorstaat.",
+        "Intellectuele eerlijkheid in taalgebruik."
+      ],
+      "verbeterpunten": [
+        "Het jargon van de psychologie ('superego') en sociologie ('structuren') kan net zo vervreemdend werken als theologisch jargon.",
+        "Meer variatie in toon: de taal is nu constant in de modus van het manifest.",
+        "Zoek naar woorden die de ziel raken, niet alleen het verstand."
+      ],
+      "jargon_analyse": "Religieus jargon wordt bewust afgebroken, maar vervangen door politiek/sociologisch jargon."
+    },
+    "criterium_a3_muzikaliteit_en_ritme": {
+      "score": 6,
+      "analyse": "De preek heeft een retorische cadans die kenmerkend is voor een politieke redevoering of een academisch debat. Er is gebruik van herhaling ('Ze is zo eenvoudig...', 'Ze is zo eenvoudig...') om kracht bij te zetten. De zinnen zijn vaak kort en staccato, wat een gevoel van urgentie geeft. Het mist echter de poëtische flow of de lyrische kwaliteit die bij het thema 'liefde' zou kunnen passen. Het ritme is dat van de hamer, niet van de harp.",
+      "quotes": [
+        "All you need is love. Dat is het evangelie, niets daarbuiten.",
+        "We korten echt in en we moeten inkorten.",
+        "We hebben hem niet nodig, omdat dat wat we nodig hebben, liefde is, verder niets."
+      ],
+      "sterke_punten": [
+        "Effectief gebruik van herhaling (anafoor) om argumenten te hameren.",
+        "Korte, krachtige zinnen die als slogans werken.",
+        "Duidelijke articulatie van tegenstellingen (vroeger/nu, verticaal/horizontaal)."
+      ],
+      "verbeterpunten": [
+        "Varieer meer in zinslengte om rustpunten te creëren.",
+        "Gebruik klank (alliteratie/assonantie) om de boodschap memorabel te maken, niet alleen argumentatie.",
+        "De tekst leest als een essay; maak het meer 'oraal'."
+      ],
+      "papieren_taal_diagnose": "Neigt naar papieren taal (essayistisch), maar door de retorische felheid werkt het oraal wel als een betoog."
+    },
+    "gemiddelde_score_taal": 5.7,
+    "samenvatting_taal": "Sölle hanteert een scherpe, intellectuele en ontnuchterende taal. De esthetiek is die van de 'nieuwe zakelijkheid' en het politieke manifest. Beeldspraak ontbreekt grotendeels; de kracht ligt in de precisie van de deconstructie en de retorische urgentie. Het is taal die wil overtuigen en mobiliseren, niet behagen of vervoeren."
+  },
+  "domein_b_dramaturgie_van_de_structuur": {
+    "criterium_b1_narratieve_spanningsboog": {
+      "score": 8,
+      "analyse": "De preek kent een zeer sterke dramaturgische lijn. Het begint met een provocatie (het evangelie is banaal, Beatles), beweegt naar een conflict (de traditie/dogma's vs. de kern), gaat door een dieptepunt van reductie ('we moeten inkorten'), en eindigt met een radicale herdefinitie van God en een oproep tot actie. De hoorder wordt meegenomen in een intellectueel proces van afbraak en opbouw. Er staat iets op het spel: de geloofwaardigheid van het christendom zelf.",
+      "quotes": [
+        "De boodschap is oneindig banaal.",
+        "Ik geloof dat we dit gebouw moeten laten vervallen... en een nieuw gebouw... moeten bouwen.",
+        "We zouden moeten ophouden God te zoeken. Hij is er allang."
+      ],
+      "sterke_punten": [
+        "Sterke opening die direct de aandacht grijpt ('banaal').",
+        "Logische en dwingende opbouw van argumentatie.",
+        "Duidelijke climax in de herdefinitie van God als daad van liefde."
+      ],
+      "verbeterpunten": [
+        "De spanning is puur intellectueel; emotionele spanning ontbreekt.",
+        "Het middenstuk over de percentages (BNP) vertraagt de dramaturgie aanzienlijk.",
+        "Het slot is abrupt en stellig."
+      ],
+      "plot_diagnose": "Dynamische reis van deconstructie naar reconstructie."
+    },
+    "criterium_b2_integratie_tekst_en_context": {
+      "score": 9,
+      "analyse": "Dit is esthetisch gezien het sterkste punt van de preek. Sölle past 'reframing' toe in extremis. Ze plaatst de tekst van 1 Johannes niet in de kerkelijke traditie, maar radicaal in de context van 1968 (Beatles, Vietnam, honger). De synthese is schokkend maar consistent. Ze 'vertaalt' Johannes' oproep tot liefde naar structurele politieke actie. De vreemdheid van de tekst wordt niet zozeer bewaard, als wel dat de tekst wordt gebruikt als een hamer om de context te bewerken.",
+      "quotes": [
+        "U kent allemaal de zin die de Beatles zingen: 'All you need is love.' Dat is het evangelie.",
+        "Terwijl wij op grond van onze verbondenheid met het westerse kapitalisme steeds meer winnen...",
+        "Het veld... is het veld van de horizontaliteit."
+      ],
+      "sterke_punten": [
+        "Gewaagde en memorabele koppeling tussen popcultuur (Beatles) en Schrift.",
+        "Radicale actualisering die de tekst onontkoombaar maakt voor de hoorder van 1968.",
+        "Volledige integratie van theologie en politiek."
+      ],
+      "verbeterpunten": [
+        "Het risico is dat de tekst buikspreekpop van de context wordt.",
+        "De 'vreemdheid' van God in de tekst wordt volledig geëlimineerd ten gunste van de herkenbaarheid.",
+        "Iets meer eerbied voor de historische afstand van de tekst zou de spanning kunnen verhogen."
+      ],
+      "reframing_aanwezig": "Zeer sterke reframing: van verticaal dogma naar horizontale actie."
+    },
+    "criterium_b3_openheid_vs_geslotenheid": {
+      "score": 3,
+      "analyse": "Hier faalt de preek volgens de criteria van het 'open kunstwerk'. De preek is extreem gesloten en dwingend. Sölle dicteert wat God is ('God is dat we kunnen liefhebben') en wat we niet nodig hebben ('We hebben hem niet nodig'). Er is geen ruimte voor ambivalentie, voor mysterie, of voor een andere mening. De hoorder wordt in een 'of/of'-schema geperst: of je doet mee aan de politieke liefde, of je zit vast in doodse dogma's. Het is een monoloog van de gelijkhebber.",
+      "quotes": [
+        "Er is slechts dit ene, waar het op aankomt. Al het andere is bijzaak.",
+        "We hebben hem niet nodig, omdat dat wat we nodig hebben, liefde is, verder niets.",
+        "God is dat we kunnen liefhebben... Hij is er allang."
+      ],
+      "sterke_punten": [
+        "De stelligheid biedt duidelijkheid in verwarrende tijden.",
+        "Het dwingt tot een keuze."
+      ],
+      "verbeterpunten": [
+        "Creëer ruimte voor de hoorder die God wél als 'Tegenover' ervaart.",
+        "Erken de ambivalentie van het menselijk tekort, ook in politiek activisme.",
+        "Eindig met een vraag in plaats van een definitie."
+      ],
+      "open_kunstwerk_diagnose": "Gesloten kunstwerk. Monovalent en dogmatisch in zijn anti-dogmatisme."
+    },
+    "gemiddelde_score_structuur": 6.7,
+    "samenvatting_structuur": "De preek is structureel ijzersterk als retorisch bouwwerk. De spanningsboog en de integratie van context zijn meesterlijk uitgevoerd. Echter, de esthetische kwaliteit lijdt onder de extreme geslotenheid. Het is een preek die geen tegenspraak duldt en de ruimte voor de hoorder (en voor God als Ander) dichtmetselt."
+  },
+  "kitsch_diagnose": {
+    "anti_kitsch_score": 8,
+    "analyse": "De preek scoort hoog op de 'anti-kitsch' schaal. Sölle weigert pertinent om goedkope troost of religieuze sentimentaliteit te bieden. Ze breekt de 'vrome' gevoelens ('Vader', 'thuis', 'geborgenheid') bewust af als onvolwassen. Ze confronteert de hoorder met de harde realiteit van honger en politieke verantwoordelijkheid. Er is geen sprake van 'happy clappy' geloof. De enige valkuil is een vorm van 'politieke kitsch': de suggestie dat als we maar 2% van het BNP geven, het Koninkrijk aanbreekt. Maar in de religieuze context van die tijd is dit een radicale anti-kitsch preek.",
+    "voorbeelden_van_kitsch": [
+      "Geen religieuze kitsch aangetroffen.",
+      "Mogelijk politieke simplificatie (BNP percentages als heilsweg)."
+    ],
+    "authentieke_momenten": [
+      "De eerlijke erkenning van de 'banaliteit' van de boodschap.",
+      "De weigering om God als 'stoplap' voor menselijke noden te gebruiken.",
+      "De confrontatie met de 6 miljoen vermoorde Joden als argument tegen 'zomaar een beetje liefde'."
+    ],
+    "aanbeveling": "Behoud de scherpte, maar waak voor het idealiseren van politieke oplossingen (wat een nieuwe vorm van kitsch kan worden)."
+  },
+  "ruimte_voor_genade_analyse": {
+    "ruimte_score": 3,
+    "analyse": "Volgens Cilliers' criterium 'Space for Grace' scoort deze preek laag. Sölle sluit de verticale ruimte (transcendentie, genade die van buiten komt) hermetisch af. God wordt gereduceerd tot menselijke actie ('God is dat wij kunnen liefhebben'). Dit legt een enorme ethische last op de hoorder: alles hangt af van onze liefde/politiek. Het evangelie wordt wet ('Gij zult liefhebben'). Hoewel ze zegt dat het 'geen bevel' is, voelt de hele preek als een dwingende imperatief. Er is geen ruimte voor falen, voor ontvangen, voor het mysterie dat God is ondanks ons falen.",
+    "spanning_uitgehouden": "Nee, de spanning tussen God en mens wordt opgelost door God in de menselijke actie te laten opgaan.",
+    "mysterie_gerespecteerd": "Nee, het mysterie wordt 'onttoverd' en platgeslagen tot intermenselijke relaties.",
+    "moralisering_vs_genade": "Sterke moralisering. Genade is geen geschenk, maar een taak.",
+    "aanbeveling": "Laat een kier open naar de hemel. Laat God ook God zijn buiten onze actie om, zodat er troost is als ons activisme faalt."
+  },
+  "totaalbeeld_esthetiek": {
+    "overall_esthetische_score": 6,
+    "samenvatting": "Esthetisch gezien is dit een fascinerende, maar eenzijdige preek. Het is een krachtig voorbeeld van de 'profetische' esthetiek uit de jaren '60: iconoclastisch, intellectueel en politiek geladen. De kracht ligt in de radicale 'reframing' (Beatles/Bijbel) en de moed om religieuze kitsch te slopen. De zwakte ligt in het gebrek aan poëtische beeldkracht en, fundamenteler, in de geslotenheid van de structuur. De preek ademt geen ruimte, maar urgentie. Het is een manifest dat de hoorder mobiliseert, maar niet noodzakelijk een 'kunstwerk' waarin de ziel kan wonen. De reductie van God tot menselijke liefde levert een esthetische verschraling op: het mysterie verdwijnt. Als tijdsdocument is het sterk (8), als homiletisch model voor esthetiek is het beperkt (6) vanwege het gebrek aan polyvalentie en beeldende kracht.",
+    "sterke_punten_top_3": [
+      "Radicale en verrassende integratie van tekst en hedendaagse context (Reframing).",
+      "Heldere, jargon-vrije (anti-religieuze) taal en intellectuele precisie.",
+      "Sterke anti-kitsch houding; weigering van goedkope troost."
+    ],
+    "verbeterpunten_top_3": [
+      "Gebrek aan zintuiglijke beeldspraak ('Show, don't tell').",
+      "Dogmatische geslotenheid die geen ruimte laat voor het mysterie of de hoorder.",
+      "Reductie van het evangelie tot ethische imperatief (verlies van 'Space for Grace')."
+    ],
+    "primaire_esthetische_stijl": "Intellectueel-Politiek Manifest",
+    "vergelijking_met_specialisten": "Staat haaks op Cilliers (mist 'Space for Grace') en Stark (geen 'Open Kunstwerk'). Past in een geradicaliseerde lijn van de dialectische theologie (Thurneysen) die horizontaal is gekanteld.",
+    "doelgroep_analyse": "Intellectuelen, studenten, politiek bewuste hoorders die vervreemd zijn van traditionele kerktaal.",
+    "aanbevelingen_voor_volgende_preek": [
+      "Gebruik meer metaforen en verhalen om de boodschap te 'aarden' in de zintuiglijke ervaring.",
+      "Durf de vraag naar God open te laten aan het einde, in plaats van deze dicht te definiëren.",
+      "Breng balans tussen de ethische eis (wat wij moeten doen) en de genadige toezegging (wie God is ondanks ons)."
+    ],
+    "conclusie": "Een esthetisch 'droge' maar retorisch krachtige preek. Sölle offert schoonheid en mysterie op voor helderheid en politieke urgentie. Het is een preek als een sloophamer: effectief om muren te slechten, maar minder geschikt om een huis te bouwen waarin de menselijke ziel kan wonen."
+  }
+}

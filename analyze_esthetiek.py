@@ -96,7 +96,7 @@ def save_output(input_filename, json_content):
         # Calculate some statistics for confirmation
         total_scores = []
 
-        # Collect scores from all three domains
+        # Collect scores from both domains (A and B only)
         if "domein_a_poetica_van_de_taal" in parsed_json:
             domein_a = parsed_json["domein_a_poetica_van_de_taal"]
             for criterium_key in ["criterium_a1_beeldend_taalgebruik",
@@ -112,14 +112,6 @@ def save_output(input_filename, json_content):
                                   "criterium_b3_openheid_vs_geslotenheid"]:
                 if criterium_key in domein_b and "score" in domein_b[criterium_key]:
                     total_scores.append(domein_b[criterium_key]["score"])
-
-        if "domein_c_esthetiek_van_de_performance" in parsed_json:
-            domein_c = parsed_json["domein_c_esthetiek_van_de_performance"]
-            for criterium_key in ["criterium_c1_authenticiteit_en_presence",
-                                  "criterium_c2_orale_kwaliteit",
-                                  "criterium_c3_liturgische_inbedding"]:
-                if criterium_key in domein_c and "score" in domein_c[criterium_key]:
-                    total_scores.append(domein_c[criterium_key]["score"])
 
         avg_score = sum(total_scores) / len(total_scores) if total_scores else 0
 
@@ -188,21 +180,12 @@ def print_summary(output_file):
                 bar = "█" * display_score + "░" * (10 - display_score)
                 print(f"   {'Dramaturgie Structuur':30s} {bar} {score}/10")
 
-        if "domein_c_esthetiek_van_de_performance" in data:
-            domein_c = data["domein_c_esthetiek_van_de_performance"]
-            if "gemiddelde_score_performance" in domein_c:
-                score = domein_c["gemiddelde_score_performance"]
-                display_score = int(round(float(score)))
-                bar = "█" * display_score + "░" * (10 - display_score)
-                print(f"   {'Esthetiek Performance':30s} {bar} {score}/10")
-
-        # Print Kitsch and Space for Grace scores
-        if "kitsch_diagnose" in data and "kitsch_score" in data["kitsch_diagnose"]:
-            kitsch = data["kitsch_diagnose"]["kitsch_score"]
-            # Note: lower kitsch score is better, so invert for display
-            display = 10 - int(round(float(kitsch)))
-            bar = "█" * display + "░" * (10 - display)
-            print(f"   {'Vrijheid van Kitsch':30s} {bar} {display}/10 (kitsch: {kitsch})")
+        # Print Anti-kitsch and Space for Grace scores
+        if "kitsch_diagnose" in data and "anti_kitsch_score" in data["kitsch_diagnose"]:
+            anti_kitsch = data["kitsch_diagnose"]["anti_kitsch_score"]
+            display_score = int(round(float(anti_kitsch)))
+            bar = "█" * display_score + "░" * (10 - display_score)
+            print(f"   {'Anti-Kitsch':30s} {bar} {anti_kitsch}/10")
 
         if "ruimte_voor_genade_analyse" in data and "ruimte_score" in data["ruimte_voor_genade_analyse"]:
             ruimte = data["ruimte_voor_genade_analyse"]["ruimte_score"]
@@ -250,13 +233,8 @@ Deze tool analyseert de preek op esthetische kwaliteit:
     • Integratie van tekst en context (reframing)
     • Openheid vs. geslotenheid (open kunstwerk)
 
-  DOMEIN C - Esthetiek van de Performance (Embodiment):
-    • Authenticiteit en presence (ethos)
-    • Orale kwaliteit en spreekbaarheid
-    • Liturgische inbedding
-
   Speciale analyses:
-    • Kitsch-diagnose (religieuze kitsch vs. authenticiteit)
+    • Anti-kitsch score (afwezigheid van religieuze kitsch en sentiment)
     • Ruimte voor genade (Cilliers' centrale concept)
 
 Gebaseerd op het werk van:
