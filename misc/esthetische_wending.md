@@ -4,7 +4,7 @@
 
 De hedendaagse homiletiek bevindt zich in een fase van diepgaande heroriëntatie, waarin de vraag naar de *vormkracht* en de *esthetische kwaliteit* van de prediking niet langer als secundair wordt beschouwd, maar als essentieel voor de theologische integriteit van de verkondiging. Waar klassieke handboeken zich vaak beperkten tot de exegetische correctheid en de dogmatische zuiverheid van de preek, dwingt de postmoderne, visueel ingestelde cultuur de theologie tot een hernieuwde bezinning op de esthetica. Het gaat hierbij niet om een oppervlakkige verfraaiing van de boodschap ('mooischrijverij'), maar om de fundamentele overtuiging dat *hoe* iets gezegd wordt, onlosmakelijk verbonden is met *wat* er gezegd wordt. Zoals Albrecht Grözinger stelt, hangt het esthetische ten nauwste samen met de vraag naar de vorm, maar kan dit nooit worden losgemaakt van de inhoud.[1]
 
-Dit overzicht over de esthetische toetsing in de homiletiek is geschreven vanuit het perspectief van de praktische theologie, met specifieke aandacht voor de spanningsvelden tussen retorica en openbaring, en tussen performance en tekst. De analyse baseert zich op onderzoeksmateriaal, variërend van fundamentele werken van Johan Cilliers en Ciska Stark in combinatie met concrete evaluatieformulieren van instellingen zoals de Evangelische Theologische Faculteit (ETF) Leuven en de Protestantse Theologische Universiteit (PThU).
+Dit overzicht over de esthetische toetsing in de homiletiek is geschreven vanuit het perspectief van de praktische theologie, met specifieke aandacht voor de spanningsvelden tussen retorica en openbaring, en tussen performance en tekst. De analyse put uit fundamentele werken van Johan Cilliers en Ciska Stark, en integreert concrete evaluatieformulieren van instellingen zoals de Evangelische Theologische Faculteit (ETF) Leuven en de Protestantse Theologische Universiteit (PThU).
 
 ## **Deel I: Theoretische Fundamenten van de Homiletische Esthetiek**
 
@@ -52,17 +52,17 @@ De vraag naar "mensen die hier in gespecialiseerd zijn" leidt tot een selectie v
 
 Cilliers is zonder twijfel de meest prominente stem als het gaat om de expliciete verbinding tussen esthetiek, kunst en prediking binnen de gereformeerde traditie.
 
-* **Kernpublicaties:** *A Space for Grace: Towards an Aesthetics of Preaching* (2016) [7], *The Optic of Homiletics* [5], *Preaching between affirmation and anticipation*.[12]  
+* **Kernpublicaties:** *A Space for Grace: Towards an Aesthetics of Preaching* (2016) [7], *The Optic of Homiletics* [5], *Preaching between affirmation and anticipation*.[11]  
 * **Esthetische Focus:** Cilliers analyseert de preek als een kunstvorm die opereert in liminale ruimtes. Hij waarschuwt fel tegen 'religieuze kitsch' – voorgekauwde emoties en clichés die de ware ontmoeting met het Heilige blokkeren. Kitsch sluit de ruimte; ware esthetiek (genade) opent de ruimte.  
 * **Relevantie voor toetsing:** Zijn werk biedt criteria om de *authenticiteit* van de beelden en de taal te toetsen. Is de preek een goedkope reproductie (kitsch) of een originele schepping die 'ruimte voor genade' maakt?
 
 ### **2.2 Dr. Ciska Stark (Nederland, PThU)**
 
-Als directeur onderwijs en docent homiletiek aan de PThU heeft Stark de Nederlandse preekcultuur diepgaand beïnvloed en geanalyseerd.[13]
+Als directeur onderwijs en docent homiletiek aan de PThU heeft Stark de Nederlandse preekcultuur diepgaand beïnvloed en geanalyseerd.[12]
 
-* **Kernpublicaties:** *Proeven van de preek* [2], *Wat is het effect van prediking?* [4], *De magie van het gesproken woord*.[13]  
+* **Kernpublicaties:** *Proeven van de preek* [2], *Wat is het effect van prediking?* [4], *De magie van het gesproken woord*.[12]  
 * **Esthetische Focus:** Zij benadert de preek vanuit de retorica en de communicatietheorie. Haar concept van de 'preekproeverij' impliceert een zintuiglijke beoordeling. Ze legt de nadruk op de *stem* van de prediker en de *meerstemmigheid* van de Schrift.  
-* **Relevantie voor toetsing:** Stark biedt instrumenten voor de analyse van de *hoordersperspectieven* en de retorische strategieën (bijv. de prediker als 'klimaatprofeet' [14]).
+* **Relevantie voor toetsing:** Stark biedt instrumenten voor de analyse van de *hoordersperspectieven* en de retorische strategieën (bijv. de prediker als 'klimaatprofeet' [13]).
 
 ### **2.3 Prof. dr. Albrecht Grözinger (Duitsland/Zwitserland)**
 
@@ -76,24 +76,24 @@ Een fundamentele denker over de relatie tussen praktische theologie en esthetiek
 
 Grondleggers van de 'New Homiletic', die narrative en literaire vormen centraal stelt.
 
-* **Paul Scott Wilson:** Auteur van *The Four Pages of the Sermon*.[15] Hij focust op 'imagery' en de filmische kwaliteit van de preek. Zijn criterium: "Show, don't tell." Hij pleit voor een balans tussen 'trouble' (zonde/nood) en 'grace' (genade/Gods actie) in de preekstructuur.  
-* **Thomas Long:** Auteur van *The Witness of Preaching*.[17] Hij benadrukt dat de *vorm* van de preek de *vorm* van de tekst moet volgen. Een psalm vraagt om een andere preekstructuur dan een gelijkenis.  
-* **Relevantie voor toetsing:** Beiden bieden concrete *checklists* voor de structuur en het beeldgebruik in de preek.[18]
+* **Paul Scott Wilson:** Auteur van *The Four Pages of the Sermon*.[14] Hij focust op 'imagery' en de filmische kwaliteit van de preek. Zijn criterium: "Show, don't tell." Hij pleit voor een balans tussen 'trouble' (zonde/nood) en 'grace' (genade/Gods actie) in de preekstructuur.  
+* **Thomas Long:** Auteur van *The Witness of Preaching*.[15] Hij benadrukt dat de *vorm* van de preek de *vorm* van de tekst moet volgen. Een psalm vraagt om een andere preekstructuur dan een gelijkenis.  
+* **Relevantie voor toetsing:** Beiden bieden concrete *checklists* voor de structuur en het beeldgebruik in de preek.[16]
 
 ### **2.5 Marilyn Chandler McEntyre (Verenigde Staten)**
 
 Hoewel geen homileet in strikte zin, is haar werk cruciaal voor de *ethiek en esthetiek van het woord*.
 
-* **Kernpublicatie:** *Caring for Words in a Culture of Lies*.[19]  
+* **Kernpublicatie:** *Caring for Words in a Culture of Lies*.[17]  
 * **Esthetische Focus:** 'Stewardship of language'. Woorden zijn instrumenten van verzoening en waarheid. Slordig, vaag of manipulatief taalgebruik is een zonde tegen de Geest.  
 * **Relevantie voor toetsing:** Haar criteria voor 'precisie', 'helderheid' en 'liefdevolle taal' zijn direct toepasbaar op de preekanalyse.
 
 ### **2.6 Nederlandse Context: Immink, De Ruijter, Van Dusseldorp, Pleizier**
 
 * **Gerrit Immink:** Focus op performance en het religieuze moment.[8]  
-* **Kees de Ruijter:** Focus op de klassieke gereformeerde homiletiek ('Horen naar de stem van God'), maar met oog voor de methode en structuur.[21]  
-* **Kees van Dusseldorp:** Specialist in narratieve homiletiek en de preek 'tussen de verhalen'.[23]  
-* **Theo Pleizier:** Focus op de empirische homiletiek en de ervaring van de hoorder ('religious involvement').[24]
+* **Kees de Ruijter:** Focus op de klassieke gereformeerde homiletiek ('Horen naar de stem van God'), maar met oog voor de methode en structuur.[18]  
+* **Kees van Dusseldorp:** Specialist in narratieve homiletiek en de preek 'tussen de verhalen'.[19]  
+* **Theo Pleizier:** Focus op de empirische homiletiek en de ervaring van de hoorder ('religious involvement').[20]
 
 ##  **Deel III: Criteria en Karakteristieken voor Esthetische Toetsing**
 
@@ -108,7 +108,7 @@ Taal is het primaire materiaal van de prediker. Esthetische toetsing vraagt om e
 Volgens Paul Scott Wilson denkt de moderne mens in beelden. Een preek die louter bestaat uit abstracte concepten (rechtvaardiging, heiliging, eschatologie) zonder deze te 'verbeelden', faalt esthetisch.
 
 * **Checklist-vragen:**  
-  * Wordt er gebruik gemaakt van zintuiglijke taal (zicht, gehoor, tast, reuk, smaak)?.[26]  
+  * Wordt er gebruik gemaakt van zintuiglijke taal (zicht, gehoor, tast, reuk, smaak)?.[21]  
   * Zijn de metaforen 'levend' en verrassend, of zijn het 'dode metaforen' (clichés)?  
   * Wordt de bijbelse wereld opgeroepen in levendige scènes ('painting the picture')?  
   * *Karakteristiek:* Een esthetisch sterke preek laat de hoorder *zien* wat er gezegd wordt. Zoals Cilliers stelt: het gaat om een nieuwe 'optiek'.[5]
@@ -141,7 +141,7 @@ De vormgeving van de preek in de tijd bepaalt of de hoorder wordt meegenomen in 
 Een preek moet, zoals Eugene Lowry betoogt ('The Homiletical Plot'), een plot hebben. Er moet iets op het spel staan.
 
 * **Checklist-vragen:**  
-  * Is er sprake van een 'upsetting of the equilibrium' (verstoring van het evenwicht) aan het begin?.[26]  
+  * Is er sprake van een 'upsetting of the equilibrium' (verstoring van het evenwicht) aan het begin?.[21]  
   * Wordt er een probleem of conflict geïntroduceerd dat vraagt om een oplossing?  
   * Is er een duidelijke wending (turning point) waar het evangelie licht werpt op de situatie?  
   * *Karakteristiek:* De preek is geen statische verzameling van drie punten, maar een dynamische reis van A naar B.
@@ -174,7 +174,7 @@ De preek bestaat niet op papier, maar in de daadwerkelijke uitvoering.
 Immink benadrukt de rol van de prediker als persoon in het liturgische drama.
 
 * **Checklist-vragen:**  
-  * Is de prediker 'aanwezig' in het moment? (Presence).[28]  
+  * Is de prediker 'aanwezig' in het moment? (Presence).[22]  
   * Is er congruentie tussen wat gezegd wordt en de lichaamstaal/mimiek? (Bijv. geen blijde boodschap verkondigen met een nors gezicht).  
   * Wordt er oogcontact gemaakt?  
   * *Karakteristiek:* De prediker 'valt samen' met de boodschap zonder zichzelf centraal te stellen.
@@ -182,7 +182,7 @@ Immink benadrukt de rol van de prediker als persoon in het liturgische drama.
 #### **Criterium [8]: Stemgebruik en Stilte**
 
 * **Checklist-vragen:**  
-  * Wordt de stem effectief gebruikt (volume, toonhoogte, spreeksnelheid)?.[28]  
+  * Wordt de stem effectief gebruikt (volume, toonhoogte, spreeksnelheid)?.[22]  
   * Durft de prediker stiltes te laten vallen om het gezegde te laten indalen? (Cilliers: 'Space for Grace' impliceert ook letterlijke ruimte/tijd in de preek).  
   * Is de articulatie helder?
 
@@ -198,11 +198,11 @@ De preek staat niet op zichzelf.
 
 ## **Deel IV: Analyse van Bestaande Evaluatie-Instrumenten**
 
-Om de gebruiker te voorzien van concrete tools, analyseren we de beschikbare evaluatieformulieren uit de research snippets. Deze formulieren tonen hoe de academische theorie wordt vertaald naar de praktijk van de preekbeoordeling.
+De beschikbare evaluatieformulieren tonen hoe de academische theorie wordt vertaald naar de praktijk van de preekbeoordeling.
 
 ### **4.1 Het Evaluatiemodel van de ETF Leuven**
 
-De Evangelische Theologische Faculteit (ETF) in Leuven hanteert een gedetailleerd "Homiletics \- Sermon Evaluation Form".[18] Dit formulier is sterk gericht op de *communicatieve effectiviteit* en de *exegetische verankering*.
+De Evangelische Theologische Faculteit (ETF) in Leuven hanteert een gedetailleerd "Homiletics \- Sermon Evaluation Form".[16] Dit formulier is sterk gericht op de *communicatieve effectiviteit* en de *exegetische verankering*.
 
 **Esthetische Elementen in het ETF-model:**
 
@@ -210,7 +210,7 @@ De Evangelische Theologische Faculteit (ETF) in Leuven hanteert een gedetailleer
 * **Illustrations:** "Are the sermon points explained well through illustrations?" Dit toetst direct op het criterium van 'Imagery'. Het vraagt om het concretiseren van abstracte punten.  
 * **Introduction:** "Does it raise a need?" Dit sluit aan bij de narratieve theorie van Lowry (upsetting the equilibrium).  
 * **Delivery:** Het formulier bevat specifieke schalen voor "Voice" (Speed, Volume, Pitch) en "Delivery" (Facial Expressions, Gestures). Dit bevestigt het belang van performance/embodiment.  
-* **Stijl:** Er wordt expliciet gevraagd naar "Word Choice" en "Grammar".[28]
+* **Stijl:** Er wordt expliciet gevraagd naar "Word Choice" en "Grammar".[22]
 
 Tekortkomingen vanuit esthetisch perspectief:  
 Het model is vrij functioneel en instrumenteel ("Achieved purpose?", "Main points stated clearly?"). Het risico bestaat dat een preek die technisch perfect scoort op deze punten, toch esthetisch 'plat' kan zijn (weinig diepgang, geen poëzie, geen mysterie). De dimensie van het 'open kunstwerk' of de 'esthetische ervaring van het Heilige' (Immink) wordt hier minder expliciet getoetst.
@@ -219,7 +219,7 @@ Het model is vrij functioneel en instrumenteel ("Achieved purpose?", "Main point
 
 ### **4.2 Het Model van de PThU (Protestantse Theologische Universiteit)**
 
-Aan de PThU wordt gewerkt met de term 'homiletische analyse' en 'theologie van de preek'.[14] De benadering is hier meer hermeneutisch en theologisch georiënteerd.
+Aan de PThU wordt gewerkt met de term 'homiletische analyse' en 'theologie van de preek'.[13] De benadering is hier meer hermeneutisch en theologisch georiënteerd.
 
 **Esthetische Elementen in de PThU-benadering:**
 
@@ -252,8 +252,6 @@ De esthetische toetsing van de preek is geen neutrale techniek. Het raakt aan di
 ### **5.1 De Spanning tussen Woord en Beeld (Reformatorische Esthetiek)**
 
 In de Nederlandse context (o.a. CGK, TUA, Gereformeerde Bond) is er traditioneel een zekere huiver voor het beeld en de esthetiek. De Reformatie was immers mede een reactie op de visuele overdaad van de middeleeuwse kerk; het Gehoor werd centraal gesteld (Fides ex auditu \- geloof is uit het gehoor).[3]  
-Critici zoals Kees de Ruijter of Bart Jan Spruyt [30] benadrukken het gevaar dat de esthetiek een doel op zich wordt ('estheticisme'). Als de preek alleen maar 'mooi' of 'ontroerend' moet zijn, dreigt de scherpte van de zondekennis en de radicaliteit van de bekering te verdwijnen.  
-Echter, zoals Cilliers betoogt, is deze tegenstelling vals. De esthetiek van de preek in gereformeerde zin gaat niet over barokke versiering, maar over de schoonheid van de eenvoud en de kracht van de metafoor. De Bijbel zelf is rijk aan beelden. Een esthetische toetsing in deze traditie zoekt naar de 'sobere schoonheid' die de aandacht niet op de prediker vestigt, maar transparant maakt naar God.[31]
 
 ### **5.2 Kitsch als de Vijand van de Preek**
 
@@ -271,7 +269,7 @@ De studie van Theo Pleizier naar 'Religious Involvement in Hearing Sermons' [24]
 
 ### **5.4 De Rol van de 'Performance' in een Digitale Tijd**
 
-De snippets verwijzen ook naar de invloed van de digitale cultuur en de smartphone-samenleving.[13] In een tijd waarin beelden alomtegenwoordig zijn, moet de preek concurreren om aandacht.
+De invloed van de digitale cultuur en de smartphone-samenleving is evident.[12] In een tijd waarin beelden alomtegenwoordig zijn, moet de preek concurreren om aandacht.
 
 * **Authenticiteit:** In een wereld van gefilterde beelden (Instagram), is er een honger naar authenticiteit. De esthetiek van de 'rauwe eerlijkheid' en de kwetsbaarheid van de prediker wordt belangrijker.  
 * **Visuele Ondersteuning:** Esthetische toetsing kan ook gaan over het gebruik van PowerPoint of Beamer. Is dit ondersteunend of afleidend? Versterkt het de metafoor of plat het deze af? (De algemene homiletische consensus is voorzichtig: het gesproken woord roept beelden op in het hoofd, een plaatje op het scherm kan deze interne verbeelding juist 'dichtslaan').
@@ -282,7 +280,7 @@ De snippets verwijzen ook naar de invloed van de digitale cultuur en de smartpho
 
 Het esthetisch toetsen in de homiletiek is een complexe maar noodzakelijke vaardigheid die verder reikt dan smaak ("ik vond het een mooie preek"). Het vereist een getraind oog en oor voor de theologische werking van vorm, taal en performance.
 
-De gebruiker die hiermee aan de slag wil, beschikt nu over:
+Dit overzicht biedt:
 
 1. **Criteria:** Gericht op beeldend taalgebruik, narratieve structuur, reframing, openheid en authenticiteit.  
 2. **Checklists:** Gebaseerd op modellen van de ETF Leuven (functioneel/communicatief) en inzichten van de 'New Homiletic' (verbeeldend/narratief).  
@@ -292,34 +290,25 @@ De conclusie is dat een esthetisch verantwoorde preek er een is waarin de *vorm*
 
 #### **Referenties**
 
-1. 'Liefst ook in de woordvorm een Godswoord' | Jantine Nierop \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/liefst-ook-in-de-woordvorm-een-godswoord/](https://www.theologie.nl/liefst-ook-in-de-woordvorm-een-godswoord/)  
-2. De hoorder in de homiletiek van E. Thurneysen | Reijer de Vries \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/de-hoorder-in-de-homiletiek-van-e-thurneysen/](https://www.theologie.nl/de-hoorder-in-de-homiletiek-van-e-thurneysen/)  
-3. VU Research Portal, geopend op januari 12, 2026, [https://research.vu.nl/ws/files/42172559/4599%20Proeven%20van%20de%20preek%20Hoofdstuk%206-9.pdf](https://research.vu.nl/ws/files/42172559/4599%20Proeven%20van%20de%20preek%20Hoofdstuk%206-9.pdf)  
-4. Wat is het effect van prediking? | Ciska Stark \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/wat-is-het-effect-van-prediking/](https://www.theologie.nl/wat-is-het-effect-van-prediking/)  
-5. Cilliers, Johan Universiteit Stellenbosch Die optiek van homiletiek: Prediking as om-raming van perspektief, geopend op januari 12, 2026, [https://ngtt.journals.ac.za/pub/article/view/249](https://ngtt.journals.ac.za/pub/article/view/249)  
-6. Inter Alia: Johan Cilliers and the homiletical imagination \- SciELO South Africa, geopend op januari 12, 2026, [https://scielo.org.za/pdf/stj/v5n2/04.pdf](https://scielo.org.za/pdf/stj/v5n2/04.pdf)  
-7. Worship as “protest”: Johan Cilliers as a Public Theologian? \- SciELO South Africa, geopend op januari 12, 2026, [https://scielo.org.za/pdf/stj/v5n2/10.pdf](https://scielo.org.za/pdf/stj/v5n2/10.pdf)  
-8. Tot wie wij bidden \- Theologische Universiteiten, geopend op januari 12, 2026, [https://theoluniv.ub.rug.nl/497/1/2022\_Heide,%20E.S.%20van%20der\_masterscriptie%20zonder%20bijlagen.pdf](https://theoluniv.ub.rug.nl/497/1/2022_Heide,%20E.S.%20van%20der_masterscriptie%20zonder%20bijlagen.pdf)  
-9. 2\. Delen in het heil | Gerrit Immink \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/2-delen-in-het-heil/](https://www.theologie.nl/2-delen-in-het-heil/)  
-10. De preek als performance \- Classis Noord-Brabant \- Limburg en Réunion Wallonne, geopend op januari 12, 2026, [https://www.classisbrabantlimburg.nl/de-preek-als-performance/](https://www.classisbrabantlimburg.nl/de-preek-als-performance/)  
-11. A Space for Grace: Towards an Aesthetics of Preaching \- Johan Cilliers \- Google Books, geopend op januari 12, 2026, [https://books.google.com/books/about/A\_Space\_for\_Grace.html?id=Uk8EDAAAQBAJ](https://books.google.com/books/about/A_Space_for_Grace.html?id=Uk8EDAAAQBAJ)  
-12. Preaching between affirmation and anticipation: Contours of a paradoxical homiletic, geopend op januari 12, 2026, [https://scielo.org.za/scielo.php?script=sci\_arttext\&pid=S2413-94672016000100008](https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2413-94672016000100008)  
-13. De magie van het gesproken woord – actuele homiletiek \- Inleiding Handelingen 2020/1 \- Ciska Stark, geopend op januari 12, 2026, [https://www.handelingen.com/index.php/artikelen/302-de-magie-van-het-gesproken-woord-actuele-homiletiek](https://www.handelingen.com/index.php/artikelen/302-de-magie-van-het-gesproken-woord-actuele-homiletiek)  
-14. Een ongemakkelijke waarheid \- Handelingen: Tijdschrift voor Praktische Theologie en Religiewetenschap, geopend op januari 12, 2026, [https://tijdschrift.handelingen.com/article/download/15451/16894/33127](https://tijdschrift.handelingen.com/article/download/15451/16894/33127)  
-15. Must Reads Classics \- The Four Pages of the Sermon by Paul Scott Wilson, geopend op januari 12, 2026, [https://pcpe.smu.edu/blog/must-reads-classics-the-four-pages-of-the-sermon-by-paul-scott-wilson](https://pcpe.smu.edu/blog/must-reads-classics-the-four-pages-of-the-sermon-by-paul-scott-wilson)  
-16. The four pages of the sermon : a guide to biblical preaching : Wilson, Paul Scott, 1949- : Free Download, Borrow, and Streaming \- Internet Archive, geopend op januari 12, 2026, [https://archive.org/details/fourpagesofsermo0000wils](https://archive.org/details/fourpagesofsermo0000wils)  
-17. Bibliography for Preaching \- ACU Blogs, geopend op januari 12, 2026, [https://blogs.acu.edu/sensingt/files/2010/10/Preaching-Bibliography-2016.pdf](https://blogs.acu.edu/sensingt/files/2010/10/Preaching-Bibliography-2016.pdf)  
-18. Online Basic Homiletic Evaluation Form | PDF \- Scribd, geopend op januari 12, 2026, [https://www.scribd.com/document/832864268/Online-Basic-Homiletic-Evaluation-Form](https://www.scribd.com/document/832864268/Online-Basic-Homiletic-Evaluation-Form)  
-19. Choosing Preaching Words \- Fortress Press, geopend op januari 12, 2026, [https://ms.fortresspress.com/downloads/0800663535\_Chapter%20one.pdf](https://ms.fortresspress.com/downloads/0800663535_Chapter%20one.pdf)  
-20. Pictures on Silence | On the Integration of Faith, Learning, and Music, geopend op januari 12, 2026, [https://picturesonsilence.wordpress.com/](https://picturesonsilence.wordpress.com/)  
-21. Werkschema preekvoorbereiding | Kees de Ruijter \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/werkschema-preekvoorbereiding/](https://www.theologie.nl/werkschema-preekvoorbereiding/)  
-22. 1\. Preek en homiletiek | Kees de Ruijter \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/1-preek-en-homiletiek/](https://www.theologie.nl/1-preek-en-homiletiek/)  
-23. PREKEN TUSSEN DE VERHALEN \- een homiletische doordenking van narrativiteit \- Kees van Dusseldorp \- Theologische Universiteiten, geopend op januari 12, 2026, [https://theoluniv.ub.rug.nl/36/2/2012Dusseldorp%20Dissertation.pdf](https://theoluniv.ub.rug.nl/36/2/2012Dusseldorp%20Dissertation.pdf)  
-24. homiletics | Theo Pleizier | EN, geopend op januari 12, 2026, [https://theopleizier.nl/en/tag/homiletics/](https://theopleizier.nl/en/tag/homiletics/)  
-25. Religious Involvement in Hearing Sermons \- Theo Pleizier, geopend op januari 12, 2026, [https://theopleizier.nl/pdf/publications/2010\_pleizier2010d\_Religious%20Involvement%20in.pdf](https://theopleizier.nl/pdf/publications/2010_pleizier2010d_Religious%20Involvement%20in.pdf)  
-26. An Aesthetic Performative Approach for the Postmodern Pulpit to Enable Listener, geopend op januari 12, 2026, [https://utoronto.scholaris.ca/bitstreams/ce190eec-0353-40c0-8ae5-f34b354c5e60/download](https://utoronto.scholaris.ca/bitstreams/ce190eec-0353-40c0-8ae5-f34b354c5e60/download)  
-27. Traject Nederlands 6 XL \- Inkijkmateriaal by VAN IN \- Issuu, geopend op januari 12, 2026, [https://issuu.com/uitgeverijvanin/docs/traject\_nederlands\_6xl\_20240205?fr=sMzhmYTY5MDY1Mjg](https://issuu.com/uitgeverijvanin/docs/traject_nederlands_6xl_20240205?fr=sMzhmYTY5MDY1Mjg)  
-28. Sermon Evaluation Form \- Bible Study Downloads, geopend op januari 12, 2026, [https://biblestudydownloads.org/files/eng/pr/G25-26\_Sermon\_Evaluation\_Form\_eng\_pr\_v4.pdf](https://biblestudydownloads.org/files/eng/pr/G25-26_Sermon_Evaluation_Form_eng_pr_v4.pdf)  
-29. ONDERWIJS- EN EXAMENREGELING \- Protestantse Theologische Universiteit, geopend op januari 12, 2026, [https://www.pthu.nl/over-pthu/organisatie/regelingen-en-rechtspositie/oer-master-predikantschap-groningen-2021-2022-def.pdf](https://www.pthu.nl/over-pthu/organisatie/regelingen-en-rechtspositie/oer-master-predikantschap-groningen-2021-2022-def.pdf)  
-30. Cvandaag podcast: Hoe kwam Bart Jan Spruyt in de refozuil terecht?, geopend op januari 12, 2026, [https://cvandaag.nl/99723-cvandaag-podcast-hoe-kwam-bart-jan-spruyt-in-de-refozuil-terecht](https://cvandaag.nl/99723-cvandaag-podcast-hoe-kwam-bart-jan-spruyt-in-de-refozuil-terecht)  
-31. hoekstra-homiletiek.docx \- Theologienet, geopend op januari 12, 2026, [https://theologienet.nl/bestanden/hoekstra-homiletiek.docx](https://theologienet.nl/bestanden/hoekstra-homiletiek.docx)
+1. 'Liefst ook in de woordvorm een Godswoord' | Jantine Nierop \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/liefst-ook-in-de-woordvorm-een-godswoord/](https://www.theologie.nl/liefst-ook-in-de-woordvorm-een-godswoord/)
+2. De hoorder in de homiletiek van E. Thurneysen | Reijer de Vries \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/de-hoorder-in-de-homiletiek-van-e-thurneysen/](https://www.theologie.nl/de-hoorder-in-de-homiletiek-van-e-thurneysen/)
+3. VU Research Portal, geopend op januari 12, 2026, [https://research.vu.nl/ws/files/42172559/4599%20Proeven%20van%20de%20preek%20Hoofdstuk%206-9.pdf](https://research.vu.nl/ws/files/42172559/4599%20Proeven%20van%20de%20preek%20Hoofdstuk%206-9.pdf)
+4. Wat is het effect van prediking? | Ciska Stark \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/wat-is-het-effect-van-prediking/](https://www.theologie.nl/wat-is-het-effect-van-prediking/)
+5. Cilliers, Johan Universiteit Stellenbosch Die optiek van homiletiek: Prediking as om-raming van perspektief, geopend op januari 12, 2026, [https://ngtt.journals.ac.za/pub/article/view/249](https://ngtt.journals.ac.za/pub/article/view/249)
+6. Inter Alia: Johan Cilliers and the homiletical imagination \- SciELO South Africa, geopend op januari 12, 2026, [https://scielo.org.za/pdf/stj/v5n2/04.pdf](https://scielo.org.za/pdf/stj/v5n2/04.pdf)
+7. Worship as "protest": Johan Cilliers as a Public Theologian? \- SciELO South Africa, geopend op januari 12, 2026, [https://scielo.org.za/pdf/stj/v5n2/10.pdf](https://scielo.org.za/pdf/stj/v5n2/10.pdf)
+8. Tot wie wij bidden \- Theologische Universiteiten, geopend op januari 12, 2026, [https://theoluniv.ub.rug.nl/497/1/2022\_Heide,%20E.S.%20van%20der\_masterscriptie%20zonder%20bijlagen.pdf](https://theoluniv.ub.rug.nl/497/1/2022_Heide,%20E.S.%20van%20der_masterscriptie%20zonder%20bijlagen.pdf)
+9. 2\. Delen in het heil | Gerrit Immink \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/2-delen-in-het-heil/](https://www.theologie.nl/2-delen-in-het-heil/)
+10. De preek als performance \- Classis Noord-Brabant \- Limburg en Réunion Wallonne, geopend op januari 12, 2026, [https://www.classisbrabantlimburg.nl/de-preek-als-performance/](https://www.classisbrabantlimburg.nl/de-preek-als-performance/)
+11. Preaching between affirmation and anticipation: Contours of a paradoxical homiletic, geopend op januari 12, 2026, [https://scielo.org.za/scielo.php?script=sci\_arttext\&pid=S2413-94672016000100008](https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2413-94672016000100008)
+12. De magie van het gesproken woord – actuele homiletiek \- Inleiding Handelingen 2020/1 \- Ciska Stark, geopend op januari 12, 2026, [https://www.handelingen.com/index.php/artikelen/302-de-magie-van-het-gesproken-woord-actuele-homiletiek](https://www.handelingen.com/index.php/artikelen/302-de-magie-van-het-gesproken-woord-actuele-homiletiek)
+13. Een ongemakkelijke waarheid \- Handelingen: Tijdschrift voor Praktische Theologie en Religiewetenschap, geopend op januari 12, 2026, [https://tijdschrift.handelingen.com/article/download/15451/16894/33127](https://tijdschrift.handelingen.com/article/download/15451/16894/33127)
+14. Must Reads Classics \- The Four Pages of the Sermon by Paul Scott Wilson, geopend op januari 12, 2026, [https://pcpe.smu.edu/blog/must-reads-classics-the-four-pages-of-the-sermon-by-paul-scott-wilson](https://pcpe.smu.edu/blog/must-reads-classics-the-four-pages-of-the-sermon-by-paul-scott-wilson)
+15. Bibliography for Preaching \- ACU Blogs, geopend op januari 12, 2026, [https://blogs.acu.edu/sensingt/files/2010/10/Preaching-Bibliography-2016.pdf](https://blogs.acu.edu/sensingt/files/2010/10/Preaching-Bibliography-2016.pdf)
+16. Online Basic Homiletic Evaluation Form | PDF \- Scribd, geopend op januari 12, 2026, [https://www.scribd.com/document/832864268/Online-Basic-Homiletic-Evaluation-Form](https://www.scribd.com/document/832864268/Online-Basic-Homiletic-Evaluation-Form)
+17. Choosing Preaching Words \- Fortress Press, geopend op januari 12, 2026, [https://ms.fortresspress.com/downloads/0800663535\_Chapter%20one.pdf](https://ms.fortresspress.com/downloads/0800663535_Chapter%20one.pdf)
+18. Werkschema preekvoorbereiding | Kees de Ruijter \- Theologie.nl, geopend op januari 12, 2026, [https://www.theologie.nl/werkschema-preekvoorbereiding/](https://www.theologie.nl/werkschema-preekvoorbereiding/)
+19. PREKEN TUSSEN DE VERHALEN \- een homiletische doordenking van narrativiteit \- Kees van Dusseldorp \- Theologische Universiteiten, geopend op januari 12, 2026, [https://theoluniv.ub.rug.nl/36/2/2012Dusseldorp%20Dissertation.pdf](https://theoluniv.ub.rug.nl/36/2/2012Dusseldorp%20Dissertation.pdf)
+20. homiletics | Theo Pleizier | EN, geopend op januari 12, 2026, [https://theopleizier.nl/en/tag/homiletics/](https://theopleizier.nl/en/tag/homiletics/)
+21. An Aesthetic Performative Approach for the Postmodern Pulpit to Enable Listener, geopend op januari 12, 2026, [https://utoronto.scholaris.ca/bitstreams/ce190eec-0353-40c0-8ae5-f34b354c5e60/download](https://utoronto.scholaris.ca/bitstreams/ce190eec-0353-40c0-8ae5-f34b354c5e60/download)
+22. Sermon Evaluation Form \- Bible Study Downloads, geopend op januari 12, 2026, [https://biblestudydownloads.org/files/eng/pr/G25-26\_Sermon\_Evaluation\_Form\_eng\_pr\_v4.pdf](https://biblestudydownloads.org/files/eng/pr/G25-26_Sermon_Evaluation_Form_eng_pr_v4.pdf)  
