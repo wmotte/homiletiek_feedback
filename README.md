@@ -25,7 +25,7 @@ Dit project biedt een hulpmiddel voor die evaluatie - door te illustreren hoe ee
 
 ### Wat doet dit project?
 
-Dit project biedt vier complementaire methoden voor de systematische analyse van preken aan:
+Dit project biedt vijf complementaire methoden voor de systematische analyse van preken aan:
 
 #### 1. De Leercyclus van Kolb (Homiletic Window)
 Analyseert of de preek de volledige cyclus van ervaringsgericht leren doorloopt, zodat verschillende typen hoorders (leerstijlen) worden aangesproken. Dit is gebaseerd op de homiletische typologie van **Kenton Anderson**:
@@ -72,11 +72,23 @@ Deze analyse waakt voor 'homiletische incongruentie' (waar toon en inhoud botsen
 
 **Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/schulz_von_thun.md`.
 
+#### 5. De Esthetische Wending (Narrative and Aesthetic Turn)
+Analyseert preken aan de hand van de esthetische wending in de theologie en homiletiek. Deze benadering onderzoekt de *vorm* als drager van betekenis:
+
+- **Narratieve Kracht** - Verhaalstructuur en dramatische spanning
+- **Zintuiglijkheid** - Beeldspraak, metaforen en concrete taal
+- **Ritme en Compositie** - Muzikaliteit en literaire vormgeving
+- **Esthetische Ervaring** - Het vermogen om te raken en transformeren
+
+Deze methode beoordeelt de preek als kunstvorm die door haar vormgeving toegang geeft tot theologische waarheid.
+
+**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/esthetische_wending.md`.
+
 ---
 
 Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
 
-**Artikelen:** De brontekst van Dekker, de toelichting op Kolb, de uitleg over Aristotelische Modi en de analyse van Schulz von Thun zijn opgenomen in de map `misc/`.
+**Artikelen:** De brontekst van Dekker, de toelichting op Kolb, de uitleg over Aristotelische Modi, de analyse van Schulz von Thun en de toelichting op de Esthetische Wending zijn opgenomen in de map `misc/`.
 
 ---
 
@@ -97,6 +109,7 @@ homiletiek_feedback/
 ├── analyze_sermon_dekker.py           # Analyse op basis van Dekker-thesen
 ├── analyze_aristoteles.py             # Analyse op basis van Aristotelische Modi
 ├── analyze_schulz_von_thun.py         # Analyse op basis van Schulz von Thun
+├── analyze_esthetiek.py               # Analyse op basis van de Esthetische Wending
 ├── .env                               # API-sleutel configuratie (niet in git)
 ├── input/                             # Preekteksten (*.txt)
 ├── outputs/                           # Analyse-resultaten (*.json)
@@ -104,14 +117,16 @@ homiletiek_feedback/
 │   ├── analyze_kolb_cyclus.md
 │   ├── analyze_sermon_dekker.md
 │   ├── analyze_aristoteles.md
-│   └── analyze_schulz_von_thun.md
+│   ├── analyze_schulz_von_thun.md
+│   └── analyze_esthetiek.md
 ├── docs/                              # Documentatie en voorbeelden
 │   └── template_aristoteles.json
 ├── misc/                              # Achtergronddocumentatie
 │   ├── aristotelische_modi.md
 │   ├── kolbs_leercyclus.md
 │   ├── wat_is_een_preek_dekker.md
-│   └── schulz_von_thun.md
+│   ├── schulz_von_thun.md
+│   └── esthetische_wending.md
 └── technical/                         # Hulpscripts
 ```
 
@@ -156,6 +171,11 @@ python analyze_aristoteles.py --i input/preek.txt
 python analyze_schulz_von_thun.py --i input/preek.txt
 ```
 
+**Voor de Esthetische Wending:**
+```bash
+python analyze_esthetiek.py --i input/preek.txt
+```
+
 #### 5. Bekijk de resultaten
 Het script genereert een JSON-bestand in `outputs/` met:
 - Metadata (geschatte lengte, tijdsduur)
@@ -190,9 +210,9 @@ Deze regel bewaart de prediking tegen zowel te objectieve als te subjectieve uit
 
 ---
 
-### De Vier Methoden: Complementaire Perspectieven
+### De Vijf Methoden: Complementaire Perspectieven
 
-De vier analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
+De vijf analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
 1. **Dekkers Thesen** beoordelen de **theologische inhoud**: Is de preek schriftuurlijk, christocentrisch, en existentieel?
 
@@ -202,13 +222,16 @@ De vier analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
 4. **Schulz von Thun** onderzoekt de **communicatieve integriteit**: Is de boodschap congruent en landt deze zuiver op de vier oren van de hoorder?
 
-**Samen** vormen deze vier methoden een holistische evaluatie:
+5. **De Esthetische Wending** beoordeelt de **artistieke vorm**: Wordt de waarheid gedragen door narratieve en literaire vormgeving?
+
+**Samen** vormen deze vijf methoden een holistische evaluatie:
 - Dekker vraagt: "Is het **waar**?"
 - Kolb vraagt: "Wordt het **geleerd**?"
 - Aristoteles vraagt: "Is het **overtuigend**?"
 - Schulz von Thun vraagt: "Is het **congruent**?"
+- Esthetische Wending vraagt: "Is het **mooi**?"
 
-Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag) of missen van emotionele impact (Aristoteles: laag Pathos). Door alle vier de methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
+Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag), missen van emotionele impact (Aristoteles: laag Pathos), of esthetisch plat zijn (Esthetiek: laag). Door alle vijf de methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
 
 ---
 
