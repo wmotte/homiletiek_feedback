@@ -2,11 +2,9 @@
 
 ## **Inleiding: De Noodzaak van een Esthetische Herwaardering**
 
-De hedendaagse homiletiek bevindt zich in een fase van diepgaande heroriëntatie, waarin de vraag naar de *vormkracht* en de *esthetische kwaliteit* van de prediking niet langer als secundair wordt beschouwd, maar als essentieel voor de theologische integriteit van de verkondiging. Waar klassieke handboeken zich vaak beperkten tot de exegetische correctheid en de dogmatische zuiverheid van de preek, dwingt de postmoderne, visueel ingestelde cultuur de theologie tot een hernieuwde bezinning op de esthetica. De vraag van de gebruiker – "hoe kan je esthetisch toetsen in de homiletiek?" – raakt daarmee aan de kern van het huidige academische en kerkelijke debat. Het gaat hierbij niet om een oppervlakkige verfraaiing van de boodschap ('mooischrijverij'), maar om de fundamentele overtuiging dat *hoe* iets gezegd wordt, onlosmakelijk verbonden is met *wat* er gezegd wordt. Zoals Albrecht Grözinger stelt, hangt het esthetische ten nauwste samen met de vraag naar de vorm, maar kan dit nooit worden losgemaakt van de inhoud.1
+De hedendaagse homiletiek bevindt zich in een fase van diepgaande heroriëntatie, waarin de vraag naar de *vormkracht* en de *esthetische kwaliteit* van de prediking niet langer als secundair wordt beschouwd, maar als essentieel voor de theologische integriteit van de verkondiging. Waar klassieke handboeken zich vaak beperkten tot de exegetische correctheid en de dogmatische zuiverheid van de preek, dwingt de postmoderne, visueel ingestelde cultuur de theologie tot een hernieuwde bezinning op de esthetica. Het gaat hierbij niet om een oppervlakkige verfraaiing van de boodschap ('mooischrijverij'), maar om de fundamentele overtuiging dat *hoe* iets gezegd wordt, onlosmakelijk verbonden is met *wat* er gezegd wordt. Zoals Albrecht Grözinger stelt, hangt het esthetische ten nauwste samen met de vraag naar de vorm, maar kan dit nooit worden losgemaakt van de inhoud.[1]
 
-Dit rapport biedt een exhaustieve analyse van de esthetische toetsing in de homiletiek. Het is geschreven vanuit het perspectief van de praktische theologie, met specifieke aandacht voor de spanningsvelden tussen retorica en openbaring, en tussen performance en tekst. De analyse baseert zich op een breed corpus aan onderzoeksmateriaal, variërend van fundamentele werken van Johan Cilliers en Ciska Stark tot concrete evaluatieformulieren van instellingen zoals de Evangelische Theologische Faculteit (ETF) Leuven en de Protestantse Theologische Universiteit (PThU).
-
-De structuur van dit rapport is als volgt: Allereerst worden de theoretische fundamenten van de homiletische esthetiek uiteengezet, waarbij de verschuiving van een propositionele naar een performatieve benadering wordt geduid. Vervolgens worden de profielen van toonaangevende specialisten op dit terrein diepgravend geanalyseerd. De kern van het rapport wordt gevormd door een gedetailleerde uitwerking van esthetische criteria en checklists, waarbij abstracte noties worden vertaald naar concrete toetsingsinstrumenten. Tot slot wordt ingegaan op de confessionele nuanceringen binnen het Nederlandse taalgebied, waar de esthetische waardering soms op gespannen voet staat met reformatorische soberheid.
+Dit overzicht over de esthetische toetsing in de homiletiek is geschreven vanuit het perspectief van de praktische theologie, met specifieke aandacht voor de spanningsvelden tussen retorica en openbaring, en tussen performance en tekst. De analyse baseert zich op onderzoeksmateriaal, variërend van fundamentele werken van Johan Cilliers en Ciska Stark in combinatie met concrete evaluatieformulieren van instellingen zoals de Evangelische Theologische Faculteit (ETF) Leuven en de Protestantse Theologische Universiteit (PThU).
 
 ## **Deel I: Theoretische Fundamenten van de Homiletische Esthetiek**
 
@@ -14,35 +12,35 @@ Om tot een valide instrumentarium voor esthetische toetsing te komen, is het noo
 
 ### **1.1 Van 'Die Aufgabe der Predigt' naar de 'Aesthetic Turn'**
 
-Historisch gezien werd de homiletiek in de protestantse traditie gedomineerd door het Woord-begrip. In de dialectische theologie van de vroege twintigste eeuw, met Eduard Thurneysen als belangrijke exponent, lag de focus primair op de verticale dimensie van de openbaring. Thurneysen stelde in zijn invloedrijke artikel 'Die Aufgabe der Predigt' (1921) dat de prediker niet moet ingaan op de 'zogenaamde behoeften' van de hoorder, maar het Woord Gods moet verkondigen dat loodrecht van boven komt.2 In deze benadering was weinig ruimte voor esthetische overwegingen die uitgaan van de menselijke ervaring of perceptie. De preek was een *bediening* van het Woord, en de menselijke vormgeving werd veeleer gezien als een noodzakelijk kwaad dan als een constitutief element van de heilsbemiddeling.
+Historisch gezien werd de homiletiek in de protestantse traditie gedomineerd door het Woord-begrip. In de dialectische theologie van de vroege twintigste eeuw, met Eduard Thurneysen als belangrijke exponent, lag de focus primair op de verticale dimensie van de openbaring. Thurneysen stelde in zijn invloedrijke artikel 'Die Aufgabe der Predigt' (1921) dat de prediker niet moet ingaan op de 'zogenaamde behoeften' van de hoorder, maar het Woord Gods moet verkondigen dat loodrecht van boven komt.[2] In deze benadering was weinig ruimte voor esthetische overwegingen die uitgaan van de menselijke ervaring of perceptie. De preek was een *bediening* van het Woord, en de menselijke vormgeving werd veeleer gezien als een noodzakelijk kwaad dan als een constitutief element van de heilsbemiddeling.
 
-De huidige homiletische discussie toont echter een radicale wending. Er is sprake van een herwaardering van de menselijke factor, de retorica en de esthetiek.2 Deze 'aesthetic turn' erkent dat de openbaring zich altijd bedient van aardse, zintuiglijke vormen (taal, stem, ruimte, beeld). De Reformatie zelf kende, via figuren als Melanchthon en Andreas Hyperius, al een sterke retorische traditie waarin de *consolatio* (vertroosting) centraal stond als het meest eigenlijke gebruik van het Woord.3 De hedendaagse esthetiek grijpt terug op deze retorische wortels, maar verrijkt ze met inzichten uit de moderne literatuurwetenschap en performance studies.
+De huidige homiletische discussie toont echter een omslag. Er is sprake van een herwaardering van de menselijke factor, de retorica en de esthetiek.[2] Deze 'aesthetic turn' erkent dat de openbaring zich altijd bedient van aardse, zintuiglijke vormen (taal, stem, ruimte, beeld). De Reformatie zelf kende, via figuren als Melanchthon en Andreas Hyperius, al een sterke retorische traditie waarin de *consolatio* (vertroosting) centraal stond als het meest eigenlijke gebruik van het Woord.[3] De hedendaagse esthetiek grijpt terug op deze retorische wortels, maar verrijkt ze met inzichten uit de moderne literatuurwetenschap en performance studies.
 
 ### **1.2 De Preek als 'Open Kunstwerk' (Opera Aperta)**
 
-Een cruciaal concept voor de esthetische toetsing is de notie van de preek als 'open kunstwerk', zoals geïntroduceerd in de Nederlandse homiletiek door Ciska Stark (PThU). Geïnspireerd door Umberto Eco, stelt Stark dat een preek niet moet worden opgevat als een gesloten systeem van waarheden die eenzijdig worden overgedragen, maar als een kunstwerk dat ruimte laat voor de interpretatie en toe-eigening door de hoorder.4
+Een cruciaal concept voor de esthetische toetsing is de notie van de preek als 'open kunstwerk', zoals geïntroduceerd in de Nederlandse homiletiek door Ciska Stark (PThU). Geïnspireerd door Umberto Eco, stelt Stark dat een preek niet moet worden opgevat als een gesloten systeem van waarheden die eenzijdig worden overgedragen, maar als een kunstwerk dat ruimte laat voor de interpretatie en toe-eigening door de hoorder.[4]
 
 Dit heeft directe gevolgen voor de toetsing:
 
 * **Polyvalentie:** Een esthetisch geslaagde preek is polyvalent; hij laat meerdere betekenislagen toe. De hoorder is geen passieve consument, maar een actieve participant die betekenis toekent.  
-* **Interactie:** De esthetische kwaliteit wordt niet alleen bepaald door de tekst van de prediker, maar door de *interactie* in het moment. Stark spreekt over de preek als een weg van 'toe-eigening', maar ook van mogelijke 'afweer'.4  
+* **Interactie:** De esthetische kwaliteit wordt niet alleen bepaald door de tekst van de prediker, maar door de *interactie* in het moment. Stark spreekt over de preek als een weg van 'toe-eigening', maar ook van mogelijke 'afweer'.[4]  
 * **Criteria van Openheid:** Bij de toetsing moet men zich afvragen: Is de preek 'dichtgetimmerd'? Is er ruimte voor de ambivalentie van het bestaan? Of wordt de hoorder in een dwingend schema geperst?
 
 ### **1.3 De Esthetiek van de 'Reframing' (Johan Cilliers)**
 
-Johan Cilliers (Stellenbosch) biedt een fenomenologische benadering van de homiletische esthetiek. Voor Cilliers is prediking een kwestie van *perceptie*: het leren kijken naar de werkelijkheid door de bril van de Schrift. Hij hanteert het concept 'reframing' (om-raming) om de esthetische werking van de preek te duiden.5
+Johan Cilliers (Stellenbosch) biedt een fenomenologische benadering van de homiletische esthetiek. Voor Cilliers is prediking een kwestie van *perceptie*: het leren kijken naar de werkelijkheid door de bril van de Schrift. Hij hanteert het concept 'reframing' (om-raming) om de esthetische werking van de preek te duiden.[5]
 
 * **Vervreemding en Nieuw Perspectief:** De esthetische kracht van een preek ligt in het vermogen om de vaste kaders van de hoorder te doorbreken. De werkelijkheid wordt niet bevestigd, maar 'her-kaderd' in het licht van Gods genade.  
-* **Inter-esse:** Cilliers plaatst de preek in de ruimte van het 'tussen' (*inter alia*). De preek beweegt zich tussen de tekst en de context, tussen wanhoop en hoop, tussen 'alreeds' en 'nog niet'.6 Een esthetische preek lost deze spanningen niet goedkoop op, maar houdt ze uit.  
-* **Worship as Protest:** In zijn publieke theologie verbindt Cilliers esthetiek met ethiek. De liturgie is een 'protest' tegen de machten van de status quo. Schoonheid is hier subversief; het ontmaskert de lelijkheid van onrecht en biedt een visioen van een andere wereld.7
+* **Inter-esse:** Cilliers plaatst de preek in de ruimte van het 'tussen' (*inter alia*). De preek beweegt zich tussen de tekst en de context, tussen wanhoop en hoop, tussen 'alreeds' en 'nog niet'.[6] Een esthetische preek lost deze spanningen niet goedkoop op, maar houdt ze uit.  
+* **Worship as Protest:** In zijn publieke theologie verbindt Cilliers esthetiek met ethiek. De liturgie is een 'protest' tegen de machten van de status quo. Schoonheid is hier subversief; het ontmaskert de lelijkheid van onrecht en biedt een visioen van een andere wereld.[7]
 
 ### **1.4 De Preek als 'Event' en 'Performance' (Gerrit Immink)**
 
-Gerrit Immink (emeritus PThU) benadrukt de performatieve aard van de kerkdienst. De preek is geen document, maar een *gebeuren* ('event') in de tijd.1 Immink stelt: "Het heilige gebeurt".8
+Gerrit Immink (emeritus PThU) benadrukt de performatieve aard van de kerkdienst. De preek is geen document, maar een *gebeuren* ('event') in de tijd.[1] Immink stelt: "Het heilige gebeurt".[8]
 
 * **De Goddelijke Actor:** In de esthetische ervaring van de dienst speelt God Zelf een rol. De preek is een performance waarin de Geest Christus present stelt aan de gemeente. Dit betekent dat esthetische toetsing rekening moet houden met de 'geestelijke' dimensie: wordt er een ruimte gecreëerd waarin een ontmoeting mogelijk is?  
-* **Subjectieve Betrokkenheid:** Immink focust op de biddende mens en de religieuze betrokkenheid. Esthetiek gaat hier over de *participatie* in het heilsgebeuren. De hoorder raakt betrokken op Gods heil als een werkzame realiteit.9  
-* **Dramaturgie:** De liturgie heeft een dramaturgisch verloop. De preek is een scène in een groter drama van zondebesef, genadeverkondiging en lofprijzing. Toetsing richt zich op de inbedding van de preek in dit geheel.10
+* **Subjectieve Betrokkenheid:** Immink focust op de biddende mens en de religieuze betrokkenheid. Esthetiek gaat hier over de *participatie* in het heilsgebeuren. De hoorder raakt betrokken op Gods heil als een werkzame realiteit.[9]  
+* **Dramaturgie:** De liturgie heeft een dramaturgisch verloop. De preek is een scène in een groter drama van zondebesef, genadeverkondiging en lofprijzing. Toetsing richt zich op de inbedding van de preek in dit geheel.[10]
 
 ##  
 
@@ -54,23 +52,23 @@ De vraag naar "mensen die hier in gespecialiseerd zijn" leidt tot een selectie v
 
 Cilliers is zonder twijfel de meest prominente stem als het gaat om de expliciete verbinding tussen esthetiek, kunst en prediking binnen de gereformeerde traditie.
 
-* **Kernpublicaties:** *A Space for Grace: Towards an Aesthetics of Preaching* (2016) 7, *The Optic of Homiletics* 5, *Preaching between affirmation and anticipation*.12  
+* **Kernpublicaties:** *A Space for Grace: Towards an Aesthetics of Preaching* (2016) [7], *The Optic of Homiletics* [5], *Preaching between affirmation and anticipation*.[12]  
 * **Esthetische Focus:** Cilliers analyseert de preek als een kunstvorm die opereert in liminale ruimtes. Hij waarschuwt fel tegen 'religieuze kitsch' – voorgekauwde emoties en clichés die de ware ontmoeting met het Heilige blokkeren. Kitsch sluit de ruimte; ware esthetiek (genade) opent de ruimte.  
 * **Relevantie voor toetsing:** Zijn werk biedt criteria om de *authenticiteit* van de beelden en de taal te toetsen. Is de preek een goedkope reproductie (kitsch) of een originele schepping die 'ruimte voor genade' maakt?
 
 ### **2.2 Dr. Ciska Stark (Nederland, PThU)**
 
-Als directeur onderwijs en docent homiletiek aan de PThU heeft Stark de Nederlandse preekcultuur diepgaand beïnvloed en geanalyseerd.13
+Als directeur onderwijs en docent homiletiek aan de PThU heeft Stark de Nederlandse preekcultuur diepgaand beïnvloed en geanalyseerd.[13]
 
-* **Kernpublicaties:** *Proeven van de preek* 2, *Wat is het effect van prediking?* 4, *De magie van het gesproken woord*.13  
+* **Kernpublicaties:** *Proeven van de preek* [2], *Wat is het effect van prediking?* [4], *De magie van het gesproken woord*.[13]  
 * **Esthetische Focus:** Zij benadert de preek vanuit de retorica en de communicatietheorie. Haar concept van de 'preekproeverij' impliceert een zintuiglijke beoordeling. Ze legt de nadruk op de *stem* van de prediker en de *meerstemmigheid* van de Schrift.  
-* **Relevantie voor toetsing:** Stark biedt instrumenten voor de analyse van de *hoordersperspectieven* en de retorische strategieën (bijv. de prediker als 'klimaatprofeet' 14).
+* **Relevantie voor toetsing:** Stark biedt instrumenten voor de analyse van de *hoordersperspectieven* en de retorische strategieën (bijv. de prediker als 'klimaatprofeet' [14]).
 
 ### **2.3 Prof. dr. Albrecht Grözinger (Duitsland/Zwitserland)**
 
 Een fundamentele denker over de relatie tussen praktische theologie en esthetiek.
 
-* **Kernpublicaties:** *Praktische Theologie und Ästhetik*.1  
+* **Kernpublicaties:** *Praktische Theologie und Ästhetik*.[1]  
 * **Esthetische Focus:** Grözinger stelt dat religie *per definitie* een esthetische praktijk is, omdat het gaat om de waarneming van het waargenomene. Taal is voor hem nooit neutraal; de vorm *is* de inhoud.  
 * **Relevantie voor toetsing:** Hij leert de evaluator luisteren naar de *poëtische kracht* van de taal. Is de taal in staat om de 'afwezige God' aanwezig te maken in de verbeelding?
 
@@ -78,24 +76,24 @@ Een fundamentele denker over de relatie tussen praktische theologie en esthetiek
 
 Grondleggers van de 'New Homiletic', die narrative en literaire vormen centraal stelt.
 
-* **Paul Scott Wilson:** Auteur van *The Four Pages of the Sermon*.15 Hij focust op 'imagery' en de filmische kwaliteit van de preek. Zijn criterium: "Show, don't tell." Hij pleit voor een balans tussen 'trouble' (zonde/nood) en 'grace' (genade/Gods actie) in de preekstructuur.  
-* **Thomas Long:** Auteur van *The Witness of Preaching*.17 Hij benadrukt dat de *vorm* van de preek de *vorm* van de tekst moet volgen. Een psalm vraagt om een andere preekstructuur dan een gelijkenis.  
-* **Relevantie voor toetsing:** Beiden bieden concrete *checklists* voor de structuur en het beeldgebruik in de preek.18
+* **Paul Scott Wilson:** Auteur van *The Four Pages of the Sermon*.[15] Hij focust op 'imagery' en de filmische kwaliteit van de preek. Zijn criterium: "Show, don't tell." Hij pleit voor een balans tussen 'trouble' (zonde/nood) en 'grace' (genade/Gods actie) in de preekstructuur.  
+* **Thomas Long:** Auteur van *The Witness of Preaching*.[17] Hij benadrukt dat de *vorm* van de preek de *vorm* van de tekst moet volgen. Een psalm vraagt om een andere preekstructuur dan een gelijkenis.  
+* **Relevantie voor toetsing:** Beiden bieden concrete *checklists* voor de structuur en het beeldgebruik in de preek.[18]
 
 ### **2.5 Marilyn Chandler McEntyre (Verenigde Staten)**
 
 Hoewel geen homileet in strikte zin, is haar werk cruciaal voor de *ethiek en esthetiek van het woord*.
 
-* **Kernpublicatie:** *Caring for Words in a Culture of Lies*.19  
+* **Kernpublicatie:** *Caring for Words in a Culture of Lies*.[19]  
 * **Esthetische Focus:** 'Stewardship of language'. Woorden zijn instrumenten van verzoening en waarheid. Slordig, vaag of manipulatief taalgebruik is een zonde tegen de Geest.  
 * **Relevantie voor toetsing:** Haar criteria voor 'precisie', 'helderheid' en 'liefdevolle taal' zijn direct toepasbaar op de preekanalyse.
 
 ### **2.6 Nederlandse Context: Immink, De Ruijter, Van Dusseldorp, Pleizier**
 
-* **Gerrit Immink:** Focus op performance en het religieuze moment.8  
-* **Kees de Ruijter:** Focus op de klassieke gereformeerde homiletiek ('Horen naar de stem van God'), maar met oog voor de methode en structuur.21  
-* **Kees van Dusseldorp:** Specialist in narratieve homiletiek en de preek 'tussen de verhalen'.23  
-* **Theo Pleizier:** Focus op de empirische homiletiek en de ervaring van de hoorder ('religious involvement').24
+* **Gerrit Immink:** Focus op performance en het religieuze moment.[8]  
+* **Kees de Ruijter:** Focus op de klassieke gereformeerde homiletiek ('Horen naar de stem van God'), maar met oog voor de methode en structuur.[21]  
+* **Kees van Dusseldorp:** Specialist in narratieve homiletiek en de preek 'tussen de verhalen'.[23]  
+* **Theo Pleizier:** Focus op de empirische homiletiek en de ervaring van de hoorder ('religious involvement').[24]
 
 ##  **Deel III: Criteria en Karakteristieken voor Esthetische Toetsing**
 
@@ -105,17 +103,17 @@ De esthetische toetsing van een preek is multidimensionaal. Op basis van de lite
 
 Taal is het primaire materiaal van de prediker. Esthetische toetsing vraagt om een nauwkeurige analyse van het woordgebruik.
 
-#### **Criterium 1: Beeldend Taalgebruik (Imagery & Metaphor)**
+#### **Criterium [1]: Beeldend Taalgebruik (Imagery & Metaphor)**
 
 Volgens Paul Scott Wilson denkt de moderne mens in beelden. Een preek die louter bestaat uit abstracte concepten (rechtvaardiging, heiliging, eschatologie) zonder deze te 'verbeelden', faalt esthetisch.
 
 * **Checklist-vragen:**  
-  * Wordt er gebruik gemaakt van zintuiglijke taal (zicht, gehoor, tast, reuk, smaak)?.26  
+  * Wordt er gebruik gemaakt van zintuiglijke taal (zicht, gehoor, tast, reuk, smaak)?.[26]  
   * Zijn de metaforen 'levend' en verrassend, of zijn het 'dode metaforen' (clichés)?  
   * Wordt de bijbelse wereld opgeroepen in levendige scènes ('painting the picture')?  
-  * *Karakteristiek:* Een esthetisch sterke preek laat de hoorder *zien* wat er gezegd wordt. Zoals Cilliers stelt: het gaat om een nieuwe 'optiek'.5
+  * *Karakteristiek:* Een esthetisch sterke preek laat de hoorder *zien* wat er gezegd wordt. Zoals Cilliers stelt: het gaat om een nieuwe 'optiek'.[5]
 
-#### **Criterium 2: Zorgvuldigheid en Precisie (Stewardship of Language)**
+#### **Criterium [2]: Zorgvuldigheid en Precisie (Stewardship of Language)**
 
 In lijn met Marilyn Chandler McEntyre moet de taal van de preek getuigen van zorgvuldigheid.
 
@@ -125,7 +123,7 @@ In lijn met Marilyn Chandler McEntyre moet de taal van de preek getuigen van zor
   * Wordt er recht gedaan aan de nuance van de menselijke ervaring, of wordt er gegeneraliseerd in platitudes?  
   * *Karakteristiek:* De taal is helder, economisch (geen woord teveel) en raakt de kern.
 
-#### **Criterium 3: Muzikaliteit en Ritme**
+#### **Criterium [3]: Muzikaliteit en Ritme**
 
 De preek is een *oral event*. De klankwaarde van de woorden draagt bij aan de betekenis.
 
@@ -138,26 +136,26 @@ De preek is een *oral event*. De klankwaarde van de woorden draagt bij aan de be
 
 De vormgeving van de preek in de tijd bepaalt of de hoorder wordt meegenomen in een beweging.
 
-#### **Criterium 4: Narratieve Spanningsboog (Plot)**
+#### **Criterium [4]: Narratieve Spanningsboog (Plot)**
 
 Een preek moet, zoals Eugene Lowry betoogt ('The Homiletical Plot'), een plot hebben. Er moet iets op het spel staan.
 
 * **Checklist-vragen:**  
-  * Is er sprake van een 'upsetting of the equilibrium' (verstoring van het evenwicht) aan het begin?.26  
+  * Is er sprake van een 'upsetting of the equilibrium' (verstoring van het evenwicht) aan het begin?.[26]  
   * Wordt er een probleem of conflict geïntroduceerd dat vraagt om een oplossing?  
   * Is er een duidelijke wending (turning point) waar het evangelie licht werpt op de situatie?  
   * *Karakteristiek:* De preek is geen statische verzameling van drie punten, maar een dynamische reis van A naar B.
 
-#### **Criterium 5: Integratie van Tekst en Context (Reframing)**
+#### **Criterium [5]: Integratie van Tekst en Context (Reframing)**
 
 De esthetische kwaliteit ligt in de creatieve synthese van de oude tekst en de nieuwe context.
 
 * **Checklist-vragen:**  
-  * Wordt de wereld van de Bijbel en de wereld van vandaag op een verrassende wijze met elkaar verbonden? (Cilliers' 'Reframing' 5).  
+  * Wordt de wereld van de Bijbel en de wereld van vandaag op een verrassende wijze met elkaar verbonden? (Cilliers' 'Reframing' [5]).  
   * Is de overgang organisch of gekunsteld?  
   * Wordt de 'vreemdheid' van de tekst gerespecteerd, of wordt de tekst onmiddellijk gladgestreken voor consumptie?
 
-#### **Criterium 6: Openheid vs. Geslotenheid**
+#### **Criterium [6]: Openheid vs. Geslotenheid**
 
 In het spoor van Ciska Stark's 'open kunstwerk'.
 
@@ -171,24 +169,24 @@ In het spoor van Ciska Stark's 'open kunstwerk'.
 
 De preek bestaat niet op papier, maar in de daadwerkelijke uitvoering.
 
-#### **Criterium 7: Authenticiteit en Presence (Ethos)**
+#### **Criterium [7]: Authenticiteit en Presence (Ethos)**
 
 Immink benadrukt de rol van de prediker als persoon in het liturgische drama.
 
 * **Checklist-vragen:**  
-  * Is de prediker 'aanwezig' in het moment? (Presence).28  
+  * Is de prediker 'aanwezig' in het moment? (Presence).[28]  
   * Is er congruentie tussen wat gezegd wordt en de lichaamstaal/mimiek? (Bijv. geen blijde boodschap verkondigen met een nors gezicht).  
   * Wordt er oogcontact gemaakt?  
   * *Karakteristiek:* De prediker 'valt samen' met de boodschap zonder zichzelf centraal te stellen.
 
-#### **Criterium 8: Stemgebruik en Stilte**
+#### **Criterium [8]: Stemgebruik en Stilte**
 
 * **Checklist-vragen:**  
-  * Wordt de stem effectief gebruikt (volume, toonhoogte, spreeksnelheid)?.28  
+  * Wordt de stem effectief gebruikt (volume, toonhoogte, spreeksnelheid)?.[28]  
   * Durft de prediker stiltes te laten vallen om het gezegde te laten indalen? (Cilliers: 'Space for Grace' impliceert ook letterlijke ruimte/tijd in de preek).  
   * Is de articulatie helder?
 
-#### **Criterium 9: Liturgische Inbedding**
+#### **Criterium [9]: Liturgische Inbedding**
 
 De preek staat niet op zichzelf.
 
@@ -204,7 +202,7 @@ Om de gebruiker te voorzien van concrete tools, analyseren we de beschikbare eva
 
 ### **4.1 Het Evaluatiemodel van de ETF Leuven**
 
-De Evangelische Theologische Faculteit (ETF) in Leuven hanteert een gedetailleerd "Homiletics \- Sermon Evaluation Form".18 Dit formulier is sterk gericht op de *communicatieve effectiviteit* en de *exegetische verankering*.
+De Evangelische Theologische Faculteit (ETF) in Leuven hanteert een gedetailleerd "Homiletics \- Sermon Evaluation Form".[18] Dit formulier is sterk gericht op de *communicatieve effectiviteit* en de *exegetische verankering*.
 
 **Esthetische Elementen in het ETF-model:**
 
@@ -212,7 +210,7 @@ De Evangelische Theologische Faculteit (ETF) in Leuven hanteert een gedetailleer
 * **Illustrations:** "Are the sermon points explained well through illustrations?" Dit toetst direct op het criterium van 'Imagery'. Het vraagt om het concretiseren van abstracte punten.  
 * **Introduction:** "Does it raise a need?" Dit sluit aan bij de narratieve theorie van Lowry (upsetting the equilibrium).  
 * **Delivery:** Het formulier bevat specifieke schalen voor "Voice" (Speed, Volume, Pitch) en "Delivery" (Facial Expressions, Gestures). Dit bevestigt het belang van performance/embodiment.  
-* **Stijl:** Er wordt expliciet gevraagd naar "Word Choice" en "Grammar".28
+* **Stijl:** Er wordt expliciet gevraagd naar "Word Choice" en "Grammar".[28]
 
 Tekortkomingen vanuit esthetisch perspectief:  
 Het model is vrij functioneel en instrumenteel ("Achieved purpose?", "Main points stated clearly?"). Het risico bestaat dat een preek die technisch perfect scoort op deze punten, toch esthetisch 'plat' kan zijn (weinig diepgang, geen poëzie, geen mysterie). De dimensie van het 'open kunstwerk' of de 'esthetische ervaring van het Heilige' (Immink) wordt hier minder expliciet getoetst.
@@ -221,7 +219,7 @@ Het model is vrij functioneel en instrumenteel ("Achieved purpose?", "Main point
 
 ### **4.2 Het Model van de PThU (Protestantse Theologische Universiteit)**
 
-Aan de PThU wordt gewerkt met de term 'homiletische analyse' en 'theologie van de preek'.14 De benadering is hier meer hermeneutisch en theologisch georiënteerd.
+Aan de PThU wordt gewerkt met de term 'homiletische analyse' en 'theologie van de preek'.[14] De benadering is hier meer hermeneutisch en theologisch georiënteerd.
 
 **Esthetische Elementen in de PThU-benadering:**
 
@@ -236,14 +234,14 @@ Op basis van de theoretische inzichten en de bestaande modellen, kan de volgende
 
 | Dimensie | Toetsingsvraag (Esthetisch) | Indicator (Waar let je op?) | Theoretische Bron |
 | :---- | :---- | :---- | :---- |
-| **1\. Opening** | Wordt de verbeelding direct aangesproken? | Gebruik van een beeld, verhaal of provocatieve stelling i.p.v. een formele aankondiging. | Wilson (Imagery), Lowry (Upset) |
-| **2\. Taal** | Is de taal zintuiglijk en 'schoon'? | Aanwezigheid van metaforen. Afwezigheid van clichés en jargon. | McEntyre (Caring), Grözinger |
-| **3\. Plot** | Is er een voelbare beweging in de preek? | Je voelt dat je ergens naar toe gaat. Er is spanning en ontspanning. | Lowry (Loop), Van Dusseldorp |
-| **4\. Beeldkracht** | Wordt het evangelie zichtbaar gemaakt? | "Show, don't tell". Abstracte dogma's worden vertaald naar menselijke ervaringen. | Wilson (Four Pages), Cilliers |
-| **5\. Ruimte** | Is er ruimte voor de hoorder? | Geen dwingende conclusies. Ruimte voor ambivalentie en eigen invulling. | Stark (Open Kunstwerk), Eco |
-| **6\. Theologie** | Is God een verrassende actor? | God wordt niet platgeslagen tot een principe, maar blijft een geheimvol Subject. | Immink (Het heilige gebeurt) |
-| **7\. Uitvoering** | Valt de vorm samen met de inhoud? | Stem, houding en blik ondersteunen de boodschap. Authenticiteit. | Immink (Performance), Cilliers |
-| **8\. Relevantie** | Vindt er een 'reframing' plaats? | De hoorder gaat met een ander perspectief naar huis dan hij/zij kwam. | Cilliers (Optiek), Long |
+| **[1]\. Opening** | Wordt de verbeelding direct aangesproken? | Gebruik van een beeld, verhaal of provocatieve stelling i.p.v. een formele aankondiging. | Wilson (Imagery), Lowry (Upset) |
+| **[2]\. Taal** | Is de taal zintuiglijk en 'schoon'? | Aanwezigheid van metaforen. Afwezigheid van clichés en jargon. | McEntyre (Caring), Grözinger |
+| **[3]\. Plot** | Is er een voelbare beweging in de preek? | Je voelt dat je ergens naar toe gaat. Er is spanning en ontspanning. | Lowry (Loop), Van Dusseldorp |
+| **[4]\. Beeldkracht** | Wordt het evangelie zichtbaar gemaakt? | "Show, don't tell". Abstracte dogma's worden vertaald naar menselijke ervaringen. | Wilson (Four Pages), Cilliers |
+| **[5]\. Ruimte** | Is er ruimte voor de hoorder? | Geen dwingende conclusies. Ruimte voor ambivalentie en eigen invulling. | Stark (Open Kunstwerk), Eco |
+| **[6]\. Theologie** | Is God een verrassende actor? | God wordt niet platgeslagen tot een principe, maar blijft een geheimvol Subject. | Immink (Het heilige gebeurt) |
+| **[7]\. Uitvoering** | Valt de vorm samen met de inhoud? | Stem, houding en blik ondersteunen de boodschap. Authenticiteit. | Immink (Performance), Cilliers |
+| **[8]\. Relevantie** | Vindt er een 'reframing' plaats? | De hoorder gaat met een ander perspectief naar huis dan hij/zij kwam. | Cilliers (Optiek), Long |
 
 ##  
 
@@ -253,27 +251,27 @@ De esthetische toetsing van de preek is geen neutrale techniek. Het raakt aan di
 
 ### **5.1 De Spanning tussen Woord en Beeld (Reformatorische Esthetiek)**
 
-In de Nederlandse context (o.a. CGK, TUA, Gereformeerde Bond) is er traditioneel een zekere huiver voor het beeld en de esthetiek. De Reformatie was immers mede een reactie op de visuele overdaad van de middeleeuwse kerk; het Gehoor werd centraal gesteld (Fides ex auditu \- geloof is uit het gehoor).3  
-Critici zoals Kees de Ruijter of Bart Jan Spruyt 30 benadrukken het gevaar dat de esthetiek een doel op zich wordt ('estheticisme'). Als de preek alleen maar 'mooi' of 'ontroerend' moet zijn, dreigt de scherpte van de zondekennis en de radicaliteit van de bekering te verdwijnen.  
-Echter, zoals Cilliers betoogt, is deze tegenstelling vals. De esthetiek van de preek in gereformeerde zin gaat niet over barokke versiering, maar over de schoonheid van de eenvoud en de kracht van de metafoor. De Bijbel zelf is rijk aan beelden. Een esthetische toetsing in deze traditie zoekt naar de 'sobere schoonheid' die de aandacht niet op de prediker vestigt, maar transparant maakt naar God.31
+In de Nederlandse context (o.a. CGK, TUA, Gereformeerde Bond) is er traditioneel een zekere huiver voor het beeld en de esthetiek. De Reformatie was immers mede een reactie op de visuele overdaad van de middeleeuwse kerk; het Gehoor werd centraal gesteld (Fides ex auditu \- geloof is uit het gehoor).[3]  
+Critici zoals Kees de Ruijter of Bart Jan Spruyt [30] benadrukken het gevaar dat de esthetiek een doel op zich wordt ('estheticisme'). Als de preek alleen maar 'mooi' of 'ontroerend' moet zijn, dreigt de scherpte van de zondekennis en de radicaliteit van de bekering te verdwijnen.  
+Echter, zoals Cilliers betoogt, is deze tegenstelling vals. De esthetiek van de preek in gereformeerde zin gaat niet over barokke versiering, maar over de schoonheid van de eenvoud en de kracht van de metafoor. De Bijbel zelf is rijk aan beelden. Een esthetische toetsing in deze traditie zoekt naar de 'sobere schoonheid' die de aandacht niet op de prediker vestigt, maar transparant maakt naar God.[31]
 
 ### **5.2 Kitsch als de Vijand van de Preek**
 
-Een van de belangrijkste inzichten uit het werk van Johan Cilliers is de identificatie van **kitsch** als het fundamentele esthetische (en theologische) probleem van de hedendaagse prediking.7
+Een van de belangrijkste inzichten uit het werk van Johan Cilliers is de identificatie van **kitsch** als het fundamentele esthetische (en theologische) probleem van de hedendaagse prediking.[7]
 
 * **Wat is homiletische kitsch?** Kitsch is de pretentie van gevoelens die er niet echt zijn. Het is de preek die onmiddellijke troost biedt zonder de pijn van het lijden serieus te nemen. Het is het clichématige verhaal met de 'happy ending'. Het is gesloten, voorspelbaar en manipulatief.  
 * **Esthetische Toetsing:** Een kritische esthetische toets moet onderscheid maken tussen *sentiment* (kitsch) en *emotie* (authentiek). Wordt de harmonie te snel hersteld? Is de oplossing te makkelijk? Dan is het esthetisch verdacht.
 
 ### **5.3 Religious Involvement en Empirisch Onderzoek**
 
-De studie van Theo Pleizier naar 'Religious Involvement in Hearing Sermons' 24 voegt een empirische dimensie toe. Esthetiek is niet alleen wat de expert ervan vindt, maar wat de hoorder *ervaart*.
+De studie van Theo Pleizier naar 'Religious Involvement in Hearing Sermons' [24] voegt een empirische dimensie toe. Esthetiek is niet alleen wat de expert ervan vindt, maar wat de hoorder *ervaart*.
 
 * **Identificatie:** Hoorders verbinden zich met de preek via identificatie. Ze herkennen zich in de geschetste situaties. Esthetische toetsing moet vragen: "Biedt deze preek identificatiemogelijkheden voor diverse hoorders (jong, oud, gelovig, twijfelend)?"  
 * **Innerlijke Dialoog:** Een esthetische preek zet een innerlijke dialoog in gang. De hoorder gaat in gesprek met zichzelf en met God. Toetsing kan zich richten op de vraag of de preek deze ruimte voor interne verwerking biedt (bijv. door stiltes, open vragen).
 
 ### **5.4 De Rol van de 'Performance' in een Digitale Tijd**
 
-De snippets verwijzen ook naar de invloed van de digitale cultuur en de smartphone-samenleving.13 In een tijd waarin beelden alomtegenwoordig zijn, moet de preek concurreren om aandacht.
+De snippets verwijzen ook naar de invloed van de digitale cultuur en de smartphone-samenleving.[13] In een tijd waarin beelden alomtegenwoordig zijn, moet de preek concurreren om aandacht.
 
 * **Authenticiteit:** In een wereld van gefilterde beelden (Instagram), is er een honger naar authenticiteit. De esthetiek van de 'rauwe eerlijkheid' en de kwetsbaarheid van de prediker wordt belangrijker.  
 * **Visuele Ondersteuning:** Esthetische toetsing kan ook gaan over het gebruik van PowerPoint of Beamer. Is dit ondersteunend of afleidend? Versterkt het de metafoor of plat het deze af? (De algemene homiletische consensus is voorzichtig: het gesproken woord roept beelden op in het hoofd, een plaatje op het scherm kan deze interne verbeelding juist 'dichtslaan').
@@ -291,16 +289,6 @@ De gebruiker die hiermee aan de slag wil, beschikt nu over:
 3. **Specialisten:** Een helder overzicht van wie de experts zijn: **Johan Cilliers** (esthetiek/kitsch), **Ciska Stark** (retorica/open kunstwerk), **Gerrit Immink** (performance), **Paul Scott Wilson** (imagery/plot) en **Marilyn Chandler McEntyre** (taalzorg).
 
 De conclusie is dat een esthetisch verantwoorde preek er een is waarin de *vorm* de *inhoud* dient door ruimte te scheppen: ruimte voor de menselijke ervaring, ruimte voor de bijbelse vreemdheid, en uiteindelijk ruimte voor de genade van God.
-
-### ---
-
-**Aanbevolen Vervolgstappen voor de Gebruiker**
-
-Om deze theoretische kennis om te zetten in praktische vaardigheden, wordt aangeraden:
-
-* De werken *A Space for Grace* (Cilliers) en *The Four Pages of the Sermon* (Wilson) te bestuderen.  
-* Zelf preken te analyseren met de in dit rapport aangereikte checklists (Tabel 4.3).  
-* In preekbesprekingen expliciet de vraag te stellen: "Welk beeld is je bijgebleven?" en "Waar voelde je weerstand of ruimte?" om de esthetische receptie in kaart te brengen.
 
 #### **Referenties**
 
