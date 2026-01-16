@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "liturgie_check": "Ja. Schriftlezingen en liturgische elementen (Wet, Psalmen) zijn expliciet bovenaan vermeld.",
+    "geschatte_woordlengte": 6400,
+    "geschatte_tijdsduur_minuten": 64
+  },
+  "analyse_per_criterium": {
+    "1_specifiek_bijbelgedeelte": {
+      "score_1_tot_10": 6,
+      "bevindingen": "De preek heeft expliciet Deuteronomium 34:5–6 als tekstgrondslag. De tekst wordt geciteerd en fungeert als narratief vertrekpunt. Tegelijkertijd wordt de focus sterk verbreed naar het gehele leven van Mozes, Kanaän, het Nieuwe Testament en de heilsgeschiedenis als geheel. De unieke zeggingskracht van juist Deut. 34:5–6 (God die Mozes begraaft, het onbekende graf, ‘naar des HEEREN mond’) wordt wel benoemd, maar niet consequent als dragend theologisch middelpunt uitgewerkt.",
+      "quotes": [
+        "“Alzo stierf Mozes, de knecht des HEEREN, aldaar in het land van Moab, naar des HEEREN mond.”",
+        "“God Zelf bewijst Zijn knecht de laatste eer.”",
+        "“Niemand heeft zijn graf geweten, tot op deze dag.”"
+      ],
+      "verbeterpunt": "Concentreer de preek sterker rond wat deze pericoop uniek maakt: Gods directe betrokkenheid bij Mozes’ sterven en begrafenis, en de theologische betekenis van het verborgen graf. Beperk biografische en heilshistorische uitwaaiering."
+    },
+    "2_exegese_oorspronkelijke_context": {
+      "score_1_tot_10": 6,
+      "bevindingen": "De historische setting (Moab, Nebo, Abarim, grens Kanaän) wordt uitvoerig geschetst en is inhoudelijk correct. De betekenis van Mozes’ straf en Gods trouw wordt verklaard. De exegese blijft echter grotendeels beschrijvend en parafraserend; taalkundige of contextuele scherpte (bijv. betekenis van ‘naar des HEEREN mond’) ontbreekt.",
+      "quotes": [
+        "“Mozes, hoe zeer begenadigd, mag in het beloofde land niet komen.”",
+        "“God sneed het gebed van Mozes af.”"
+      ],
+      "verbeterpunt": "Werk preciezer exegetisch: expliciteer sleutelwoorden en hun theologische lading binnen Deuteronomium zelf, en onderscheid duidelijker tussen tekstuitleg en latere typologische doortrekkingen."
+    },
+    "3_toepassing_concreet_actueel": {
+      "score_1_tot_10": 7,
+      "bevindingen": "De toepassing is existentieel, indringend en gericht op concrete hoorders (jongeren, ouderen). De thematiek van keuze, sterven, oordeel en eigendom van God wordt persoonlijk aangescherpt. Soms neigt de toepassing naar algemene bevindelijke patronen.",
+      "quotes": [
+        "“Is die keus reeds door genade in het hart gevallen?”",
+        "“Sterven is God ontmoeten!”"
+      ],
+      "verbeterpunt": "Maak de toepassing nog specifieker vanuit deze tekst: wat betekent het dat God Zelf begraaft, voor hedendaagse ervaring van verlies, anonimiteit en Gods verborgen handelen?"
+    },
+    "4_verwevenheid_uitleg_toepassing": {
+      "score_1_tot_10": 6,
+      "bevindingen": "Uitleg en toepassing wisselen elkaar af, maar vaak in blokken. Lange beschrijvende passages worden gevolgd door vermanende of appellerende gedeelten. De hoorder wordt regelmatig aangesproken, maar niet steeds ‘in’ de tekst gehouden.",
+      "quotes": [
+        "“Gemeente, welk een uitgang voor deze man Gods!”",
+        "“Nu vraag ik de jongens en de meisjes in ons midden…”"
+      ],
+      "verbeterpunt": "Verweef uitleg en toepassing consequenter per tekstmoment, zodat de hoorder de tekst ervaart als hedendaags gebeuren en niet als historisch verhaal met latere lessen."
+    },
+    "5_drie_stukken_ellende_verlossing_dankbaarheid": {
+      "score_1_tot_10": 7,
+      "bevindingen": "Ellende (zonde, oordeel, verloren gaan), verlossing (bloed van het verbond, Christus) en dankbaarheid (leven als knecht van God) zijn duidelijk aanwezig, zij het impliciet. De antropologische ernst is voelbaar en niet verpsychologiseerd.",
+      "quotes": [
+        "“Het is de mens gezet eenmaal te sterven en daarna het oordeel.”",
+        "“Niet zijn werk gaf hem rust voor de eeuwigheid, maar Gods genade.”"
+      ],
+      "verbeterpunt": "Bewaak dat de drie stukken niet verworden tot herhaalbare schema’s, maar steeds vanuit deze tekst worden opgeroepen."
+    },
+    "6_twee_wegen_ernst_van_keuze": {
+      "score_1_tot_10": 8,
+      "bevindingen": "De ernst van de levenskeuze wordt scherp en existentieel neergezet, inclusief de mogelijkheid van verloren gaan. Zowel individueel als kerkelijk wordt dit doordacht.",
+      "quotes": [
+        "“Bileam wilde zo graag met het volk van God sterven, maar hij weigerde met het volk van God te leven.”",
+        "“De andere mensen dromen de droom van hun zonde, om straks voor eeuwig te ontwaken in de eeuwige verwoesting.”"
+      ],
+      "verbeterpunt": "Laat de twee wegen nog explicieter voortkomen uit Deuteronomium 34 zelf (overgang, einde, opvolging), niet alleen uit bredere bijbelse lijnen."
+    },
+    "7_christocentrisch_genade": {
+      "score_1_tot_10": 8,
+      "bevindingen": "Christus is duidelijk het telos van de preek. Mozes wordt consequent getekend als type en schaduw van de betere Middelaar. De genade buiten de mens wordt krachtig verkondigd.",
+      "quotes": [
+        "“Mozes riep uit zijn graf om de betere Middelaar.”",
+        "“Door U, Christus Jezus, is de genade vlees en bloed geworden.”"
+      ],
+      "verbeterpunt": "Waak voor overvloedige typologie die de tekst kan overvleugelen; houd Christus als doel, niet als vervanging van de pericoop."
+    },
+    "8_diepgang_en_lengte": {
+      "score_1_tot_10": 7,
+      "bevindingen": "De preek heeft grote breedte en diepte en voldoet ruimschoots aan Dekkers minimumlengte. De lengte leidt echter tot concentratieverlies en thematische herhaling.",
+      "verbeterpunt": "Snoei zonder inhoudelijk verlies: focus en concentratie zouden de diepte ten goede komen."
+    }
+  },
+  "algehele_beoordeling": {
+    "samenvatting": "Volgens Dekkers thesen schiet de preek tekort in tekstconcentratie en exegetische scherpte op de specifieke pericoop. De kracht ligt in de existentiële ernst, de christocentrische gerichtheid en de doordachte toepassing. De preek is rijk, maar soms te rijk.",
+    "sterke_punten": [
+      "Ernstige en concrete toepassing met duidelijke aanspreking van de hoorders.",
+      "Heldere christologische doortekening van Mozes als schaduw van Christus.",
+      "Volle ernst van leven, dood en oordeel zonder moralisme."
+    ],
+    "zwakke_punten": [
+      "Te brede uitwaaiering buiten de specifieke pericoop.",
+      "Beperkte expliciete exegese van sleutelwoorden en -zinnen.",
+      "Herhaling en lengte verminderen focus."
+    ],
+    "eindoordeel_volgens_dekker": "Dit is een preek in de zin van Dekkers definitie, maar geen modelpreek. Zij voldoet inhoudelijk en existentieel, maar vraagt om meer discipline in tekstgebondenheid en exegetische concentratie."
+  }
+}
+

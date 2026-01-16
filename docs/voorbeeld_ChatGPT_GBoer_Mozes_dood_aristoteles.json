@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "datum_analyse": "2026-01-16",
+    "titel_preek": "Mozes dood",
+    "bijbeltekst": "Deuteronomium 34:5-6",
+    "geschatte_woordlengte": 5315,
+    "geschatte_tijdsduur_minuten": 53,
+    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut",
+    "notities": "Liturgie en psalmen zijn vermeld; preek is lang en sterk heilshistorisch van toon."
+  },
+  "aristotelische_modi_analyse": {
+    "logos": {
+      "score": 6,
+      "analyse": "De structuur is niet altijd strak: de preek zwalkt soms tussen historische beschrijving, typologie en toepassing zonder duidelijke markeringen of samenvattende overgangen. Met name het lange panorama van het beloofde land en de latere doortrekkingen naar Christus en de kerk maken het argument breed maar diffuus. Toch is er een herkenbare kernlijn: Mozes sterft buiten Kanaan, ziet het land, en dit mondt uit in Gods trouw en de betere Middelaar. De argumentatie is meestal navolgbaar en de theologische conclusies sluiten in grote lijnen aan bij het voorafgaande. De preek kent bovendien een inleiding, een kern en een afsluitende oproep. De interne consistentie is redelijk, maar de focus op Deuteronomium 34:5-6 is niet constant; er wordt veel materiaal toegevoegd dat niet direct uit de pericoop voortvloeit. Dit maakt de logos degelijk, maar niet scherp of compact.",
+      "quotes": [
+        "Vandaar, dat het vandaag zover is gekomen, dat Mozes zal sterven en daartoe neemt Mozes afscheid van het volk.",
+        "Daarom eindigt Mozes zijn leven in de trouw van God.",
+        "Alzo stierf Mozes, de knecht van God. Alzo en niet anders."
+      ],
+      "sterke_punten": [
+        "De rode draad van Mozes' sterven naar Gods trouw is herkenbaar en wordt meerdere keren samengevat.",
+        "De preek gebruikt oorzaak-gevolg redeneringen rond gehoorzaamheid, straf en belofte.",
+        "Er is een duidelijke beweging van tekstuitleg naar toepassing en afsluitende oproep."
+      ],
+      "verbeterpunten": [
+        "Beperk de lange beschrijvende passages zodat de kerntekst meer sturend blijft.",
+        "Maak overgangszinnen explicieter om sprongen naar typologie en toepassing te verankeren.",
+        "Formuleer een kort, herhaald kernzinnetje dat de logische lijn samenvat."
+      ],
+      "specifieke_diagnose": "De logos is redelijk navolgbaar, maar verliest scherpte door uitwaaierende excursen die niet direct uit de pericoop voortkomen."
+    },
+    "pathos": {
+      "score": 6,
+      "analyse": "De emotionele aanspraak is soms indirect en wordt geregeld onderbroken door lange beschrijvende en doctrinaire passages, waardoor spanning en beleving wegvallen. Toch is er duidelijke emotionele lading rond sterven, oordeel, roeping en keuze. De prediker gebruikt beeldende taal, directe aanspreking en retorische vragen om de hoorder te raken. Vooral de oproepen aan jongeren en de nadruk op sterven als ontmoeting met God geven emotionele ernst. Het pathos is echter niet consequent gedoseerd; het groeit en zakt in golven en blijft soms moralistisch van toon. De preek raakt het hart, maar niet continu. Meer concrete, hedendaagse voorbeelden en het vasthouden van een enkele emotionele lijn zouden de resonantie vergroten. De emotionele toon is overwegend ernstig en waarschuwend, met momenten van troost, maar minder momenten van troostende nabijheid.",
+      "quotes": [
+        "Sterven is God ontmoeten!",
+        "Nu vraag ik de jongens en de meisjes in ons midden, maar ook de ouderen: Is die keus reeds door genade in het hart gevallen?",
+        "O gemeente, dat wij van deze grijze dienstknecht van God leren om onze dagen zo te tellen, dat wij een wijs hart bekomen."
+      ],
+      "sterke_punten": [
+        "Directe aanspreking van verschillende hoordersgroepen verhoogt betrokkenheid.",
+        "Het thema sterven en oordeel wordt existentieel geladen uitgesproken.",
+        "Beeldspraak rond opgang en uitzicht draagt bij aan emotionele verbeelding."
+      ],
+      "verbeterpunten": [
+        "Verbind emotionele momenten vaker met concrete, hedendaagse ervaringen van verlies of hoop.",
+        "Voorkom dat lange beschrijvende passages de emotionele lijn onderbreken.",
+        "Doseer waarschuwing en troost evenwichtiger zodat de hoorder niet afhaakt."
+      ],
+      "specifieke_diagnose": "Er is duidelijke emotionele ernst, maar de resonantie wordt onregelmatig door lange didactische secties en weinig hedendaagse voorbeelden.",
+      "emotionele_toon": "Overwegend ernstig en waarschuwend, met momenten van troost en aansporing."
+    },
+    "ethos": {
+      "score": 5,
+      "analyse": "De prediker spreekt met duidelijke geestelijke autoriteit en durft scherpe vragen te stellen, maar laat weinig persoonlijke kwetsbaarheid of zelfbetrokkenheid zien. Daardoor blijft de geloofwaardigheid vooral op de positie van de kansel en de Schrift leunen, niet op herkenbaar getuigenis. Het spreken is stellig en vermanend, wat het ethos versterkt als profetische stem, maar het risico van afstandelijkheid is aanwezig. Er zijn nauwelijks aanwijzingen dat de prediker zichzelf expliciet onder de boodschap plaatst, behalve indirect door het gezamenlijke "gemeente". De preek wekt vertrouwen in de orthodoxe inhoud en de ernst van het onderwerp, maar minder in de persoonlijke nabijheid van de spreker. Een paar korte, sober gehouden zelf-reflecties of het benoemen van eigen worsteling zouden de geloofwaardigheid als getuige vergroten zonder afbreuk te doen aan de ernst.",
+      "quotes": [
+        "Gemeente, ik zal een diepindringende vraag stellen, die niet ik stel, maar God: Wat kan er naar waarheid op uw graf gezet worden?",
+        "Wilt u daaraan denken, gemeente? Het is de mens gezet eenmaal te sterven en daarna het oordeel.",
+        "Alles wat waar is, mag gezegd worden en alles waartoe uw hart gedrongen wordt op een begraafplaats, zeg dat ook."
+      ],
+      "sterke_punten": [
+        "De prediker spreekt met gezag en duidelijke geestelijke ernst.",
+        "Er is consequent beroep op de Schrift als bron van autoriteit.",
+        "De toon is nuchter en corrigerend, wat past bij het thema sterven en oordeel."
+      ],
+      "verbeterpunten": [
+        "Voeg beperkte persoonlijke betrokkenheid toe om de afstand tussen spreker en hoorder te verkleinen.",
+        "Vermijd de indruk van een uitsluitend vermanende kanselstem door af en toe mede-strijderschap te tonen.",
+        "Laat expliciet blijken dat de prediker zelf onder hetzelfde oordeel en dezelfde troost staat."
+      ],
+      "specifieke_diagnose": "Het ethos is gezaghebbend maar afstandelijk, met weinig expliciete persoonlijke kwetsbaarheid."
+    }
+  },
+  "retorische_balans_analyse": {
+    "dominante_modus": "Pathos",
+    "onderdrukte_modus": "Ethos",
+    "balans_score": 5,
+    "analyse": "De preek leunt het zwaarst op emotionele ernst en existentiële urgentie, terwijl de geloofwaardigheid vooral institutioneel en minder persoonlijk wordt gedragen. Logos is redelijk aanwezig maar door lengte en uitwaaiering minder scherp. De drie modi versterken elkaar deels: de emotionele waarschuwing wordt onderbouwd met Schrift en dogmatiek, en dat geeft gewicht. Toch werken ze ook tegen elkaar: de sterke vermaning zonder expliciete persoonlijke betrokkenheid kan als afstandelijk overkomen, en de lange beschrijvende secties dempen de emotionele spanning. De balans is daarom ongelijk, met een sterke drang tot aanspreken, maar een minder duidelijke verbondenheid met de hoorder als medegetuige. Meer compacte logos en een warmer ethos zouden de pathos beter laten landen.",
+    "consequenties_van_onbalans": [
+      "Hoorders met behoefte aan persoonlijke nabijheid kunnen afhaken ondanks inhoudelijke instemming.",
+      "De grote breedte aan thema's kan de kernboodschap verzwakken en emotionele impact verminderen.",
+      "De waarschuwing kan zwaarder wegen dan de vertroosting, wat eenzijdigheid oproept."
+    ],
+    "aanbeveling_voor_balans": "Scherp de structuur rond Deuteronomium 34:5-6 aan en voeg enkele korte, persoonlijke getuigeniszinnen toe om het ethos te versterken zonder de ernst te verminderen."
+  },
+  "orthodoxie_orthopathie_orthopraxie": {
+    "orthodoxie_logos": {
+      "score": 7,
+      "analyse": "De leer is Schriftgebonden en consistent met de gereformeerde traditie; Christus als vervulling en het verbond staan centraal, met duidelijke verwijzing naar belofte en oordeel."
+    },
+    "orthopathie_pathos": {
+      "score": 6,
+      "analyse": "De preek wekt vooral ernst, vrees en oproep tot bekering; troost en vreugde zijn aanwezig maar minder uitgewerkt."
+    },
+    "orthopraxie_ethos": {
+      "score": 5,
+      "analyse": "De oproep tot leven als knecht van God is duidelijk, maar de voorbeeldfunctie van de prediker blijft impliciet en niet persoonlijk ingevuld."
+    }
+  },
+  "totaalbeeld": {
+    "overall_retorische_score": 6,
+    "samenvatting": "De preek geeft een breed, ernstig en Schriftgebonden beeld van Mozes' sterven en de trouw van God. De kernboodschap is helder: Mozes ziet het land maar sterft buiten Kanaan, en dit wijst vooruit naar Christus als betere Middelaar. De preek bouwt daarop een krachtige oproep tot bekering en een waarschuwing over sterven en oordeel. Logos is redelijk aanwezig, maar wordt verzwakt door lange uitweidingen en brede heilshistorische doortrekkingen die de focus op Deuteronomium 34:5-6 verminderen. Pathos is sterk in toon en urgentie, met aansprekingen van jongeren en ouderen, maar mist soms concrete, hedendaagse verankering waardoor de emotionele lijn niet constant blijft. Ethos is gezaghebbend en Schriftgericht, maar blijft afstandelijk doordat persoonlijke kwetsbaarheid of zelfbetrokkenheid nauwelijks zichtbaar is. De balans laat zien dat de preek vooral inzet op ernstig appellerend spreken; dat kan hoorders raken, maar ook vermoeien of op afstand zetten. Met meer compacte structuur en een sobere persoonlijke getuigenis zou de boodschap sterker landen en de retorische balans verbeteren.",
+    "sterke_punten_top_3": [
+      "Duidelijke christocentrische doortrekking van Mozes naar Christus.",
+      "Existentiële ernst rond sterven, oordeel en keuze.",
+      "Schriftgebonden en dogmatisch consistente lijn over verbond en belofte."
+    ],
+    "verbeterpunten_top_3": [
+      "Strakkere focus op de pericoop om uitwaaiering te beperken.",
+      "Meer concrete, hedendaagse voorbeelden voor emotionele resonantie.",
+      "Vergroten van ethos door beperkte persoonlijke betrokkenheid te tonen."
+    ],
+    "primaire_retorische_stijl": "Ernstig-Appellerend",
+    "doelgroep_analyse": "Hoorders met een bevindelijke en Schriftgerichte achtergrond worden het sterkst aangesproken; zoekers die behoefte hebben aan nabijheid en concrete voorbeelden worden minder bereikt.",
+    "aanbevelingen_voor_volgende_preek": [
+      "Formuleer een kort kernzinnetje dat de hele preek blijft dragen.",
+      "Voeg twee of drie hedendaagse situaties toe die de tekst existentieel inkleuren.",
+      "Laat op enkele plaatsen blijken dat de prediker zelf onder dezelfde boodschap staat."
+    ],
+    "conclusie": "Vanuit de Aristotelische modi is dit een preek met stevige inhoud en duidelijke ernst, maar met beperkte retorische balans. De logos is navolgbaar maar te breed, de pathos is krachtig maar onregelmatig, en de ethos blijft vooral institutioneel. Daardoor mist de preek soms de compacte overtuigingskracht die nodig is om de hoorder mee te nemen van tekst naar leven. De boodschap staat wel, maar kan scherper en warmer worden gecommuniceerd."
+  }
+}

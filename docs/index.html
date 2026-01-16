@@ -444,6 +444,8 @@
             <option value="voorbeeld_Dorothee_Sölle">Preek Dorothee Sölle - 8 januari 1968</option>
             <option value="voorbeeld_31_maart_2024_Otte">Preek Wim Otte - 31 maart 2024</option>
             <option value="voorbeeld_5_mei_2025_Otte">Preek Wim Otte - 5 mei 2025</option>
+            <option value="voorbeeld_ChatGPT_GBoer_Mozes_dood">Preek G. Boer (ChatGPT) - Mozes' dood</option>
+            <option value="voorbeeld_gemini_G_Boer_Mozes_dood">Preek G. Boer (Gemini) - Mozes' dood</option>
         </select>
 
         <select class="example-selector" id="analysis-type-select">
@@ -593,6 +595,19 @@
         }
     };
 
+    const exampleConfig = {
+        'voorbeeld_ChatGPT_GBoer_Mozes_dood': {
+            textFile: 'voorbeeld_GBoer_Mozes_dood.txt'
+        },
+        'voorbeeld_gemini_G_Boer_Mozes_dood': {
+            textFile: 'voorbeeld_GBoer_Mozes_dood.txt',
+            jsonSuffixOverrides: {
+                kolb: '_aristoteles_kolb',
+                schulz: '_schulz_von_thun_analysis'
+            }
+        }
+    };
+
     function updateInfoBlock(analysisType) {
         const info = analysisInfo[analysisType];
         // Convert newlines to <br> tags for HTML rendering
@@ -619,8 +634,10 @@
 
     async function loadExample(baseName, analysisType) {
         try {
-            const textRes = await fetch(`${baseName}.txt`);
-            if(!textRes.ok) throw new Error(`Kon ${baseName}.txt niet laden`);
+            const config = exampleConfig[baseName] || {};
+            const textFile = config.textFile || `${baseName}.txt`;
+            const textRes = await fetch(textFile);
+            if(!textRes.ok) throw new Error(`Kon ${textFile} niet laden`);
             const text = await textRes.text();
             renderSermon(text);
 
@@ -630,8 +647,13 @@
             else if (analysisType === 'schulz') jsonSuffix = '_schulz_von_thun';
             else if (analysisType === 'esthetiek') jsonSuffix = '_esthetiek';
 
-            const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
-            if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
+            if (config.jsonSuffixOverrides && config.jsonSuffixOverrides[analysisType]) {
+                jsonSuffix = config.jsonSuffixOverrides[analysisType];
+            }
+
+            const jsonFile = `${baseName}${jsonSuffix}.json`;
+            const jsonRes = await fetch(jsonFile);
+            if(!jsonRes.ok) throw new Error(`Kon ${jsonFile} niet laden`);
             const data = await jsonRes.json();
 
             if (analysisType === 'kolb') {

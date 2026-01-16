@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "datum_analyse": "2026-01-15",
+    "titel_preek": "Mozes dood",
+    "bijbeltekst": "Deuteronomium 34:5-6",
+    "geschatte_woordlengte": 6400,
+    "geschatte_tijdsduur_minuten": 64,
+    "spreeksnelheid_toelichting": "Gebaseerd op 100 woorden per minuut",
+    "notities": "Analyse uitgevoerd volgens analyze_kolb_cyclus.md :contentReference[oaicite:0]{index=0} op basis van preektekst GBoer_Mozes_dood.txt :contentReference[oaicite:1]{index=1}. Preek is sterk narratief/beeldend, met zware christologische doortrekking en duidelijke appelmomenten; praktische implementatie blijft relatief algemeen."
+  },
+  "kolb_fasen_analyse": {
+    "fase_1_concrete_ervaring": {
+      "score": 7,
+      "analyse": "Wat tekortschiet is de expliciete verbinding met hedendaagse ‘slices of life’ aan het begin: de opening blijft primair in het bijbelse decor en minder in een hedendaags herkenbaar tafereel. Tegelijk faciliteert de preek wel degelijk concrete ervaring door zintuiglijke, verhalende beschrijving en door hoorders te laten ‘meekijken’ met Mozes. Het tentenkamp, de spanning aan de grens, de klim van de berg, het panoramische kijken over Kanaän: dit zijn sterke CE-dragers die empathie en identificatie oproepen (met Mozes, met Israël, en impliciet met de hoorder die ‘op de grens’ staat). De prediker zet bovendien existentiële herkenning neer via doodservaring en begraafplaats-ervaringen; dat zijn concrete situaties, maar ze verschijnen pas later in de preek. Emotionele connectie wordt vooral bereikt via beelden van omhooggaan/wegzinken, ‘in de armen van God’ sterven, en via directe aanspreking van jongeren en ouderen. De CE is dus kwalitatief aanwezig, maar de preek start niet met een expliciete hedendaagse haak; de hoorder wordt eerst door het verhaal, niet door het eigen leven, binnengetrokken. Voor volwassen leerders werkt dit goed voor hoorders die via verbeelding en verhaal instappen; minder voor wie snelle herkenning in het eigen dagelijkse bestaan nodig heeft.",
+      "quotes": [
+        "“Het is te merken aan de zenuwachtige drukte in het tentenkamp, dat er iets verwacht wordt.”",
+        "“Mozes beklimt deze berg … op honderdtwintigjarige leeftijd.”",
+        "“Waar wij steeds lager zakken … daar gaat Mozes omhoog, letterlijk en figuurlijk.”",
+        "“Nu zijn er vandaag ook mensen, die soms niet eens weten waar hun dierbaren begraven zijn.”"
+      ],
+      "sterke_punten": [
+        "Sterke verbeelding en scenische details (kamp, berg, uitzicht) die identificatie met de bijbelse situatie mogelijk maken.",
+        "Emotioneel geladen contrastbeelden (omhooggaan vs. wegzinken) die ‘voelen’ oproepen.",
+        "Later in de preek concrete ervaring rond sterven en begraven die existentieel raakt."
+      ],
+      "verbeterpunten": [
+        "Open met een hedendaagse, concrete situatie die thematisch parallel loopt (grenservaring, afscheid, verlies, ‘onbekend graf’/onafgerond rouwproces) en trek dan pas de tekst in.",
+        "Verplaats één of twee hedendaagse ervaringsankers naar het eerste kwart van de preek om sneller CE te activeren.",
+        "Beperk de landschapsbeschrijving; kies enkele details die de ‘innerlijke ervaring’ van Mozes dragen, om CE scherper te maken."
+      ],
+      "homiletische_manifestaties": "CE manifesteert zich vooral via narratieve inleiding en scenische verbeelding (tentenkamp, bergbeklimming, panoramisch kijken), plus later via concrete rouw- en begraafplaatsbeelden; emotionele connectie wordt versterkt door directe aanspreking (jongeren/ouderen) en door lijfelijke metaforen (armen, wegzinken, klim)."
+    },
+    "fase_2_reflectieve_observatie": {
+      "score": 6,
+      "analyse": "Wat ontbreekt is een expliciete, rustig opgebouwde probleemverkenning die meerdere perspectieven laat staan zonder direct naar oplossing/oproep te bewegen. De preek reflecteert wel op de menselijke conditie (ontrouw, zelfbedrog, sterfelijkheid, illusies van jeugd, religieuze schijn), maar die reflectie is vaak direct normatief geladen: ze wordt snel vermanend of soteriologisch ingevuld. Er is wel RO in de analyse van ‘de wereld’ en ‘de kerk’ (leugen op kerkhof, spelen met Gods Woord) en in de observatie dat mensen de ernst van dood en eeuwigheid verdringen. Ook biedt de prediker een interpretatiekader rond ‘verloren jaren’ en levens-‘lappendeken’ versus eenheid; dat is reflectief, omdat het hoorders helpt hun leven te herlezen. Culturele contextualisering blijft echter beperkt tot algemene typeringen (“vrome en goddeloze wereld”, “de wereld wil bedrogen worden”) zonder specifieke tijdsdiagnose. De RO is daardoor adequaat als existentieel spiegelen, maar minder als brede, meerlagige probleemanalyse die ook sociaal-psychologische mechanismen benoemt (bijv. waarom verdringing, waarom schijnzekerheid, waarom kerkhofretoriek). De preek nodigt wel uit tot zelfonderzoek met scherpe vragen; dat werkt RO-achtig, maar functioneert tegelijk als brug naar besluit/oproep. Voor Kolb is dat bruikbaar, maar het maakt de reflectiefase relatief kort en instrumenteel.",
+      "quotes": [
+        "“Ons leven van elke dag maakt vaak de indruk van een lappendeken.”",
+        "“Als we jong zijn, menen we ver van de dood af te staan. Dat is toch beslist niet waar.”",
+        "“Er wordt nergens meer gelogen, nergens meer bedrogen, dan op een kerkhof.”",
+        "“Zal het wel zijn, als Hij u onderzoekt?”"
+      ],
+      "sterke_punten": [
+        "Heldere existentiële spiegeling van sterfelijkheid en zelfbedrog, met scherpe toetsing.",
+        "Reflectie op levensloop (eenheid/lappendeken) die hoorders helpt herinterpreteren.",
+        "Kerk-interne reflectie (schijn, ‘spelen met Gods Woord’) die het gehoor niet spaart."
+      ],
+      "verbeterpunten": [
+        "Verleng de reflectieve fase door expliciet ‘waarom’-vragen te verkennen (verdringing, religieuze schijn, groepsdruk) vóór de oproep tot keuze.",
+        "Maak de cultuurdiagnose concreter en tijdspecifieker (zonder sociologisch college): noem hedendaagse patronen die aansluiten bij de gemeentepraktijk.",
+        "Introduceer ook één empathisch perspectief (waarom mensen ‘dromen’) om RO minder eenzijdig veroordelend te maken."
+      ],
+      "homiletische_manifestaties": "RO manifesteert zich via existentiële observaties (lappendeken, jeugdillusie), moreel-psychologische diagnose (bedrog op kerkhof, schijn), en via onderzoeksvragen die hoorders laten stilstaan bij de eigen staat voor God."
+    },
+    "fase_3_abstracte_conceptualisering": {
+      "score": 7,
+      "analyse": "Wat tekortschiet is de strikte tekstgerichte conceptvorming: de dogmatische en heilshistorische conceptualisering is zwaar, maar niet altijd expliciet geankerd in Deut. 34:5–6 zelf. Toch is AC duidelijk en dominant: de prediker werkt met theologische verbanden (verbond, middelaar, bloedstorting, oordeel, opstanding van het vlees) en bouwt een christologische ‘grote gedachte’ uit: Mozes als middelaar van het oude verbond wijst vooruit naar de betere Middelaar, Christus, waarin genade en waarheid ‘vlees en bloed’ worden. Er is bovendien een expliciet normatief-theologisch onderscheid tussen ‘werk’ en ‘genade’, en een soteriologisch kader voor vrede met God. De argumentatie is vooral deductief en confessioneel: stellingen worden verkondigd en vervolgens geïllustreerd. Exegetische conceptualisering (tekstwoorden, historische-kritische duiding) blijft beperkter; AC is dus sterker dogmatisch dan exegetisch. Binnen Kolb is dat op zichzelf niet problematisch, maar het kan voor sommige hoorders ‘boven’ de ervaring gaan hangen, zeker door de lengte en de stapeling van typologie (Nebo/Thabor, Judasbrief over Michaël en de duivel, Hebreeënbrief). De AC is kwalitatief solide als geloofsleer/verkondiging, maar behoeft meer ‘klein’ tekstwerk om het leerproces transparanter te maken: welke concepten komen precies uit deze pericoop, welke uit het bredere canonieke netwerk?",
+      "quotes": [
+        "“Niet zijn werk gaf hem rust voor de eeuwigheid. … maar Gods genade.”",
+        "“Zonder bloedstorting geen vergeving was bij God.”",
+        "“Door mij, Mozes, is de wet gegeven, maar door U, Christus Jezus, is de genade vlees en bloed geworden.”",
+        "“Wij lezen … dat er … een strijd is ontbrand tussen de aartsengel Michaël en de duivel.”"
+      ],
+      "sterke_punten": [
+        "Heldere christologische telos: Mozes wordt consequent tot Christus toe uitgelegd.",
+        "Sterke dogmatische kern (genade tegenover werk; verbond en verzoening) die de preek draagt.",
+        "Logische samenhang tussen wet, verbond, Middelaar en eschatologische hoop."
+      ],
+      "verbeterpunten": [
+        "Formuleer expliciet één centrale these in één zin en verbind elke grote stap aantoonbaar aan Deut. 34:5–6 (sterfte ‘naar des HEEREN mond’, Gods begraven, onbekend graf).",
+        "Beperk typologische zijpaden of markeer ze als secundair, zodat de conceptvorming minder diffuus wordt.",
+        "Voeg minimaal één exegetisch scherp punt toe (betekenis van sleutelzinsnede/structuur in Deuteronomium) om AC beter te wortelen."
+      ],
+      "homiletische_manifestaties": "AC manifesteert zich via dogmatische proposities (genade/werk; bloed/vergeving; oordeel), christologische typologie (oude vs. nieuwe Middelaar), en canonieke verbindingen (Thabor, Hebreeënbrief, Judasbrief) die een theologisch raamwerk vormen."
+    },
+    "fase_4_actief_experimenteren": {
+      "score": 5,
+      "analyse": "Wat ontbreekt is concrete, stap-voor-stap implementatie: de preek bevat sterke appels, maar weinig handelingsgerichte uitwerking van ‘hoe’ dit in het dagelijks leven gestalte krijgt. AE is vooral aanwezig als beslissingsretoriek (kies, wees bereid, zelfverloochening), als spirituele urgentie (denk aan sterven, oordeel) en als existentiële oefening (dagen tellen, wijs hart). Dat is reëel ‘doen’, maar het blijft op hoog abstractieniveau en is beperkt vertaald naar concrete praktijken in gezin, werk, omgang met geld, media, conflicten, kerkbetrokkenheid, of rouwpraktijken. Ook de waarschuwing rond kerkhofleugen is scherp, maar de prediker helpt hoorders niet expliciet met criteria of taal om waarheidvol te spreken bij sterven/rouwen. De oproep aan jongeren (“Is die keus … gevallen?”) is direct, maar leidt niet tot concrete next steps (bijv. gesprek zoeken, gebed, catechesepraktijk, breken met bepaalde routines). Daarmee is AE in Kolb-termen aanwezig als ‘commitment call’, maar onderontwikkeld als ‘experimenteerruimte’ waarin hoorders weten wat ze komende week anders gaan doen. Het gevolg is dat de preek vooral leert via inzicht en ontzag (AC/RO) en via emotionele betrokkenheid (CE), maar minder via gedragsmatige oefening. Voor converger- en pragmatisch georiënteerde hoorders zal dit een lacune zijn: zij blijven zitten met “wat nu concreet?”.",
+      "quotes": [
+        "“Is die keus reeds door genade in het hart gevallen?”",
+        "“Sterven is God ontmoeten! Wilt u dat nooit vergeten?”",
+        "“O gemeente, dat wij … onze dagen zo te tellen, dat wij een wijs hart bekomen.”",
+        "“Knecht van God, gemeente, betekent: zelfverloochening beoefenen.”"
+      ],
+      "sterke_punten": [
+        "Duidelijke appèlmomenten die tot besluitvorming en zelfonderzoek dwingen.",
+        "Concreet ‘oefendoel’ in bijbelse taal (dagen tellen; zelfverloochening) dat richting geeft.",
+        "Ethiek van waarheid (bij kerkhof, toespraken) als praktische correctie op religieuze schijn."
+      ],
+      "verbeterpunten": [
+        "Vertaal ‘zelfverloochening’ naar 2–3 observeerbare praktijken (bijv. verzoening zoeken, waarheid spreken in rouw, keuzes in tijdsbesteding) die uit de tekst voortvloeien.",
+        "Voeg één korte ‘komende week’-toepassing toe die aansluit op Deut. 34:5–6: omgaan met verborgenheid, loslaten, vertrouwen op Gods handelen zonder zichtbare bevestiging.",
+        "Maak voor jongeren een concreet pad: met wie spreken, welke gewoonten doorbreken, welke geestelijke disciplines oefenen."
+      ],
+      "homiletische_manifestaties": "AE manifesteert zich primair als oproep tot keuze/bereidheid en als morele aansporing (dagen tellen, zelfverloochening, waarheid spreken). Implementatie blijft grotendeels op attitude- en intentieniveau, met beperkte concrete gedragsaanwijzingen."
+    }
+  },
+  "anderson_structuren_analyse": {
+    "declaratief_assimilator": {
+      "aanwezig": true,
+      "score": 7,
+      "rol_prediker": "De prediker functioneert regelmatig als advocaat/filosoof door stellige proposities te poneren (genade vs. werk; sterven = God ontmoeten; zonder bloed geen vergeving) en die binnen een confessioneel-theologisch raamwerk te plaatsen.",
+      "kernvraag_beantwoord": "Ja, de preek beantwoordt overtuigend ‘wat is de waarheid?’ in termen van genade, oordeel, verbond en Christus als Middelaar, al is de koppeling aan de pericoop niet altijd strak.",
+      "analyse": "De preek heeft duidelijke declaratieve segmenten met deductieve logica: van Gods trouw en verbondswaarheid naar menselijke verantwoordelijkheid en christologische vervulling. Het betoog is niet primair dialogisch; het is stellig verkondigend. Dit bedient assimilator-hoorders goed, maar vraagt om structurering (expliciete hoofdgedachte, tussenkoppen) om cognitieve belasting te beperken gezien de lengte.",
+      "quotes": [
+        "“Niet zijn werk gaf hem rust voor de eeuwigheid… maar Gods genade.”",
+        "“Het is de mens gezet eenmaal te sterven en daarna het oordeel.”"
+      ],
+      "sterke_punten": [
+        "Heldere proposities die theologisch coherent zijn.",
+        "Sterke normatieve uitspraken die de hoorder positioneren ten opzichte van God."
+      ],
+      "verbeterpunten": [
+        "Maak de logische route explicieter (1–2 kernstellingen, 3 onderargumenten) om begrip en retentie te vergroten.",
+        "Anchor declaratieve claims vaker in Deut. 34:5–6 in plaats van brede canonieke excursen."
+      ]
+    },
+    "pragmatisch_converger": {
+      "aanwezig": true,
+      "score": 5,
+      "rol_prediker": "De prediker neemt sporadisch de rol van gids/coach aan via vragen en vermaningen, maar biedt weinig ‘hoe’-instructie of probleemoplossende principes.",
+      "kernvraag_beantwoord": "Gedeeltelijk. De preek zegt wat men moet doen (kiezen, bedenken, zelfverloochenen), maar beperkt hoe dit concreet werkt in dagelijkse situaties.",
+      "analyse": "Pragmatische elementen zijn aanwezig in de vorm van praktische waarschuwingen (waarheid op kerkhof, geen spel met Gods Woord) en in oproepen tot levenshouding. Een converger zoekt echter vertaalslagen naar concrete praktijken, beslisregels, en stappen. Die blijven dun. Daardoor ontstaat een ‘pragmatisch deficit’ in de leercyclus: hoorders kunnen wel geraakt en overtuigd worden, maar niet toegerust.",
+      "quotes": [
+        "“Wat kan er naar waarheid op uw graf gezet worden?”",
+        "“Knecht van God… betekent: zelfverloochening beoefenen.”"
+      ],
+      "sterke_punten": [
+        "Praktische toetsvragen die handelen kunnen sturen (opschrift, waarheid).",
+        "Heldere ethische correctie op religieuze schijn."
+      ],
+      "verbeterpunten": [
+        "Geef 2–3 concrete handelingssuggesties die direct uit de tekst voortkomen.",
+        "Laat één korte casus zien (rouwgesprek, keuzeconflict) met ‘hoe dan’ toepassing."
+      ]
+    },
+    "narratief_accommodator": {
+      "aanwezig": true,
+      "score": 7,
+      "rol_prediker": "De prediker is sterk verteller: hij bouwt scènes, laat kijken, en gebruikt het verhaal als drager van betekenis en appel.",
+      "kernvraag_beantwoord": "Ja. De vraag ‘wat gebeurt er?’ wordt uitvoerig beantwoord via de tocht, het uitzicht, het sterven en begraven, en de doortekening tot Thabor.",
+      "analyse": "De narratieve structuur draagt de eerste helft van de preek: Israël aan de grens, Mozes’ afscheid, de klim, het uitzicht, de stervensgang. De hoorder wordt in het verhaal gezogen via details en beweging. De narratieve kracht verliest soms focus door uitgebreide geografische beschrijvingen en door verschuivingen naar andere verhalen (Bileam, Stefanus, Johannes de Doper) die het hoofdplot onderbreken.",
+      "quotes": [
+        "“Mozes … klom hij de berg op.”",
+        "“U moet u eens voorstellen … Mozes krijgt … een blik te gunnen in het beloofde land.”"
+      ],
+      "sterke_punten": [
+        "Sterke verhaallijn met beweging (grens → berg → sterven) die betrokkenheid creëert.",
+        "Beelden ondersteunen emotionele identificatie met Mozes."
+      ],
+      "verbeterpunten": [
+        "Snoei de lange topografische inventarisatie; behoud de narratieve kernmomenten.",
+        "Beperk zijverhalen of plaats ze functioneel aan één duidelijk punt."
+      ]
+    },
+    "visionair_diverger": {
+      "aanwezig": true,
+      "score": 7,
+      "rol_prediker": "De prediker functioneert als ‘kunstenaar/poëet’ door metaforen, contrastsymboliek en eschatologische vergezichten die verlangen wekken.",
+      "kernvraag_beantwoord": "Ja. ‘Waarom is dit belangrijk?’ wordt beantwoord vanuit eeuwigheidsperspectief (erfenis, oordeel, hemels Kanaän, nieuwe aarde) en vanuit de betekenis van Gods trouw.",
+      "analyse": "Visionaire elementen zitten in het omhoog/omlaag-motief, in het ‘uitzicht op de erfenis’, en in de eschatologische doortrekking naar nieuwe hemel en aarde. Dit spreekt diverger-hoorders aan: het wekt verbeelding en zet aan tot reflectie. Risico is dat visionaire breedte (veel vergezichten) de tekstspecifieke focus verdund en de preek lang maakt.",
+      "quotes": [
+        "“Niet een gang naar beneden, maar een opgang tot de bergen van Gods heiligheid.”",
+        "“Het aardse Kanaän is een onderpand van het hemels Kanaän.”"
+      ],
+      "sterke_punten": [
+        "Sterke symboliek die existentieel en eschatologisch gewicht geeft.",
+        "Verbeelding helpt de hoorder ‘zien’ wat geloof beoogt."
+      ],
+      "verbeterpunten": [
+        "Koppel elk visioen expliciet terug aan één kernzin uit Deut. 34:5–6.",
+        "Beperk het aantal eschatologische uitwaaieringen om retentie te verbeteren."
+      ]
+    }
+  },
+  "osmer_taken_analyse": {
+    "descriptief_empirisch": {
+      "score": 6,
+      "priesterlijk_luisteren": "De prediker luistert zichtbaar naar de tekst (scènes, emoties, grenssituatie) en gedeeltelijk naar de context via aanspreking van jongeren/ouderen en via rouw-ervaringen; gemeente-specifieke noden blijven echter algemeen.",
+      "analyse": "De vraag ‘wat is er aan de hand?’ wordt beschreven in bijbelse termen (Israël aan de grens; Mozes’ sterven; verlies van leider) en in existentiële termen (sterfelijkheid, rouw, schijn op kerkhof). Er is waarneming van concrete menselijke situaties, maar weinig fijnmazige ‘case’-observatie van deze concrete gemeente, haar tijdgeest of sociaal-culturele druk.",
+      "quotes": [
+        "“En nu kijk ik eens naar de jongens en meisjes in ons midden…”",
+        "“Nu zijn er vandaag ook mensen… die soms niet eens weten waar hun dierbaren begraven zijn.”"
+      ],
+      "sterke_punten": [
+        "Directe pastorale aanspreking van levensfasen (jeugd/oud).",
+        "Erkenning van rouw- en verlieservaringen als concreet menselijk gegeven."
+      ],
+      "verbeterpunten": [
+        "Maak de context concreter (typen zorgen, geloofscrises, rouwpraktijken) zonder te psychologiseren.",
+        "Breng één herkenbaar hedendaags scenario in dat de ‘grens’-ervaring actualiseert."
+      ]
+    },
+    "interpretatief": {
+      "score": 5,
+      "wijsheid_van_sage": "Er is interpretatie in termen van geestelijke mechanismen (dromen, zelfbedrog, schijn), maar beperkte expliciete cultuuranalyse of psychologische duiding die uitlegt waarom deze patronen ontstaan en standhouden.",
+      "analysis": "De vraag ‘waarom is dit aan de hand?’ wordt vooral beantwoord met theologische diagnoses (zonde, wereldgelijkvormigheid, satanische macht) en met morele duiding. Dat is coherent binnen de traditie, maar interpretatief blijft het eenzijdig: weinig perspectiefwisseling, weinig aandacht voor sociale dynamiek (groepsdruk, rituelen rond dood), en weinig ‘verstehende’ duiding die hoorders helpt zichzelf te begrijpen vóórdat ze gecorrigeerd worden.",
+      "quotes": [
+        "“De wereld wil bedrogen worden en daarom wordt zij bedrogen.”",
+        "“Zodra een mens geestelijk wakker wordt… verklaren de mensen hem voor een dwaas.”"
+      ],
+      "sterke_punten": [
+        "Scherpe diagnose van zelfbedrog en religieuze schijn.",
+        "Erkenning van sociale druk op wie ‘geestelijk wakker’ wordt."
+      ],
+      "verbeterpunten": [
+        "Voeg één laag psychologische/rituele interpretatie toe (waarom mensen dood en oordeel vermijden; waarom kerkhof-taal ontspoort).",
+        "Breng meerdere perspectieven in (ook de zoekende/angstige hoorder) om interpretatie minder polemisch te maken."
+      ]
+    },
+    "normatief": {
+      "score": 7,
+      "profetisch_onderscheidingsvermogen": "De prediker brengt Schrift en traditie normatief in stelling: oordeel, genade, verbond, Christus als norm en telos. De dialoog met ervaring is aanwezig, maar de tekstanker (Deut. 34:5–6) wordt soms overvleugeld door bredere canonieke normen.",
+      "analyse": "‘Wat zou er aan de hand moeten zijn?’ wordt helder geformuleerd: leven onder Christus’ regiment, waarheid spreken, bereid zijn om God te ontmoeten, rust vinden in genade. De normatieve horizon is theologisch coherent en christocentrisch; de preek draagt profetisch gewicht. Tegelijk zou normativiteit sterker worden als ze vaker rechtstreeks uit de tekstbeweging van Deut. 34 volgt (Gods begraven als norm voor vertrouwen/loslaten; verborgen graf als norm tegen idolatrie/heldencultus).",
+      "quotes": [
+        "“Sterven is God ontmoeten!”",
+        "“Door U, Christus Jezus, is de genade en de waarheid geworden.”",
+        "“Deze is Mijn geliefde Zoon… Hoort Hem.”"
+      ],
+      "sterke_punten": [
+        "Heldere normatieve kern rond Christus, genade en oordeel.",
+        "Profetische directheid zonder therapeutische omzichtigheid."
+      ],
+      "verbeterpunten": [
+        "Concretiseer de normatieve implicatie van het verborgen graf en Gods eigen begraven.",
+        "Markeer secundaire normen (zijpaden) om normatieve focus te behouden."
+      ]
+    },
+    "pragmatisch": {
+      "score": 5,
+      "dienend_leiderschap": "De prediker zet aan tot keuze en zelfonderzoek, maar rust de gemeente beperkt toe met concrete praktijken en gemeenschappelijke stappen.",
+      "analyse": "‘Hoe moeten we reageren?’ krijgt vorm in oproepen (keuze, dagen tellen, zelfverloochening, waarheid spreken). Er is weinig expliciete toerusting: geen concrete oefenpraktijken, geen gemeenschappelijke ‘next steps’ voor gemeenteleven, geen begeleiding van implementatie. Daardoor blijft de pragmatische taak vooral appellerend, minder vormend.",
+      "quotes": [
+        "“Is die keus … reeds in Uw ziel gevallen?”",
+        "“Zelfverloochening betekent… helemaal in het spoor gaan, dat God u wijst.”"
+      ],
+      "sterke_punten": [
+        "Appel is helder en urgent; het vraagt om respons.",
+        "Praktische toetsvraag rond waarheid op het kerkhof kan gedragsverandering triggeren."
+      ],
+      "verbeterpunten": [
+        "Bied 2–3 concrete praktijken (persoonlijk en gemeentelijk) die de respons ondersteunen.",
+        "Werk één voorbeeld uit van ‘waarheid spreken’ of ‘zelfverloochening’ in een herkenbare situatie."
+      ]
+    }
+  },
+  "leerstijlen_analyse": {
+    "assimilator_AC_RO": {
+      "score": 7,
+      "analyse": "Assimilator-hoorders worden sterk bediend door de declaratieve theologie en de reflectieve spiegeling. Er is veel propositionaliteit (genade/werk; oordeel; verbond) en canonieke samenhang. De behoefte aan rationele helderheid wordt echter soms belast door lengte en door het ontbreken van expliciete structuurmarkeringen; de logische route is wel aanwezig, maar niet altijd geordend in herkenbare stappen.",
+      "voorkeuren_geadresseerd": "De preek biedt conceptuele kaders (verbond, Middelaar, bloed, oordeel, opstanding) en reflectieve herlezing van het leven als eenheid; dit ondersteunt systematisch leren.",
+      "risicos": "Risico op cognitieve overbelasting en ‘abstract idealisme’ wanneer typologische excursen de tekstfocus verdunnen en hoorders de kern niet meer kunnen samenvatten."
+    },
+    "converger_AC_AE": {
+      "score": 5,
+      "analyse": "Converger-hoorders krijgen stevige AC (waarheid), maar relatief weinig AE (hoe toepassen). De preek overtuigt, maar vertaalt beperkt naar probleemoplossing en dagelijkse implementatie. De ‘wat moet ik hiermee?’-vraag wordt vooral beantwoord met ‘kies’ en ‘wees bereid’, minder met concrete handelingsprincipes.",
+      "voorkeuren_geadresseerd": "De preek geeft duidelijke doelrichting (onder Christus leven; waarheid spreken), maar weinig praktische routes om dit te operationaliseren.",
+      "risicos": "Risico op frustratie of passiviteit: men weet ‘wat waar is’ maar niet ‘wat te doen’ in concrete contexten; daarnaast risico op moralistische ontvangst omdat AE vooral als appel klinkt."
+    },
+    "accommodator_CE_AE": {
+      "score": 6,
+      "analyse": "Accommodator-hoorders worden bediend door verhalende CE (beelden, scènes) en door appellerende AE (keuze, zelfverloochening). De ervaring is rijk, maar de ‘doe’-component blijft vooral intentioneel en niet uitgewerkt in kleine experimenten. Hierdoor kan het voor doeners emotioneel wel raken, maar gedragsmatig minder landen.",
+      "voorkeuren_geadresseerd": "Verhaal en gevoel zijn sterk; directe aanspreking (jongeren) activeert respons.",
+      "risicos": "Risico op te weinig concrete oefening: gevoel en urgentie kunnen wegebben zonder praktijken die verandering ondersteunen."
+    },
+    "diverger_CE_RO": {
+      "score": 7,
+      "analyse": "Diverger-hoorders worden sterk aangesproken door visionaire beelden (omhooggaan, uitzicht, erfenis) en reflectieve spiegels (lappendeken, dromen, rouw). De preek wekt verbeelding en existentieel besef. De structuur blijft echter lang en soms verzadigd; divergers kunnen daardoor veel meenemen, maar ook verdwalen in breedte.",
+      "voorkeuren_geadresseerd": "Er is empathische identificatie met Mozes en Israël, plus symbolische taal die betekenis en verlangen wekt.",
+      "risicos": "Risico op diffuse focus: te veel beelden/zijpaden kunnen de kernervaring minder scherp maken."
+    }
+  },
+  "integraliteit_en_cyclus": {
+    "cyclus_compleetheid": {
+      "score": 6,
+      "analyse": "De preek doorloopt alle vier fasen in zekere mate: CE via verhaal en beelden; RO via existentiële observaties en toetsvragen; AC via dogmatische en christologische conceptvorming; AE via appels tot keuze en bereidheid. De cyclus is echter niet strak ontworpen: AE is relatief dun en verschijnt vooral als retorische oproep in plaats van als concreet experimenteren. Daardoor is de cyclus ‘formeel’ compleet, maar pedagogisch niet optimaal gesloten.",
+      "ontbrekende_fasen": [
+        "Actief Experimenteren is onderontwikkeld als concrete implementatie (meer ‘doen’ nodig).",
+        "Reflectieve Observatie is soms te snel normatief ingevuld (meer ‘waarom’ en perspectiefwisseling)."
+      ],
+      "volgorde_en_flow": "Dominante volgorde: Narratieve CE (Israël/Mozes) → Visionaire CE/RO (omhooggaan, uitzicht, erfenis) → Declaratieve AC (verbond, bloed, Christus) → Appellerende AE (keuze, bereidheid). De flow is logisch, maar de overgang naar AE zou concreter kunnen."
+    },
+    "balans_tussen_fasen": {
+      "score": 5,
+      "analyse": "De preek is zwaar in CE (verhaal/beeld) en AC (theologische doortrekking). RO is aanwezig maar vaak instrumenteel; AE blijft relatief algemeen. Het gevolg is dat sommige hoorders sterk geraakt en overtuigd worden, maar minder geholpen om het geleerde te oefenen en te internaliseren in gedrag en routines.",
+      "dominante_fase": "Abstracte Conceptualisering (AC), met daarnaast sterke Concrete Ervaring (CE)",
+      "onderdrukte_fase": "Actief Experimenteren (AE)",
+      "consequenties": "Assimilators en divergers worden goed bediend; convergers krijgen minder; accommodators worden emotioneel meegenomen maar missen praktische oefenstappen."
+    },
+    "homiletic_window_beweging": {
+      "score": 6,
+      "analyse": "De preek beweegt door meerdere kwadranten, maar niet strategisch ‘georkestreerd’ als leerpad. Er is een sterke visionaire/narratieve opening, gevolgd door declaratieve theologie en afsluitende appels. Pragmatische toerusting blijft beperkt, waardoor het ‘window’ niet volledig sluit in gedragsverandering.",
+      "geïdentificeerde_structuur": "Narratief (Israël/Mozes aan de grens) → Visionair (opgang, uitzicht, erfenis) → Declaratief (verbond, genade, Christus) → Pragmatisch (appel tot keuze/bereidheid; waarheid spreken) maar pragmatisch relatief dun.",
+      "effectiviteit": "De beweging is effectief in betrokkenheid en overtuiging; minder effectief in het faciliteren van ‘leren door doen’ met concrete handvatten."
+    },
+    "holistisch_leren": {
+      "score": 6,
+      "analysis": "Hoofd (AC) en hart (CE) worden sterk aangesproken; ogen (RO) redelijk; handen (AE) beperkt. Epistemologisch is de benadering overwegend propositioneel en verkondigend, met ervaringsgerichte elementen via verhaal en beeld. Doorgemaakte transformatie wordt vooral verondersteld via appel en genadeverkondiging, niet didactisch ondersteund via oefenpraktijken.",
+      "epistemologische_benadering": "Overwegend propositionele waarheid (stellingen over genade, oordeel, Christus) met sterke verbeeldings- en ervaringslaag; beperkte expliciete ‘practice-based’ leercomponent."
+    }
+  },
+  "totaalbeeld": {
+    "overall_kolb_score": 6,
+    "samenvatting": "Wat tekortschiet vanuit Kolb is vooral de sluiting van het leerproces in Actief Experimenteren: de preek eindigt herhaaldelijk in appèl (keuze, bereidheid, zelfverloochening), maar vertaalt beperkt naar concrete, oefenbare praktijken. Daardoor blijft de cyclus pedagogisch ‘open’: hoorders kunnen geraakt en overtuigd zijn, maar missen ondersteuning om het geleerde te implementeren. Daarnaast is Reflectieve Observatie aanwezig, maar geregeld te snel normatief ingevuld; de preek neemt weinig tijd om meerdere perspectieven te verkennen en ‘waarom’-vragen uit te diepen voordat de oplossing (genade/keuze) in beeld komt.\n\nWat goed werkt is de krachtige Concrete Ervaring door narratieve en visionaire verbeelding: de grenssituatie, de berg, de blik over Kanaän en het sterven in Gods nabijheid trekken hoorders het verhaal in. Abstracte Conceptualisering is sterk in confessionele en christologische samenhang: Mozes als middelaar van het oude verbond wijst naar Christus als betere Middelaar, met een duidelijke genadekern tegenover werkheiligheid. In Anderson-termen overheersen narratief, visionair en declaratief; pragmatisch is aanwezig maar onderontwikkeld. In Osmer-termen zijn normatief en descriptief redelijk ingevuld, interpretatief en pragmatisch minder.\n\nVoor leerstijlen geldt: assimilators en divergers worden ruim bediend; accommodators worden meegenomen via beelden en appel; convergers krijgen onvoldoende ‘hoe’. De prioriteit voor verbetering is daarom niet meer theologie of meer beelden, maar didactische concretisering: ontwerp de preek zó dat de hoorder na het horen weet welke kleine stap, oefening of praktijk deze week het geloof leert belichamen, specifiek vanuit Deut. 34:5–6 (Gods handelen, verborgenheid, loslaten, vertrouwen).",
+    "sterke_punten_top_5": [
+      "Sterke narratieve CE: hoorders worden via scènes en beelden het verhaal ingetrokken (kamp, berg, uitzicht).",
+      "Heldere christologische AC: consistente beweging van Mozes naar Christus als telos.",
+      "Existentiële urgentie: dood, oordeel en verantwoordelijkheid worden niet geneutraliseerd.",
+      "Visionaire vergezichten: erfenis/eschatologie wekken verlangen en perspectief voorbij het zichtbare.",
+      "Directe aanspreking van levensfasen (jongeren/ouderen) die betrokkenheid vergroot."
+    ],
+    "verbeterpunten_top_5": [
+      "Versterk AE met 2–3 concrete praktijken die uit de pericoop voortkomen (loslaten, vertrouwen in verborgenheid, waarheid in rouwtaal) en formuleer ze als ‘komende week’-stappen.",
+      "Vergroot RO door expliciet ‘waarom’-vragen te verkennen en één empathisch perspectief toe te voegen vóór het appèl.",
+      "Maak de centrale ‘grote gedachte’ expliciet in één zin en bewaak de focus door typologische zijpaden te reduceren.",
+      "Introduceer een hedendaagse haak in de opening die de bijbelse grenservaring parallel zet aan een herkenbare situatie.",
+      "Structureer de preek met duidelijke scharniermomenten (nu kijken we; nu verstaan we; nu belijden we; nu oefenen we) om leerretentie te verhogen."
+    ],
+    "primaire_homiletische_stijl": "Narratief/Visionair met sterke Declaratieve segmenten; Pragmatisch is secundair en vraagt versterking.",
+    "primaire_leerstijl_aangesproken": "Assimilator en Diverger (AC+RO en CE+RO), met secundair Accommodator (CE+AE).",
+    "uitgesloten_leerstijlen": [
+      "Converger (AC+AE) wordt onvoldoende bediend: weinig concrete ‘hoe werkt dit’-implementatie en probleemoplossende vertaalslagen."
+    ],
+    "aanbevelingen_voor_volgende_preek": [
+      "Versterk de Concrete Ervaring door te openen met een hedendaagse ‘grens’-situatie (afscheid, verlies, onzekere toekomst) en spiegel die aan Deut. 34:5–6.",
+      "Verleng Reflectieve Observatie met één korte, meervoudige probleemanalyse (verdringing van dood, religieuze schijn, groepsdruk) vóór de christologische oplossing.",
+      "Ontwerp Actief Experimenteren als expliciet oefenpad: 2–3 concrete, toetsbare praktijken en één korte casus waarin de hoorder ziet hoe dit eruitziet."
+    ],
+    "conclusie": "Vanuit Kolbs leercyclus is dit een inhoudelijk rijke preek die de hoorder krachtig binnenbrengt in verhaal (CE) en overtuigt met confessionele conceptualisering (AC). De reflectieve laag (RO) is aanwezig, maar functioneert geregeld als opstap naar norm en appèl in plaats van als zelfstandige, meerlagige probleemverkenning. Het grootste didactische tekort ligt bij AE: de preek roept op tot keuze en bereidheid, maar faciliteert beperkt hoe hoorders in concrete praktijken kunnen oefenen wat zij horen. Daardoor ontstaat een leerproces dat vooral werkt via geraakt worden en instemmen, minder via uitproberen en belichamen. De prioriteit voor verbetering is daarom didactische concretisering en structurering, niet het toevoegen van meer thema’s. Wanneer de prediker de AE-fase versterkt met enkele kleine, tekstgebonden oefenstappen en de RO-fase iets verbreedt, ontstaat een aanzienlijk completere cyclus die ook converger-hoorders beter bedient en het gehoorde meer kans geeft om gedrag en gemeentepraktijk te vormen."
+  }
+}
+
