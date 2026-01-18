@@ -25,7 +25,7 @@ Dit project biedt een hulpmiddel voor die evaluatie - door te illustreren hoe ee
 
 ### Wat doet dit project?
 
-Dit project biedt vijf complementaire methoden voor de systematische analyse van preken aan:
+Dit project biedt zes complementaire methoden voor de systematische analyse van preken aan:
 
 #### 1. De Leercyclus van Kolb (Homiletic Window)
 Analyseert of de preek de volledige cyclus van ervaringsgericht leren doorloopt, zodat verschillende typen hoorders (leerstijlen) worden aangesproken. Dit is gebaseerd op de homiletische typologie van **Kenton Anderson**:
