@@ -84,6 +84,18 @@ Deze methode beoordeelt de preek als kunstvorm die door haar vormgeving toegang 
 
 **Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/esthetische_wending.md`.
 
+#### 6. Transactionele Analyse (TA)
+Analyseert de preek op psychologische dynamiek en manipulatie ('Games'), gebaseerd op het werk van **Eric Berne** en de Dramadriehoek van **Karpman**:
+
+- **Ego-posities** - Spreekt de voorganger als Ouder, Volwassene of Kind?
+- **Transacties** - Zijn de interacties zuiver of zitten er dubbele bodems in?
+- **Spelen (Games)** - Worden er manipulatieve patronen gespeeld (zoals "Redemption" of "Ain't it Awful")?
+- **Dramadriehoek** - Vermijdt de preek de rollen van Redder, Slachtoffer en Aanklager?
+
+Deze methode bevordert **autonomie**: een preek die de hoorder aanspreekt als mondige volwassene, zonder angst of dwingende zorg.
+
+**Achtergrond:** De volledige theoretische onderbouwing is te vinden in `misc/transactionele_analyse.md`.
+
 ---
 
 Elke methode geeft scores, onderbouwing met citaten en concrete verbeterpunten.
@@ -109,6 +121,7 @@ homiletiek_feedback/
 ├── analyze_sermon_dekker.py           # Analyse op basis van Dekker-thesen
 ├── analyze_aristoteles.py             # Analyse op basis van Aristotelische Modi
 ├── analyze_schulz_von_thun.py         # Analyse op basis van Schulz von Thun
+├── analyze_transactional.py           # Analyse op basis van Transactionele Analyse
 ├── analyze_esthetiek.py               # Analyse op basis van de Esthetische Wending
 ├── .env                               # API-sleutel configuratie (niet in git)
 ├── input/                             # Preekteksten (*.txt)
@@ -118,6 +131,7 @@ homiletiek_feedback/
 │   ├── analyze_sermon_dekker.md
 │   ├── analyze_aristoteles.md
 │   ├── analyze_schulz_von_thun.md
+│   ├── analyze_transactional.md
 │   └── analyze_esthetiek.md
 ├── docs/                              # Documentatie en voorbeelden
 │   └── template_aristoteles.json
@@ -126,6 +140,7 @@ homiletiek_feedback/
 │   ├── kolbs_leercyclus.md
 │   ├── wat_is_een_preek_dekker.md
 │   ├── schulz_von_thun.md
+│   ├── transactionele_analyse.md
 │   └── esthetische_wending.md
 └── technical/                         # Hulpscripts
 ```
@@ -176,6 +191,11 @@ python analyze_schulz_von_thun.py --i input/preek.txt
 python analyze_esthetiek.py --i input/preek.txt
 ```
 
+**Voor Transactionele Analyse:**
+```bash
+python analyze_transactional.py --i input/preek.txt
+```
+
 #### 5. Bekijk de resultaten
 Het script genereert een JSON-bestand in `outputs/` met:
 - Metadata (geschatte lengte, tijdsduur)
@@ -210,9 +230,9 @@ Deze regel bewaart de prediking tegen zowel te objectieve als te subjectieve uit
 
 ---
 
-### De Vijf Methoden: Complementaire Perspectieven
+### De Zes Methoden: Complementaire Perspectieven
 
-De vijf analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
+De zes analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
 1. **Dekkers Thesen** beoordelen de **theologische inhoud**: Is de preek schriftuurlijk, christocentrisch, en existentieel?
 
@@ -224,14 +244,17 @@ De vijf analysemethoden bieden elk een uniek perspectief op de preekpraktijk:
 
 5. **De Esthetische Wending** beoordeelt de **artistieke vorm**: Wordt de waarheid gedragen door narratieve en literaire vormgeving?
 
-**Samen** vormen deze vijf methoden een holistische evaluatie:
+6. **Transactionele Analyse** toetst de **psychologische gezondheid**: Is de communicatie vrij van manipulatie en bevordert deze autonomie?
+
+**Samen** vormen deze methoden een holistische evaluatie:
 - Dekker vraagt: "Is het **waar**?"
 - Kolb vraagt: "Wordt het **geleerd**?"
 - Aristoteles vraagt: "Is het **overtuigend**?"
 - Schulz von Thun vraagt: "Is het **congruent**?"
 - Esthetische Wending vraagt: "Is het **mooi**?"
+- TA vraagt: "Is het **gezond**?"
 
-Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag), missen van emotionele impact (Aristoteles: laag Pathos), of esthetisch plat zijn (Esthetiek: laag). Door alle vijf de methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
+Een preek kan theologisch zuiver zijn (Dekker: hoog), maar falen in het bereiken van verschillende leerstijlen (Kolb: laag), missen van emotionele impact (Aristoteles: laag Pathos), esthetisch plat zijn (Esthetiek: laag), of psychologisch manipulatief (TA: laag). Door alle methoden te gebruiken, krijgt de voorganger een volledig beeld van de sterke en zwakke punten.
 
 ---
 
@@ -261,3 +284,5 @@ Anderson, K.C. (2006). *Choosing to Preach: A Comprehensive Introduction to Serm
 Aristoteles. *Retorica*. (Zie ook: Rapp, C. (2022). "Aristotle's Rhetoric", *The Stanford Encyclopedia of Philosophy*. [https://plato.stanford.edu/entries/aristotle-rhetoric/](https://plato.stanford.edu/entries/aristotle-rhetoric/))
 
 Schulz von Thun, F. (1981). *Miteinander reden 1: Störungen und Klärungen. Allgemeine Psychologie der Kommunikation*. Rowohlt. (Zie ook: [Het Communicatievierkant - Schulz von Thun Institut](https://www.schulz-von-thun.de/die-modelle/das-kommunikationsquadrat))
+
+Berne, E. (1964). *Games People Play: The Psychology of Human Relationships*. Grove Press.
