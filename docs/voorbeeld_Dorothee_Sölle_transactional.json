@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "datum_analyse": "2023-10-27",
+    "titel_preek": "...dass wir lieben können (Dat wij kunnen liefhebben)",
+    "prediker": "Dorothee Sölle",
+    "bijbeltekst": "1 Johannes 3:11–18",
+    "notities": "Preek uit 1968, context van politieke theologie, Vietnam-oorlog en opkomende secularisatie. Sterke focus op demythologisering."
+  },
+  "ego_posities_scan": {
+    "ouder_parent": {
+      "vrijheid_van_kritische_ouder_CP": {
+        "score": 3,
+        "toelichting_score": "10 = Volledig vrij van dwingende oordelen. 0 = Zeer dominante Kritische Ouder.",
+        "aanwezigheid_van_dwang": "Hoog",
+        "analyse": "Hoewel Sölle expliciet de 'Superego-God' (de traditionele Kritische Ouder) afwijst, vult ze deze positie zelf in met een nieuwe, politieke Kritische Ouder. Ze oordeelt scherp over de traditie ('moeten laten vervallen') en het kapitalisme. De dwang verplaatst zich van dogma naar politieke actie.",
+        "quotes": [
+          "Ik geloof dat we dit gebouw moeten laten vervallen.",
+          "Het eeuwige leven beslist zich hier bij ons, op geen enkele andere plaats.",
+          "Terwijl wij steeds rijker worden... wordt de Derde Wereld in steeds groter ongeluk gestort."
+        ]
+      },
+      "gezonde_zorg_NP": {
+        "score": 6,
+        "toelichting_score": "10 = Gezonde, niet-verstikkende zorg. 0 = Afwezig of verstikkend.",
+        "aanwezigheid": "Gemiddeld",
+        "analyse": "Ze wil de hoorder bevrijden van religieuze angst (NP), maar koppelt de zorg direct aan een zware ethische eis. De zorg is voorwaardelijk: ware bevrijding is alleen mogelijk via politieke praxis.",
+        "quotes": [
+          "Dat we elkaar moeten liefhebben, is een goede boodschap, geen bevel.",
+          "Liefde heeft geen rechtvaardiging nodig."
+        ]
+      }
+    },
+    "volwassene_adult": {
+      "score": 8,
+      "toelichting_score": "10 = Sterke Volwassen aanwezigheid (Ratio, Hier-en-Nu). 0 = Afwezig.",
+      "aanwezigheid": "Hoog",
+      "analyse": "Sölle spreekt de hoorder intellectueel aan. Ze gebruikt culturele referenties (Beatles), economische cijfers (BNP percentages) en analyseert de theologiegeschiedenis. Ze nodigt uit tot denken en herinterpreteren.",
+      "quotes": [
+        "Tot nu toe geven we 0,3%. Dit politieke doel is zeker haalbaar.",
+        "De traditie waar we uit komen, heeft deze kern gevormd, verrijkt, gereflecteerd en gedogmatiseerd."
+      ]
+    },
+    "kind_child": {
+      "vrijheid_van_aangepast_kind_AC": {
+        "score": 7,
+        "toelichting_score": "10 = Vrij van angst/behaagzucht. 0 = Sterk Aangepast Kind (angstcultuur).",
+        "aanwezigheid_van_aanpassing": "Laag",
+        "analyse": "Sölle moedigt rebellie aan tegen de kerkelijke traditie (anti-AC). Echter, ze creëert potentieel een nieuw Aangepast Kind ten opzichte van de politieke ideologie (schuldgevoel over westerse rijkdom).",
+        "quotes": [
+          "We zouden ons misschien moeten afleren om bang te zijn om banaal te zijn.",
+          "Ik geloof niet dat Jezus zich tot het superego heeft gericht."
+        ]
+      },
+      "vrij_kind_FC": {
+        "score": 5,
+        "toelichting_score": "10 = Authentiek, speels, vreugdevol. 0 = Afwezig.",
+        "aanwezigheid": "Gemiddeld",
+        "analyse": "Ze pleit voor de eenvoud van liefde (FC), maar de toon is ernstig en strijdbaar. De speelsheid van 'All you need is love' wordt intellectueel ingezet, niet zozeer emotioneel doorleefd.",
+        "quotes": [
+          "All you need is love.",
+          "God is dat we kunnen liefhebben."
+        ]
+      }
+    },
+    "dominante_ego_positie": "Volwassene verweven met een ideologische Kritische Ouder"
+  },
+  "transactie_analyse": {
+    "primaire_transactie_stijl": "Volwassene -> Volwassene (Sociaal)",
+    "analyse": "Op sociaal niveau is het een intellectueel betoog over theologie en maatschappij. De spreker behandelt de hoorders als denkende mensen die dogma's kunnen doorzien.",
+    "ulterieure_motieven": "Psychologisch: Ouder -> Kind. Sölle positioneert zichzelf als degene die weet wat 'echt' belangrijk is (politiek) en corrigeert de 'kinderlijke' behoefte van de gemeente aan een Vader-God.",
+    "communicatieve_zuiverheid_score": 6,
+    "toelichting_zuiverheid": "Er zit een paradox in: ze zegt 'het is geen bevel', maar de morele druk om politiek te handelen is dwingender dan het oude dogma.",
+    "toelichting_risico": "Het risico is dat de hoorder de religieuze schuld inruilt voor politieke schuld, zonder in de autonomie te komen."
+  },
+  "spel_analyse_games": {
+    "gedetecteerde_spelen": [
+      {
+        "naam": "Bait & Switch (Lokaas en Wissel)",
+        "waarschijnlijkheid": "Hoog",
+        "formule_g_analyse": {
+          "con": "De belofte van totale eenvoud en bevrijding: 'Het is banaal, All you need is love', weg met moeilijke dogma's.",
+          "gimmick": "De behoefte van de moderne mens aan autonomie en verlichting van religieuze druk.",
+          "switch": "De herdefinitie van liefde: Liefde is niet zomaar een gevoel, maar harde politieke herverdeling (2% BNP).",
+          "payoff": "De hoorder voelt zich eerst bevrijd van de kerk, maar daarna schuldig over de wereldarmoede. De spreker voelt zich moreel superieur (profetisch)."
+        },
+        "bewijs_quotes": [
+          "De boodschap is oneindig banaal... All you need is love.",
+          "Dit politieke doel... is naar mijn mening het punt waarop het eeuwige leven... beslist wordt."
+        ]
+      },
+      {
+        "naam": "ITHY (I'm Only Trying To Help You - Intellectual Variant)",
+        "waarschijnlijkheid": "Midden",
+        "formule_g_analyse": {
+          "con": "Ik help jullie van die onderdrukkende 'Superego God' af.",
+          "gimmick": "Intellectuele hoogmoed of religieuze vermoeidheid bij de hoorder.",
+          "switch": "Als je nog steeds behoefte hebt aan een 'Vader' of 'Troost', ben je onvolwassen.",
+          "payoff": "Bevestiging van de intellectuele voorhoede-positie van de 'Nieuwe Theologie'."
+        },
+        "bewijs_quotes": [
+          "Tegenover al degenen die een Vader... willen hebben, zegt het evangelie onverbiddelijk... All you need is love."
+        ]
+      }
+    ],
+    "afwezigheid_van_spelen_analyse": "N.v.t."
+  },
+  "dramadriehoek_analyse": {
+    "rollen_van_prediker": {
+      "redder": "Sterk aanwezig. Sölle redt het evangelie van de 'traditie' en de hoorder van het 'superego'.",
+      "aanklager": "Sterk aanwezig richting de gevestigde orde, het kapitalisme en de 'conservatieve theologie'.",
+      "slachtoffer": "Identificatie met de slachtoffers van het systeem (Derde Wereld), namens wie zij spreekt."
+    },
+    "positie_van_gemeente": "De gemeente wordt uitgenodigd om uit de Slachtofferrol (van dogma's) te stappen, maar wordt bijna gedwongen in de Redderrol (van de wereld). Als ze dit weigeren, worden ze impliciet Daders (moordenaars, vgl. 1 Joh tekst).",
+    "ontsnappings_mogelijkheden": "Beperkt. De preek biedt weinig ruimte voor 'zijn', vooral voor 'doen'. De ontsnapping aan de religieuze dramadriehoek leidt tot intrede in de politieke dramadriehoek."
+  },
+  "conclusie_en_aanbeveling": {
+    "psychologische_gezondheid_score": 6,
+    "samenvatting": "Deze preek is een krachtig voorbeeld van demythologisering. Psychologisch gezien is het een sterke interventie om de 'Ouder'-God (Superego) te onttronen en de verantwoordelijkheid bij de 'Volwassene' te leggen. Echter, de preek is niet vrij van manipulatie. Het mechanisme is een verschuiving van autoriteit: van verticaal (Kerk/Dogma) naar horizontaal (Politiek/Ethiek). De 'banaliteit' van de liefde wordt gebruikt als lokaas voor een zwaarwegend politiek programma. Dit kan leiden tot een nieuwe vorm van 'Aangepast Kind'-gedrag, gedreven door sociale schuld in plaats van religieuze zonde.",
+    "sterke_punten": [
+      "Sterk appèl op de Volwassen ego-positie om zelf na te denken.",
+      "Effectieve deconstructie van angst-religie (Superego).",
+      "Concrete vertaling van abstracte begrippen naar het Hier-en-Nu."
+    ],
+    "verbeterpunten": [
+      "De ontkenning van de menselijke behoefte aan troost ('Vader', 'Thuis') is hard en potentieel invaliderend voor het 'Kind' in de hoorder.",
+      "Het risico op een 'Bait & Switch' spel waarbij genade wordt vervangen door politieke wet.",
+      "De polarisatie (wij vs. de traditie) houdt de strijd in stand in plaats van autonomie te bevorderen."
+    ],
+    "advies_voor_game_vrije_communicatie": "Erken de legitieme behoeften van het 'Kind' aan geborgenheid zonder dit direct als onvolwassen af te doen. Presenteer de politieke implicaties als een vrije keuze van de Volwassene, niet als een nieuwe voorwaarde voor het 'eeuwige leven', om te voorkomen dat de preek een nieuwe wet wordt."
+  }
+}

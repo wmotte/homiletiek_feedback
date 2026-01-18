@@ -104,6 +104,24 @@ for input_file in "$INPUT_DIR"/*.txt; do
         fi
     fi
 
+    # --- 5. Transactional Analysis (TA) ---
+    target_file="$DOCS_DIR/${base_name}_transactional.json"
+    if [ -f "$target_file" ]; then
+        echo "⏭️  Transactional Analysis already exists in $DOCS_DIR. Skipping..."
+    else
+        echo "🧠 Running Transactional Analysis..."
+        ./analyze_transactional.py --input "$input_file" --no-summary
+        
+        # Move output
+        latest_output=$(ls -t "$OUTPUT_DIR"/${base_name}_transactional_*.json 2>/dev/null | head -n 1)
+        if [ -n "$latest_output" ]; then
+            mv "$latest_output" "$target_file"
+            echo "✅ Saved to: $target_file"
+        else
+            echo "❌ Transactional analysis failed or no output found."
+        fi
+    fi
+
 done
 
 echo ""

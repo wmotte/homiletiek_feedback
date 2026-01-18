@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "datum_analyse": "2024-05-05",
+    "titel_preek": "Een pratende slang, een gebrekkige muur en de Naam",
+    "bijbeltekst": "Genesis 3:1-7 & Handelingen 16:16-25",
+    "notities": "Preek gehouden op Bevrijdingsdag (5 mei). De voorganger gebruikt een mix van humor, cultuur (Harry Potter, Freek Vonk) en theologische reflectie."
+  },
+  "ego_posities_scan": {
+    "ouder_parent": {
+      "vrijheid_van_kritische_ouder_CP": {
+        "score": 9,
+        "toelichting_score": "10 = Volledig vrij van dwingende oordelen. 0 = Zeer dominante Kritische Ouder.",
+        "aanwezigheid_van_dwang": "Laag",
+        "analyse": "De prediker spreekt zelden vanuit een oordelende 'boven'-positie. Hij gebruikt de 'wij'-vorm bij falen ('Wij zijn niet goed in het maken van iets perfects') in plaats van de 'jij'-vorm. Er is geen moralistische dwang.",
+        "quotes": [
+          "Wij zijn niet goed in het maken van iets perfects.",
+          "Het overkomt dus de beste!"
+        ]
+      },
+      "gezonde_zorg_NP": {
+        "score": 8,
+        "toelichting_score": "10 = Gezonde, niet-verstikkende zorg. 0 = Afwezig of verstikkend (smothering).",
+        "aanwezigheid": "Gemiddeld",
+        "analyse": "De zorg is aanwezig in de slotfase (troost), maar wordt niet verstikkend. Hij biedt opties aan in plaats van dwingende adviezen.",
+        "quotes": [
+          "Hoe bang je ook bent... God kan je bereiken.",
+          "En stel nu dat het je niet lukt om te zingen, dan kan je ook voor je laten zingen."
+        ]
+      }
+    },
+    "volwassene_adult": {
+      "score": 8,
+      "toelichting_score": "10 = Sterke Volwassen aanwezigheid (Ratio, Hier-en-Nu). 0 = Afwezig.",
+      "aanwezigheid": "Hoog",
+      "analyse": "De preek zit vol Volwassen-analyse. De prediker deelt historische feiten (synode 1926), culturele referenties (Harry Potter) en logische redeneringen ('De Bijbel zwijgt daarover'). Hij nodigt de hoorder uit om mee te denken ('Wat denkt u?'). Hij erkent de realiteit van het lijden zonder het weg te poetsen.",
+      "quotes": [
+        "We zullen het wel nooit te weten komen of de slang met een harde g of met een zachte g geslist heeft.",
+        "Wat denkt u?",
+        "Het is een mysterie. Zoals je dat vandaag de dag ook nog hebt."
+      ]
+    },
+    "kind_child": {
+      "vrijheid_van_aangepast_kind_AC": {
+        "score": 9,
+        "toelichting_score": "10 = Vrij van angst/behaagzucht. 0 = Sterk Aangepast Kind (angstcultuur).",
+        "aanwezigheid_van_aanpassing": "Laag",
+        "analyse": "Er wordt geen angst voor straf of hel aangewakkerd. De 'angst' die genoemd wordt is existentieel (kanker, oorlog), niet religieus-manipulatief.",
+        "quotes": []
+      },
+      "vrij_kind_FC": {
+        "score": 7,
+        "toelichting_score": "10 = Authentiek, speels, vreugdevol. 0 = Afwezig.",
+        "aanwezigheid": "Gemiddeld",
+        "analyse": "Er is ruimte voor humor, verbeelding en speelsheid. De vergelijking met fruitvliegjes en de anekdote over de boer getuigen van creativiteit.",
+        "quotes": [
+          "Zweven ze door de lucht, kruipen ze door het sleutelgat?",
+          "En dat maar 15% echt giftig is?"
+        ]
+      }
+    },
+    "dominante_ego_positie": "Volwassene (Adult)"
+  },
+  "transactie_analyse": {
+    "primaire_transactie_stijl": "Volwassene -> Volwassene",
+    "analyse": "De prediker benadert de gemeente als gelijken die in staat zijn complexe gedachten te volgen. Hij legt uit, nuanceert en illustreert. In het slot verschuift dit licht naar Voedende Ouder -> Kind (troost), maar keert terug naar Volwassene door praktische opties te bieden (YouTube).",
+    "ulterieure_motieven": "Geen significante verborgen agenda gedetecteerd. De boodschap (het kwaad breekt in, maar Jezus ook) wordt openlijk gebracht.",
+    "communicatieve_zuiverheid_score": 9,
+    "toelichting_zuiverheid": "10 = Volledig transparant/Zuiver. 0 = Sterk manipulatief/Ulterieur.",
+    "toelichting_risico": "Het enige risico is de anekdote van de boer (waarin de dochter wordt aangerand), wat een heftig beeld is dat als schokeffect kan werken, maar het dient functioneel het punt van machteloosheid."
+  },
+  "spel_analyse_games": {
+    "gedetecteerde_spelen": [
+      {
+        "naam": "Geen actief spel",
+        "waarschijnlijkheid": "Laag",
+        "formule_g_analyse": {
+          "con": "N.v.t.",
+          "gimmick": "N.v.t.",
+          "switch": "N.v.t.",
+          "payoff": "N.v.t."
+        },
+        "bewijs_quotes": []
+      }
+    ],
+    "afwezigheid_van_spelen_analyse": "De prediker vermijdt het spel 'I'm Only Trying To Help You' (ITHY). Bij ITHY geeft de redder een advies dat faalt, om daarna de ander de schuld te geven. Deze prediker geeft advies ('Ga zingen'), maar anticipeert direct op het falen daarvan ('Stel dat het niet lukt... zet dan YouTube aan'). Hiermee ontkracht hij de mogelijkheid voor de hoorder om 'Ja, maar...' te spelen."
+  },
+  "dramadriehoek_analyse": {
+    "rollen_van_prediker": {
+      "redder": "Laag. Hij wijst naar Jezus als Redder, maar lost het lijden van de hoorder niet magisch op (erkent dat Paul & Silas nog steeds in de cel zitten).",
+      "aanklager": "Afwezig. Hij klaagt de mens niet aan om zijn onvermogen.",
+      "slachtoffer": "Afwezig. Hij plaatst zichzelf wel naast de gemeente ('Wij weten dat...')."
+    },
+    "positie_van_gemeente": "De gemeente wordt erkend in hun ervaring van 'Slachtoffer' van omstandigheden (ziekte, twijfel, slangen), maar wordt uitgenodigd naar Autonomie (zingen/luisteren ondanks de omstandigheden).",
+    "ontsnappings_mogelijkheden": "Ja. De preek biedt een uitweg uit de slachtofferrol door te benadrukken dat externe muren niet werken, maar interne verbondenheid (lied/gebed) wel mogelijk blijft, zelfs in de 'kerker'."
+  },
+  "conclusie_en_aanbeveling": {
+    "psychologische_gezondheid_score": 9,
+    "samenvatting": "Dit is een psychologisch zeer gezonde preek. De prediker spreekt voornamelijk vanuit de Volwassene-positie, waarbij hij de realiteit van het kwaad (de slang, imperfectie) niet ontkent of bagatelliseert (geen 'Marshmallow'-theologie), maar ook niet dramatiseert (geen 'Ain't it Awful'). Hij vermijdt manipulatie door humor en relativering. De uitnodiging tot geloof is vrijblijvend en empathisch ('NP'), met oog voor degenen die het 'niet kunnen opbrengen'.",
+    "sterke_punten": [
+      "Sterke Volwassen-analyse van menselijk onvermogen (de 'tuin' krijgen we niet dicht).",
+      "Vermijding van het 'Ja, maar'-spel door alternatieven te bieden voor mensen die niet kunnen zingen.",
+      "Gebruik van humor (Vrij Kind) om zware thema's toegankelijk te maken zonder ze plat te slaan."
+    ],
+    "verbeterpunten": [
+      "De anekdote van de boer is vrij gewelddadig (aanranding dochter) in contrast met de rest van de preek; dit kan voor trauma-slachtoffers in de zaal onveilig voelen (plotselinge switch naar geweld)."
+    ],
+    "advies_voor_game_vrije_communicatie": "Blijf deze lijn van 'inclusive' preken vasthouden (wij-vorm). Wees alert op metaforen die onbedoeld shockeren (de boer), maar behoud de nuchtere Volwassen kijk op de weerbarstigheid van het leven."
+  }
+}

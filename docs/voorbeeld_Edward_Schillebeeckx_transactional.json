@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "datum_analyse": "2023-10-27",
+    "titel_preek": "De weg naar vrijheid: De voorloper",
+    "bijbeltekst": "Marcus 1:1-8",
+    "notities": "Preek van Edward Schillebeeckx (1982). Context: Dominicaanse traditie, focus op bevrijdingstheologie en historische exegese."
+  },
+  "ego_posities_scan": {
+    "ouder_parent": {
+      "vrijheid_van_kritische_ouder_CP": {
+        "score": 9,
+        "toelichting_score": "10 = Volledig vrij van dwingende oordelen. 0 = Zeer dominante Kritische Ouder.",
+        "aanwezigheid_van_dwang": "Laag",
+        "analyse": "De prediker spreekt nauwelijks veroordelend. Er is geen moralistisch vingertje naar de hoorder. De 'eis' om door de woestijn te gaan wordt gepresenteerd als een existentiële realiteit, niet als een straf.",
+        "quotes": [
+          "Het gaat niet om hem",
+          "Hij durft niet eens de nederige leerling van Jezus te zijn"
+        ]
+      },
+      "gezonde_zorg_NP": {
+        "score": 8,
+        "toelichting_score": "10 = Gezonde, niet-verstikkende zorg. 0 = Afwezig of verstikkend (smothering).",
+        "aanwezigheid": "Gemiddeld/Hoog",
+        "analyse": "Er is een sterke onderstroom van solidariteit met de 'kleine, arme en vernederde'. Dit is een beschermende, voedende houding die autonomie (bevrijding) voorstaat in plaats van afhankelijkheid.",
+        "quotes": [
+          "Gods eer-en-roem... is het geluk en de bevrijding van zijn volk",
+          "Daar ligt zijn jaloerse eer: in de verheffing van de kleine"
+        ]
+      }
+    },
+    "volwassene_adult": {
+      "score": 9,
+      "toelichting_score": "10 = Sterke Volwassen aanwezigheid (Ratio, Hier-en-Nu). 0 = Afwezig.",
+      "aanwezigheid": "Hoog",
+      "analyse": "De preek is sterk intellectueel en educatief. Schillebeeckx legt uit, contextualiseert (Vondel, Babylonische archeologie, vertaalfouten) en nodigt de hoorder uit om mee te denken. Hij behandelt de gemeente als gelijken die complexe materie aankunnen.",
+      "quotes": [
+        "We moeten dit eerste gedeelte... zo ongeveer zien als in de bijbelse drama's van Vondel",
+        "Uit Babylonische liederen en ook archeologische berichten weten we..."
+      ]
+    },
+    "kind_child": {
+      "vrijheid_van_aangepast_kind_AC": {
+        "score": 10,
+        "toelichting_score": "10 = Vrij van angst/behaagzucht. 0 = Sterk Aangepast Kind (angstcultuur).",
+        "aanwezigheid_van_aanpassing": "Laag",
+        "analyse": "Er wordt geen angst voor de hel of straf aangewakkerd. De prediker zelf neemt ook geen onderdanige houding aan, maar een beschouwende.",
+        "quotes": []
+      },
+      "vrij_kind_FC": {
+        "score": 7,
+        "toelichting_score": "10 = Authentiek, speels, vreugdevol. 0 = Afwezig.",
+        "aanwezigheid": "Gemiddeld",
+        "analyse": "Er zit een creatieve speelsheid in de vergelijkingen (Vondel, Champs Elysées) en een passie voor bevrijding (verwijzing naar Cardenal/Neruda).",
+        "quotes": [
+          "the greatest show on earth!",
+          "een dwaas!"
+        ]
+      }
+    },
+    "dominante_ego_positie": "Volwassene (Adult) met ondersteunende Voedende Ouder (Nurturing Parent)"
+  },
+  "transactie_analyse": {
+    "primaire_transactie_stijl": "Volwassene -> Volwassene",
+    "analyse": "Schillebeeckx deelt informatie en inzichten (A->A). Hij zegt in feite: 'Kijk naar deze historische context, kijk naar de tekst, en trek met mij deze conclusie.' Hij manipuleert de emotie niet, maar informeert het intellect om de wil te motiveren.",
+    "ulterieure_motieven": "Geen significante verborgen agenda gedetecteerd. De boodschap is congruent: de weg is moeilijk (woestijn), dus verwacht geen gemakkelijke triomf.",
+    "communicatieve_zuiverheid_score": 9,
+    "toelichting_zuiverheid": "10 = Volledig transparant/Zuiver. 0 = Sterk manipulatief/Ulterieur.",
+    "toelichting_risico": "Het enige risico is intellectuele verhevenheid, maar door de focus op 'dienstbaarheid' en 'woestijn' wordt dit geneutraliseerd."
+  },
+  "spel_analyse_games": {
+    "gedetecteerde_spelen": [],
+    "afwezigheid_van_spelen_analyse": "Deze preek is een schoolvoorbeeld van anti-game communicatie. Een veelvoorkomend religieus spel is 'Redemption' (Ik heb de magische oplossing voor jouw pijn). Schillebeeckx ontmantelt dit spel expliciet door te stellen dat er 'geen gladde, vanzelfsprekende triomfantelijke weg' is. Hij weigert de rol van Redder die een makkelijke oplossing biedt (de 'Con'). In plaats daarvan biedt hij realiteitszin (Adult): bevrijding kost 'bloed en tranen'.",
+    "bewijs_quotes": [
+      "ons bevrijdingswerk is geen gladde, vanzelfsprekende triomfantelijke weg",
+      "Bevrijdingswerk... kost bloed en tranen en loopt niet over brede Babylonische godenboulevards"
+    ]
+  },
+  "dramadriehoek_analyse": {
+    "rollen_van_prediker": {
+      "redder": "Laag. Hij wijst naar God als bevrijder, maar benadrukt dat mensen zelf de weg moeten banen (autonomie).",
+      "aanklager": "Laag. Hij bekritiseert machtsstructuren (Babylon), maar niet de hoorder.",
+      "slachtoffer": "Laag. Hij erkent lijden, maar framet dit als een doortocht naar vrijheid, niet als hulpeloosheid."
+    },
+    "positie_van_gemeente": "De gemeente wordt aangesproken in hun Volwassen rol: zij moeten 'voorlopers' zijn. Ze worden niet in de Slachtofferrol geduwd ('wij kunnen niets'), noch in de Reddersrol ('wij moeten de wereld redden'), maar in de rol van de wegwijzer (realistisch en taakgericht).",
+    "ontsnappings_mogelijkheden": "Ja, de preek biedt een uitweg uit de dramadriehoek door de focus te verleggen van 'macht' en 'triomf' (voeding voor de Driehoek) naar 'dienstbaarheid' en 'realiteit' (woestijn)."
+  },
+  "conclusie_en_aanbeveling": {
+    "psychologische_gezondheid_score": 9,
+    "samenvatting": "Deze preek is psychologisch zeer gezond. Schillebeeckx spreekt vanuit een sterke Volwassen-positie, waarbij hij theologische diepgang combineert met existentiële eerlijkheid. Hij vermijdt de valkuil van religieuze manipulatie (het beloven van een makkelijk leven) door de metafoor van de woestijn centraal te stellen. Hij nodigt de hoorder uit tot autonomie: zelf een weg banen, zelf wijzen naar het transcendente, zonder zichzelf op te blazen. Er is geen sprake van angstcultuur of verstikkende zorg.",
+    "sterke_punten": [
+      "Volledige transparantie over de 'kosten' van geloof (geen 'Bait & Switch').",
+      "Sterk appèl op het intellect en de eigen verantwoordelijkheid van de hoorder (Adult).",
+      "Gezonde de-identificatie van het ego (de prediker als 'onnutte dienstknecht')."
+    ],
+    "verbeterpunten": [
+      "Voor sommige luisteraars kan de intellectuele drempel (Vondel, exegetische details) hoog liggen, wat onbedoeld een Ouder-Kind (Leraar-Leerling) dynamiek kan creëren als de luisteraar niet kan volgen."
+    ],
+    "advies_voor_game_vrije_communicatie": "Behoud deze lijn van 'radicale eerlijkheid'. De kracht zit in het benoemen van de realiteit (de woestijn) zonder in pessimisme (Ain't it Awful) te vervallen. Dit nodigt de hoorder uit om in het 'Hier en Nu' verantwoordelijkheid te nemen."
+  }
+}

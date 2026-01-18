@@ -451,6 +451,7 @@
             <option value="dekker">Dekker analyse</option>
             <option value="aristoteles">Aristoteles analyse</option>
             <option value="schulz">Schulz von Thun analyse</option>
+            <option value="transactional">Transactionele Analyse</option>
             <option value="esthetiek">Esthetiek analyse</option>
         </select>
 
@@ -534,6 +535,12 @@
      */
     function toNederlandseTerminologie(text) {
         if (!text) return text;
+        
+        // Only apply Kolb-specific terminology replacements if we are in Kolb analysis
+        const analysisTypeSelector = document.getElementById('analysis-type-select');
+        if (analysisTypeSelector && analysisTypeSelector.value !== 'kolb') {
+            return text;
+        }
 
         // Replace English learning style terms with Dutch equivalents
         // Case-insensitive replacements
@@ -587,6 +594,10 @@
             text: 'Het communicatiemodel van Schulz von Thun analyseert de vier boodschappen die in elke preek tegelijkertijd klinken:\n\n• Zakelijke Inhoud (Blauw) – Feiten, exegese en theologische waarheid\n• Zelf-onthulling (Groen) – De authenticiteit en persoonlijkheid van de prediker\n• Relatie (Geel) – Hoe de prediker de gemeente ziet en aanspreekt\n• Appel (Rood) – De oproep tot actie of geloof (Wet vs. Evangelie)\n\nDeze analyse toetst ook de congruentie (kloppen toon en inhoud?) en de balans, om te voorkomen dat de preek eenzijdig intellectualistisch (blauw), narcistisch (groen), betuttelend (geel) of moralistisch (rood) wordt.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/schulz_von_thun.md'
         },
+        'transactional': {
+            text: 'De Transactionele Analyse (TA) onderzoekt de psychologische dynamiek en ego-posities in de preek:\n\n• Ego-posities: Spreekt de prediker als Ouder (Kritisch/Voedend), Volwassene, of Kind? En welke positie wordt bij de hoorder opgeroepen?\n• Transacties: Zijn de interacties complementair, gekruist of ulterieur (verborgen boodschappen)?\n• Spelen (Games): Worden er manipulatieve psychologische spelen gespeeld (bijv. "Redemption", "Ain\'t it Awful")?\n• Dramadriehoek: Worden rollen van Redder, Slachtoffer en Aanklager ingenomen?\n\nEen gezonde preek bevordert autonomie (Volwassene-Volwassene) en vermijdt manipulatie.',
+            link: '#'
+        },
         'esthetiek': {
             text: 'De esthetische wending in de homiletiek benadrukt dat een preek niet alleen theologisch correct moet zijn, maar ook esthetisch overtuigend. Deze analyse toetst op twee domeinen:\n\n• Domein A: Poëtica van de Taal (Micro-Esthetiek) – Beeldend taalgebruik, zorgvuldigheid en precisie, muzikaliteit en ritme\n• Domein B: Dramaturgie van de Structuur (Macro-Esthetiek) – Narratieve spanningsboog, integratie van tekst en context, openheid vs. geslotenheid\n\nDaarnaast wordt getoetst op Anti-Kitsch (afwezigheid van goedkope emotie en religieuze clichés) en Ruimte voor Genade (Cilliers\' centrale concept: een preek moet ruimte laten voor het mysterie). Gebaseerd op het werk van Johan Cilliers, Ciska Stark, Gerrit Immink, Paul Scott Wilson, Thomas Long en anderen.',
             link: 'https://github.com/wmotte/homiletiek_feedback/blob/main/misc/esthetische_wending.md'
@@ -628,6 +639,7 @@
             if (analysisType === 'kolb') jsonSuffix = '_kolb';
             else if (analysisType === 'aristoteles') jsonSuffix = '_aristoteles';
             else if (analysisType === 'schulz') jsonSuffix = '_schulz_von_thun';
+            else if (analysisType === 'transactional') jsonSuffix = '_transactional';
             else if (analysisType === 'esthetiek') jsonSuffix = '_esthetiek';
 
             const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
@@ -640,6 +652,8 @@
                 renderAnalysisAristoteles(data);
             } else if (analysisType === 'schulz') {
                 renderAnalysisSchulzVonThun(data);
+            } else if (analysisType === 'transactional') {
+                renderAnalysisTransactional(data);
             } else if (analysisType === 'esthetiek') {
                 renderAnalysisEsthetiek(data);
             } else {
@@ -1699,6 +1713,263 @@
             </div>
         `;
         container.appendChild(genadeCard);
+    }
+
+    function renderAnalysisTransactional(data) {
+        const container = document.getElementById('dashboard-content');
+        container.innerHTML = '';
+
+        // Totaalbeeld Card
+        const summaryCard = document.createElement('div');
+        summaryCard.className = 'card full-width';
+        summaryCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Totaalbeeld – Transactionele Analyse</span>
+                <span class="score-badge ${data.conclusie_en_aanbeveling.psychologische_gezondheid_score >= 8 ? 'score-high' : data.conclusie_en_aanbeveling.psychologische_gezondheid_score >= 6 ? 'score-mid' : 'score-low'}">${data.conclusie_en_aanbeveling.psychologische_gezondheid_score}/10</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                 <div class="stat-item">
+                    <span class="stat-val">${formatText(data.ego_posities_scan.dominante_ego_positie)}</span>
+                    <span class="stat-lbl">Dominante Ego-positie</span>
+                 </div>
+                 <div class="stat-item">
+                    <span class="stat-val">${formatText(data.transactie_analyse.primaire_transactie_stijl)}</span>
+                    <span class="stat-lbl">Transactie Stijl</span>
+                 </div>
+            </div>
+            <div class="text-content">
+                <p><strong>Samenvatting:</strong> ${formatText(data.conclusie_en_aanbeveling.samenvatting)}</p>
+            </div>
+            <div class="summary-columns" style="gap: 1rem; margin-top: 1rem;">
+                <div class="summary-col">
+                    <h3 style="color: var(--success-color); font-size: 0.95rem;">Sterke punten</h3>
+                    <ul class="summary-list">
+                        ${data.conclusie_en_aanbeveling.sterke_punten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="summary-col">
+                    <h3 style="color: var(--danger-color); font-size: 0.95rem;">Verbeterpunten</h3>
+                    <ul class="summary-list">
+                        ${data.conclusie_en_aanbeveling.verbeterpunten.map(p => `<li>${formatText(p)}</li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+            ${data.conclusie_en_aanbeveling.advies_voor_game_vrije_communicatie ? `
+                <div class="advice-box">
+                    👉 ${formatText(data.conclusie_en_aanbeveling.advies_voor_game_vrije_communicatie)}
+                </div>
+            ` : ''}
+        `;
+        container.appendChild(summaryCard);
+
+        // Ego Posities Info
+        const egoInfo = document.createElement('div');
+        egoInfo.className = 'section-info';
+        egoInfo.innerHTML = `
+            💡 <strong>Ego-posities:</strong> Analyse van de psychologische posities van waaruit wordt gesproken. Gezonde communicatie is vrij van dwingende Ouder-boodschappen en angstige Kind-reacties, en opereert vanuit de Volwassene (hier-en-nu).
+        `;
+        container.appendChild(egoInfo);
+
+        // Ego Posities Cards
+        const ego = data.ego_posities_scan;
+        
+        // Helper to create ego card
+        const createEgoCard = (title, subScales, mainScore = null) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            
+            let content = `<div class="card-header"><span class="card-title">${title}</span>`;
+            if (mainScore !== null) {
+                 const scoreClass = mainScore >= 8 ? 'score-high' : mainScore >= 6 ? 'score-mid' : 'score-low';
+                 content += `<span class="score-badge ${scoreClass}">${mainScore}/10</span>`;
+            }
+            content += `</div>`;
+            
+            if (subScales) {
+                content += `<div class="text-content">`;
+                subScales.forEach(scale => {
+                    const scoreClass = scale.score >= 8 ? 'score-high' : scale.score >= 6 ? 'score-mid' : 'score-low';
+                    content += `
+                        <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px dashed var(--border-color);">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <strong>${scale.label}</strong>
+                                <span class="score-badge ${scoreClass}" style="font-size: 0.8rem;">${scale.score}/10</span>
+                            </div>
+                            <p style="font-size: 0.9rem; margin: 0.25rem 0;">${formatText(scale.analyse)}</p>
+                            ${scale.quotes && scale.quotes.length > 0 ? `
+                                <div class="quote-box" style="margin-top: 0.5rem; padding: 0.5rem;">
+                                    ${scale.quotes.map(q => formatText(`"${q}"`)).join('<br>')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                });
+                content += `</div>`;
+            } else {
+                 // For Adult which might have simpler structure in some versions, or standardized
+                 // Based on schema: volwassene_adult has score, analyse, quotes directly
+            }
+            card.innerHTML = content;
+            return card;
+        };
+
+        // Ouder Card
+        const ouderScales = [
+            { label: 'Vrijheid v. Kritische Ouder (CP)', ...ego.ouder_parent.vrijheid_van_kritische_ouder_CP },
+            { label: 'Gezonde Zorg (NP)', ...ego.ouder_parent.gezonde_zorg_NP }
+        ];
+        container.appendChild(createEgoCard('Ouder (Parent)', ouderScales));
+
+        // Volwassene Card
+        // Adult is single scale
+        const adult = ego.volwassene_adult;
+        const adultCard = document.createElement('div');
+        adultCard.className = 'card';
+        const adultScoreClass = adult.score >= 8 ? 'score-high' : adult.score >= 6 ? 'score-mid' : 'score-low';
+        
+        let adultQuotesHtml = '';
+        if (adult.quotes && adult.quotes.length > 0) {
+            adultQuotesHtml = `
+                <div class="quote-box">
+                    <span class="quote-header">Citaten</span>
+                    ${adult.quotes.map(q => formatText(`"${q}"`)).join('<br><br>')}
+                </div>
+            `;
+        }
+
+        adultCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Volwassene (Adult)</span>
+                <span class="score-badge ${adultScoreClass}">${adult.score}/10</span>
+            </div>
+            <div class="text-content">
+                <p>${formatText(adult.analyse)}</p>
+            </div>
+            ${adultQuotesHtml}
+        `;
+        container.appendChild(adultCard);
+
+        // Kind Card
+        const kindScales = [
+            { label: 'Vrijheid v. Aangepast Kind (AC)', ...ego.kind_child.vrijheid_van_aangepast_kind_AC },
+            { label: 'Vrij Kind (FC)', ...ego.kind_child.vrij_kind_FC }
+        ];
+        container.appendChild(createEgoCard('Kind (Child)', kindScales));
+
+
+        // Transactie & Games Info
+        const transInfo = document.createElement('div');
+        transInfo.className = 'section-info';
+        transInfo.innerHTML = `
+            💡 <strong>Dynamiek & Spelen:</strong> Analyse van de interactiepatronen. Gezonde preken vermijden 'spelen' (games) – interacties met een verborgen motief en een negatieve uitkomst. Ook de Dramadriehoek (Redder, Slachtoffer, Aanklager) wordt gemonitord.
+        `;
+        container.appendChild(transInfo);
+
+        // Transactie & Dramadriehoek Grid
+        // Transactie Card
+        const transCard = document.createElement('div');
+        transCard.className = 'card';
+        const trans = data.transactie_analyse;
+        const transScoreClass = trans.communicatieve_zuiverheid_score >= 8 ? 'score-high' : trans.communicatieve_zuiverheid_score >= 6 ? 'score-mid' : 'score-low';
+
+        transCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Transactie Analyse</span>
+                <span class="score-badge ${transScoreClass}">${trans.communicatieve_zuiverheid_score}/10</span>
+            </div>
+            <div class="text-content">
+                <p><strong>Stijl:</strong> ${formatText(trans.primaire_transactie_stijl)}</p>
+                <p>${formatText(trans.analyse)}</p>
+                <div style="background: var(--bg-element); padding: 0.75rem; border-radius: 6px; margin-top: 1rem;">
+                    <strong style="font-size: 0.85rem; color: var(--warning-color);">Ulterieure motieven / Risico:</strong>
+                    <p style="font-size: 0.85rem; margin: 0.25rem 0 0 0;">${formatText(trans.ulterieure_motieven)}</p>
+                    <p style="font-size: 0.85rem; margin: 0.5rem 0 0 0; font-style: italic;">${formatText(trans.toelichting_risico)}</p>
+                </div>
+            </div>
+        `;
+        container.appendChild(transCard);
+
+        // Dramadriehoek Card
+        const dramaCard = document.createElement('div');
+        dramaCard.className = 'card';
+        const drama = data.dramadriehoek_analyse;
+        
+        dramaCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Dramadriehoek (Karpman)</span>
+            </div>
+            <div class="text-content">
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; text-align: center; margin-bottom: 1rem;">
+                    <div style="background: var(--bg-element); padding: 0.5rem; border-radius: 4px;">
+                        <div style="font-size: 1.2rem;">🦸‍♂️</div>
+                        <div style="font-size: 0.75rem; font-weight: bold;">Redder</div>
+                    </div>
+                    <div style="background: var(--bg-element); padding: 0.5rem; border-radius: 4px;">
+                        <div style="font-size: 1.2rem;">🥺</div>
+                        <div style="font-size: 0.75rem; font-weight: bold;">Slachtoffer</div>
+                    </div>
+                    <div style="background: var(--bg-element); padding: 0.5rem; border-radius: 4px;">
+                        <div style="font-size: 1.2rem;">🫵</div>
+                        <div style="font-size: 0.75rem; font-weight: bold;">Aanklager</div>
+                    </div>
+                </div>
+                <p><strong>Rollen Prediker:</strong></p>
+                <ul class="summary-list">
+                    <li><strong>Redder:</strong> ${formatText(drama.rollen_van_prediker.redder)}</li>
+                    <li><strong>Aanklager:</strong> ${formatText(drama.rollen_van_prediker.aanklager)}</li>
+                    <li><strong>Slachtoffer:</strong> ${formatText(drama.rollen_van_prediker.slachtoffer)}</li>
+                </ul>
+                <p style="margin-top: 1rem;"><strong>Positie Gemeente:</strong> ${formatText(drama.positie_van_gemeente)}</p>
+                <p style="margin-top: 0.5rem; color: var(--success-color);"><strong>Ontsnapping:</strong> ${formatText(drama.ontsnappings_mogelijkheden)}</p>
+            </div>
+        `;
+        container.appendChild(dramaCard);
+
+        // Games Card
+        const gamesCard = document.createElement('div');
+        gamesCard.className = 'card full-width';
+        const games = data.spel_analyse_games;
+        const hasGames = games.gedetecteerde_spelen && games.gedetecteerde_spelen.length > 0 && games.gedetecteerde_spelen[0].naam !== "Geen actief spel" && games.gedetecteerde_spelen[0].naam !== "Geen";
+
+        let gamesContent = '';
+        if (hasGames) {
+            gamesContent = games.gedetecteerde_spelen.map(game => `
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px; margin-bottom: 1rem; border-left: 3px solid var(--danger-color);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                        <strong style="color: var(--danger-color); font-size: 1rem;">🎮 ${formatText(game.naam)}</strong>
+                        <span style="font-size: 0.8rem; font-weight: bold;">Waarschijnlijkheid: ${formatText(game.waarschijnlijkheid)}</span>
+                    </div>
+                    <div style="font-size: 0.9rem;">
+                        <p><strong>Con (Lokaas):</strong> ${formatText(game.formule_g_analyse.con)}</p>
+                        <p><strong>Gimmick (Zwakke plek):</strong> ${formatText(game.formule_g_analyse.gimmick)}</p>
+                        <p><strong>Switch (Omslag):</strong> ${formatText(game.formule_g_analyse.switch)}</p>
+                        <p><strong>Payoff (Uitbetaling):</strong> ${formatText(game.formule_g_analyse.payoff)}</p>
+                    </div>
+                    ${game.bewijs_quotes && game.bewijs_quotes.length > 0 ? `
+                        <div class="quote-box" style="margin-top: 0.5rem;">
+                            ${game.bewijs_quotes.map(q => formatText(`"${q}"`)).join('<br>')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        } else {
+             gamesContent = `
+                <div style="background: var(--bg-element); padding: 1rem; border-radius: 8px; border-left: 3px solid var(--success-color);">
+                    <strong style="color: var(--success-color);">✅ Geen destructieve spelen gedetecteerd</strong>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem;">${formatText(games.afwezigheid_van_spelen_analyse)}</p>
+                </div>
+             `;
+        }
+
+        gamesCard.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">Psychologische Spelen (Games)</span>
+            </div>
+            <div class="text-content">
+                ${gamesContent}
+            </div>
+        `;
+        container.appendChild(gamesCard);
     }
 </script>
 </body>
