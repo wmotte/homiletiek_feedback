@@ -2,25 +2,25 @@
 
 ## **I. Epistemologische Grondslagen: Van Structuralisme naar Homiletiek**
 
-De hedendaagse homiletiek bevindt zich op een kruispunt van theologische reflectie en communicatiewetenschappelijke methode. In de zoektocht naar een prediking die niet slechts informeert maar transformeert, heeft de narratieve analyse, en specifiek de actantiële semiotiek van Algirdas Julien Greimas (1917-1992), zich bewezen als een instrument van ongekende precisie. Waar de klassieke historische-kritische exegese zich richt op de ontstaansgeschiedenis en de auteursintentie van de tekst ("diachrone analyse"), richt de semiotiek zich op de tekst zoals die voor ons ligt als een functionerend systeem van betekenisgeving ("synchrone analyse"). Dit rapport biedt een uitputtende analyse van hoe dit instrumentarium kan worden ingezet om de dieptestructuur van de preek bloot te leggen. De centrale onderzoeksvraag die hierbij als leidraad dient, is hoe de verdeling van actantiële rollen – Subject, Object, Zender, Ontvanger, Helper en Tegenstander – functioneert als een diagnostische test voor het theologische karakter van de preek: is de structuur moralistisch (antropocentrisch) of genade-georiënteerd (theocentrisch)?
+De hedendaagse homiletiek bevindt zich op een kruispunt van theologische reflectie en communicatiewetenschappelijke methode. In de zoektocht naar een prediking die transformeert, heeft de narratieve analyse, en specifiek de actantiële semiotiek van Algirdas Julien Greimas (1917-1992), zich bewezen als een bruikbaar instrument. Waar de klassieke historische-kritische exegese zich richt op de ontstaansgeschiedenis en de auteursintentie van de tekst ("diachrone analyse"), richt de semiotiek zich op de tekst zoals die voor ons ligt als een functionerend systeem van betekenisgeving ("synchrone analyse"). Hier volgt hoe dit instrumentarium kan worden ingezet om de dieptestructuur van de preek bloot te leggen. De centrale onderzoeksvraag die hierbij als leidraad dient, is hoe de verdeling van actantiële rollen – Subject, Object, Zender, Ontvanger, Helper en Tegenstander – functioneert als een diagnostische test voor het theologische karakter van de preek: is de structuur moralistisch (antropocentrisch) of genade-georiënteerd (theocentrisch)?
 
 ### **1.1 De Structurele Wending in de Theologie**
 
-De opkomst van het structuralisme in de twintigste eeuw, met pioniers als Ferdinand de Saussure in de linguïstiek en Claude Lévi-Strauss in de antropologie, markeerde een fundamentele verschuiving in het westerse denken. De focus verschoof van het individuele element naar de relatie tussen de elementen binnen een systeem. Voor de theologie, en specifiek de bijbelwetenschap, betekende dit dat verhalen niet langer primair werden gezien als vensters op historische feiten, maar als literaire constructies die functioneren volgens universele grammatica’s van vertellen. Daniel Patte, een vooraanstaand figuur in de structurele exegese, betoogde dat traditionele exegetische methoden een historisch paradigma volgen, terwijl het structuralisme een linguïstisch paradigma volgt.1
+De opkomst van het structuralisme in de twintigste eeuw, met pioniers als Ferdinand de Saussure in de linguïstiek en Claude Lévi-Strauss in de antropologie, markeerde een verschuiving in het westerse denken. De focus verschoof van het individuele element naar de relatie tussen de elementen binnen een systeem. Voor de theologie, en specifiek de bijbelwetenschap, betekende dit dat verhalen niet langer primair werden gezien als vensters op historische feiten, maar ook als literaire constructies die functioneren volgens universele grammatica’s van vertellen. Daniel Patte, een vooraanstaand figuur in de structurele exegese, betoogde dat traditionele exegetische methoden een historisch paradigma volgen, terwijl het structuralisme een linguïstisch paradigma volgt.[1]
 
-In de context van de preek (homiletiek) is deze verschuiving cruciaal. Een preek is immers zelf een narratieve gebeurtenis. De prediker hervertelt niet alleen het Bijbelse verhaal, maar construeert, bewust of onbewust, een nieuw verhaal waarin de hoorders, God, de kerk en de wereld specifieke rollen krijgen toebedeeld. De structurele analyse stelt ons in staat om voorbij de retorische oppervlakte te kijken. Een preek kan aan de oppervlakte orthodox en vroom klinken door het veelvuldig gebruik van woorden als "genade" en "Jezus", terwijl de onderliggende actantiële structuur – de "motor" van het verhaal – volledig humanistisch en moralistisch kan zijn.
+In de context van de preek (homiletiek) is deze verschuiving belangrijk, want een preek is immers zelf een narratieve gebeurtenis. De prediker hervertelt niet alleen het Bijbelse verhaal, maar construeert, bewust of onbewust, een nieuw verhaal waarin de hoorders, God, de kerk en de wereld specifieke rollen krijgen toebedeeld. De structurele analyse stelt ons in staat om voorbij de retorische oppervlakte te kijken. Een preek kan aan de oppervlakte orthodox en vroom klinken door het veelvuldig gebruik van woorden als "genade" en "Jezus", terwijl de onderliggende actantiële structuur – de "motor" van het verhaal – meer humanistisch en moralistisch kan zijn.
 
 ### **1.2 De Relevantie van Greimas voor de Prediking**
 
-A.J. Greimas ontwikkelde zijn actantiële model als een verfijning van de morfologie van het volkssprookje van Vladimir Propp. Waar Propp 31 functies identificeerde in Russische sprookjes, reduceerde Greimas deze tot zes fundamentele actanten die in elk narratief voorkomen.3 Het geniale van dit model voor de homiletiek ligt in zijn abstractieniveau. Actanten zijn geen personages (acteurs) met namen en psychologie, maar functionele rollen.
+A.J. Greimas ontwikkelde zijn actantiële model als een verfijning van de morfologie van het volkssprookje van Vladimir Propp. Waar Propp 31 functies identificeerde in Russische sprookjes, reduceerde Greimas deze tot zes fundamentele actanten die in elk narratief voorkomen.[3] Het kracht van dit model voor de homiletiek ligt in het abstractieniveau. Actanten zijn geen personages (acteurs) met namen en psychologie, maar functionele rollen.
 
-In de theologische analyse van preken helpt dit onderscheid om de "theologie van de werkwoorden" bloot te leggen. Zoals Fleming Rutledge en andere theologen van de "Grammar of Grace" benadrukken, hangt de orthodoxie van een preek vaak af van wie het subject is van de actieve werkwoorden.5 Is God degene die handelt, of is de mens de primaire actor? Greimas biedt het vocabulaire om deze intuïtie te formaliseren en te toetsen. Het stelt de analyticus in staat om te vragen: Wie is de Zender van de waarden? Wie is het Subject van de redding? Wat is de Helper die de competentie verleent? Door deze vragen te beantwoorden, wordt de soteriologische structuur van de preek – de leer over de redding zoals die in de preekstructuur functioneert – zichtbaar gemaakt.
+In de theologische analyse van preken helpt dit onderscheid om de "theologie van de werkwoorden" bloot te leggen. Zoals Fleming Rutledge en andere theologen van de "Grammar of Grace" benadrukken, hangt de orthodoxie van een preek vaak af van wie het subject is van de actieve werkwoorden.[5] Is God degene die handelt, of is de mens de primaire actor? Greimas biedt het vocabulaire om deze intuïtie te formaliseren en te toetsen. Het stelt de analyticus in staat om te vragen: Wie is de Zender van de waarden? Wie is het Subject van de redding? Wat is de Helper die de competentie verleent? Door deze vragen te beantwoorden, wordt de soteriologische structuur van de preek – de leer over de redding zoals die in de preekstructuur functioneert – deels zichtbaar gemaakt.
 
 ## ---
 
 **II. Het Actantiële Model: Een Diepte-analyse van de Assen**
 
-Om te begrijpen hoe een preek moralistisch of genade-georiënteerd kan zijn, is een grondige ontleding van de drie assen van het actantiële model noodzakelijk. Deze assen – verlangen, macht en overdracht – vormen het skelet van elke verkondiging.
+Om te begrijpen hoe een preek moralistisch of genade-georiënteerd kan zijn, is een ontleding van de drie assen van het actantiële model noodzakelijk. Deze assen – verlangen, macht en overdracht – vormen het skelet van elke verkondiging.
 
 ### **2.1 De As van het Verlangen: Subject en Object**
 
@@ -31,10 +31,10 @@ De kern van elk verhaal, en dus ook van elke preek, wordt gevormd door de as van
 
 #### **2.1.1 Diagnostiek van het Subject in de Preek**
 
-De meest fundamentele keuze die een prediker maakt, vaak onbewust, is de toewijzing van de Subject-rol.  
+Een fundamentele keuze die een prediker maakt, vaak onbewust, is de toewijzing van de Subject-rol.  
 In een moralistische preek is de mens (de hoorder, de gelovige, "wij") bijna onveranderlijk het Subject. De structuur is: Wij (S) moeten streven naar Heiliging/Rechtvaardigheid (O). De spanning in de preek wordt gegenereerd door de vraag of de mens wel voldoende capaciteit en wilskracht heeft om dit Object te bereiken.  
-In een genade-georiënteerde preek vindt er een Copernicaanse wending plaats. God (of Christus) wordt gepositioneerd als het handelend Subject. De structuur wordt: God (S) streeft naar de Redding van de Mens (O). Of: Christus (S) verwerft de Gerechtigheid (O).  
-Het onderzoek van Rein Bos naar oudtestamentische prediking, "Wij hebben gehoord dat God met u is", toont aan dat veel preken vastlopen in "exemplarisme". Hierbij worden bijbelse figuren (zoals Abraham of David) gepresenteerd als morele voorbeelden. De preek zegt impliciet: "Wees zoals Abraham." Hiermee wordt Abraham het model-Subject, en de hoorder wordt opgeroepen dit Subject-zijn te imiteren. Bos bekritiseert dit en stelt dat de tekst primair een openbaring is van God (Subject) in relatie tot mensen.7 Wanneer de mens het primaire Subject is, wordt het Object bijna altijd iets dat *verdiend* of *bereikt* moet worden, wat leidt tot een wettische structuur.
+In een genade-georiënteerde preek wordt juist God (of Christus) gepositioneerd als het handelend Subject. De structuur wordt: God (S) streeft naar de Redding van de Mens (O). Of: Christus (S) verwerft de Gerechtigheid (O).  
+Het onderzoek van Rein Bos naar oudtestamentische prediking, "Wij hebben gehoord dat God met u is", toont aan dat veel preken vastlopen in "exemplarisme". Hierbij worden bijbelse figuren (zoals Abraham of David) gepresenteerd als morele voorbeelden. De preek zegt impliciet: "Wees zoals Abraham." Hiermee wordt Abraham het model-Subject, en de hoorder wordt opgeroepen dit Subject-zijn te imiteren. Bos bekritiseert dit en stelt dat de tekst primair een openbaring is van God (Subject) in relatie tot mensen.[7] Wanneer de mens het primaire Subject is, wordt het Object bijna altijd iets dat *verdiend* of *bereikt* moet worden, wat leidt tot een wettische structuur.
 
 ### **2.2 De As van de Macht: Helper en Tegenstander**
 
@@ -45,17 +45,17 @@ De tweede as, loodrecht op de eerste, is de as van de macht of het conflict. Hie
 
 #### **2.2.1 De Theologische Positie van de Helper**
 
-De invulling van de Helper-rol is misschien wel de meest subtiele indicator voor "vroom moralisme". In veel evangelicale en protestantse preken wordt de mens weliswaar als zwak voorgesteld, maar blijft hij het Subject. God, de Heilige Geest of "genade" wordt dan geïntroduceerd als de Helper.  
+De invulling van de Helper-rol is misschien wel de meest subtiele indicator voor "vroom moralisme". In evangelicale en protestantse preken kan de mens weliswaar als zwak worden voorgesteld, maar blijft hij het Subject. God, de Heilige Geest of "genade" wordt dan geïntroduceerd als de Helper.  
 Het schema is dan: Ik (S) wil christelijk leven (O), en God (H) helpt mij daarbij.  
-Hoewel dit orthodox klinkt, is het structureel antropocentrisch. God is hier instrumenteel gemaakt aan het menselijk project. De theoloog T.F. Torrance waarschuwde voor een "sociologische" of "existentiële" benadering waarbij religie dient om menselijke doelen te bereiken.9  
-In een radicale genade-leer is de mens niet het Subject dat geholpen moet worden, maar het Object dat gered (verplaatst, herschapen) moet worden. Of, als de mens toch Subject is (in de context van dankbaarheid), is de Heilige Geest geen externe "hulpbatterij", maar de inwonende God die het willen en het werken (modaliteiten) zelf constitueert.
+Hoewel dit orthodox klinkt, is het structureel antropocentrisch. God is hier instrumenteel gemaakt aan het menselijk project. De theoloog T.F. Torrance waarschuwde voor een "sociologische" of "existentiële" benadering waarbij religie dient om menselijke doelen te bereiken.[9]  
+In een radicale genade-leer is de mens niet het Subject dat geholpen moet worden, maar het Object dat gered (verplaatst, herschapen) moet worden. Of, als de mens toch Subject is (in de context van dankbaarheid), is de Heilige Geest geen externe "hulpbron", maar de inwonende God die het willen en het werken (modaliteiten) zelf constitueert.
 
 #### **2.2.2 De Tegenstander en de Schaal van het Drama**
 
 Greimas' model helpt ook om de aard van het kwaad in de preek te analyseren.
 
 * Is de Tegenstander triviaal (slechte gewoonten, tijdgebrek, irritante buren)? Dan is de preek vaak moralistisch/therapeutisch.  
-* Is de Tegenstander kosmisch (Zonde, Dood, Duivel, de Wet die doodt)? Dan vereist het verhaal een Subject dat sterker is dan de mens. Een preek die de Tegenstander serieus neemt als een macht die de mens (als Subject) verplettert, creëert de narratieve noodzaak voor een *Subject-wissel*: alleen Christus kan deze Tegenstander verslaan.10
+* Is de Tegenstander kosmisch (Zonde, Dood, Duivel, de Wet die doodt)? Dan vereist het verhaal een Subject dat sterker is dan de mens. Een preek die de Tegenstander serieus neemt als een macht die de mens (als Subject) verplettert, creëert de narratieve noodzaak voor een *Subject-wissel*: alleen Christus kan deze Tegenstander verslaan.[10]
 
 ### **2.3 De As van de Overdracht: Zender en Ontvanger**
 
@@ -68,18 +68,18 @@ De derde as, de as van de transmissie of communicatie, plaatst het verhaal in ee
 
 In moralistische preken fungeert God vaak als de Zender die een contract aanbiedt: "Doe dit, en gij zult leven." De Zender is hier een eisende instantie, en de preek functioneert als de overdracht van de eisen van de Zender aan het menselijk Subject.  
 In de genade-verkondiging is er sprake van een andere dynamiek. De Zender (de Vader) stuurt het Subject (de Zoon) om het Object (Verlossing) te verwerven voor de Ontvanger (de mensheid). Hier is de hoorder niet de uitvoerder van de opdracht, maar de begunstigde (Beneficiary).  
-De actantiële analyse van de preek moet daarom vragen: Wordt de hoorder aangesproken als iemand die de last van de Zender moet dragen, of als iemand die het geschenk van de Zender mag ontvangen?.12
+De actantiële analyse van de preek moet daarom vragen: Wordt de hoorder aangesproken als iemand die de last van de Zender moet dragen, of als iemand die het geschenk van de Zender mag ontvangen?.[12]
 
 ## ---
 
 **III. Het Semiotisch Vierkant en de Modale Competenties**
 
-Een diepgaande analyse stopt niet bij de zes actanten. Greimas ontwikkelde het **Semiotisch Vierkant** om de logische dieptestructuur van betekenis te visualiseren, en de theorie van de **Modaliteiten** om de competentie van het Subject te beschrijven. Beide zijn onmisbaar voor een genuanceerde preekanalyse.
+De analyse hoeft niet te stoppen bij de zes actanten. Greimas ontwikkelde het **Semiotisch Vierkant** om de logische dieptestructuur van betekenis te visualiseren, en de theorie van de **Modaliteiten** om de competentie van het Subject te beschrijven. Beide zijn te gebruiken voor een genuanceerde preekanalyse.
 
 ### **3.1 Het Semiotisch Vierkant: De Logica van Genade en Oordeel**
 
-Het semiotisch vierkant brengt de relaties in kaart tussen concepten: contrariëteit (tegenstelling), contradictie (ontkenning) en implicatie.14  
-Laten we dit toepassen op de preekthematiek "Rechtvaardiging".
+Het semiotisch vierkant brengt de relaties in kaart tussen concepten: contrariëteit (tegenstelling), contradictie (ontkenning) en implicatie.[14]  
+Dit kan toegepast worden op - bij voorbeeld - de preekthematiek "Rechtvaardiging".
 
 * **S1 (Genade/Leven)** \<---\> **S2 (Oordeel/Dood)** (Contrair)  
 * **\~S1 (Niet-Genade/Wetticisme)** \<---\> **\~S2 (Niet-Oordeel/Straffeloosheid)** (Contrair)
@@ -87,7 +87,7 @@ Laten we dit toepassen op de preekthematiek "Rechtvaardiging".
 Een preek beweegt zich door deze posities.  
 Een moralistische preek blijft vaak hangen in de spanning tussen S2 (Oordeel/Dood als dreiging) en \~S1 (Wetticisme/Prestatie als oplossing). De prediker zegt: "Om S2 (Dood) te vermijden, moeten we S1 (Genade) verdienen door goed te doen." Maar in feite belandt men in \~S1 (Wetticisme).  
 Een genade-preek doorbreekt dit. Het evangelie is dat Christus de positie S2 (Oordeel/Dood) heeft ingenomen, waardoor de implicatie S2 \-\> \~S1 wordt verbroken, en de weg van \~S2 (Vrijspraak) naar S1 (Leven) wordt geopend zonder menselijke prestatie.  
-Greimas stelt dat een verhaal betekenis genereert door de negatie van de negatie. De opstanding is de negatie van de dood. Als een preek de dood (en de zonde) niet serieus neemt als realiteit (S2), kan de genade (S1) geen betekenis krijgen. Moralistische preken bagatelliseren vaak de S2 (Dood) tot "onvolmaaktheid", waardoor S1 (Genade) verwordt tot "een steuntje in de rug".
+Greimas stelt dat een verhaal betekenis genereert door de negatie van de negatie. De opstanding is de negatie van de dood. Als een preek de dood (en de zonde) niet serieus neemt als realiteit (S2), kan de genade (S1) geen betekenis krijgen. Moralistische preken lopen het risico om de S2 (Dood) te bagatelliseren tot "onvolmaaktheid", waardoor S1 (Genade) verwordt tot "een steuntje in de rug".
 
 ### **3.2 Modale Competenties: Willen, Kunnen, Weten, Moeten**
 
@@ -96,7 +96,7 @@ Voordat een Subject kan handelen (Performance), moet het beschikken over compete
 1. **Devoir-faire (Moeten doen):** De verplichting.  
 2. **Vouloir-faire (Willen doen):** De motivatie/het verlangen.  
 3. **Savoir-faire (Weten/Kunnen doen):** De kennis.  
-4. **Pouvoir-faire (Macht/Kunnen doen):** De mogelijkheid/kracht.13
+4. **Pouvoir-faire (Macht/Kunnen doen):** De mogelijkheid/kracht.[13]
 
 #### **3.2.1 De Modale Diagnose van de Preek**
 
@@ -108,11 +108,11 @@ Voordat een Subject kan handelen (Performance), moet het beschikken over compete
 
 **IV. Homiletische Toepassingen: Inzichten van Bos, Stark en Rutledge**
 
-De theorie van Greimas krijgt pas vlees en bloed wanneer we deze confronteren met de praktijk van de prediking. Drie sleutelfiguren en hun inzichten zijn hierbij onmisbaar.
+De theorie van Greimas krijgt pas vlees en bloed in de confrontatie met de praktijk van de prediking. Drie sleutelfiguren en hun inzichten zijn hierbij van belang.
 
 ### **4.1 Rein Bos: Tegen het Exemplarisme**
 
-Dr. Rein Bos heeft in zijn dissertatie en publicaties zoals *Wij hebben gehoord dat God met u is* 8 de actantiële analyse ingezet om een hardnekkig probleem in de oudtestamentische prediking aan te kaarten: het exemplarisme.
+Dr. Rein Bos heeft in zijn dissertatie en publicaties zoals *Wij hebben gehoord dat God met u is* [8] de actantiële analyse ingezet om een hardnekkig probleem in de oudtestamentische prediking aan te kaarten: het exemplarisme.
 
 #### **4.1.1 De Val van de Identificatie**
 
@@ -129,7 +129,7 @@ Bos betoogt dat dit een "semantische kortsluiting" is. De tekst functioneert nie
 
 ### **4.2 Ciska Stark: De Preek als Narratief Programma**
 
-Prof. dr. Ciska Stark benadert de preek vanuit het perspectief van de hoorder. In haar werk over de preek als "Woord van God" en de receptie door luisteraars, toont zij aan dat de preek zelf een narratief programma is.18
+Dr. Ciska Stark benadert de preek vanuit het perspectief van de hoorder. In haar werk over de preek als "Woord van God" en de receptie door luisteraars, toont zij aan dat de preek zelf een narratief programma is.[18]
 
 #### **4.2.1 Narratieve Resonantie**
 
@@ -137,11 +137,11 @@ Stark laat zien dat de hoorder met een eigen levensverhaal (eigen actantiële sc
 
 * Hoorder schema: Ik (S) zoek rust/zin (O) in een chaotische wereld (Tegenstander).  
   Als de prediker een schema oplegt dat haaks staat op deze existentiële nood (bijv. een preek over politiek activisme), ontstaat er geen "junction" (verbinding).  
-  Een genade-georiënteerde preek probeert het narratieve programma van de hoorder ("Ik moet mijn leven redden") niet te bevestigen (therapie) en ook niet simpelweg te veroordelen, maar te incorporen in het grotere narratieve programma van God. De "kleine verhalen" van de hoorders worden opgenomen in het "grote verhaal" van het heil. Stark benadrukt dat de prediker "contextueel" moet preken, wat semiotisch betekent: de actantiële rollen in de preek moeten herkenbaar zijn voor de hoorder, zodat de hoorder zichzelf kan terugvinden in de structuur, bij voorkeur als Ontvanger van genade die vervolgens geactiveerd wordt.21
+  Een genade-georiënteerde preek probeert het narratieve programma van de hoorder ("Ik moet mijn leven redden") niet te bevestigen (therapie) en ook niet simpelweg te veroordelen, maar te incorporen in het grotere narratieve programma van God. De "kleine verhalen" van de hoorders worden opgenomen in het "grote verhaal" van het heil. Stark benadrukt dat de prediker "contextueel" moet preken, wat semiotisch betekent: de actantiële rollen in de preek moeten herkenbaar zijn voor de hoorder, zodat de hoorder zichzelf kan terugvinden in de structuur, bij voorkeur als Ontvanger van genade die vervolgens geactiveerd wordt.[21]
 
 ### **4.3 Fleming Rutledge: De Grammatica van de Genade**
 
-Hoewel geen semioticus *pur sang*, levert de Amerikaanse episcopaalse theoloog Fleming Rutledge de perfecte theologische vulling voor het model van Greimas. Haar "Rutledge Rule" luidt: *God must be the subject of the active verbs*.5
+Hoewel geen semioticus *pur sang*, levert de Amerikaanse episcopaalse theoloog Fleming Rutledge de theologische vulling voor het model van Greimas. Haar "Rutledge Rule" luidt: *God must be the subject of the active verbs*.[5]
 
 #### **4.3.1 Transformatie van Zinsbouw**
 
@@ -155,7 +155,7 @@ Rutledge analyseert preken op zinsniveau.
 
 **V. Vergelijkende Casusstudies: Moralistisch vs. Genade-schema**
 
-Om de abstracte theorie concreet te maken, passen we de actantiële analyse toe op twee klassieke preekthema's. In de tabellen hieronder wordt zichtbaar hoe een verschuiving in rollen leidt tot een totaal andere theologie.
+Om de abstracte theorie concreet te maken, wordt hier de actantiële analyse toegepast op twee klassieke preekthema's. In de tabellen hieronder wordt zichtbaar hoe een verschuiving in rollen leidt tot een andere theologie.
 
 ### **Casus A: De Barmhartige Samaritaan (Lukas 10\)**
 
@@ -213,7 +213,7 @@ Focus op de actie van de Vader.
 
 **VI. Synthese: Diagnostische Criteria voor Preekanalyse**
 
-Op basis van de bovenstaande analyse kunnen we een set diagnostische criteria opstellen voor het beoordelen van preken. Deze criteria kunnen door kerkenraden, homiletici en predikanten zelf worden gebruikt.
+Op basis van de bovenstaande analyse kan een set diagnostische criteria geformuleerd worden voor het beoordelen van preken.
 
 ### **6.1 De Subject-Check**
 
@@ -221,7 +221,7 @@ Tel de actieve werkwoorden in de preek.
 
 * Hoe vaak is "God", "Jezus" of "De Geest" het grammaticale subject?  
 * Hoe vaak is "wij", "u" of "de mens" het grammaticale subject?  
-* *Indicatie:* Een overwicht van menselijke subjecten duidt vaak op moralisme, tenzij deze subjecten beschreven worden in de passieve modus ("wij werden gevonden").
+* *Indicatie:* Een overwicht van menselijke subjecten duidt mogelijk op moralisme, tenzij deze subjecten beschreven worden in de passieve modus ("wij werden gevonden").
 
 ### **6.2 De Helper-Check**
 
@@ -244,7 +244,7 @@ Een gezonde preek bevat vaak twee narratieve programma's, maar in een strikte hi
 1. **Het Fundamentele Programma (Soteriologie):** God (S) redt de mens (O). Dit is onvoorwaardelijk.  
 2. **Het Secundaire Programma (Ethiek):** De geredde mens (S) dient de naaste (O). Dit is het gevolg.
 
-De structurele fout van moralisme is niet de aanwezigheid van programma 2, maar:
+De structurele 'fout' van moralisme is niet de aanwezigheid van programma 2, maar:
 
 * De omkering van de volgorde (Eerst dienen, dan gered worden).  
 * Het samensmelten (Dienen *is* gered worden).  
@@ -256,23 +256,22 @@ De structurele fout van moralisme is niet de aanwezigheid van programma 2, maar:
 
 De toepassing van de narratieve en actantiële analyse van Greimas op de homiletiek is geen kille, wiskundige exercitie. Integendeel, het is een instrument dat dient om de warmte en de vrijheid van het evangelie te waarborgen. In een cultuur die doordrenkt is van het "maakbaarheidsideaal" en "therapeutisch deïsme", waarin religie vaak wordt gereduceerd tot een methode voor zelfverbetering, biedt de semiotiek een ontnuchterende spiegel.
 
-Door de preek te ontleden tot op het bot van de actantiële relaties, wordt zichtbaar dat de ware troost niet ligt in het activeren van de mens als Subject (wat uiteindelijk leidt tot uitputting of hoogmoed), maar in het verkondigen van God als het Subject van de geschiedenis en het heil. Zoals Rein Bos en Ciska Stark in hun context hebben laten zien, en ondersteund door de grammatica van Rutledge, kan een prediking die God de eer geeft van de actieve werkwoorden, de hoorder werkelijk bevrijden. De hoorder mag van de krampachtige rol van Subject verhuizen naar de ontvangende rol van Beneficiary, om van daaruit – in de kracht van de Geest – alsnog in beweging te komen, niet om te verwerven, maar om te delen.
+Door de preek te ontleden tot de actantiële relaties, wordt zichtbaar dat troost niet ligt in het activeren van de mens als Subject (wat uiteindelijk leidt tot uitputting of hoogmoed), maar in het verkondigen van God als het Subject van de geschiedenis en het heil. Zoals Rein Bos en Ciska Stark in hun context hebben laten zien, en ondersteund door de grammatica van Rutledge, kan een prediking die God de eer geeft van de actieve werkwoorden, de hoorder bevrijden. De hoorder mag van de krampachtige rol van Subject verhuizen naar de ontvangende rol van Beneficiary, om van daaruit – in de kracht van de Geest – alsnog in beweging te komen, niet om te verwerven, maar om te delen.
 
-De semiotiek van Greimas levert daarmee het bewijs: vorm is inhoud. De structuur van de preek *is* de theologie van de preek. Wie genade wil preken, moet de grammatica van de genade beheersen.
+De semiotiek van Greimas levert daarmee het inzicht: vorm is inhoud. De structuur van de preek *is* de theologie van de preek. Wie genade wil preken, moet de grammatica van de genade beheersen.
 
 ### ---
 
 **Verantwoording van Onderzoeksmateriaal**
 
-Dit rapport is tot stand gekomen op basis van een integratie van algemene semiotische theorie en specifieke homiletische bronnen. De kernconcepten van Greimas (actanten, semiotisch vierkant, modaliteiten) zijn toegepast op de theologische inzichten uit de verstrekte onderzoeksfragmenten.
+De kernconcepten van Greimas (actanten, semiotisch vierkant, modaliteiten) zijn toegepast op de theologische inzichten uit de verstrekte onderzoeksfragmenten.
 
-* **Theorie Greimas:** Gebaseerd op.3  
-* **Rein Bos:** De analyse van zijn werk over exemplarisme en identificatie is ontleend aan.7  
-* **Ciska Stark:** De inzichten over de hoorder en de preekcontext komen uit.18  
-* **Grammatica van de Genade:** De koppeling met Fleming Rutledge en "God as Subject" is gebaseerd op.5  
-* **Actantiële Analyse in Exegese:** Verwijzingen naar Daniel Patte en bijbelse toepassing.1
+* **Theorie Greimas:** Gebaseerd op.[3]  
+* **Rein Bos:** De analyse van zijn werk over exemplarisme en identificatie is ontleend aan.[7]  
+* **Ciska Stark:** De inzichten over de hoorder en de preekcontext komen uit.[18]  
+* **Grammatica van de Genade:** De koppeling met Fleming Rutledge en "God as Subject" is gebaseerd op.[5]  
+* **Actantiële Analyse in Exegese:** Verwijzingen naar Daniel Patte en bijbelse toepassing.[1]
 
-De analyse toont aan dat de methode Greimas een robuust kader biedt om de subtiele verschillen tussen moralisme en genade in kaart te brengen, volledig in lijn met de onderzoeksvraag.
 
 #### **Geciteerd werk**
 
