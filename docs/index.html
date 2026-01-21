@@ -2156,6 +2156,49 @@
         `;
         container.appendChild(domeinenCard);
 
+        // Coherentie Analyse (uitgebreid)
+        const coherentieData = data.diagnostische_evaluatie?.coherentie_analyse || {};
+        const incoherentiePunten = coherentieData.incoherentie_punten || [];
+        const succesvolleBlending = coherentieData.succesvolle_blending || [];
+
+        if (incoherentiePunten.length > 0 || succesvolleBlending.length > 0) {
+            const coherentieCard = document.createElement('div');
+            coherentieCard.className = 'card';
+
+            let coherentieHTML = '';
+
+            if (succesvolleBlending.length > 0) {
+                coherentieHTML += '<div style="margin-bottom: 1rem;"><strong>Succesvolle blending:</strong>';
+                succesvolleBlending.forEach(b => {
+                    coherentieHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>Locatie:</strong> ${formatText(b.locatie || '')}</p>
+                            ${b.gemengde_metaforen?.length ? `<p style="margin: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted);">Metaforen: ${b.gemengde_metaforen.map(m => formatText(m)).join(', ')}</p>` : ''}
+                            ${b.blending_strategie ? `<p style="margin: 0.25rem 0; font-size: 0.8rem;">${formatText(b.blending_strategie)}</p>` : ''}
+                        </div>`;
+                });
+                coherentieHTML += '</div>';
+            }
+
+            if (incoherentiePunten.length > 0) {
+                coherentieHTML += '<div><strong>Incoherentiepunten:</strong><ul style="margin: 0.25rem 0 0 1rem; font-size: 0.85rem;">';
+                incoherentiePunten.forEach(p => {
+                    coherentieHTML += `<li>${formatText(p)}</li>`;
+                });
+                coherentieHTML += '</ul></div>';
+            }
+
+            coherentieCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Coherentie analyse</span>
+                </div>
+                <div class="text-content">
+                    ${coherentieHTML}
+                </div>
+            `;
+            container.appendChild(coherentieCard);
+        }
+
         // Metafoor Inventaris
         const metafoorCard = document.createElement('div');
         metafoorCard.className = 'card';
@@ -2165,13 +2208,36 @@
         metaforen.forEach((meta, idx) => {
             const vitaliteit = meta.vitaliteit_status || 'ONBEKEND';
             const vitaliteitColor = vitaliteit === 'LEVEND' ? 'var(--success-color)' : vitaliteit === 'DOOD' ? 'var(--danger-color)' : 'var(--warning-color)';
+
+            // Mapping structuur
+            let mappingHTML = '';
+            if (meta.mapping_structuur && meta.mapping_structuur.length > 0) {
+                mappingHTML = '<p style="margin: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted);">';
+                mappingHTML += meta.mapping_structuur.map(m => `${formatText(m.bron_element)} \u2192 ${formatText(m.doel_element)}`).join('; ');
+                mappingHTML += '</p>';
+            }
+
+            // Entailments (compact)
+            let entailmentsHTML = '';
+            if (meta.entailments) {
+                const ent = meta.entailments;
+                let allImplicaties = [];
+                if (ent.theologische_implicaties?.length) allImplicaties.push(...ent.theologische_implicaties);
+                if (ent.cognitieve_implicaties?.length) allImplicaties.push(...ent.cognitieve_implicaties);
+                if (ent.onbedoelde_consequenties?.length) allImplicaties.push(...ent.onbedoelde_consequenties.filter(c => c !== 'Geen'));
+
+                if (allImplicaties.length > 0) {
+                    entailmentsHTML = `<p style="margin: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted);"><strong>Implicaties:</strong> ${allImplicaties.slice(0, 2).map(i => formatText(i)).join('; ')}</p>`;
+                }
+            }
+
             metafoorHTML += `
-                <div style="margin-bottom: 1.5rem; padding-bottom: 1rem; ${idx < metaforen.length - 1 ? 'border-bottom: 1px solid var(--border-color);' : ''}">
-                    <p style="font-weight: bold; margin-bottom: 0.5rem;">\u201c${formatText(meta.metafoor_expressie)}\u201d</p>
-                    <p style="font-size: 0.85rem;"><strong>Brondomein:</strong> ${meta.brondomein?.naam || 'Onbekend'}</p>
-                    <p style="font-size: 0.85rem;"><strong>Doeldomein:</strong> ${meta.doeldomein?.theologisch_concept || 'Onbekend'}</p>
-                    <p style="font-size: 0.85rem; color: ${vitaliteitColor};"><strong>Vitaliteit:</strong> ${translateTag(vitaliteit)}</p>
-                    <p style="font-size: 0.8rem; font-style: italic; color: var(--text-muted);">${formatText(meta.vitaliteit_toelichting || '')}</p>
+                <div style="margin-bottom: 1rem; padding-bottom: 0.75rem; ${idx < metaforen.length - 1 ? 'border-bottom: 1px solid var(--border-color);' : ''}">
+                    <p style="font-weight: bold; margin-bottom: 0.25rem; font-size: 0.9rem;">\u201c${formatText(meta.metafoor_expressie)}\u201d</p>
+                    <p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Bron:</strong> ${formatText(meta.brondomein?.naam || 'Onbekend')} \u2192 <strong>Doel:</strong> ${formatText(meta.doeldomein?.theologisch_concept || 'Onbekend')}</p>
+                    ${mappingHTML}
+                    ${entailmentsHTML}
+                    <p style="margin: 0.25rem 0; font-size: 0.8rem; color: ${vitaliteitColor};"><strong>Vitaliteit:</strong> ${translateTag(vitaliteit)} \u2014 <span style="font-style: italic; color: var(--text-muted);">${formatText(meta.vitaliteit_toelichting || '')}</span></p>
                 </div>
             `;
         });
@@ -2188,22 +2254,29 @@
 
         // Sterktes en Risico's
         const evalCard = document.createElement('div');
-        evalCard.className = 'card full-width';
+        evalCard.className = 'card';
         const sterktes = data.diagnostische_evaluatie?.sterktes || [];
         const risicos = data.diagnostische_evaluatie?.risicos || [];
 
-        let sterktesHTML = '<ul class="summary-list">';
+        let sterktesHTML = '';
         sterktes.forEach(s => {
-            sterktesHTML += `<li><strong>${translateTag(s.sterkte_type)}:</strong> ${formatText(s.beschrijving)}</li>`;
+            sterktesHTML += `
+                <div style="margin-bottom: 0.75rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid var(--success-color);">
+                    <p style="margin: 0;"><strong>${translateTag(s.sterkte_type)}:</strong> ${formatText(s.beschrijving)}</p>
+                    ${s.voorbeeld ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">\u201c${formatText(s.voorbeeld)}\u201d</p>` : ''}
+                </div>`;
         });
-        sterktesHTML += '</ul>';
 
-        let risicosHTML = '<ul class="summary-list">';
+        let risicosHTML = '';
         risicos.forEach(r => {
             const ernstColor = r.ernst === 'ERNSTIG' ? 'var(--danger-color)' : r.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
-            risicosHTML += `<li><strong style="color: ${ernstColor};">${translateTag(r.risico_type)} (${translateTag(r.ernst)}):</strong> ${formatText(r.beschrijving)}</li>`;
+            risicosHTML += `
+                <div style="margin-bottom: 0.75rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid ${ernstColor};">
+                    <p style="margin: 0;"><strong>${translateTag(r.risico_type)}</strong> <span style="color: ${ernstColor};">(${translateTag(r.ernst)})</span>: ${formatText(r.beschrijving)}</p>
+                    ${r.voorbeeld ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">\u201c${formatText(r.voorbeeld)}\u201d</p>` : ''}
+                    ${r.potentiele_impact ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; color: var(--text-muted);"><strong>Impact:</strong> ${formatText(r.potentiele_impact)}</p>` : ''}
+                </div>`;
         });
-        risicosHTML += '</ul>';
 
         evalCard.innerHTML = `
             <div class="card-header">
@@ -2217,6 +2290,215 @@
             </div>
         `;
         container.appendChild(evalCard);
+
+        // Text World Analyse
+        const textWorld = data.diagnostische_evaluatie?.text_world_analyse;
+        if (textWorld) {
+            const textWorldCard = document.createElement('div');
+            textWorldCard.className = 'card';
+
+            let deicticHTML = '';
+            if (textWorld.deictic_shifts?.length > 0) {
+                deicticHTML = '<div style="margin-top: 0.75rem;"><strong>Deictische verschuivingen:</strong>';
+                textWorld.deictic_shifts.forEach(d => {
+                    deicticHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>${formatText(d.locatie || '')}:</strong> ${formatText(d.van_wereld || '')} \u2192 ${formatText(d.naar_wereld || '')}</p>
+                            ${d.effectiviteit ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; color: var(--text-muted);">${formatText(d.effectiviteit)}</p>` : ''}
+                        </div>`;
+                });
+                deicticHTML += '</div>';
+            }
+
+            textWorldCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Text world analyse</span>
+                    ${textWorld.world_building_effectiviteit ? `<span class="score-badge score-mid">${translateTag(textWorld.world_building_effectiviteit)}</span>` : ''}
+                </div>
+                <div class="text-content">
+                    <p><strong>Primaire wereld:</strong> ${formatText(textWorld.primaire_wereld || '')}</p>
+                    ${textWorld.sub_worlds?.length > 0 ? `<p style="margin-top: 0.5rem;"><strong>Subwerelden:</strong> ${textWorld.sub_worlds.map(w => formatText(w)).join('; ')}</p>` : ''}
+                    ${deicticHTML}
+                </div>
+            `;
+            container.appendChild(textWorldCard);
+        }
+
+        // Schema Analyse
+        const schemaAnalyse = data.diagnostische_evaluatie?.schema_analyse;
+        if (schemaAnalyse) {
+            const schemaCard = document.createElement('div');
+            schemaCard.className = 'card';
+
+            let schemaHTML = '';
+
+            if (schemaAnalyse.versterkte_schemas?.length > 0) {
+                schemaHTML += '<div style="margin-bottom: 0.75rem;"><strong>Versterkte schemas:</strong>';
+                schemaAnalyse.versterkte_schemas.forEach(s => {
+                    schemaHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid var(--success-color); font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>${formatText(s.schema_naam || '')}</strong></p>
+                            ${s.hoe_versterkt ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; color: var(--text-muted);">${formatText(s.hoe_versterkt)}</p>` : ''}
+                        </div>`;
+                });
+                schemaHTML += '</div>';
+            }
+
+            if (schemaAnalyse.verstoorde_schemas?.length > 0) {
+                schemaHTML += '<div style="margin-bottom: 0.75rem;"><strong>Verstoorde schemas:</strong>';
+                schemaAnalyse.verstoorde_schemas.forEach(s => {
+                    schemaHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid var(--warning-color); font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>${formatText(s.schema_naam || '')}</strong></p>
+                            ${s.verstoring_strategie ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem;">${formatText(s.verstoring_strategie)}</p>` : ''}
+                            ${s.vervangend_schema ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; color: var(--text-muted);">\u2192 ${formatText(s.vervangend_schema)}</p>` : ''}
+                        </div>`;
+                });
+                schemaHTML += '</div>';
+            }
+
+            if (schemaAnalyse.liturgische_schema_aansluiting) {
+                schemaHTML += `<p style="font-size: 0.85rem;"><strong>Liturgische aansluiting:</strong> ${formatText(schemaAnalyse.liturgische_schema_aansluiting)}</p>`;
+            }
+
+            schemaCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Schema analyse</span>
+                </div>
+                <div class="text-content">
+                    ${schemaHTML}
+                </div>
+            `;
+            container.appendChild(schemaCard);
+        }
+
+        // Aanbevelingen (uitgebreid)
+        const aanbev = data.aanbevelingen;
+        if (aanbev) {
+            const aanbevCard = document.createElement('div');
+            aanbevCard.className = 'card full-width';
+
+            let aanbevHTML = '';
+
+            if (aanbev.metafoor_audit_samenvatting) {
+                aanbevHTML += `<p style="margin-bottom: 1rem;">${formatText(aanbev.metafoor_audit_samenvatting)}</p>`;
+            }
+
+            // Revitalisatie suggesties
+            if (aanbev.revitalisatie_suggesties?.length > 0) {
+                aanbevHTML += '<div style="margin-bottom: 1rem;"><strong>Revitalisatie suggesties:</strong>';
+                aanbev.revitalisatie_suggesties.forEach(s => {
+                    aanbevHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>${formatText(s.doel_metafoor || '')}</strong></p>
+                            ${s.huidige_status ? `<p style="margin: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted);">Status: ${formatText(s.huidige_status)}</p>` : ''}
+                            ${s.suggestie ? `<p style="margin: 0.25rem 0; font-size: 0.8rem;">${formatText(s.suggestie)}</p>` : ''}
+                            ${s.voorbeeld ? `<p style="margin: 0.25rem 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">\u201c${formatText(s.voorbeeld)}\u201d</p>` : ''}
+                        </div>`;
+                });
+                aanbevHTML += '</div>';
+            }
+
+            // Coherentie verbeteringen
+            if (aanbev.coherentie_verbeteringen?.length > 0) {
+                aanbevHTML += '<div style="margin-bottom: 1rem;"><strong>Coherentie verbeteringen:</strong>';
+                aanbev.coherentie_verbeteringen.forEach(c => {
+                    aanbevHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.85rem;">
+                            ${c.incoherentie ? `<p style="margin: 0;"><strong>Probleem:</strong> ${formatText(c.incoherentie)}</p>` : ''}
+                            ${c.resolutie_strategie ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem;"><strong>Oplossing:</strong> ${formatText(c.resolutie_strategie)}</p>` : ''}
+                        </div>`;
+                });
+                aanbevHTML += '</div>';
+            }
+
+            // Entailment checks
+            if (aanbev.entailment_checks?.length > 0) {
+                aanbevHTML += '<div style="margin-bottom: 1rem;"><strong>Entailment checks:</strong>';
+                aanbev.entailment_checks.forEach(e => {
+                    aanbevHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.85rem;">
+                            ${e.metafoor ? `<p style="margin: 0;"><strong>${formatText(e.metafoor)}</strong></p>` : ''}
+                            ${e.problematisch_entailment ? `<p style="margin: 0.25rem 0; font-size: 0.8rem; color: var(--warning-color);">${formatText(e.problematisch_entailment)}</p>` : ''}
+                            ${e.aanbeveling ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem;">${formatText(e.aanbeveling)}</p>` : ''}
+                        </div>`;
+                });
+                aanbevHTML += '</div>';
+            }
+
+            // Alternatieve domeinen
+            if (aanbev.alternatieve_domeinen?.length > 0) {
+                aanbevHTML += '<div style="margin-bottom: 1rem;"><strong>Alternatieve domeinen:</strong>';
+                aanbev.alternatieve_domeinen.forEach(a => {
+                    aanbevHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.85rem;">
+                            ${a.voorgesteld_domein ? `<p style="margin: 0;"><strong>${formatText(a.voorgesteld_domein)}</strong></p>` : ''}
+                            ${a.rationale ? `<p style="margin: 0.25rem 0; font-size: 0.8rem;">${formatText(a.rationale)}</p>` : ''}
+                            ${a.doel_concept ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem; color: var(--text-muted);">Doel: ${formatText(a.doel_concept)}</p>` : ''}
+                        </div>`;
+                });
+                aanbevHTML += '</div>';
+            }
+
+            // Slotopmerking
+            if (aanbev.slotopmerking) {
+                aanbevHTML += `
+                    <div style="padding: 0.75rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid var(--primary-color); font-size: 0.9rem;">
+                        <p style="margin: 0; font-style: italic;">${formatText(aanbev.slotopmerking)}</p>
+                    </div>`;
+            }
+
+            aanbevCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Aanbevelingen</span>
+                    <span class="score-badge ${aanbev.overall_beoordeling === 'EXCELLENT' ? 'score-high' : 'score-mid'}">${translateTag(aanbev.overall_beoordeling || 'Onbekend')}</span>
+                </div>
+                <div class="text-content">
+                    ${aanbevHTML}
+                </div>
+            `;
+            container.appendChild(aanbevCard);
+        }
+
+        // Appendices
+        const app = data.appendices;
+        if (app) {
+            const appCard = document.createElement('div');
+            appCard.className = 'card';
+
+            let appHTML = '';
+
+            if (app.volledige_metafoor_lijst?.length > 0) {
+                appHTML += `<p style="margin-bottom: 0.5rem;"><strong>Metaforen:</strong> ${app.volledige_metafoor_lijst.map(m => formatText(m)).join('; ')}</p>`;
+            }
+
+            if (app.woord_frequentie_analyse) {
+                const freq = app.woord_frequentie_analyse;
+                const freqItems = Object.entries(freq).map(([k, v]) => {
+                    if (typeof v === 'object' && v.count) {
+                        return `${k}: ${v.count}${v.primair_subject ? ` (${v.primair_subject})` : ''}`;
+                    }
+                    return `${k}: ${v}`;
+                });
+                if (freqItems.length > 0) {
+                    appHTML += `<p style="margin-bottom: 0.5rem;"><strong>Woordfrequentie:</strong> ${freqItems.join('; ')}</p>`;
+                }
+            }
+
+            if (app.notities) {
+                appHTML += `<p style="margin: 0; font-style: italic; color: var(--text-muted);">${formatText(app.notities)}</p>`;
+            }
+
+            appCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Appendices</span>
+                </div>
+                <div class="text-content">
+                    ${appHTML}
+                </div>
+            `;
+            container.appendChild(appCard);
+        }
     }
 
     function renderAnalysisNarratief(data) {
