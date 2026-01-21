@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "titel_preek": "De weg naar vrijheid: De voorloper",
+    "bijbeltekst": "Marcus 1:1-8 (met verwijzingen naar Jesaja 40)",
+    "analyse_datum": "2023-10-27",
+    "geschat_aantal_woorden": "1250"
+  },
+  "primaire_analyse": {
+    "dominante_domeinen": [
+      {
+        "domein_type": "REIS",
+        "prominentie_score": "10",
+        "kernfrasen": [
+          "de weg naar vrijheid",
+          "dwars door de woestijn",
+          "een straat aanleggen",
+          "tocht door de woestijn",
+          "thuiskomen"
+        ],
+        "conceptuele_metafoor": "GELOOF IS EEN TOCHT DOOR DE WOESTIJN"
+      },
+      {
+        "domein_type": "ARCHITECTURAAL",
+        "prominentie_score": "8",
+        "kernfrasen": [
+          "boulevard",
+          "grote straat of Hoogstraat",
+          "heirbaan voor de Heer",
+          "gladde, vanzelfsprekende triomfantelijke weg",
+          "pronkgebouwen"
+        ],
+        "conceptuele_metafoor": "GODS KONINKRIJK IS GEEN IMPERIALE INFRASTRUCTUUR"
+      },
+      {
+        "domein_type": "THEATER/KUNST",
+        "prominentie_score": "7",
+        "kernfrasen": [
+          "bijbelse drama's van Vondel",
+          "op het toneel",
+          "hoofdacteur",
+          "publiek",
+          "tussen de bedrijven door"
+        ],
+        "conceptuele_metafoor": "HEILSGESCHIEDENIS IS EEN DRAMATISCHE OPVOERING"
+      }
+    ],
+    "metafoor_inventaris": [
+      {
+        "metafoor_expressie": "De bode komt aan het publiek de hoofdacteur van het verhaal voorstellen.",
+        "brondomein": {
+          "naam": "Theater",
+          "concrete_elementen": [
+            "toneel",
+            "bode (aggelos)",
+            "publiek",
+            "hoofdrolspeler"
+          ],
+          "belichaamde_basis": "visuele perceptie (kijken naar een podium)"
+        },
+        "doeldomein": {
+          "theologisch_concept": "De rol van Johannes de Doper in de heilsgeschiedenis",
+          "doctrinale_traditie": "Rooms-Katholiek (Narratieve theologie)"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Bode in proloog",
+            "doel_element": "Johannes de Doper"
+          },
+          {
+            "bron_element": "Hoofdacteur",
+            "doel_element": "Jezus"
+          },
+          {
+            "bron_element": "Publiek",
+            "doel_element": "De lezers/hoorders van het evangelie"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "De hoorder neemt een toeschouwerspositie in",
+            "Er is een geregisseerd script (goddelijk plan)"
+          ],
+          "theologische_implicaties": [
+            "Johannes is functioneel en tijdelijk",
+            "Jezus is het centrum van de handeling"
+          ],
+          "ethische_implicaties": [
+            "Aandacht moet verschuiven van de bode naar de hoofdpersoon"
+          ],
+          "onbedoelde_consequenties": [
+            "Passiviteit bij de hoorder (slechts toeschouwer zijn)"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Schillebeeckx revitaliseert de 'bode' figuur door expliciete vergelijking met Vondels drama's."
+      },
+      {
+        "metafoor_expressie": "Gods macht zegeviert in onmacht; barre woestijn is de weg van zijn volk.",
+        "brondomein": {
+          "naam": "Reis/Landschap",
+          "concrete_elementen": [
+            "woestijn",
+            "barre tocht",
+            "geen gebaande wegen"
+          ],
+          "belichaamde_basis": "path (pad), force (weerstand/moeite)"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Bevrijdingstheologie / Kenosis (Gods zelfontlediging)",
+          "doctrinale_traditie": "Modern Katholiek / Bevrijdingstheologie"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Woestijnreis",
+            "doel_element": "Geestelijke bevrijding / Lijden"
+          },
+          {
+            "bron_element": "Afwezigheid van comfort (boulevard)",
+            "doel_element": "Afwezigheid van wereldlijke macht"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Geloven is moeilijk en fysiek zwaar",
+            "God is aanwezig in het lijden, niet in het succes"
+          ],
+          "theologische_implicaties": [
+            "Kruistheologie (Theologia Crucis)",
+            "Verwerping van welvaartsevangelie"
+          ],
+          "ethische_implicaties": [
+            "Solidariteit met de 'kleine, arme en vernederde' mensen"
+          ],
+          "onbedoelde_consequenties": [
+            "Mogelijke romantisering van lijden"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "De prediker contrasteert actief de 'Babylonische boulevard' met de 'woestijnweg', wat het beeld scherp stelt."
+      }
+    ]
+  },
+  "diagnostische_evaluatie": {
+    "coherentie_analyse": {
+      "overall_coherentie": "ZEER_COHERENT",
+      "coherentie_verklaring": "De preek beweegt logisch van een theater-metafoor (om de tekststructuur uit te leggen) naar een historische reconstructie (Babylon vs. Woestijn) die vervolgens existentieel wordt toegepast op het christelijk leven. De overgang is naadloos omdat 'het drama' van het theater inhoudelijk 'de tocht door de woestijn' blijkt te zijn.",
+      "incoherentie_punten": [],
+      "succesvolle_blending": [
+        {
+          "locatie": "Middenstuk (overgang Jesaja naar Markus)",
+          "gemengde_metaforen": [
+            "IMPERIALE BOULEVARD",
+            "WOESTIJNPAD"
+          ],
+          "blending_strategie": "Contrastwerking: De prediker gebruikt de Babylonische processieweg als 'negatief brondomein' om te definiëren wat Gods weg NIET is."
+        }
+      ]
+    },
+    "sterktes": [
+      {
+        "sterkte_type": "CONTEXTUELE_GESCHIKTHEID",
+        "beschrijving": "Het gebruik van de Babylonische 'boulevard' (Champs Elysées vergelijking) maakt de historische context van Jesaja direct invoelbaar voor de moderne stedeling.",
+        "voorbeeld": "zo iets als in Parijs de Champs Elysées... of de Romeinse Via Vittorio Emmanuele"
+      },
+      {
+        "sterkte_type": "THEOLOGISCHE_DIEPTE",
+        "beschrijving": "De metafoor van de woestijn wordt niet alleen ascetisch gebruikt, maar politiek-theologisch: als kritiek op machtsvertoon.",
+        "voorbeeld": "Gods eer en roem bestaan niet in eigen staatsie... Zijn eer-en-roem is het geluk en de bevrijding van zijn volk"
+      }
+    ],
+    "risicos": [
+      {
+        "risico_type": "LITERALISERING",
+        "beschrijving": "De nadruk op 'bevrijdingswerk' en politieke parallellen (Cardenal, Neruda) kan door sommige hoorders puur horizontaal/politiek worden opgevat, waarbij de transcendente dimensie van zondevergeving (traditioneel bij Johannes de Doper) naar de achtergrond raakt.",
+        "voorbeeld": "een zelfde beleving als wij nu meemaken bij het horen van de 'roepen' van Ernesto Cardenal of Pablo Neruda",
+        "potentiele_impact": "Reductie van het evangelie tot sociaal activisme",
+        "ernst": "MATIG"
+      }
+    ],
+    "text_world_analyse": {
+      "primaire_wereld": "De historische setting van de Babylonische ballingschap, geprojecteerd op het hedendaagse menselijke bestaan.",
+      "sub_worlds": [
+        "Het theater (Vondel)",
+        "De moderne stad met boulevards",
+        "De woestijn van Judea"
+      ],
+      "world_building_effectiviteit": "LEVENDIG",
+      "deictic_shifts": [
+        {
+          "locatie": "Opening",
+          "van_wereld": "Kerk/Liturgie",
+          "naar_wereld": "Theaterzaal (Vondel)",
+          "effectiviteit": "Sterk, schept onmiddellijk een kader van verwachting."
+        },
+        {
+          "locatie": "Middenstuk",
+          "van_wereld": "Bijbelse tekst",
+          "naar_wereld": "Babylonische straatfeesten",
+          "effectiviteit": "Zeer effectief door zintuiglijke details (kleurrijke staatsiestoeten, protserig)."
+        }
+      ]
+    },
+    "schema_analyse": {
+      "versterkte_schemas": [
+        {
+          "schema_naam": "God als Bevrijder",
+          "hoe_versterkt": "Door de koppeling aan de Exodus en de terugkeer uit Babylon."
+        }
+      ],
+      "verstoorde_schemas": [
+        {
+          "schema_naam": "Gods Heerlijkheid (Gloria)",
+          "verstoring_strategie": "Ontkoppeling van pracht, praal en machtsvertoon.",
+          "vervangend_schema": "Gods heerlijkheid is de verheffing van de vernederde mens (humanisering)."
+        },
+        {
+          "schema_naam": "De 'Weg des Heren'",
+          "verstoring_strategie": "Het is geen 'snelweg' (boulevard) maar een moeilijk pad.",
+          "vervangend_schema": "De weg van God is de weg van menselijk lijden en solidariteit."
+        }
+      ],
+      "liturgische_schema_aansluiting": "Past uitstekend in de Adventstijd (verwachting, woestijn, voorbereiding)."
+    }
+  },
+  "aanbevelingen": {
+    "metafoor_audit_samenvatting": "De preek wordt gedomineerd door de ruimtelijke metafoor van de REIS (Exodus/Weg), die in scherp contrast wordt gezet met IMPERIALE ARCHITECTUUR (Boulevards). Dit creëert een krachtige theologische spanning tussen 'macht' en 'onmacht'. De theater-metafoor dient als een effectief hermeneutisch kader aan het begin.",
+    "revitalisatie_suggesties": [
+      {
+        "doel_metafoor": "De 'stem van de roepende'",
+        "huidige_status": "Kan abstract blijven als louter 'informatie'.",
+        "suggestie": "Verbind de 'stem' fysieker aan de woestijnervaring (schorheid, droogte, urgentie tegenover de wind).",
+        "strategie": "NARRATIEVE_EMBODIMENT",
+        "voorbeeld": "Niet zomaar een omroepbericht, maar een schreeuw van iemand met een droge keel tegen de bulderende woestijnwind in."
+      }
+    ],
+    "coherentie_verbeteringen": [
+      {
+        "incoherentie": "Geen significante incoherentie, maar de theater-metafoor verdwijnt aan het einde.",
+        "resolutie_strategie": "Sluit de preek af door terug te grijpen naar de theater-metafoor: wij zijn nu niet langer publiek, maar zelf de 'bode' op het toneel geworden."
+      }
+    ],
+    "entailment_checks": [
+      {
+        "metafoor": "Bevrijding is een weg door de woestijn",
+        "problematisch_entailment": "Als de weg louter lijden is, waar is dan de 'Blijde' boodschap?",
+        "aanbeveling": "Benadrukken dat de woestijn ook de plek van intimiteit met God is (Hosea), niet alleen ontbering."
+      }
+    ],
+    "alternatieve_domeinen": [
+      {
+        "voorgesteld_domein": "AKOESTISCH DOMEIN",
+        "rationale": "De tekst spreekt over 'een stem', 'roepen', 'luide omroepen'.",
+        "doel_concept": "Het contrast tussen het lawaai van Babylon (propaganda) en de stem in de stilte van de woestijn (waarheid)."
+      }
+    ],
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een meesterlijke preek die exegetische precisie combineert met diepe culturele en politieke relevantie. De deconstructie van 'Gods heerlijkheid' via de boulevard-metafoor is homiletisch goud. De uitdaging ligt in het bewaken van de balans tussen politieke bevrijding en spirituele verlossing."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_esthetiek": "Een esthetische analyse zou focussen op de mooie vergelijking met Vondel en de retorische opbouw. CMT onthult echter *hoe* Schillebeeckx het concept 'Gods macht' herprogrammeert door het brondomein 'Imperiale Boulevard' te vervangen door 'Woestijnpad'.",
+    "verschil_met_kolb": "Kolb zou kijken of er reflectie en ervaring in zit. CMT laat zien dat de 'ervaring' hier wordt geconstrueerd door de hoorder mentaal in Babylon en de woestijn te plaatsen (Text World Theory).",
+    "unieke_inzichten_CMT": "CMT toont aan dat deze preek niet slechts 'uitlegt' wie Johannes is, maar een fundamenteel cognitief schema van 'Goddelijke aanwezigheid' probeert te wijzigen van 'Statisch/Machtig' (Beeld/Straat) naar 'Dynamisch/Kwetsbaar' (Weg/Woestijn)."
+  },
+  "appendices": {
+    "volledige_metafoor_lijst": [
+      "Bode in een drama",
+      "Weg banen",
+      "Straat in de woestijn",
+      "Babylonische boulevard",
+      "Gods heerlijkheid als show",
+      "Bevrijding als uittocht",
+      "Schoonmaken van het pad",
+      "Jezus als de Sterkere"
+    ],
+    "woord_frequentie_analyse": {
+      "weg": "14",
+      "woestijn": "12",
+      "bevrijding": "10",
+      "bode/voorloper": "8",
+      "God": "11"
+    },
+    "notities": "Opvallend is de sterke intertekstualiteit die functioneert als metaforisch netwerk: Vondel, Jesaja, Exodus, Cardenal/Neruda worden allemaal in één conceptueel kader (Vrijheidsstrijd) geplaatst."
+  }
+}

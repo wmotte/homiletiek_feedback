@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "titel_preek": "De mens: god of engel? / De lichamelijke opstanding",
+    "bijbeltekst": "Psalm 8:5-6 & Lukas 24:39-40",
+    "analyse_datum": "2024-03-31",
+    "geschat_aantal_woorden": "2200"
+  },
+  "primaire_analyse": {
+    "dominante_domeinen": [
+      {
+        "domein_type": "MEDISCH",
+        "prominentie_score": "9",
+        "kernfrasen": [
+          "DNA te slijten",
+          "haperend gehoor",
+          "zwerende wonden",
+          "long-covid",
+          "lichaam dat beschadigd is"
+        ],
+        "conceptuele_metafoor": "HET LEVEN IS EEN BIOLOGISCH VERVALPROCES"
+      },
+      {
+        "domein_type": "ARCHITECTURAAL",
+        "prominentie_score": "7",
+        "kernfrasen": [
+          "bouwtekening van ons lijf",
+          "scheurtjes",
+          "sterk fundament",
+          "luiken open"
+        ],
+        "conceptuele_metafoor": "HET LICHAAM IS EEN GEBOUW/CONSTRUCTIE"
+      },
+      {
+        "domein_type": "REIS",
+        "prominentie_score": "6",
+        "kernfrasen": [
+          "ontsnappingsroute",
+          "weg van de radicale liefde",
+          "nulpunt",
+          "keerpunt"
+        ],
+        "conceptuele_metafoor": "REDDING IS GEEN ONTSNAPPING MAAR AANWEZIGHEID"
+      }
+    ],
+    "metafoor_inventaris": [
+      {
+        "metafoor_expressie": "De bouwtekening van ons lijf... scheurtjes",
+        "brondomein": {
+          "naam": "Constructie/Architectuur",
+          "concrete_elementen": [
+            "Bouwtekening",
+            "Scheuren",
+            "Fundament"
+          ],
+          "belichaamde_basis": "structure"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Erfzonde / Menselijke conditie",
+          "doctrinale_traditie": "Gereformeerd (Total Depravity nuance)"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Bouwtekening",
+            "doel_element": "DNA / Genetische aanleg"
+          },
+          {
+            "bron_element": "Scheuren",
+            "doel_element": "Ziekte / Veroudering"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "De fout zit in het ontwerp of het materiaal zelf",
+            "Reparatie is moeilijk of onmogelijk"
+          ],
+          "theologische_implicaties": [
+            "De gebrokenheid is fundamenteel en onontkoombaar vanaf de conceptie"
+          ],
+          "ethische_implicaties": [
+            "Acceptatie van zwakheid in plaats van streven naar perfectie"
+          ],
+          "onbedoelde_consequenties": [
+            "Kan suggereren dat de Schepper een slechte architect is (hoewel de preek dit later nuanceert)"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Door DNA te koppelen aan 'bouwtekening' wordt een klassiek beeld gemoderniseerd."
+      },
+      {
+        "metafoor_expressie": "Een doorstart maakt",
+        "brondomein": {
+          "naam": "Bedrijfsleven/Mechanica",
+          "concrete_elementen": [
+            "Doorstart",
+            "Faillissement",
+            "Opnieuw beginnen"
+          ],
+          "belichaamde_basis": "process"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Opstanding",
+          "doctrinale_traditie": "Algemeen Christelijk"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Doorstart na faillissement",
+            "doel_element": "Leven na de dood"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Het is dezelfde entiteit die verder gaat, niet een nieuwe",
+            "Het verleden blijft onderdeel van de identiteit"
+          ],
+          "theologische_implicaties": [
+            "Continuïteit tussen de aardse Jezus en de opgestane Heer"
+          ],
+          "ethische_implicaties": [
+            "Falen (dood/kruis) is niet het einde"
+          ],
+          "onbedoelde_consequenties": [
+            "Zakelijke connotatie kan de heiligheid plat slaan"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Verrassend woordgebruik ('doorstart') voor de opstanding."
+      },
+      {
+        "metafoor_expressie": "Ontsnappingsroute",
+        "brondomein": {
+          "naam": "Gevangenis/Ramp",
+          "concrete_elementen": [
+            "Vluchten",
+            "Route",
+            "Nooduitgang"
+          ],
+          "belichaamde_basis": "container/path"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Gnostisch dualisme / Spiritualisering",
+          "doctrinale_traditie": "Anti-Gnostisch"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Gevangenis/Gevaarlijke plek",
+            "doel_element": "Het menselijk lichaam"
+          },
+          {
+            "bron_element": "Ontsnappen",
+            "doel_element": "Sterven/Geest worden"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Het lichaam is een kooi",
+            "De geest is de 'echte' persoon"
+          ],
+          "theologische_implicaties": [
+            "De preek gebruikt deze metafoor om hem te ONTKENNEN: Jezus biedt géén ontsnapping, maar heiliging van de plek zelf"
+          ],
+          "ethische_implicaties": [
+            "Vluchtgedrag is niet christelijk"
+          ],
+          "onbedoelde_consequenties": [
+            "Geen"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Wordt actief gebruikt als het 'vijandbeeld' in de preekstructuur."
+      }
+    ]
+  },
+  "diagnostische_evaluatie": {
+    "coherentie_analyse": {
+      "overall_coherentie": "ZEER_COHERENT",
+      "coherentie_verklaring": "De preek is opgebouwd rondom één centraal conflict: de menselijke wens om uit het lichaam te treden (Container-schema verlaten) versus Gods beweging om in het lichaam te blijven (Incarnatie/Opstanding). Alle sub-metaforen (fietsen, DNA, vis eten) ondersteunen dit centrale punt.",
+      "incoherentie_punten": [],
+      "succesvolle_blending": [
+        {
+          "locatie": "Middenstuk (Fietsen)",
+          "gemengde_metaforen": [
+            "Leren is fysiek proces",
+            "Geestelijke groei"
+          ],
+          "blending_strategie": "De prediker gebruikt het concrete voorbeeld van leren fietsen (vallen, bloed, knieën) om aan te tonen dat 'mens worden' inherent fysiek is, en projecteert dit op de theologische antropologie."
+        }
+      ]
+    },
+    "sterktes": [
+      {
+        "sterkte_type": "REVITALISATIE",
+        "beschrijving": "De preek revitaliseert het beeld van de opstanding door radicaal in te zoomen op de fysieke ongemakken (kauwen, verteren, wonden) in plaats van de glorieuze lichtglans.",
+        "voorbeeld": "Vette vis eet je slechts wanneer je er weer helemaal bent."
+      },
+      {
+        "sterkte_type": "EMOTIONELE_RESONANTIE",
+        "beschrijving": "Sterke verbinding met de ervaring van ouderdom en fysiek verval, wat herkenbaar is voor de doelgroep.",
+        "voorbeeld": "Een haperend gehoor, een falend zicht, een slecht geheugen en een oncontroleerbare blaas."
+      }
+    ],
+    "risicos": [
+      {
+        "risico_type": "LITERALISERING",
+        "beschrijving": "Door de nadruk op 'kibbeling' en 'vette vis' kan het mysterie van het opstandingslichaam (dat ook door gesloten deuren kan) te plat worden gemaakt.",
+        "voorbeeld": "Ik heb met liefde kibbeling gebakken... vette vis.",
+        "potentiele_impact": "De hoorder kan gaan denken dat de hemel een voortzetting is van aards biologisch leven (eten, spijsvertering).",
+        "ernst": "LAAG"
+      },
+      {
+        "risico_type": "THERAPEUTISCHE_REDUCTIE",
+        "beschrijving": "Het evangelie wordt sterk gekaderd als 'acceptatie van je lichaam' en 'omgaan met schaamte'.",
+        "voorbeeld": "Hij is een steun voor iedereen die worstelt met pijn, teleurstelling en schaamte.",
+        "potentiele_impact": "Risico dat de kosmische dimensie van de opstanding (overwinning op de doodsmacht) ondergesneeuwd raakt door de psychologische dimensie (zelfacceptatie).",
+        "ernst": "MATIG"
+      }
+    ],
+    "text_world_analyse": {
+      "primaire_wereld": "De Bovenzaal in Jeruzalem, waar angst heerst en de geur van vis hangt.",
+      "sub_worlds": [
+        "De studeerkamer van de Septuagint-vertalers (Alexandrië)",
+        "Het ziekenhuisbed/verpleeghuis van de moderne mens",
+        "De straat waar een kind leert fietsen"
+      ],
+      "world_building_effectiviteit": "LEVENDIG",
+      "deictic_shifts": [
+        {
+          "locatie": "Begin preek",
+          "van_wereld": "Kerkzaal nu",
+          "naar_wereld": "200 v.Chr. Alexandrië",
+          "effectiviteit": "Sterk, door fysieke details toe te voegen ('krabt in grijs geworden baard')."
+        },
+        {
+          "locatie": "Einde preek",
+          "van_wereld": "Bovenzaal Jeruzalem",
+          "naar_wereld": "De wereld nu (zending)",
+          "effectiviteit": "Vloeiend via de metafoor van 'luiken openen'."
+        }
+      ]
+    },
+    "schema_analyse": {
+      "versterkte_schemas": [
+        {
+          "schema_naam": "God als Medelijder",
+          "hoe_versterkt": "Door Jezus te tonen die zijn wonden niet verbergt maar deelt."
+        }
+      ],
+      "verstoorde_schemas": [
+        {
+          "schema_naam": "Goddelijke Perfectie = Fysieke Gaafheid",
+          "verstoring_strategie": "Door te benadrukken dat de Opgestane Heer nog steeds gaten en wonden heeft.",
+          "vervangend_schema": "Goddelijke Perfectie = Geïntegreerde Kwetsbaarheid"
+        },
+        {
+          "schema_naam": "Opstanding = Geestelijk voortleven",
+          "verstoring_strategie": "Expliciete ontkenning ('geen herinnering', 'geen fijn gevoel') en nadruk op botten en vis.",
+          "vervangend_schema": "Opstanding = Lichamelijke realiteit"
+        }
+      ],
+      "liturgische_schema_aansluiting": "Past bij Pasen, maar breekt met het 'Halleluja-triomfalisme' door de wonden centraal te houden."
+    }
+  },
+  "aanbevelingen": {
+    "metafoor_audit_samenvatting": "De preek wordt gedomineerd door somatische (lichamelijke) metaforen. Het lichaam is zowel het probleem (brondomein voor verval) als de oplossing (doeldomein voor incarnatie/opstanding). De prediker slaagt erin om 'lichamelijkheid' te herwaarderen van een last naar een plek van Godsanwezigheid. De architecturale en medische metaforen ondersteunen dit consistent.",
+    "revitalisatie_suggesties": [
+      {
+        "doel_metafoor": "Bekering en vergeving (Lukas 24:47)",
+        "huidige_status": "Wordt in de preek relatief abstract gelaten vergeleken met de fysieke opstanding.",
+        "suggestie": "Koppel vergeving ook aan fysieke termen, passend bij de rest van de preek.",
+        "strategie": "NARRATIEVE_EMBODIMENT",
+        "voorbeeld": "Vergeving is niet alleen een juridisch besluit in de hemel, maar het 'loslaten van de kramp' in je spieren, het 'uitademen' van de schuld."
+      }
+    ],
+    "coherentie_verbeteringen": [
+      {
+        "incoherentie": "Spanning tussen 'DNA als slijtage/fout' (Psalm 8 deel) en 'God heeft ons met een lijf geschapen' (Jezus deel).",
+        "resolutie_strategie": "Verduidelijken dat de *creatuurlijkheid* goed is, maar de *vergankelijkheid* een gevolg van de zonde/gebrokenheid, die in Christus niet wordt weggenomen maar wordt getransformeerd."
+      }
+    ],
+    "entailment_checks": [
+      {
+        "metafoor": "Jezus eet vette vis (Kibbeling)",
+        "problematisch_entailment": "Impliceert dat de opgestane Heer nog steeds metabolisme/spijsvertering nodig heeft om te overleven.",
+        "aanbeveling": "Expliciet maken dat Hij at om te *bewijzen* dat Hij kon eten, niet omdat Hij honger had om te overleven (zoals klassieke theologie stelt)."
+      }
+    ],
+    "alternatieve_domeinen": [
+      {
+        "voorgesteld_domein": "KUNST/RESTAURATIE",
+        "rationale": "In plaats van 'reparatie' (medisch) of 'nieuwbouw' (architectuur), kan Kintsugi (Japanse kunst van lijmen met goud) helpen.",
+        "doel_concept": "De wonden van Jezus die blijven, maar verheerlijkt zijn (goud in de barsten)."
+      }
+    ],
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een theologisch diepzinnige en cognitief sterke preek. U durft de 'lelijke' kant van het lichaam te benoemen, wat de boodschap van de lichamelijke opstanding des te krachtiger maakt. De 'schema disruption' (een gewonde God vs. een Griekse god) is meesterlijk uitgevoerd."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_esthetiek": "Een esthetische analyse zou zich richten op de humor van de 'kibbeling' of de retorische opbouw van de inleiding. CMT laat zien *waarom* de kibbeling werkt: het forceert het concept 'geest' uit het hoofd van de hoorder en dwingt tot een fysiek schema.",
+    "verschil_met_kolb": "Kolb zou kijken of er voor 'doeners' en 'denkers' iets in zit. CMT analyseert hoe *alle* hoorders, ongeacht leerstijl, het abstracte concept 'Opstanding' begrijpen via de concrete ervaring van 'Eten' en 'Wonden'.",
+    "unieke_inzichten_CMT": "CMT onthult dat de preek niet alleen gaat over 'Pasen', maar fundamenteel over 'Identiteit'. De preek herprogrammeert de definitie van 'Ik': van 'Ik ben een geest in een machine' naar 'Ik ben een geliefd lichaam'."
+  },
+  "appendices": {
+    "volledige_metafoor_lijst": [
+      "DNA als bouwtekening",
+      "Leven als lichtflits",
+      "Lichaam als gevangenis/last",
+      "Opstanding als doorstart",
+      "Zending als luiken openzetten",
+      "Geloof als leren fietsen",
+      "God als vertaler (impliciet)",
+      "Wonden als identiteitsbewijs"
+    ],
+    "woord_frequentie_analyse": {
+      "lichaam/lijf": "Veel",
+      "handen/voeten": "Frequent",
+      "ontsnappen": "Frequent",
+      "geest": "Matig (als contrast)",
+      "wonden/gaten": "Matig"
+    },
+    "notities": "De prediker maakt effectief gebruik van 'embodied cognition' door de luisteraar eerst hun eigen lichaam te laten voelen (pijn, ouderdom) alvorens de theologie van de opstanding te introduceren."
+  }
+}

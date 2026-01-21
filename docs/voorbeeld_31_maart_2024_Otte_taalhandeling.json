@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "titel_preek": "Lichamelijke Opstanding en Menselijke Kwetsbaarheid",
+    "bijbeltekst": "Psalm 8:5-6 & Lukas 24:39-40",
+    "analyse_datum": "2024-05-20",
+    "geschat_aantal_woorden": "2100"
+  },
+  "drievoudige_structuur_analyse": {
+    "locutie": {
+      "beschrijving": "De preek behandelt de spanning tussen menselijke kwetsbaarheid (lichamelijkheid, sterfelijkheid) en de neiging om hieraan te willen ontsnappen (spiritualiseren). Dit wordt exegetisch onderbouwd met de vertaalkwestie in Psalm 8 (God vs. engelen) en de fysieke realiteit van de opgestane Christus in Lukas 24 (wonden, vis eten).",
+      "exegetische_kwaliteit": "Hoog. De prediker maakt een helder punt over de Septuagint-vertaling en verbindt dit overtuigend met de gnostieke verleiding om het lichaam te verachten.",
+      "omvang_procent": "75%"
+    },
+    "illocutie": {
+      "beschrijving": "De prediker legt uit, beschrijft, analyseert de menselijke conditie en roept uiteindelijk op tot actie. De illocutionaire kracht is voornamelijk assertief (beschrijvend) en directief (aansporend).",
+      "primaire_kracht": "ASSERTEREN",
+      "helderheid_score": "7",
+      "voorbeelden": [
+        "Ons lichaam is het bewijs dat we niet als God zijn.",
+        "Jezus is opgewekt met hoofd, schouders, knie en teen.",
+        "Jullie moeten naar de ander."
+      ]
+    },
+    "perlocutie": {
+      "beoogd_effect": "De hoorder moet zich verzoenen met zijn/haar eigen lichamelijke kwetsbaarheid, troost vinden in de fysieke opstanding van Christus, en geactiveerd worden om 'naar buiten' te gaan.",
+      "pneumatologisch_bewustzijn": "Impliciet. De 'kracht uit de hoogte' wordt genoemd in het slot, maar de werking van de preek lijkt vooral te leunen op cognitieve overtuiging en existentiële herkenning.",
+      "perlocutionaire_werkwoorden": [
+        "accepteren",
+        "geloven",
+        "bemoedigd worden",
+        "uitdragen"
+      ]
+    }
+  },
+  "werkwoord_analyse": {
+    "assertieven": {
+      "frequentie": "Zeer hoog",
+      "procent": "70%",
+      "voorbeelden": [
+        "De mens is geen God",
+        "Er zit een kloof",
+        "Jezus is niet opgewekt als een herinnering",
+        "Het is een nieuw begin"
+      ],
+      "dominante_werkwoorden": [
+        "zijn",
+        "hebben",
+        "staan",
+        "blijken",
+        "zien"
+      ]
+    },
+    "directieven": {
+      "frequentie": "Matig (vooral in slot)",
+      "procent": "15%",
+      "voorbeelden": [
+        "Petrus, gooi die luiken eens op!",
+        "Julie moeten naar de ander",
+        "We mogen de genade en de vrede laten zien"
+      ],
+      "dominante_werkwoorden": [
+        "moeten",
+        "mogen",
+        "laten",
+        "doen"
+      ],
+      "fundament_check": "true"
+    },
+    "expressieven": {
+      "frequentie": "Matig",
+      "procent": "10%",
+      "voorbeelden": [
+        "Ik kan me zomaar voorstellen...",
+        "Ik weet nog heel goed...",
+        "Dat is wel moeilijk voor ons"
+      ],
+      "dominante_werkwoorden": [
+        "voorstellen",
+        "voelen",
+        "verlangen",
+        "schamen"
+      ]
+    },
+    "commissieven": {
+      "frequentie": "Laag",
+      "procent": "3%",
+      "voorbeelden": [
+        "Hij is een steun voor iedereen die worstelt"
+      ],
+      "dominante_werkwoorden": [
+        "zijn (in belovende zin)",
+        "bieden"
+      ],
+      "kwaliteit": "Zwak. De beloften worden gepresenteerd als feiten over Jezus (3e persoon) in plaats van directe toezeggingen aan de hoorder (1e/2e persoon)."
+    },
+    "declaratieven": {
+      "frequentie": "Zeer laag",
+      "procent": "2%",
+      "voorbeelden": [
+        "Vanuit het evangelie klinkt vanavond een tegenstem"
+      ],
+      "dominante_werkwoorden": [
+        "klinken",
+        "presenteren"
+      ],
+      "autoriteit": "De prediker spreekt met gezag over de tekst, maar neemt zelden de rol van mandataris aan om namens God direct iets te scheppen/vergeven in het nu."
+    }
+  },
+  "constatief_performatief_diagnose": {
+    "primaire_classificatie": "CONSTATIEF_SURPLUS",
+    "constatief_percentage": "70%",
+    "performatief_percentage": "5%",
+    "constatief_surplus_analyse": {
+      "aanwezig": "true",
+      "ernst": "MATIG",
+      "indicatoren": [
+        "Veel uitleg over wat de vertalers dachten",
+        "Uitgebreide beschrijvingen van lichamelijk verval (rugwervel, tanden)",
+        "Theologische stellingen over wie Jezus is ('Hij is een steun') in plaats van de steun bedienen."
+      ],
+      "effect_op_hoorder": "De hoorder wordt aan het denken gezet en voelt zich begrepen (empathie), maar wordt primair geïnformeerd over de betekenis van Pasen in plaats van direct in de heilsrealiteit getrokken."
+    },
+    "performatief_deficit_analyse": {
+      "aanwezig": "true",
+      "ernst": "ERNSTIG",
+      "missende_elementen": [
+        "Directe aanzegging van vergeving of heling",
+        "Expliciete belofte ('Ik zeg u toe')",
+        "Sacramentele taal in de tegenwoordige tijd"
+      ],
+      "effect_op_hoorder": "De hoorder blijft toeschouwer van het drama tussen Jezus en de discipelen, en moet zelf de vertaalslag maken naar zijn eigen leven ('is een spiegel')."
+    },
+    "toezegging_check": {
+      "toezegging_aanwezig": "false",
+      "aantal_toezeggen": "0",
+      "kwaliteit_toezeggen": "Niet van toepassing in strikte zin. Er zijn wel bemoedigende asserties ('Hij is een steun'), maar geen performatieve toezeggingen ('Ik beloof u steun').",
+      "voorbeelden": [],
+      "moment_in_preek": "N.v.t."
+    }
+  },
+  "adressering_analyse": {
+    "persoonsvorm_distributie": {
+      "eerste_persoon": {
+        "frequentie": "Gemiddeld",
+        "gebruik": "Vooral autobiografisch ('Ik had dat al op jonge leeftijd') en inclusief wij ('Wij zijn geen goden')."
+      },
+      "tweede_persoon": {
+        "frequentie": "Matig",
+        "gebruik": "Soms direct ('Misschien zegt u', 'U weet wel'), maar vaak in hypothetische dialogen of algemene zin.",
+        "performatieve_context": "Nee, de 'u' wordt gebruikt om herkenning op te roepen, niet om een belofte aan te doen."
+      },
+      "derde_persoon": {
+        "frequentie": "Hoog",
+        "gebruik": "Over 'de mens', 'de vertalers', 'Jezus', 'de leerlingen'.",
+        "distantie_effect": "Creëert een beschouwende afstand; we kijken naar een tafereel."
+      }
+    },
+    "tijdsdimensie": {
+      "verleden_tijd": {
+        "frequentie": "40%",
+        "gebruik": "Exegese Psalm 8, verhaal van de discipelen."
+      },
+      "tijdloos_present": {
+        "frequentie": "40%",
+        "gebruik": "Algemene waarheden over het lichaam en God."
+      },
+      "actueel_present": {
+        "frequentie": "20%",
+        "gebruik": "De toepassing in het nu ('Vanuit het evangelie klinkt vanavond...')."
+      }
+    },
+    "adressering_effectiviteit": "6"
+  },
+  "sacramenteel_patroon_analyse": {
+    "patroon_identificatie": "GEMENGD",
+    "foutief_patroon": {
+      "aanwezig": "false",
+      "beschrijving": "Niet puur moralistisch; er is veel aandacht voor de indicatief (Jezus' opstanding).",
+      "voorbeelden": [],
+      "probleem": ""
+    },
+    "sacramenteel_patroon": {
+      "aanwezig": "false",
+      "beschrijving": "De beweging is Assertief (Uitleg) -> Assertief (Toepassing/Spiegel) -> Directief (Opdracht). De performatieve schakel (Toezegging) ontbreekt grotendeels.",
+      "voorbeelden": [],
+      "kwaliteit": "Matig. De indicatief wordt uitgelegd, maar niet 'bediend'."
+    },
+    "indicatief_imperatief_verhouding": {
+      "indicatief_aanwezig": "true",
+      "imperatief_gefundeerd": "true",
+      "voorbeelden_goede_verhouding": [
+        "Dankzij de opgestane Jezus... is er hoop (Indicatief) -> Wat moet er dan precies gebeuren? ... luiken open (Imperatief)"
+      ],
+      "voorbeelden_slechte_verhouding": []
+    }
+  },
+  "diagnostische_evaluatie": {
+    "primaire_diagnose": "TROOSTEND_EVANGELISCH",
+    "diagnose_toelichting": "De preek is sterk pastoraal en empathisch. De prediker staat naast de hoorder in de gebrokenheid van het bestaan. Echter, in termen van Taalhandelingstheorie blijft het een 'preek over': een preek over troost, over lichamelijkheid, over Jezus. Het wordt geen sacramenteel gebeuren waarin Christus zelf als subject optreedt om de hoorder aan te spreken en te herscheppen. De preek informeert de hoorder over de theologische status van het lichaam, maar voltrekt de heling niet in de taalhandeling zelf.",
+    "sterke_punten": [
+      {
+        "aspect": "Existentiële herkenning (Locutie/Expressief)",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "'Het doet ons snotteren, zweten, kwijlen, bloeden...'",
+        "effect": "Zeer effectief in het creëren van een 'common ground'. De hoorder voelt zich begrepen in zijn lichamelijkheid."
+      },
+      {
+        "aspect": "Christologische focus",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "'Jezus’ identiteit zijn de gaten en de wonden.'",
+        "effect": "Sterke theologische correctie op succes-evangelie of spiritualisme."
+      }
+    ],
+    "zwakke_punten": [
+      {
+        "aspect": "Gebrek aan performatieve toezegging",
+        "categorie": "COMMISSIEF",
+        "tekstueel_bewijs": "'Hij is een steun voor iedereen die worstelt...'",
+        "probleem": "Dit is een beschrijving van Jezus' functie (3e persoon), geen toezegging van Jezus aan de hoorder ('Ik ben uw steun'). Het blijft objectiverend.",
+        "ernst": "ERNSTIG"
+      },
+      {
+        "aspect": "Afstandelijke formulering van het heil",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "'Dat is wel moeilijk voor ons, om dat te accepteren.'",
+        "probleem": "De preek analyseert onze reactie op het heil meer dan dat het heil wordt uitgedeeld.",
+        "ernst": "MATIG"
+      }
+    ],
+    "gebeuren_score": "5",
+    "gebeuren_toelichting": "De preek is een boeiende verhandeling en een warm pastoraal betoog, maar functioneert taalkundig als een lezing over de opstanding en het lichaam. Het 'gebeuren' zit in de cognitieve herkenning, niet in de illocutionaire kracht van de sacramentele toezegging.",
+    "sacramentele_kracht": "4",
+    "sacramentele_toelichting": "Er wordt weinig 'geschapen' door het woord; er wordt vooral verwezen naar een werkelijkheid die elders (in de Bijbel, in het verleden) ligt."
+  },
+  "theologische_diepte_analyse": {
+    "openbaringsleer": {
+      "god_als_spreker": "Indirect. God sprak in het verleden (via Jezus, via de tekst), de prediker legt dit uit.",
+      "prediker_als_mandataris": "De prediker spreekt meer als een mee-levende broeder/uitlegger dan als een gevolmachtigde heraut.",
+      "tekstueel_bewijs": [
+        "'Ik denk hierdoor...'",
+        "'Volgens mij niet...'",
+        "'Lieve gemeente, die opdracht staat nog steeds uit.'"
+      ]
+    },
+    "pneumatologie": {
+      "geest_rol_erkend": "Minimaal. De Geest wordt genoemd in een citaat ('kracht uit de hoogte'), maar speelt geen actieve rol in de structuur van de preek.",
+      "perlocutie_theologie": "De verandering lijkt afhankelijk van het inzicht van de hoorder ('Wie dat door laat dringen...', 'Wie eerlijk kijkt...').",
+      "tekstueel_bewijs": [
+        "'Wie op z’n lichaam ziet, wil vroeg of laat ontsnappen.'"
+      ]
+    },
+    "sacramentstheologie": {
+      "preek_als_genademiddel": "Beperkt. De preek verwijst naar genade, maar functioneert zelf niet als het middel waardoor genade wordt uitgestort.",
+      "epifanisch_taalgebruik": "De werkelijkheid wordt beschreven, niet opgeroepen.",
+      "tekstueel_bewijs": [
+        "'Daarmee demonstreert Jezus iets belangrijks.'"
+      ]
+    }
+  },
+  "aanbevelingen": {
+    "werkwoord_audit_samenvatting": "De preek wordt gedomineerd door werkwoorden van 'zijn' en 'zien' (constatief/assertief). Er is een overdaad aan beschrijvende zinnen die de situatie van de mens en de acties van Jezus in het verleden schetsen. De categorie 'beloven' (commissief) en 'verklaren' (declaratief) is nagenoeg afwezig in de actuele tijd.",
+    "performatieve_intensivering": {
+      "nodig": "true",
+      "specifieke_suggesties": [
+        {
+          "huidige_formulering": "'Hij is een steun voor iedereen die worstelt met pijn...'",
+          "voorgestelde_revisie": "'Christus zegt u vandaag toe: Ik ben uw steun in uw pijn.'",
+          "verschil": "Van een beschrijving over Jezus naar een ontmoeting met Jezus."
+        },
+        {
+          "huidige_formulering": "'Dankzij de opgestane Jezus... is er hoop voor de toekomst.'",
+          "voorgestelde_revisie": "'In de naam van de opgestane Heer verkondig ik u: er is hoop voor uw toekomst.'",
+          "verschil": "Van een logische conclusie naar een profetische aanzegging."
+        }
+      ]
+    },
+    "toezegging_versterking": {
+      "nodig": "true",
+      "probleem": "De troost wordt uitgelegd in plaats van toegezegd.",
+      "suggestie": "Gebruik de 1e persoon enkelvoud (namens God) of expliciete performatieve formules.",
+      "voorbeeldzinnen": [
+        "Ik zeg u aan: uw lichaam is geliefd door God.",
+        "Christus verbindt Zich hier en nu aan uw sterfelijkheid."
+      ]
+    },
+    "adressering_verbetering": {
+      "nodig": "true",
+      "probleem": "Veel gebruik van 'de mens', 'wij' (algemeen) en 'ze' (de discipelen).",
+      "suggestie": "Durf de hoorder directer aan te spreken in de toezegging, niet alleen in de herkenning van ellende.",
+      "voorbeeldzinnen": [
+        "Niet: 'De mens is geen God', maar: 'U bent geen God, en dat is goed.'"
+      ]
+    },
+    "indicatief_imperatief_herstel": {
+      "nodig": "false",
+      "probleem": "De verhouding is theologisch correct, alleen taalkundig zwak uitgevoerd.",
+      "suggestie": "Versterk de indicatief door deze performatief te maken, dan landt de imperatief ('naar buiten gaan') zachter en krachtiger."
+    },
+    "overall_beoordeling": "ADEQUAAT",
+    "slotopmerking": "Een inhoudelijk sterke en pastorale preek die de hoorder zeker zal raken door de herkenbaarheid. Om de preek van een 'lezing over troost' naar een 'daad van troost' te tillen, is het nodig om de beschrijvende afstand in te ruilen voor de sacramentele nabijheid van de toezegging."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_schulz_von_thun": "Schulz von Thun zou deze preek waarschijnlijk hoog waarderen op het 'Expressieve' (authentiek) en 'Zakelijke' (heldere uitleg) vlak. SAT onthult echter het theologische deficit: het ontbreken van de scheppende 'Godsspraak' (Declaratief) die niet in de psychologische oren van SvT past.",
+    "verschil_met_retoriek": "Retorisch is de preek sterk (beeldend taalgebruik, humor, opbouw). Illocutionair is de preek zwakker omdat de 'force' van de belofte ontbreekt.",
+    "unieke_inzichten_SAT": "SAT laat zien waarom een preek die 'alles goed zegt' (orthodox, pastoraal) toch kan aanvoelen als 'praten over' in plaats van een ontmoeting. Het zit in de werkwoordsvormen en de spreekrichting."
+  },
+  "appendices": {
+    "volledige_werkwoord_lijst": {
+      "assertief": [
+        "zijn",
+        "hebben",
+        "betekenen",
+        "staan",
+        "blijken",
+        "zien",
+        "weten",
+        "concluderen",
+        "vinden"
+      ],
+      "directief": [
+        "moeten",
+        "vragen",
+        "gooien",
+        "laten",
+        "doen",
+        "beginnen"
+      ],
+      "expressief": [
+        "danken",
+        "voelen",
+        "verlangen",
+        "schamen",
+        "verbazen",
+        "hopen"
+      ],
+      "commissief": [
+        "zijn (als steun)",
+        "bieden"
+      ],
+      "declaratief": [
+        "klinken (tegenstem)",
+        "presenteren"
+      ]
+    },
+    "kernzinnen_analyse": [
+      {
+        "zin": "'Hij is een steun voor iedereen die worstelt met pijn.'",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Beschrijft een eigenschap van Jezus.",
+        "effectiviteit": "Matig. Het informeert over steun, maar geeft het niet direct."
+      },
+      {
+        "zin": "'Petrus, gooi die luiken eens op!'",
+        "categorie": "DIRECTIEF",
+        "illocutionaire_kracht": "Bevel (in narratieve vorm).",
+        "effectiviteit": "Hoog. Levendig en activerend voor de hoorder via identificatie."
+      },
+      {
+        "zin": "'Ons lichaam is het bewijs dat we niet als God zijn.'",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Conclusie/Stelling.",
+        "effectiviteit": "Sterk in de locutionaire fase (overtuigen van de waarheid)."
+      }
+    ],
+    "notities": "De preek bevat veel 'narratieve directieven' (Jezus die tegen Petrus spreekt), die indirect als directief voor de gemeente functioneren."
+  }
+}

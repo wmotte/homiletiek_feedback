@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "titel_preek": "... dat wij kunnen liefhebben (All you need is love)",
+    "bijbeltekst": "1 Johannes 3:11–18",
+    "analyse_datum": "2023-10-27",
+    "geschat_aantal_woorden": "1350"
+  },
+  "primaire_analyse": {
+    "dominante_domeinen": [
+      {
+        "domein_type": "ARCHITECTURAAL",
+        "prominentie_score": "9",
+        "kernfrasen": [
+          "taalgebouw restaureren",
+          "gebouw laten vervallen",
+          "nieuw gebouw op de ene grond bouwen"
+        ],
+        "conceptuele_metafoor": "THEOLOGISCHE TRADITIE IS EEN VERVALLEN GEBOUW"
+      },
+      {
+        "domein_type": "RELATIONEEL_FAMILIAAL",
+        "prominentie_score": "8",
+        "kernfrasen": [
+          "All you need is love",
+          "Vader",
+          "broeders en zusters",
+          "elkaar liefhebben"
+        ],
+        "conceptuele_metafoor": "GELOOF IS HORIZONTALE LIEFDE (BROEDERSCHAP) ZONDER VERTICALE AUTORITEIT (VADER)"
+      },
+      {
+        "domein_type": "ECONOMISCH",
+        "prominentie_score": "7",
+        "kernfrasen": [
+          "bruto nationaal product",
+          "à fonds perdu",
+          "westerse kapitalisme",
+          "5% van het inkomen"
+        ],
+        "conceptuele_metafoor": "LIEFDE IS MATERIËLE HERVERDELING"
+      }
+    ],
+    "metafoor_inventaris": [
+      {
+        "metafoor_expressie": "Ik geloof niet dat we deze taal, dit taalgebouw kunnen restaureren. Ik geloof dat we dit gebouw moeten laten vervallen...",
+        "brondomein": {
+          "naam": "Architectuur / Bouw",
+          "concrete_elementen": [
+            "fundering",
+            "restauratie",
+            "verval",
+            "constructie"
+          ],
+          "belichaamde_basis": "shelter/structure"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Dogmatische Traditie vs. Nieuwe Theologie",
+          "doctrinale_traditie": "Politieke Theologie / God-is-dood theologie"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Oud gebouw",
+            "doel_element": "Klassieke dogma's (triniteit, maagdelijke geboorte)"
+          },
+          {
+            "bron_element": "Fundering (Grond)",
+            "doel_element": "Liefde (All you need is love)"
+          },
+          {
+            "bron_element": "Sloop/Verval",
+            "doel_element": "Deconstructie van religieuze taal"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Het oude geloof is onbewoonbaar geworden",
+            "Reparatie is zinloos; nieuwbouw is noodzakelijk"
+          ],
+          "theologische_implicaties": [
+            "Discontinuïteit met de traditie is noodzakelijk voor authenticiteit",
+            "Dogma's zijn menselijke constructies, geen eeuwige waarheden"
+          ],
+          "ethische_implicaties": [
+            "Men moet de moed hebben om religieuze zekerheden los te laten"
+          ],
+          "onbedoelde_consequenties": [
+            "Als het gebouw weg is, waar schuilen we dan? (Verlies van geborgenheid)"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Sölle revitaliseert het beeld van 'bouwen' door niet te focussen op opbouw (zoals gebruikelijk: 'gemeente opbouwen'), maar op de noodzaak van sloop en verval."
+      },
+      {
+        "metafoor_expressie": "De traditie heeft de kern binnen een verticaal schema van boven naar beneden ontplooid... Het veld waarbinnen we de banaliteit van het evangelie aannemen... is het veld van de horizontaliteit.",
+        "brondomein": {
+          "naam": "Ruimtelijke Oriëntatie (Geometrie)",
+          "concrete_elementen": [
+            "boven",
+            "beneden",
+            "horizontaal",
+            "verticaal"
+          ],
+          "belichaamde_basis": "verticality (up is power/God)"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Godsrelatie en Transcendentie",
+          "doctrinale_traditie": "Secularisatietheologie"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Verticaal (Boven-Beneden)",
+            "doel_element": "Autoritaire God vs. Onderworpen Mens"
+          },
+          {
+            "bron_element": "Horizontaal (Naast elkaar)",
+            "doel_element": "Mens tot Mens relatie als locus van het goddelijke"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "God is niet 'boven' ons, maar 'tussen' ons",
+            "Hiërarchie is verdacht"
+          ],
+          "theologische_implicaties": [
+            "Immanentie vervangt transcendentie",
+            "Atheïsme ten opzichte van de 'God daarboven' is christelijk"
+          ],
+          "ethische_implicaties": [
+            "Focus verschuift van aanbidding naar maatschappelijke solidariteit"
+          ],
+          "onbedoelde_consequenties": [
+            "Verlies van het 'Tegenover' (God als Ander)"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Dit is een bewuste 'schema disruption': ze valt het oer-schema HOOG IS GOD / LAAG IS MENS aan."
+      },
+      {
+        "metafoor_expressie": "Christus altijd alleen op het superego is betrokken... bevelen... Gij zult!",
+        "brondomein": {
+          "naam": "Psychoanalyse (Freud)",
+          "concrete_elementen": [
+            "Superego",
+            "Bevel",
+            "Angst",
+            "Instanties"
+          ],
+          "belichaamde_basis": "force (compulsion)"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Wet en Evangelie",
+          "doctrinale_traditie": "Lutherse traditie (kritisch bekeken)"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Superego",
+            "doel_element": "De God van de Wet / Traditie"
+          },
+          {
+            "bron_element": "Neurotische druk",
+            "doel_element": "Religieuze gehoorzaamheid"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Traditionele religie maakt ziek/neurotisch",
+            "Jezus wil ons bevrijden van interne dwang"
+          ],
+          "theologische_implicaties": [
+            "Liefde kan niet bevolen worden (anti-legalisme)"
+          ],
+          "ethische_implicaties": [
+            "Handelen vanuit spontaniteit en vrijheid in plaats van plicht"
+          ],
+          "onbedoelde_consequenties": [
+            "Risico dat ethiek puur subjectief wordt (wat 'goed voelt')"
+          ]
+        },
+        "vitaliteit_status": "CONVENTIONEEL",
+        "vitaliteit_toelichting": "In de jaren '60 was Freudiaans jargon zeer gangbaar, maar Sölle gebruikt het scherp om theologie te diagnosticeren."
+      }
+    ]
+  },
+  "diagnostische_evaluatie": {
+    "coherentie_analyse": {
+      "overall_coherentie": "ZEER_COHERENT",
+      "coherentie_verklaring": "Sölle bouwt een zeer strak betoog op. Ze deconstrueert systematisch de 'verticale' metaforen (God als Heer/Vader/Rechter) en vervangt deze consequent door 'horizontale' metaforen (God als Liefde/Gebeuren/Solidariteit). Er is geen verwarring; de breuk is het punt.",
+      "incoherentie_punten": [],
+      "succesvolle_blending": [
+        {
+          "locatie": "Slot van de preek",
+          "gemengde_metaforen": [
+            "God als Vuur (Natuur)",
+            "God als Capaciteit (Abstract)"
+          ],
+          "blending_strategie": "Ze definieert God als een werkwoord/gebeuren: 'God is dat wij kunnen liefhebben'. Het vuur is de energie van dat gebeuren. Dit voorkomt dat God een object wordt."
+        }
+      ]
+    },
+    "sterktes": [
+      {
+        "sterkte_type": "REVITALISATIE",
+        "beschrijving": "Ze neemt een 'dode' tekst (1 Joh 3:17 - vaak vergeestelijkt) en maakt hem schokkend concreet door hem economisch te laden.",
+        "voorbeeld": "Het gaat om 1% of 2% van het bruto nationaal product."
+      },
+      {
+        "sterkte_type": "HELDERHEID",
+        "beschrijving": "Ze durft de complexiteit van dogma's 'banaal' te noemen en terug te brengen tot één kern, wat cognitief zeer bevredigend werkt voor de hoorder.",
+        "voorbeeld": "All you need is love. Dat is het evangelie, niets daarbuiten."
+      }
+    ],
+    "risicos": [
+      {
+        "risico_type": "LITERALISERING",
+        "beschrijving": "Door God volledig gelijk te stellen aan menselijke liefde ('God is dat wij kunnen liefhebben'), verdwijnt het metaforische onderscheid tussen Bron en Doel. God *wordt* de menselijke actie.",
+        "voorbeeld": "We hebben hem niet nodig... God is dat we kunnen liefhebben.",
+        "potentiele_impact": "De gemeente kan concluderen dat bidden zinloos is en alleen politieke actie telt (antropologisch reductionisme).",
+        "ernst": "HOOG"
+      },
+      {
+        "risico_type": "UITSLUITING",
+        "beschrijving": "De preek creëert een sterke in-group/out-group dynamiek tegenover de 'traditie' en mensen die behoefte hebben aan een 'Vader'.",
+        "voorbeeld": "Tegenover al degenen die een Vader... willen hebben... zegt het evangelie onverbiddelijk: All you need is love.",
+        "potentiele_impact": "Mensen met existentiële nood of hechtingsbehoeften kunnen zich afgewezen voelen door de 'hardheid' van deze horizontale liefde.",
+        "ernst": "MATIG"
+      }
+    ],
+    "text_world_analyse": {
+      "primaire_wereld": "De hedendaagse, seculiere wereld (1968) met zijn politieke en economische structuren.",
+      "sub_worlds": [
+        "Het vervallen gebouw van de kerkelijke traditie",
+        "De hongerende Derde Wereld"
+      ],
+      "world_building_effectiviteit": "LEVENDIG",
+      "deictic_shifts": [
+        {
+          "locatie": "Middenstuk",
+          "van_wereld": "Theologische reflectie (het gebouw)",
+          "naar_wereld": "De Derde Wereld (honger)",
+          "effectiviteit": "Zeer effectief. De abstracte 'liefde' wordt plotseling pijnlijk concreet (honger, geld)."
+        }
+      ]
+    },
+    "schema_analyse": {
+      "versterkte_schemas": [
+        {
+          "schema_naam": "Christendom als Ethiek",
+          "hoe_versterkt": "Benadrukt dat geloof daden zijn (1 Joh 3:18)."
+        }
+      ],
+      "verstoorde_schemas": [
+        {
+          "schema_naam": "GOD IS VADER (Ouder-Kind schema)",
+          "verstoring_strategie": "Expliciete afwijzing van de behoefte aan een vaderfiguur als infantiel/neurotisch.",
+          "vervangend_schema": "GOD IS KRACHT/MOGELIJKHEID (Abstract/Dynamisch schema)"
+        },
+        {
+          "schema_naam": "RELIGIE IS VERTICAAL",
+          "verstoring_strategie": "Ruimtelijke heroriëntatie naar horizontaliteit.",
+          "vervangend_schema": "RELIGIE IS INTERMENSELIJKE SOLIDARITEIT"
+        }
+      ],
+      "liturgische_schema_aansluiting": "De preek breekt radicaal met de liturgische verwachting van troost en bevestiging, en functioneert als een politiek manifest."
+    }
+  },
+  "aanbevelingen": {
+    "metafoor_audit_samenvatting": "Sölle opereert in een landschap van 'ruïnes'. Ze gebruikt architecturale metaforen om de traditie dood te verklaren en ruimtelijke metaforen (horizontaal) om een nieuwe theologie te funderen. Het economische domein wordt niet metaforisch, maar letterlijk ingezet (geld geven). De kernmetafoor is GOD IS LIEFDE, maar dan ontdaan van persoonlijkheid (Vader) en herleid tot intermenselijke potentie.",
+    "revitalisatie_suggesties": [
+      {
+        "doel_metafoor": "God is dat wij kunnen liefhebben",
+        "huidige_status": "Risico op abstractie en verlies van 'agency' bij God.",
+        "suggestie": "Introduceer een relationeel element dat niet hiërarchisch is, maar wel persoonlijk.",
+        "strategie": "BRONDOMEIN_VERDIEPEN",
+        "voorbeeld": "In plaats van God als 'kracht' of 'vuur', gebruik metaforen van 'Partner' of 'De Stem die roept' om wederkerigheid te bewaren zonder in patriarchale patronen te vallen."
+      }
+    ],
+    "coherentie_verbeteringen": [
+      {
+        "incoherentie": "Spanning tussen 'Liefde is geen bevel' en de dwingende politieke eis (1-2% BNP).",
+        "resolutie_strategie": "Expliciet maken dat de politieke eis een 'natuurlijk gevolg' (entailment) is van de innerlijke transformatie, niet een nieuwe wet van buitenaf."
+      }
+    ],
+    "entailment_checks": [
+      {
+        "metafoor": "GOD IS DAT WIJ KUNNEN LIEFHEBBEN",
+        "problematisch_entailment": "Als wij falen in liefde, bestaat God dan op dat moment niet?",
+        "aanbeveling": "Wees voorzichtig met het volledig laten samenvallen van Gods bestaan met menselijke actie. Behoud een reserve (God als Bron van de liefde, niet slechts de daad zelf)."
+      }
+    ],
+    "alternatieve_domeinen": [
+      {
+        "voorgesteld_domein": "AGRARISCH / ORGANISCH",
+        "rationale": "Om 'horizontaliteit' te verzachten. Een netwerk van wortels (rhizoom) is horizontaal maar wel levend en verbonden, in plaats van puur politiek/structureel.",
+        "doel_concept": "De onderlinge verbondenheid van mensen in God."
+      }
+    ],
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een meesterlijke, zij het radicale, toepassing van schema-disruptie. U slaagt erin om de 'dode' taal van de traditie niet te reanimeren, maar te vervangen door een krachtige, politiek geladen 'world-view'. De consequentie waarmee u de verticale as verwerpt dwingt respect af, zelfs als het theologische risico's met zich meebrengt."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_esthetiek": "Een esthetische analyse zou focussen op de retorische kracht van de 'All you need is love' herhaling. CMT onthult echter de onderliggende cognitieve verschuiving: de vervanging van het VERTICALE schema door het HORIZONTALE schema als basis voor godsbegrip.",
+    "verschil_met_kolb": "Kolb zou vragen of de preek aansluit bij doeners of denkers. CMT laat zien hoe de preek *denkers* dwingt om hun conceptuele kaders (God = Boven) te herzien en *doeners* een nieuw script geeft (Liefde = BNP afstaan).",
+    "unieke_inzichten_CMT": "CMT laat zien dat Sölle niet zomaar 'modern' spreekt, maar dat ze fundamentele 'image schemas' (Container, Verticality) herprogrammeert. Ze sloopt de 'Container' van de kerk en plat de 'Verticality' van de hiërarchie. Dit verklaart waarom de preek als zo bevrijdend én zo bedreigend kan worden ervaren."
+  },
+  "appendices": {
+    "volledige_metafoor_lijst": [
+      "Taalgebouw",
+      "Restaureren",
+      "Laten vervallen",
+      "Fundament/Grond",
+      "Verticale schema",
+      "Horizontale veld",
+      "Superego (God)",
+      "Hart sluiten",
+      "God als Vuur",
+      "God als Kracht"
+    ],
+    "woord_frequentie_analyse": {
+      "liefde/liefhebben": "28",
+      "God": "12",
+      "banaal/banaliteit": "6",
+      "wereld": "14",
+      "nodig": "8"
+    },
+    "notities": "De preek is een tijdscapsule van de 'God-is-dood' theologie, maar de CMT-analyse toont aan dat de mechanismen (schema disruption) tijdloos relevant zijn voor predikers die vastzitten in dode metaforen."
+  }
+}

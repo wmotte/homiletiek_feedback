@@ -1,0 +1,277 @@
+{
+  "metadata": {
+    "titel_preek": "Een pratende slang, een gebrekkige muur en de bevrijdende kracht van de naam van Jezus",
+    "bijbeltekst": "Genesis 3:1-7 & Handelingen 16:16-25",
+    "analyse_datum": "2023-10-26",
+    "geschat_aantal_woorden": "1600"
+  },
+  "actantiele_analyse": {
+    "primair_narratief_programma": {
+      "beschrijving": "De onstuitbare inbraak van Gods liefde (via de Naam van Jezus) in de gebroken menselijke realiteit, analoog aan hoe het kwaad inbreekt.",
+      "subject": {
+        "identificatie": "De Naam van Jezus / De Liefde van God",
+        "tekstueel_bewijs": [
+          "De Naam van Jezus is verbonden met de liefde van God! En Zijn liefde kruipt overal doorheen.",
+          "De naam van Jezus is in staat om op elke plek te komen.",
+          "God kan je bereiken."
+        ],
+        "frequentie_score": "8"
+      },
+      "object": {
+        "identificatie": "Toegang tot de mens / Bevrijding / Nabijheid in de diepte",
+        "tekstueel_bewijs": [
+          "God kan je bereiken.",
+          "De boze geest... wordt uitgedreven",
+          "De liefde van God dringt overal door"
+        ],
+        "aard_van_object": "SOTERIOLOGISCH"
+      },
+      "zender": {
+        "identificatie": "God (als de onstuitbare zoeker)",
+        "tekstueel_bewijs": [
+          "Zijn liefde kruipt overal doorheen."
+        ],
+        "rol_interpretatie": "LIEFHEBBENDE_VADER"
+      },
+      "ontvanger": {
+        "identificatie": "De mens in zijn onvolmaakte 'tuin' (Adam/Eve, Slavin, Paulus/Silas, de Hoorder)",
+        "tekstueel_bewijs": [
+          "Ons huis, ons lichaam, onze relatie, ons geloof",
+          "Hoe bang je ook bent, hoe eenzaam je je voelt"
+        ],
+        "positie_hoorder": "De hoorder identificeert zich primair met de Ontvanger (degene bij wie ingebroken wordt)."
+      },
+      "helper": {
+        "identificatie": "Lofzang / Gebed / YouTube (als middelen)",
+        "tekstueel_bewijs": [
+          "Begin gewoon maar te zingen.",
+          "dan kan je ook voor je laten zingen",
+          "iets eenvoudigs. Zoals deze: Diep, diep, diep als de zee"
+        ],
+        "rol_van_god": "God is het Subject dat handelt; de menselijke handeling (zingen) is een respons of een kanaal.",
+        "rol_van_geest": "Impliciet aanwezig als de kracht die 'overal doorheen kruipt'."
+      },
+      "tegenstander": {
+        "identificatie": "Muren / Slang / Boze Geest / Menselijk onvermogen om perfectie te creëren",
+        "tekstueel_bewijs": [
+          "Muren van beton en staal",
+          "De sprekende slang",
+          "Een diepe en donkere kerker"
+        ],
+        "ernst_tegenstander": "KOSMISCH",
+        "toelichting_ernst": "De preek stelt dat geen enkele menselijke muur (preventie) de slang kan tegenhouden. Dit maakt de tegenstander te machtig voor de mens, wat de noodzaak voor een goddelijk Subject creëert."
+      }
+    },
+    "secundair_narratief_programma": {
+      "aanwezig": "true",
+      "beschrijving": "De menselijke reactie van lofprijzing in de duisternis.",
+      "subject": "De Hoorder / Paulus & Silas",
+      "object": "Zingen / Bidden",
+      "verhouding_tot_primair": "HIËRARCHISCH",
+      "toelichting_verhouding": "Het zingen (secundair) wordt gepresenteerd, maar direct gerelativeerd door genade: 'Stel nu dat het je niet lukt om te zingen, dan kan je ook voor je laten zingen.' Het primaire programma (Gods komst) blijft dominant."
+    },
+    "actantieel_schema_visualisatie": {
+      "zender_naar_ontvanger": "God → Nabijheid/Bevrijding → De gebroken mens",
+      "helper_subject_tegenstander": "Woord/Lofzang → Naam van Jezus/Liefde → Muren/Slang/Kerker",
+      "subject_naar_object": "Naam van Jezus → Bevrijding/Toegang"
+    }
+  },
+  "grammaticale_analyse": {
+    "subject_check": {
+      "god_als_subject_count": "Hoog in de climax (God, Jezus, Liefde, Naam)",
+      "mens_als_subject_count": "Hoog in de probleemanalyse (wij bouwen, wij schuren, wij falen)",
+      "ratio": "Evenwichtig, maar theologisch correct verdeeld",
+      "voorbeelden_god_subject": [
+        "Zijn liefde kruipt overal doorheen.",
+        "De naam van Jezus is in staat om op elke plek te komen.",
+        "God kan je bereiken."
+      ],
+      "voorbeelden_mens_subject": [
+        "Wij zijn niet goed in het maken van iets perfects.",
+        "Wij wonen op driehoog.",
+        "Begin gewoon maar te zingen."
+      ],
+      "rutledge_score": "8"
+    },
+    "modale_analyse": {
+      "devoir_faire": {
+        "prominentie": "3",
+        "voorbeelden": [
+          "Moeten we dat accepteren?",
+          "Begin gewoon maar te zingen."
+        ]
+      },
+      "vouloir_faire": {
+        "prominentie": "6",
+        "voorbeelden": [
+          "We proberen het zo hard... om zo'n plek te maken."
+        ]
+      },
+      "savoir_faire": {
+        "prominentie": "4",
+        "voorbeelden": [
+          "We weten het niet.",
+          "Wie op de hoogte is... voorkomt teleurstelling."
+        ]
+      },
+      "pouvoir_faire": {
+        "prominentie": "9",
+        "voorbeelden": [
+          "Zelfs God kan geen tuin maken... waar de slang niet binnenkomt (Retorische omkering)",
+          "De naam van Jezus is in staat om op elke plek te komen.",
+          "Er is geen hek... waarmee je de naam van Jezus kan tegenhouden."
+        ]
+      },
+      "dominante_modaliteit": "POUVOIR",
+      "modale_interpretatie": "De preek draait om macht/onmacht. De mens mist het 'Pouvoir' om het kwaad buiten te houden (de muren falen). God bezit het 'Pouvoir' om overal binnen te dringen (de muren falen ook voor Hem). Genade is hier de superieure inbraak-kracht van God."
+    }
+  },
+  "semiotisch_vierkant_analyse": {
+    "primaire_tegenstelling": {
+      "s1": "Gods Inbraak (Liefde/Jezus)",
+      "s2": "Slangs Inbraak (Kwaad/Dood)",
+      "niet_s1": "Afwezigheid van God (De hermetische muur)",
+      "niet_s2": "Afwezigheid van Kwaad (Het perfecte paradijs)"
+    },
+    "beweging_in_preek": "De preek begint met de onmogelijkheid van ~S2 (Het perfecte paradijs bestaat niet, wij falen in het bouwen van muren). Dit leidt tot de realiteit van S2 (De slang komt altijd binnen). De wending is dat S1 (Gods liefde) dezelfde structuur heeft als S2: het breekt óók overal doorheen.",
+    "theologische_resolutie": "De preek lost de spanning niet op door S2 te ontkennen (het kwaad is er), maar door S1 sterker te verklaren. 'Die laatste is toch sterker.'",
+    "ernst_van_s2": "Zeer serieus. De preek erkent kanker, echtscheiding, geloofstwijfel en de onmogelijkheid van een veilig paradijs op aarde."
+  },
+  "diagnostische_evaluatie": {
+    "primaire_classificatie": "GENADE",
+    "classificatie_toelichting": "De preek is fundamenteel theocentrisch. Het begint met een deconstructie van het menselijk project (het bouwen van muren/paradijzen), wat een klassieke anti-moralistische zet is. De mens wordt niet opgeroepen om harder te werken aan zijn heiligheid, maar om te erkennen dat muren falen. De redding komt van buitenaf (de Naam van Jezus) die, net als de slang, inbreekt. De toepassing (zingen) wordt pastoraal zacht gemaakt ('als het je niet lukt...'), waardoor het geen nieuwe wet wordt.",
+    "indicatoren_moralisme": [
+      {
+        "indicator": "Imperatief tot zingen aan het eind",
+        "tekstueel_bewijs": "Begin gewoon maar te zingen.",
+        "ernst": "GERING"
+      }
+    ],
+    "indicatoren_genade": [
+      {
+        "indicator": "God als onstuitbaar Subject",
+        "tekstueel_bewijs": "Zelfs al zit er een boze geest in je hart alle gaatjes dicht te kitten, dan nog komt de liefde binnen.",
+        "sterkte": "ZEER_STERK"
+      },
+      {
+        "indicator": "Erkenning van menselijk onvermogen (Pouvoir)",
+        "tekstueel_bewijs": "Wij zijn niet goed in het maken van iets perfects.",
+        "sterkte": "STERK"
+      },
+      {
+        "indicator": "Plaatsvervanging in respons",
+        "tekstueel_bewijs": "Stel nu dat het je niet lukt om te zingen, dan kan je ook voor je laten zingen.",
+        "sterkte": "STERK"
+      }
+    ],
+    "exemplarisme_check": {
+      "aanwezig": "true",
+      "beschrijving": "Paulus en Silas worden genoemd, maar niet als 'helden van geloof' die wij moeten nadoen om gered te worden.",
+      "bijbelse_figuren_als_model": [
+        "Paulus en Silas (hun zingen)"
+      ],
+      "alternatieve_lezing": "De prediker gebruikt hen vooral om de kracht van de *Naam* te demonstreren, niet hun eigen voortreffelijkheid. Hun zingen is een reactie in de diepte, geen voorwaarde voor de diepte."
+    },
+    "identificatie_patroon": {
+      "hoorder_identificeert_met": "ONTVANGER_GEREDDE",
+      "effect_op_hoorder": "De hoorder mag zijn onmacht (lekkende muren, fruitvliegjes, zonde) erkennen en hoeft niet krampachtig de controle te houden. Dit geeft rust.",
+      "theologische_implicatie": "Soteriologie is monergistisch: God komt binnen, ongeacht onze muren."
+    },
+    "narratieve_coherentie": {
+      "coherentie_score": "9",
+      "coherentie_beschrijving": "De metafoor van het 'inbreken' (knippen) wordt consequent volgehouden: eerst de slang, dan de genade. Dit verbindt Genesis 3 en Handelingen 16 structureel sterk.",
+      "spanning_punten": [
+        "Geen noemenswaardige spanning."
+      ]
+    }
+  },
+  "theologische_diepte_analyse": {
+    "soteriologie": {
+      "primaire_model": "CHRISTUS_VICTOR",
+      "tekstueel_bewijs": "De nadruk ligt op de strijd tussen machten: de slang/geest versus de Naam van Jezus. Jezus overwint de bezetting.",
+      "menselijke_rol_in_redding": "PASSIEF_ONTVANGER"
+    },
+    "pneumatologie": {
+      "rol_heilige_geest": "INWONENDE_KRACHT",
+      "competentie_schenking": "De Geest (impliciet als Gods liefde) wordt voorgesteld als een kracht die door muren heen breekt, vergelijkbaar met fruitvliegjes (alomtegenwoordig en onstuitbaar)."
+    },
+    "hamartologie": {
+      "aard_van_zonde": "KOSMISCH_MACHT",
+      "ernst_diagnose": "Zonde is hier vooral een inbrekende macht (slang) en een gebroken realiteit, meer dan een morele fout van de mens. De mens is slachtoffer van de inbraak."
+    },
+    "eschatologie": {
+      "hoop_structuur": "REEDS_EN_NOG_NIET",
+      "actant_van_voltooiing": "God (Het paradijs is hier ver weg, maar God is er wel)."
+    }
+  },
+  "aanbevelingen": {
+    "actantiele_audit_samenvatting": "De preek heeft een sterke genade-structuur. Het Subject (God/Jezus) is actief en overwinnend ten opzichte van een sterke Tegenstander (Slang/Muren). De mens wordt correct gepositioneerd als Ontvanger die zijn eigen onmacht moet erkennen. De metafoor van 'inbreken' werkt uitstekend om wet (zelfbescherming) en evangelie (Gods invasie) te contrasteren.",
+    "subject_herpositionering": {
+      "nodig": "false",
+      "huidige_probleem": "N.v.t.",
+      "voorgestelde_herpositionering": "N.v.t.",
+      "voorbeeld_revisie": "N.v.t."
+    },
+    "identificatie_herstel": {
+      "nodig": "false",
+      "problematische_identificatie": "N.v.t.",
+      "voorgestelde_identificatie": "N.v.t.",
+      "strategie": "De huidige identificatie met de kwetsbare mens (Adam/Eva/Slavin) is theologisch gezond."
+    },
+    "modale_balans": {
+      "huidige_onbalans": "Geen onbalans. De nadruk op Pouvoir (Gods kunnen) is precies wat nodig is in een tekst over bevrijding.",
+      "voorgestelde_balans": "Handhaaf de troostrijke toon aan het einde.",
+      "concrete_suggestie": "De toevoeging 'of laat voor je zingen' is cruciaal; behoud dit soort 'escapes' uit de wet."
+    },
+    "tegenstander_intensivering": {
+      "nodig": "false",
+      "huidige_status": "De Tegenstander wordt serieus genomen (kanker, echtscheiding, nazisme).",
+      "voorgestelde_intensivering": "N.v.t.",
+      "theologische_rationale": "N.v.t."
+    },
+    "narratieve_hierarchie_herstel": {
+      "nodig": "false",
+      "probleem": "N.v.t.",
+      "voorgestelde_structuur": "N.v.t."
+    },
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een verfrissende, diepgaande preek die de valkuil van moralisme ('bouw betere muren') vakkundig vermijdt. Door de analogie tussen de inbraak van de zonde en de inbraak van genade, wordt het Evangelie verkondigd als een kracht die van buitenaf komt (extra nos). De pastorale wending aan het slot maakt het geheel af."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_retorische_analyse": "Een retorische analyse zou focussen op de metaforen (fruitvliegjes, muren). De actantiële analyse laat zien *waarom* deze metaforen werken: ze verschuiven het Subject van de mens (die faalt in muren bouwen) naar God (die door muren breekt).",
+    "verschil_met_exegese": "Exegetisch zou men kunnen twisten over de 'slang' interpretatie. Semiotisch is het echter briljant: de slang functioneert als de structurele tegenhanger van Christus, wat de noodzaak van Christus versterkt.",
+    "unieke_inzichten_greimas": "Het model toont aan dat de 'fruitvliegjes' geen triviaal voorbeeld zijn, maar de cruciale modale demonstratie van Gods 'Pouvoir' (het vermogen om overal binnen te dringen)."
+  },
+  "appendices": {
+    "volledige_subject_lijst": [
+      "De slang (breekt in)",
+      "God (maakt tuin, jubelt, breekt in)",
+      "Wij (maken, schuren, kijken)",
+      "De Naam van Jezus (drijft uit, komt binnen)",
+      "Liefde (kruipt)",
+      "Paulus (spreekt)"
+    ],
+    "volledige_object_lijst": [
+      "De tuin/Paradijs",
+      "De mens/Eva/Adam",
+      "De slavin",
+      "Bevrijding",
+      "Zaligheid"
+    ],
+    "werkwoord_frequentie": {
+      "inbreken/knippen": {
+        "count": "6",
+        "primair_subject": "Zowel Slang als God"
+      },
+      "bouwen/maken": {
+        "count": "5",
+        "primair_subject": "Mens (faalt)"
+      },
+      "komen/bereiken": {
+        "count": "4",
+        "primair_subject": "God/Jezus"
+      }
+    },
+    "notities": "De preek bevat een interessante 'dubbele beweging': de angst voor inbraak (negatief) wordt omgebogen naar de hoop op inbraak (positief)."
+  }
+}

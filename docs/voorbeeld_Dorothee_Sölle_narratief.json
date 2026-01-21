@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "titel_preek": "... dat wij kunnen liefhebben",
+    "bijbeltekst": "1 Johannes 3:11–18",
+    "analyse_datum": "2023-10-27",
+    "geschat_aantal_woorden": "1200"
+  },
+  "actantiele_analyse": {
+    "primair_narratief_programma": {
+      "beschrijving": "De mensheid (specifiek de generatie van 1968) moet de traditionele dogmatiek verlaten om de wereld te redden door politieke en daadwerkelijke liefde.",
+      "subject": {
+        "identificatie": "Wij (De moderne christenen / De generatie van de 'nieuwe theologie')",
+        "tekstueel_bewijs": [
+          "dat we het [gebouw van traditie]... moeten verlaten",
+          "we zullen de kern ontplooien binnen de wereld",
+          "dat we een politiek voeren die het ons toestaat om à fonds perdu aan de hongerenden te geven"
+        ],
+        "frequentie_score": "9"
+      },
+      "object": {
+        "identificatie": "Een wereld van gerechtigheid / Het 'eeuwige leven' (herdefinieerd als politieke daad)",
+        "tekstueel_bewijs": [
+          "All you need is love",
+          "dat alle rijke volkeren... 2% van hun bruto nationaal product afstaan",
+          "Het eeuwige leven beslist zich hier bij ons"
+        ],
+        "aard_van_object": "ETHISCH"
+      },
+      "zender": {
+        "identificatie": "De 'banale waarheid' van het Evangelie / Het inzicht",
+        "tekstueel_bewijs": [
+          "De boodschap is oneindig banaal... dat we elkaar moeten liefhebben",
+          "Johannes zegt: Ik breng jullie geen nieuwe boodschap"
+        ],
+        "rol_interpretatie": "WETGEVER"
+      },
+      "ontvanger": {
+        "identificatie": "De Derde Wereld / De hongerenden / De samenleving",
+        "tekstueel_bewijs": [
+          "de hongerenden",
+          "de Derde Wereld [die] in steeds groter ongeluk gestort [wordt]"
+        ],
+        "positie_hoorder": "Identificeert de hoorder zich met Subject"
+      },
+      "helper": {
+        "identificatie": "Het besef dat God 'liefde' is / Menselijke solidariteit / Politieke actie",
+        "tekstueel_bewijs": [
+          "God is dat we kunnen liefhebben",
+          "God is de kracht, het vuur, dat onze liefde draagt"
+        ],
+        "rol_van_god": "God is gereduceerd tot een modale competentie (Pouvoir) binnen het menselijk Subject",
+        "rol_van_geest": "Afwezig als persoon, aanwezig als menselijke 'kracht/vuur'"
+      },
+      "tegenstander": {
+        "identificatie": "Traditionele dogmatiek / Het 'Superego' / Kapitalisme / Verlangen naar metafysische zekerheid",
+        "tekstueel_bewijs": [
+          "Christologie en ecclesiologie... triniteit",
+          "de angst voor de banaliteit",
+          "het westerse kapitalisme",
+          "degenen die een Vader, eeuwige vrede... willen hebben"
+        ],
+        "ernst_tegenstander": "SOCIAAL",
+        "toelichting_ernst": "De tegenstander is niet de zonde of de dood in bijbelse zin, maar 'verouderde religie' en 'onrechtvaardige structuren'."
+      }
+    },
+    "secundair_narratief_programma": {
+      "aanwezig": "false",
+      "beschrijving": "Er is geen onderscheid tussen soteriologie en ethiek; ze zijn samengesmolten.",
+      "subject": "N.v.t.",
+      "object": "N.v.t.",
+      "verhouding_tot_primair": "VERWARD",
+      "toelichting_verhouding": "Het 'gered worden' (eeuwig leven) IS het 'liefhebben'. Er is geen voorafgaande redding."
+    },
+    "actantieel_schema_visualisatie": {
+      "zender_naar_ontvanger": "[Banaal Evangelie] → [Politieke Gerechtigheid] → [Derde Wereld]",
+      "helper_subject_tegenstander": "[God-als-Kracht] → [Wij/Mens] ← [Dogma/Kapitalisme]",
+      "subject_naar_object": "[Wij/Mens] → [Politieke Gerechtigheid]"
+    }
+  },
+  "grammaticale_analyse": {
+    "subject_check": {
+      "god_als_subject_count": "0",
+      "mens_als_subject_count": "25+",
+      "ratio": "0:25",
+      "voorbeelden_god_subject": [
+        "Geen enkele actieve handeling van een externe God. God wordt gedefinieerd als 'dat we kunnen liefhebben' (naamwoordelijk deel van het gezegde)."
+      ],
+      "voorbeelden_mens_subject": [
+        "wij kunnen liefhebben",
+        "we moeten inkorten",
+        "we zullen de kern ontplooien",
+        "we moeten niet liefhebben met de mond",
+        "we hebben hem niet nodig"
+      ],
+      "rutledge_score": "1"
+    },
+    "modale_analyse": {
+      "devoir_faire": {
+        "prominentie": "8",
+        "voorbeelden": [
+          "dat we elkaar moeten liefhebben",
+          "dat we het... moeten verlaten",
+          "We korten echt in en we moeten inkorten"
+        ]
+      },
+      "vouloir_faire": {
+        "prominentie": "7",
+        "voorbeelden": [
+          "wat we zelf willen",
+          "als we ze überhaupt willen begrijpen"
+        ]
+      },
+      "savoir_faire": {
+        "prominentie": "6",
+        "voorbeelden": [
+          "Wij weten dat we van de dood zijn overgegaan",
+          "omdat ik weet dat er iets juist is aan die gedachte"
+        ]
+      },
+      "pouvoir_faire": {
+        "prominentie": "9",
+        "voorbeelden": [
+          "God is dat we kunnen liefhebben",
+          "wat we zelf willen, kunnen en vermogen",
+          "Dit politieke doel is zeker haalbaar"
+        ]
+      },
+      "dominante_modaliteit": "POUVOIR",
+      "modale_interpretatie": "De preek probeert het 'Devoir' (Moeten van de wet) te vervangen door 'Pouvoir' (Kunnen van de mens). Sölle stelt dat God de naam is voor dit menselijk kunnen. Dit is de ultieme antropocentrische wending: God is de competentie van de mens."
+    }
+  },
+  "semiotisch_vierkant_analyse": {
+    "primaire_tegenstelling": {
+      "s1": "Horizontale Liefde / Wereld",
+      "s2": "Verticale Dogmatiek / Metafysica",
+      "niet_s1": "Egoïsme / Kapitalisme",
+      "niet_s2": "Politieke Actie / Humaniteit"
+    },
+    "beweging_in_preek": "De preek beweegt agressief van S2 (Traditie/Dogma) naar S1 (Liefde/Wereld). S2 wordt niet gezien als basis, maar als obstakel (Tegenstander).",
+    "theologische_resolutie": "De spanning wordt opgelost door S2 (God als externe Ander) volledig te elimineren ('We hebben hem niet nodig') en op te laten gaan in S1.",
+    "ernst_van_s2": "De preek ontkent de noodzaak van S2 (Oordeel/Redding van buitenaf). Hierdoor verliest S1 zijn genade-karakter en wordt het puur ethische inspanning."
+  },
+  "diagnostische_evaluatie": {
+    "primaire_classificatie": "MORALISME",
+    "classificatie_toelichting": "Hoewel de preek zich verzet tegen 'kleinburgerlijk moralisme' (superego), is de dieptestructuur radicaal moralistisch (antropocentrisch). De mens is het enige actieve Subject. God is gereduceerd tot een attribuut van de menselijke potentie. Er is geen externe redding; de mens moet zichzelf en de wereld redden door politieke actie. Het evangelie wordt gereduceerd tot een ethische imperatief ('All you need is love'), hoe 'banaal' en 'bevrijdend' dit ook wordt genoemd. Zonder een handelende God die redt, blijft alleen de wet over.",
+    "indicatoren_moralisme": [
+      {
+        "indicator": "Mens is exclusief Subject van verandering",
+        "tekstueel_bewijs": "Het eeuwige leven beslist zich hier bij ons... door politieke overweging",
+        "ernst": "KRITIEK"
+      },
+      {
+        "indicator": "Expliciete afwijzing van God als redder",
+        "tekstueel_bewijs": "Dat wat steeds weer 'God' wordt genoemd, een macht die ingrijpt, redt... hebben we niet nodig",
+        "ernst": "KRITIEK"
+      },
+      {
+        "indicator": "Reductie van het Evangelie tot ethiek",
+        "tekstueel_bewijs": "De boodschap... zegt niets anders dan dit ene: dat we elkaar moeten liefhebben.",
+        "ernst": "ERNSTIG"
+      }
+    ],
+    "indicatoren_genade": [
+      {
+        "indicator": "Poging tot anti-wetticisme",
+        "tekstueel_bewijs": "Dat we elkaar moeten liefhebben, is een goede boodschap, geen bevel.",
+        "sterkte": "ZWAK"
+      }
+    ],
+    "exemplarisme_check": {
+      "aanwezig": "true",
+      "beschrijving": "Jezus fungeert niet als Redder, maar als leraar/model die ons leert wat liefde is.",
+      "bijbelse_figuren_als_model": [
+        "Jezus (als degene die niet het superego aanspreekt, maar ons hart)"
+      ],
+      "alternatieve_lezing": "In een theocentrische lezing zou Jezus de Liefde Zelf zijn die de onmacht van de mens (om lief te hebben) draagt en vergeeft, in plaats van slechts het voorbeeld te zijn."
+    },
+    "identificatie_patroon": {
+      "hoorder_identificeert_met": "SUBJECT_HELD",
+      "effect_op_hoorder": "De hoorder wordt opgeladen met een enorme verantwoordelijkheid: de redding van de wereld en het eeuwige leven hangt af van zijn politieke inzet (1-2% BNP). Dit kan leiden tot activisme of wanhoop.",
+      "theologische_implicatie": "Auto-soteriologie: de mens redt zichzelf."
+    },
+    "narratieve_coherentie": {
+      "coherentie_score": "9",
+      "coherentie_beschrijving": "De preek is intern zeer coherent in zijn radicale theologie. De afwijzing van dogma leidt logisch tot de conclusie dat de mens het zelf moet doen.",
+      "spanning_punten": [
+        "De bewering dat liefde 'geen bevel' is, botst met de dwingende toon over wat we 'moeten' doen (inkorten, bouwen, betalen)."
+      ]
+    }
+  },
+  "theologische_diepte_analyse": {
+    "soteriologie": {
+      "primaire_model": "MORELE_INVLOED",
+      "tekstueel_bewijs": "Christus heeft ons geleerd wat liefde is; wij moeten nu volgen. Er is geen verzoening nodig, alleen actie.",
+      "menselijke_rol_in_redding": "PRIMAIRE_ACTOR"
+    },
+    "pneumatologie": {
+      "rol_heilige_geest": "AFWEZIG",
+      "competentie_schenking": "De 'Geest' is vervangen door een immanente menselijke potentie ('God is dat wij kunnen')."
+    },
+    "hamartologie": {
+      "aard_van_zonde": "MORELE_FOUT",
+      "ernst_diagnose": "Zonde is gedefinieerd als politieke nalatigheid (kapitalisme, te weinig hulp). Het is geen existentiële staat die goddelijke interventie vereist, maar een fout die menselijke correctie vereist."
+    },
+    "eschatologie": {
+      "hoop_structuur": "ONBEPAALD",
+      "actant_van_voltooiing": "Mens (Het eeuwige leven beslist zich in onze politieke keuzes)"
+    }
+  },
+  "aanbevelingen": {
+    "actantiele_audit_samenvatting": "Deze preek is een schoolvoorbeeld van de 'antropologische wending' in de theologie. Actantieel gezien is God volledig verwijderd als handelend Subject. De rollen van Subject, Zender en Helper zijn geïmplodeerd in de mens en zijn politieke bewustzijn. Het narratief is: De mens (S) redt de wereld (O) door liefde (H), ondanks traditie (T).",
+    "subject_herpositionering": {
+      "nodig": "true",
+      "huidige_probleem": "De mens draagt de last van Atlas: hij moet de dogma's afbreken én de wereld redden.",
+      "voorgestelde_herpositionering": "God moet weer Subject worden van het werkwoord 'liefhebben' in de zin van 'redden'.",
+      "voorbeeld_revisie": "In plaats van: 'God is dat wij kunnen liefhebben', naar: 'Omdat God ons heeft liefgehad toen wij dood waren (S=God), worden wij levend gemaakt om te delen.'"
+    },
+    "identificatie_herstel": {
+      "nodig": "true",
+      "problematische_identificatie": "De hoorder moet de held zijn die 2% BNP regelt en dogma's sloopt.",
+      "voorgestelde_identificatie": "De hoorder is eerst Kaïn (de moordenaar/onmachtige) die door Christus wordt opgezocht.",
+      "strategie": "Begin met de onmacht van de mens om werkelijk lief te hebben (de 'dood' uit de tekst), zodat Christus' offer noodzakelijk wordt als bron, niet slechts als voorbeeld."
+    },
+    "modale_balans": {
+      "huidige_onbalans": "Overweldigend 'Pouvoir' (dat verondersteld wordt aanwezig te zijn) en 'Devoir' (dat ontkend wordt maar impliciet aanwezig is).",
+      "voorgestelde_balans": "Erken het gebrek aan 'Pouvoir' (onmacht) bij de mens om ruimte te maken voor Genade.",
+      "concrete_suggestie": "Benadruk dat wij 'in de dood blijven' (onmacht) zonder Christus' ingrijpen."
+    },
+    "tegenstander_intensivering": {
+      "nodig": "true",
+      "huidige_status": "Tegenstander is 'traditie' en 'kapitalisme'.",
+      "voorgestelde_intensivering": "De Tegenstander is de Dood en de Zonde die in ons woont (zoals 1 Joh 3 zegt: Kaïn).",
+      "theologische_rationale": "Als de vijand alleen buiten ons is (structuren), is politiek het antwoord. Als de vijand in ons is (zonde), is genade het antwoord."
+    },
+    "narratieve_hierarchie_herstel": {
+      "nodig": "true",
+      "probleem": "Soteriologie is opgelost in Ethiek.",
+      "voorgestelde_structuur": "Herstel de volgorde: 1. God heeft ons leven gegeven (Soteriologie). 2. Daarom geven wij ons leven (Ethiek)."
+    },
+    "overall_beoordeling": "ZWAK",
+    "slotopmerking": "De preek is retorisch krachtig en historisch interessant als document van zijn tijd, maar homiletisch gezien is het een 'Law-sermon' in vermomming. Door God als handelende persoon te verwijderen, laat u de gemeente alleen achter met een overweldigende taak. De 'banaliteit' van de liefde wordt een ondraaglijke last als de Bron van de liefde (God als Subject) wordt gereduceerd tot onze eigen capaciteit."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_retorische_analyse": "Retorisch lijkt de preek bevrijdend ('geen bevel', 'geen superego'). Actantieel blijkt echter dat de last volledig op de schouders van de hoorder wordt gelegd.",
+    "verschil_met_exegese": "Exegetisch negeert de preek de context van 1 Johannes over de antichrist en de verzoening, en pikt er alleen de ethische imperatieven uit. Greimas toont aan hoe dit de 'motor' van het verhaal verandert.",
+    "unieke_inzichten_greimas": "Greimas onthult genadeloos dat als je God verwijdert als Actant, de structuur automatisch terugvalt in een heldenverhaal (Subject = Mens) of een tragedie."
+  },
+  "appendices": {
+    "volledige_subject_lijst": [
+      "Wij (moeten liefhebben)",
+      "Wij (moeten verlaten)",
+      "Wij (moeten bouwen)",
+      "Wij (korten in)",
+      "Wij (zullen ontplooien)",
+      "Wij (hebben niet nodig)"
+    ],
+    "volledige_object_lijst": [
+      "Elkaar",
+      "Nieuw gebouw",
+      "De kern",
+      "De wereld",
+      "Politiek doel"
+    ],
+    "werkwoord_frequentie": {
+      "moeten": {
+        "count": "12",
+        "primair_subject": "Mens"
+      },
+      "liefhebben": {
+        "count": "15",
+        "primair_subject": "Mens"
+      },
+      "redden/ingrijpen": {
+        "count": "1",
+        "primair_subject": "God (maar ontkend)"
+      }
+    },
+    "notities": "De preek is een perfect voorbeeld van de 'God-is-dead' theologie vertaald naar de kansel. Het toont aan dat progressieve theologie structureel even moralistisch kan zijn als conservatieve theologie, alleen is de wet hier politiek in plaats van puriteins."
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "titel_preek": "De pratende slang, de gebrekkige muur en de Naam van Jezus",
+    "bijbeltekst": "Genesis 3:1-7, Handelingen 16:16-25",
+    "analyse_datum": "2024-05-05",
+    "geschat_aantal_woorden": "1650"
+  },
+  "primaire_analyse": {
+    "dominante_domeinen": [
+      {
+        "domein_type": "ARCHITECTURAAL",
+        "prominentie_score": "9",
+        "kernfrasen": [
+          "fatsoenlijk hek om de tuin",
+          "hermetisch afgesloten",
+          "gebouw van beton en staal",
+          "spouwmuur",
+          "isolatiebolletjes",
+          "kieren en gaten"
+        ],
+        "conceptuele_metafoor": "MORELE INTEGRITEIT IS EEN GESLOTEN CONTAINER"
+      },
+      {
+        "domein_type": "MILITAIR",
+        "prominentie_score": "7",
+        "kernfrasen": [
+          "inbreken",
+          "verstoren",
+          "indringer",
+          "verdedigen",
+          "wapenrusting (impliciet via bewaking)",
+          "overwinning op de nazi's"
+        ],
+        "conceptuele_metafoor": "COMMUNICATIE IS INVASIE / HET KWAAD IS EEN INDRINGER"
+      }
+    ],
+    "metafoor_inventaris": [
+      {
+        "metafoor_expressie": "Woorden breken altijd in... Het knippen-met-een-schaar is het gebaar om in een conversatie in te breken.",
+        "brondomein": {
+          "naam": "Fysieke inbraak / Sabotage",
+          "concrete_elementen": [
+            "schaar",
+            "knippen",
+            "inbreken"
+          ],
+          "belichaamde_basis": "force"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Openbaring / Verleiding / Communicatie",
+          "doctrinale_traditie": "Algemeen Christelijk"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Knippen/Onderbreken",
+            "doel_element": "Disruptie van status quo"
+          },
+          {
+            "bron_element": "Inbreker",
+            "doel_element": "Spreker (Slang of God)"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Spreken is een agressieve daad",
+            "Luisteren is een verlies van autonomie"
+          ],
+          "theologische_implicaties": [
+            "Gods woord is een disruptie van onze 'rust'",
+            "Zonde is een ongewenste indringer van buitenaf"
+          ],
+          "ethische_implicaties": [
+            "Wees alert op invloeden van buitenaf"
+          ],
+          "onbedoelde_consequenties": [
+            "Communicatie wordt geframed als geweld of overtreding"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "De prediker revitaliseert het concept 'spreken' door het fysieke gebaar van 'knippen' te gebruiken."
+      },
+      {
+        "metafoor_expressie": "Zelfs al zit er een boze geest in je hart alle gaatjes dicht te kitten, dan nog komt de liefde binnen. Net als fruitvliegjes.",
+        "brondomein": {
+          "naam": "Ongedierteplaag",
+          "concrete_elementen": [
+            "fruitvliegjes",
+            "kieren",
+            "banaan",
+            "zwermen"
+          ],
+          "belichaamde_basis": "container (permeability)"
+        },
+        "doeldomein": {
+          "theologisch_concept": "Onweerstaanbare Genade / Alomtegenwoordigheid",
+          "doctrinale_traditie": "Protestants (Genadekarakter)"
+        },
+        "mapping_structuur": [
+          {
+            "bron_element": "Onstuitbare toegang door kieren",
+            "doel_element": "Gods vermogen om elk hart te bereiken"
+          },
+          {
+            "bron_element": "Overal aanwezig zijn",
+            "doel_element": "Gods alomtegenwoordigheid"
+          }
+        ],
+        "entailments": {
+          "cognitieve_implicaties": [
+            "Je kunt God niet buitenhouden",
+            "Gods aanwezigheid is klein maar talrijk/alomvattend"
+          ],
+          "theologische_implicaties": [
+            "Gods genade is invasief",
+            "Geen menselijk bouwwerk (zonde/weerstand) is bestand tegen God"
+          ],
+          "ethische_implicaties": [
+            "Verzet is zinloos, geef je over"
+          ],
+          "onbedoelde_consequenties": [
+            "God vergelijken met ongedierte (irritant, vies) is een risicovolle associatie"
+          ]
+        },
+        "vitaliteit_status": "LEVEND",
+        "vitaliteit_toelichting": "Zeer onconventionele mapping (God = Fruitvliegje) die onmiddellijk de aandacht grijpt en schema's doorbreekt."
+      }
+    ]
+  },
+  "diagnostische_evaluatie": {
+    "coherentie_analyse": {
+      "overall_coherentie": "ZEER_COHERENT",
+      "coherentie_verklaring": "De preek is opgebouwd rond één centrale structurele metafoor: HET LEVEN IS EEN IMPERFECTE CONTAINER. Zowel het kwaad (de slang/haas) als het goede (Jezus' naam/fruitvliegjes) maken gebruik van dezelfde logica: muren werken niet. Dit verbindt Genesis 3 en Handelingen 16 thematisch sterk.",
+      "incoherentie_punten": [],
+      "succesvolle_blending": [
+        {
+          "locatie": "Slot van de preek",
+          "gemengde_metaforen": [
+            "God als Inbreker (Architecturaal)",
+            "God als Fruitvliegje (Biologisch)"
+          ],
+          "blending_strategie": "De prediker gebruikt de eigenschap 'permeabiliteit' (doordringbaarheid) om beide beelden te fuseren: God komt overal doorheen."
+        }
+      ]
+    },
+    "sterktes": [
+      {
+        "sterkte_type": "REVITALISATIE",
+        "beschrijving": "Het gebruik van alledaagse, ietwat banale beelden (fruitvliegjes, isolatiebolletjes) om diepe theologische waarheden (de val, genade) uit te leggen, maakt de abstracte concepten tastbaar.",
+        "voorbeeld": "Elke kubieke millimeter van de spouwmuur is nog niet zo lang geleden helemaal volgeblazen met kunstmatige isolatiebolletjes."
+      },
+      {
+        "sterkte_type": "CONTEXTUELE_GESCHIKTHEID",
+        "beschrijving": "De koppeling aan 4/5 mei (Dodenherdenking/Bevrijding) via het beeld van 'onvrijheid' en 'inbreken in rituelen' verankert de preek in de actualiteit.",
+        "voorbeeld": "Gisteren nog, bij de dodenherdenking... Is er iemand die probeert in te breken in ons ritueel?"
+      }
+    ],
+    "risicos": [
+      {
+        "risico_type": "ANDERS",
+        "beschrijving": "Ongewenste entailments bij de God-metafoor. Fruitvliegjes zijn irritant en we proberen ze uit te roeien. De vergelijking kan onbedoeld suggereren dat Gods aanwezigheid een plaag is.",
+        "voorbeeld": "Net als fruitvliegjes... zo ook de liefde van God.",
+        "potentiele_impact": "Kan bij sommige hoorders als oneerbiedig of triviaal overkomen.",
+        "ernst": "MATIG"
+      },
+      {
+        "risico_type": "VERLIES_VERANTWOORDELIJKHEID",
+        "beschrijving": "Door zonde en kwaad consequent voor te stellen als een 'inbreker' of 'virus' van buitenaf (slang, haas, geest), kan de interne menselijke verantwoordelijkheid voor zonde onderbelicht raken.",
+        "voorbeeld": "Het overkomt dus de beste! ... Waar komt dat beest toch vandaan?",
+        "potentiele_impact": "Hoorders kunnen zich slachtoffer voelen van de zonde in plaats van dader.",
+        "ernst": "MATIG"
+      }
+    ],
+    "text_world_analyse": {
+      "primaire_wereld": "De 'Tuin' (Paradijs/Moestuin/Huis) die verdedigd wordt.",
+      "sub_worlds": [
+        "De boerderij met de haas",
+        "Het moderne geïsoleerde huis met fruitvliegjes",
+        "De gevangenis in Filippi"
+      ],
+      "world_building_effectiviteit": "LEVENDIG",
+      "deictic_shifts": [
+        {
+          "locatie": "Overgang van Genesis naar 'Onze paradijzen'",
+          "van_wereld": "Bijbelse oertijd",
+          "naar_wereld": "Modern huisonderhoud (schilderen/schuren)",
+          "effectiviteit": "Zeer effectief door herkenbaarheid."
+        }
+      ]
+    },
+    "schema_analyse": {
+      "versterkte_schemas": [
+        {
+          "schema_naam": "De Geestelijke Strijd",
+          "hoe_versterkt": "Bevestigt dat er een actieve tegenstander is die probeert binnen te dringen."
+        }
+      ],
+      "verstoorde_schemas": [
+        {
+          "schema_naam": "God als de Grote Beschermer (Muur)",
+          "verstoring_strategie": "De prediker stelt expliciet de vraag: 'Zou het kunnen dat zelfs God geen tuin kan maken... waar de slang niet binnenkomt?'",
+          "vervangend_schema": "God als de Ultieme Indringer (die muren negeert)."
+        }
+      ],
+      "liturgische_schema_aansluiting": "Past bij de spanning van Bevrijdingsdag: vrijheid is nooit volkomen veilig, maar vereist wel hoop."
+    }
+  },
+  "aanbevelingen": {
+    "metafoor_audit_samenvatting": "De preek wordt gedomineerd door de CONTAINER-metafoor (tuin, huis, muur, gevangenis). De theologische beweging is de deconstructie van de 'veilige container'. De prediker betoogt dat muren falen om het kwaad buiten te houden, maar gelukkig ook falen om God buiten te houden. Dit is een symmetrische en esthetisch bevredigende structuur.",
+    "revitalisatie_suggesties": [
+      {
+        "doel_metafoor": "Zonde als Inbreker",
+        "huidige_status": "Risico op externalisatie (zonde is iets wat mij overkomt)",
+        "suggestie": "Introduceer ook de metafoor van 'Zonde als Huiszwam' of 'Constructiefout'.",
+        "strategie": "BRONDOMEIN_VERDIEPEN",
+        "voorbeeld": "Niet alleen breekt de slang in, maar de muren zelf blijken poreus omdat ze van 'menselijk materiaal' zijn gemaakt."
+      }
+    ],
+    "coherentie_verbeteringen": [
+      {
+        "incoherentie": "Geen strikte incoherentie, maar de 'fruitvliegjes' metafoor schuurt.",
+        "resolutie_strategie": "Expliciet benoemen van het contrast: 'Fruitvliegjes zijn een plaag die we haten, Gods liefde is een plaag die we nodig hebben.'"
+      }
+    ],
+    "entailment_checks": [
+      {
+        "metafoor": "Gods liefde als fruitvliegjes",
+        "problematisch_entailment": "Fruitvliegjes zijn teken van bederf (rottend fruit).",
+        "aanbeveling": "Wees voorzichtig dat dit niet impliceert dat God alleen komt waar 'rottigheid' is (hoewel dit theologisch verdedigbaar is: Christus komt voor zondaars)."
+      }
+    ],
+    "alternatieve_domeinen": [
+      {
+        "voorgesteld_domein": "AKOESTISCH DOMEIN",
+        "rationale": "Omdat de preek begint met 'spreken' en 'knippen' van woorden, en eindigt met zingen.",
+        "doel_concept": "De stem van God die door muren heen resoneert (trilling gaat door materie heen)."
+      }
+    ],
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een creatieve, gedurfde en theologisch coherente preek. De keuze om de 'veiligheid' van het paradijs te deconstrueren is pastoraal sterk in een gebroken wereld. De fruitvliegjes-metafoor is een gewaagde vondst die zeker zal blijven hangen (sticky metaphor), al is enige nuance gewenst."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_esthetiek": "Een esthetische analyse zou de fruitvliegjes-metafoor wellicht afkeuren als 'lelijk' of 'banaal'. CMT waardeert deze juist om de cognitieve kracht: het doorbreekt het schema van 'Gods verhevenheid' en maakt genade onontkoombaar concreet.",
+    "verschil_met_kolb": "Kolb zou kijken of er voor doeners/denkers iets in zit. CMT kijkt naar de dieptestructuur van hoe concepten worden gevormd. De preek bedient vooral de concrete denkers door abstracte theologie (zondeval, alomtegenwoordigheid) volledig te 'verdinglijken' (reification).",
+    "unieke_inzichten_CMT": "CMT onthult dat de prediker onbewust een symmetrie bouwt: de 'permeabiliteit' (doorlaatbaarheid) van de schepping is zowel onze vloek (slang komt binnen) als onze redding (Jezus komt binnen). Dit inzicht in de structurele logica van de preek helpt om de theologische kern scherper te krijgen."
+  },
+  "appendices": {
+    "volledige_metafoor_lijst": [
+      "Pratende slang",
+      "Sisspraak",
+      "Woorden breken in",
+      "Communicatie doorknippen",
+      "Tuin als paradijs",
+      "Muur van vrijheid",
+      "Isolatiebolletjes",
+      "Fruitvliegjes als indringers",
+      "Zonde als haas in de moestuin",
+      "Geestelijke strijd als jacht",
+      "Lichaam als huis",
+      "Geest als indringer/kraker",
+      "Naam van Jezus als inknippend woord",
+      "Liefde als doordringende substantie"
+    ],
+    "woord_frequentie_analyse": {
+      "slang": "14",
+      "tuin": "10",
+      "muur/muren": "8",
+      "inbreken/knippen": "7",
+      "fruitvliegjes": "3"
+    },
+    "notities": "De preek maakt effectief gebruik van 'narrative embodiment': de hoorder voelt de frustratie van de boer en de verbazing over de fruitvliegjes."
+  }
+}

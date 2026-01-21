@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "titel_preek": "... dat wij kunnen liefhebben",
+    "bijbeltekst": "1 Johannes 3:11–18",
+    "analyse_datum": "2023-10-27",
+    "geschat_aantal_woorden": "1250"
+  },
+  "drievoudige_structuur_analyse": {
+    "locutie": {
+      "beschrijving": "Een pleidooi voor een 'atheïstisch christendom' of politieke theologie waarin de traditionele metafysische dogma's (Triniteit, maagdelijke geboorte) worden verworpen ten gunste van een horizontale ethiek. De tekst stelt dat God geen persoon of macht is die ingrijpt, maar het gebeuren van de menselijke liefde zelf.",
+      "exegetische_kwaliteit": "Reductief. De tekst wordt selectief gebruikt om een politiek-ideologisch punt te maken ('reductie', 'inkorten'). De verticale dimensie van 1 Johannes wordt bewust horizontaal platgeslagen.",
+      "omvang_procent": "60%"
+    },
+    "illocutie": {
+      "beschrijving": "De prediker herdefinieert begrippen (God, evangelie) en roept op tot politieke actie en het loslaten van traditionele geloofszekerheden.",
+      "primaire_kracht": "ASSERTEREN",
+      "helderheid_score": "9",
+      "voorbeelden": [
+        "De boodschap is oneindig banaal.",
+        "God is dat we kunnen liefhebben.",
+        "We hebben hem niet nodig."
+      ]
+    },
+    "perlocutie": {
+      "beoogd_effect": "De hoorder moet instemmen met de demythologisering van het geloof en gemobiliseerd worden tot politieke actie (ontwikkelingshulp).",
+      "pneumatologisch_bewustzijn": "Afwezig. Het effect hangt af van menselijk inzicht en politieke wil, niet van de Heilige Geest.",
+      "perlocutionaire_werkwoorden": [
+        "instemmen",
+        "loslaten",
+        "inzetten",
+        "politiek handelen"
+      ]
+    }
+  },
+  "werkwoord_analyse": {
+    "assertieven": {
+      "frequentie": "Hoog",
+      "procent": "65%",
+      "voorbeelden": [
+        "De boodschap is oneindig banaal",
+        "Dat is het evangelie",
+        "Liefde is een goede boodschap",
+        "God is dat we kunnen liefhebben"
+      ],
+      "dominante_werkwoorden": [
+        "zijn",
+        "betekenen",
+        "zeggen",
+        "geloven"
+      ]
+    },
+    "directieven": {
+      "frequentie": "Matig",
+      "procent": "25%",
+      "voorbeelden": [
+        "We moeten inkorten",
+        "We zouden ons misschien moeten afleren om bang te zijn",
+        "Mensen... zich ervoor inzetten",
+        "We zouden moeten ophouden God te zoeken"
+      ],
+      "dominante_werkwoorden": [
+        "moeten",
+        "zullen",
+        "afleren",
+        "ophouden"
+      ],
+      "fundament_check": "false"
+    },
+    "expressieven": {
+      "frequentie": "Laag",
+      "procent": "10%",
+      "voorbeelden": [
+        "Ik heb me vroeger zeer getroffen gevoeld",
+        "Ik geloof niet dat..."
+      ],
+      "dominante_werkwoorden": [
+        "voelen",
+        "geloven (als mening)"
+      ]
+    },
+    "commissieven": {
+      "frequentie": "Nul",
+      "procent": "0%",
+      "voorbeelden": [],
+      "dominante_werkwoorden": [],
+      "kwaliteit": "Niet aanwezig. De prediker wijst de 'zekerheid' en 'geborgenheid' (promissio) expliciet af."
+    },
+    "declaratieven": {
+      "frequentie": "Zeer laag",
+      "procent": "0%",
+      "voorbeelden": [
+        "Ik geloof dat we dit gebouw moeten laten vervallen"
+      ],
+      "dominante_werkwoorden": [],
+      "autoriteit": "De prediker spreekt met intellectuele autoriteit, maar niet met sacramentele autoriteit namens God."
+    }
+  },
+  "constatief_performatief_diagnose": {
+    "primaire_classificatie": "CONSTATIEF_SURPLUS",
+    "constatief_percentage": "65%",
+    "performatief_percentage": "0%",
+    "constatief_surplus_analyse": {
+      "aanwezig": "true",
+      "ernst": "KRITIEK",
+      "indicatoren": [
+        "Dominantie van het werkwoord 'zijn' (God is..., Het evangelie is...)",
+        "Intellectualistische bespreking van theologie ('nieuwe theologie', 'traditie')",
+        "God wordt een object van definitie in plaats van een handelend Subject"
+      ],
+      "effect_op_hoorder": "De hoorder krijgt een college over een nieuwe definitie van God, maar ontmoet God niet."
+    },
+    "performatief_deficit_analyse": {
+      "aanwezig": "true",
+      "ernst": "KRITIEK",
+      "missende_elementen": [
+        "Geen toezegging van genade",
+        "Geen vergeving van zonden (wordt vervangen door politieke schuld)",
+        "Geen zegen",
+        "Geen belofte van Gods aanwezigheid (God wordt gereduceerd tot menselijke actie)"
+      ],
+      "effect_op_hoorder": "De hoorder wordt op zichzelf teruggeworpen. Er is geen 'Jij' die redt."
+    },
+    "toezegging_check": {
+      "toezegging_aanwezig": "false",
+      "aantal_toezeggen": "0",
+      "kwaliteit_toezeggen": "N.v.t. De prediker stelt expliciet: 'We hebben hem niet nodig.'",
+      "voorbeelden": [],
+      "moment_in_preek": "Nergens"
+    }
+  },
+  "adressering_analyse": {
+    "persoonsvorm_distributie": {
+      "eerste_persoon": {
+        "frequentie": "Hoog",
+        "gebruik": "Voornamelijk 'wij' (inclusief, generatiegenoten) en 'ik' (de theoloog Sölle)."
+      },
+      "tweede_persoon": {
+        "frequentie": "Laag",
+        "gebruik": "Zelden directe aanspraak tot de enkeling ('u'). Voornamelijk collectief.",
+        "performatieve_context": "Geen performatieve toezeggingen aan 'u'."
+      },
+      "derde_persoon": {
+        "frequentie": "Hoog",
+        "gebruik": "Over 'de traditie', 'de boodschap', 'God', 'de mensen'.",
+        "distantie_effect": "Creëert een beschouwende afstand; we kijken samen naar het fenomeen religie."
+      }
+    },
+    "tijdsdimensie": {
+      "verleden_tijd": {
+        "frequentie": "20%",
+        "gebruik": "Verwijzing naar traditie en bijbeltekst."
+      },
+      "tijdloos_present": {
+        "frequentie": "60%",
+        "gebruik": "Definities: 'God is...', 'Liefde is...'"
+      },
+      "actueel_present": {
+        "frequentie": "20%",
+        "gebruik": "Politieke situatie (1968, Uppsala)."
+      }
+    },
+    "adressering_effectiviteit": "2"
+  },
+  "sacramenteel_patroon_analyse": {
+    "patroon_identificatie": "FOUTIEF",
+    "foutief_patroon": {
+      "aanwezig": "true",
+      "beschrijving": "Assertief (Herdefinitie God) → Directief (Politieke eis). De tussenstap van de genadegave (Commissief) ontbreekt volledig.",
+      "voorbeelden": [
+        "God is dat we kunnen liefhebben (Assertief) -> We moeten 2% BNP geven (Directief)."
+      ],
+      "probleem": "Dit is de structuur van de Wet, niet van het Evangelie. Zonder de schenking van de Geest/Christus wordt de oproep tot liefde een ondraaglijke last, ondanks de claim dat het 'geen bevel' is."
+    },
+    "sacramenteel_patroon": {
+      "aanwezig": "false",
+      "beschrijving": "N.v.t.",
+      "voorbeelden": [],
+      "kwaliteit": "N.v.t."
+    },
+    "indicatief_imperatief_verhouding": {
+      "indicatief_aanwezig": "false",
+      "imperatief_gefundeerd": "false",
+      "voorbeelden_goede_verhouding": [],
+      "voorbeelden_slechte_verhouding": [
+        "Dat we elkaar moeten liefhebben, is een goede boodschap, geen bevel. (Hier wordt de imperatief 'moeten' retorisch omgedoopt tot indicatief, maar functioneel blijft het een eis aan de mens, omdat de Bron ontbreekt)."
+      ]
+    }
+  },
+  "diagnostische_evaluatie": {
+    "primaire_diagnose": "APPELLEREND_WETTISCH",
+    "diagnose_toelichting": "Hoewel de preek zich presenteert als bevrijding van dogma's ('All you need is love'), is de structuur diep wettisch. God als Gever wordt geëlimineerd ('We hebben hem niet nodig'), waardoor alleen de menselijke taak overblijft. De preek is een mix van intellectuele asserties (nieuwe theologie uitleggen) en morele directieven (politieke actie). Het is geen 'gebeuren' van heil, maar een oproep tot zelfverlossing door liefde.",
+    "sterke_punten": [
+      {
+        "aspect": "Actualiteit en urgentie",
+        "categorie": "DIRECTIEF",
+        "tekstueel_bewijs": "Ik zou willen dat er niemand is die deze zin hoort zonder eraan te denken hoeveel miljoenen er... honger lijden",
+        "effect": "Sterk ethisch appèl dat de hoorder in het geweten raakt."
+      }
+    ],
+    "zwakke_punten": [
+      {
+        "aspect": "Ontbreken van Promissio",
+        "categorie": "COMMISSIEF",
+        "tekstueel_bewijs": "Tegenover al degenen die een Vader... willen hebben, zegt het evangelie...: 'All you need is love.' Je hebt niets anders nodig.",
+        "probleem": "De troost en zekerheid van het geloof worden weggenomen. De hoorder blijft alleen achter met een taak.",
+        "ernst": "KRITIEK"
+      },
+      {
+        "aspect": "Reductie van God tot concept",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "God is dat we kunnen liefhebben.",
+        "probleem": "God is geen Subject meer dat spreekt of handelt, maar een predicaat van menselijk handelen.",
+        "ernst": "KRITIEK"
+      }
+    ],
+    "gebeuren_score": "2",
+    "gebeuren_toelichting": "De preek is een lezing *over* een nieuwe theologie en een politiek manifest. Er 'gebeurt' niets tussen God en de ziel; er wordt enkel nagedacht over concepten en ethiek.",
+    "sacramentele_kracht": "1",
+    "sacramentele_toelichting": "Er is geen sprake van sacramentele werking omdat de Transcendente Ander (God) die in het sacrament handelt, expliciet wordt weggeredeneerd."
+  },
+  "theologische_diepte_analyse": {
+    "openbaringsleer": {
+      "god_als_spreker": "Nee, God wordt het zwijgen opgelegd als persoon. Hij is slechts 'het vuur dat onze liefde draagt'.",
+      "prediker_als_mandataris": "Nee, de prediker spreekt als een intellectueel/activist, niet als een gezant die een boodschap van een Ander doorgeeft.",
+      "tekstueel_bewijs": [
+        "We zouden moeten ophouden God te zoeken. Hij is er allang."
+      ]
+    },
+    "pneumatologie": {
+      "geest_rol_erkend": "Nee.",
+      "perlocutie_theologie": "De verandering in de hoorder wordt verwacht van menselijk inzicht en politieke wil ('dat wij... ons leven zo bouwen').",
+      "tekstueel_bewijs": [
+        "Dit politieke doel is zeker haalbaar, als mensen... zich ervoor inzetten"
+      ]
+    },
+    "sacramentstheologie": {
+      "preek_als_genademiddel": "Nee, de preek is een middel tot bewustwording (conscientization), geen genademiddel.",
+      "epifanisch_taalgebruik": "Nee, puur descriptief en prescriptief.",
+      "tekstueel_bewijs": [
+        "De boodschap is oneindig banaal."
+      ]
+    }
+  },
+  "aanbevelingen": {
+    "werkwoord_audit_samenvatting": "De preek wordt gedomineerd door 'zijn' (definities) en 'moeten' (ethiek). De categorieën van 'geven', 'beloven', 'vergeven' en 'zegenen' ontbreken nagenoeg volledig. Dit wijst op een gesloten immanent systeem zonder inbreuk van buitenaf (genade).",
+    "performatieve_intensivering": {
+      "nodig": "true",
+      "specifieke_suggesties": [
+        {
+          "huidige_formulering": "God is dat we kunnen liefhebben.",
+          "voorgestelde_revisie": "God stort Zijn liefde in uw hart uit door de Heilige Geest.",
+          "verschil": "Van een abstracte definitie naar een performatieve schenking."
+        },
+        {
+          "huidige_formulering": "Dat we elkaar moeten liefhebben, is een goede boodschap.",
+          "voorgestelde_revisie": "Christus heeft u eerst liefgehad, en in die liefde bent u vrij om uw naaste lief te hebben.",
+          "verschil": "Fundering van de eis in de gift (Indicatief voor Imperatief)."
+        }
+      ]
+    },
+    "toezegging_versterking": {
+      "nodig": "true",
+      "probleem": "De preek neemt zekerheid weg in plaats van te geven.",
+      "suggestie": "Herstel de 'Promissio': God is niet alleen de taak, maar ook de Gever van de kracht.",
+      "voorbeeldzinnen": [
+        "Christus zegt u toe: Ik ben met u, ook in uw onmacht om lief te hebben.",
+        "Uw tekort aan liefde is u vergeven."
+      ]
+    },
+    "adressering_verbetering": {
+      "nodig": "true",
+      "probleem": "Te veel 'wij' (collectief) en 'het' (het evangelie).",
+      "suggestie": "Spreek de hoorder aan als zondaar en gerechtvaardigde.",
+      "voorbeeldzinnen": [
+        "U, die worstelt met uw egoïsme, hoor het Woord van de Heer."
+      ]
+    },
+    "indicatief_imperatief_herstel": {
+      "nodig": "true",
+      "probleem": "Imperatief (liefhebben) wordt gepresenteerd als Indicatief (het is er al), wat leidt tot verwarring en overvraging.",
+      "suggestie": "Maak onderscheid tussen wat God doet (liefhebben/vergeven) en wat wij doen (antwoorden)."
+    },
+    "overall_beoordeling": "ZWAK",
+    "slotopmerking": "Deze preek is een krachtig tijdsdocument en retorisch sterk, maar homiletisch deficiënt. Door de verticale dimensie (God als Tegenover) te verwijderen, verliest de preek zijn sacramentele kracht en wordt het een moralistisch appèl. De hoorder wordt niet bediend, maar belast."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_schulz_von_thun": "Schulz von Thun zou deze preek wellicht positief beoordelen op 'authentiek zelfopenbaring' (Expressief) en 'duidelijk appèl' (Appellerend). SAT onthult echter de theologische armoede: de 'Illocutionary Force' van de belofte (Commissief) ontbreekt, waardoor de preek spiritueel leeg is ondanks de emotionele en politieke lading.",
+    "verschil_met_retoriek": "Retorisch is de preek effectief (gebruik van Beatles, provocatie). Illocutionair is het een 'unhappy' performative omdat de spreker geen mandaat claimt om namens God iets te doen, maar God wegdefinieert.",
+    "unieke_inzichten_SAT": "SAT laat zien dat een zin als 'God is dat we kunnen liefhebben' grammaticaal een bewering is (Assertief), maar theologisch functioneert als een ontkenning van Gods persoon zijn. Het toont aan dat zonder 'Commissieven' (beloften) het evangelie verwordt tot wet."
+  },
+  "appendices": {
+    "volledige_werkwoord_lijst": {
+      "assertief": [
+        "is",
+        "zegt",
+        "betekent",
+        "blijft",
+        "weet",
+        "geloof",
+        "denk",
+        "bestaat"
+      ],
+      "directief": [
+        "moeten",
+        "dienen",
+        "laten vervallen",
+        "bouwen",
+        "afleren",
+        "ophouden",
+        "inzetten"
+      ],
+      "expressief": [
+        "getroffen gevoeld",
+        "vrezen",
+        "hopen"
+      ],
+      "commissief": [],
+      "declaratief": [
+        "verkondigen (in de zin van meedelen, niet scheppen)"
+      ]
+    },
+    "kernzinnen_analyse": [
+      {
+        "zin": "We hebben hem niet nodig, omdat dat wat we nodig hebben, liefde is, verder niets.",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Ontkenning van de noodzaak van God (Atheïstische assertie).",
+        "effectiviteit": "Hoog voor deconstructie, fataal voor sacramentele werking."
+      },
+      {
+        "zin": "All you need is love.",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Reductie van het evangelie tot een universeel menselijk principe.",
+        "effectiviteit": "Retorisch sterk, theologisch reductief."
+      }
+    ],
+    "notities": "De preek is een klassiek voorbeeld van de 'God-is-dood' theologie vertaald naar de kansel. Het toont perfect aan hoe een teveel aan 'praten over' (nieuwe theologie uitleggen) samengaat met een gebrek aan 'toezeggen aan'."
+  }
+}

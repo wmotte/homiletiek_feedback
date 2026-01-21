@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "titel_preek": "Een pratende slang, een gebrekkige muur en de bevrijdende kracht van de naam van Jezus",
+    "bijbeltekst": "Genesis 3:1-7, Handelingen 16:16-25",
+    "analyse_datum": "2024-05-05",
+    "geschat_aantal_woorden": "1650"
+  },
+  "drievoudige_structuur_analyse": {
+    "locutie": {
+      "beschrijving": "De preek verbindt de inbreuk van het kwaad (de slang in het paradijs) met de inbreuk van Gods genade (Paulus in Filippi). Er wordt gebruik gemaakt van verhalende metaforen (fruitvliegjes, een boer met een haas) en historische anekdotes (Synode 1926).",
+      "exegetische_kwaliteit": "Creatief associatief. De exegese van Gen. 3 is narratief en niet strikt tekst-analytisch. De link tussen 'inknippen' van de slang en de Naam van Jezus is een homiletische vondst, geen exegetische noodzakelijkheid.",
+      "omvang_procent": "75%"
+    },
+    "illocutie": {
+      "beschrijving": "De prediker wil de gemeente troosten met de gedachte dat Gods liefde net zo onstuitbaar is als het kwaad. Hij probeert de angst voor 'gaten in de muur' weg te nemen door te wijzen op de doordringende kracht van Jezus' naam.",
+      "primaire_kracht": "ASSERTEREN",
+      "helderheid_score": "7",
+      "voorbeelden": [
+        "Dat is het Evangelie voor vandaag.",
+        "God kan je bereiken.",
+        "De naam van Jezus is in staat om op elke plek te komen."
+      ]
+    },
+    "perlocutie": {
+      "beoogd_effect": "Berusting en vertrouwen (troost) in een onvolmaakte wereld. De hoorder moet gaan 'zingen' (letterlijk of figuurlijk) ondanks de omstandigheden.",
+      "pneumatologisch_bewustzijn": "Impliciet. De werking van de Geest wordt niet expliciet genoemd, wel de kracht van de 'Naam'.",
+      "perlocutionaire_werkwoorden": [
+        "vertrouwen",
+        "zingen",
+        "aanvaarden",
+        "getroost worden"
+      ]
+    }
+  },
+  "werkwoord_analyse": {
+    "assertieven": {
+      "frequentie": "Hoog",
+      "procent": "65%",
+      "voorbeelden": [
+        "De Bijbel zwijgt daarover.",
+        "Het is een mysterie.",
+        "God is betrouwbaar.",
+        "De naam van Jezus is verbonden met de liefde van God."
+      ],
+      "dominante_werkwoorden": [
+        "zijn",
+        "weten",
+        "zeggen",
+        "komen",
+        "blijken"
+      ]
+    },
+    "directieven": {
+      "frequentie": "Laag",
+      "procent": "10%",
+      "voorbeelden": [
+        "Begin gewoon maar te zingen.",
+        "Je moet het leven omhelzen (geciteerd als mening).",
+        "Na de verkondiging zingen we..."
+      ],
+      "dominante_werkwoorden": [
+        "moeten",
+        "beginnen",
+        "zingen"
+      ],
+      "fundament_check": "true"
+    },
+    "expressieven": {
+      "frequentie": "Gemiddeld",
+      "procent": "15%",
+      "voorbeelden": [
+        "Ik weet het niet.",
+        "Daar kan je verdrietig van worden.",
+        "Het voelt niet goed."
+      ],
+      "dominante_werkwoorden": [
+        "voelen",
+        "weten (in ontkenning)",
+        "schrikken"
+      ]
+    },
+    "commissieven": {
+      "frequentie": "Laag",
+      "procent": "5%",
+      "voorbeelden": [
+        "God kan je bereiken.",
+        "Jezus' liefde is voor jou (in liedtekst)."
+      ],
+      "dominante_werkwoorden": [
+        "kunnen bereiken",
+        "zullen zijn"
+      ],
+      "kwaliteit": "Zwak. Veel commissieven zijn geformuleerd als assertieven over potentie ('God kan') in plaats van directe beloften ('God zal')."
+    },
+    "declaratieven": {
+      "frequentie": "Zeer laag",
+      "procent": "5%",
+      "voorbeelden": [
+        "Ik gebied u in de Naam van Jezus Christus (citaat Paulus).",
+        "Dat is het Evangelie voor vandaag."
+      ],
+      "dominante_werkwoorden": [
+        "gebieden (in citaat)",
+        "zijn (identificerend)"
+      ],
+      "autoriteit": "De prediker citeert de autoriteit van Paulus, maar neemt deze autoriteit zelf nauwelijks over in het hier en nu naar de gemeente toe."
+    }
+  },
+  "constatief_performatief_diagnose": {
+    "primaire_classificatie": "CONSTATIEF_SURPLUS",
+    "constatief_percentage": "75%",
+    "performatief_percentage": "10%",
+    "constatief_surplus_analyse": {
+      "aanwezig": "true",
+      "ernst": "ERNSTIG",
+      "indicatoren": [
+        "Lange verhalende uitweidingen (boer met haas, fruitvliegjes, Harry Potter).",
+        "Historische feiten over synodes.",
+        "Beschouwingen over het leven ('Wij wonen op driehoog').",
+        "Het spreken over God in de derde persoon ('God is betrouwbaar')."
+      ],
+      "effect_op_hoorder": "De hoorder wordt toeschouwer van een interessante beschouwing over goed en kwaad, maar wordt pas laat existentieel aangesproken."
+    },
+    "performatief_deficit_analyse": {
+      "aanwezig": "true",
+      "ernst": "MATIG",
+      "missende_elementen": [
+        "Directe aanzegging van vergeving of bevrijding.",
+        "Het daadwerkelijk 'inknippen' van het Woord in de preek zelf (de preek beschrijft het inknippen, maar doet het niet)."
+      ],
+      "effect_op_hoorder": "De hoorder wordt getroost met een idee, maar niet noodzakelijk ontmoet door de Levende."
+    },
+    "toezegging_check": {
+      "toezegging_aanwezig": "true",
+      "aantal_toezeggen": "2",
+      "kwaliteit_toezeggen": "Indirect. 'God kan je bereiken' is een constatering van vermogen, geen directe belofte ('Ik zeg u toe: God bereikt u').",
+      "voorbeelden": [
+        "God kan je bereiken.",
+        "Jezus' liefde voor jou en mij (in lied)."
+      ],
+      "moment_in_preek": "Einde"
+    }
+  },
+  "adressering_analyse": {
+    "persoonsvorm_distributie": {
+      "eerste_persoon": {
+        "frequentie": "Gemiddeld",
+        "gebruik": "Prediker positioneert zich naast de hoorder ('Wij weten', 'Ik weet het niet')."
+      },
+      "tweede_persoon": {
+        "frequentie": "Hoog",
+        "gebruik": "Directe aanspreking in vragen ('Weet u?', 'Wat denkt u?') en in de toepassing ('Hoe bang je ook bent').",
+        "performatieve_context": "Vooral gebruikt in de vragende/onderzoekende modus, pas aan het einde in de toezeggende modus."
+      },
+      "derde_persoon": {
+        "frequentie": "Hoog",
+        "gebruik": "Over de slang, Paulus, Silas, de boer, God.",
+        "distantie_effect": "Creëert een verhalende afstand, veilig maar weinig indringend."
+      }
+    },
+    "tijdsdimensie": {
+      "verleden_tijd": {
+        "frequentie": "40%",
+        "gebruik": "Bijbelverhalen en anekdotes."
+      },
+      "tijdloos_present": {
+        "frequentie": "40%",
+        "gebruik": "Algemene waarheden over het leven en God."
+      },
+      "actueel_present": {
+        "frequentie": "20%",
+        "gebruik": "De toepassing aan het einde ('Vandaag', 'Nu')."
+      }
+    },
+    "adressering_effectiviteit": "6"
+  },
+  "sacramenteel_patroon_analyse": {
+    "patroon_identificatie": "GEMENGD",
+    "foutief_patroon": {
+      "aanwezig": "false",
+      "beschrijving": "Er is geen sprake van plat moralisme.",
+      "voorbeelden": [],
+      "probleem": "N.v.t."
+    },
+    "sacramenteel_patroon": {
+      "aanwezig": "true",
+      "beschrijving": "Er is een beweging van ellende (slang/muur kapot) naar verlossing (Jezus breekt in). Echter, de verlossing wordt meer beschreven dan bediend.",
+      "voorbeelden": [
+        "Assertief (Ellende): 'Onze paradijzen kunnen ieder moment verstoord worden.'",
+        "Assertief/Commissief (Verlossing): 'De naam van Jezus is in staat om op elke plek te komen.'"
+      ],
+      "kwaliteit": "Theologisch correct, maar illocutionair zwak omdat het in de beschrijvende modus blijft."
+    },
+    "indicatief_imperatief_verhouding": {
+      "indicatief_aanwezig": "true",
+      "imperatief_gefundeerd": "true",
+      "voorbeelden_goede_verhouding": [
+        "Omdat Jezus' liefde overal doorheen kruipt (Indicatief) -> Begin gewoon maar te zingen (Imperatief)."
+      ],
+      "voorbeelden_slechte_verhouding": []
+    }
+  },
+  "diagnostische_evaluatie": {
+    "primaire_diagnose": "TROOSTEND_EVANGELISCH",
+    "diagnose_toelichting": "De preek is pastoraal sterk en empathisch. De prediker staat naast de gemeente in de gebrokenheid ('gaten in de muur'). De diagnose is dat de preek vooral troost biedt door te wijzen op een mogelijkheid ('God kan je bereiken') en een waarheid ('Liefde wint'), maar minder functioneert als een autoritatieve proclamatie die de werkelijkheid *schept*. Het blijft hangen in 'praten over' de kracht van de Naam, in plaats van de Naam zelf te laten werken als taalhandeling.",
+    "sterke_punten": [
+      {
+        "aspect": "Metaforische kracht",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "'Net als fruitvliegjes... zo kruipt Gods liefde overal doorheen.'",
+        "effect": "De vergelijking van genade met ongedierte (inbrekers) is verrassend en blijft hangen (sticky)."
+      },
+      {
+        "aspect": "Solidariteit",
+        "categorie": "EXPRESSIEF",
+        "tekstueel_bewijs": "'Wij zijn niet goed in het maken van iets perfects.'",
+        "effect": "Creëert een veilige luisterhouding."
+      }
+    ],
+    "zwakke_punten": [
+      {
+        "aspect": "Gebrek aan performatieve stelligheid",
+        "categorie": "COMMISSIEF",
+        "tekstueel_bewijs": "'God kan je bereiken.'",
+        "probleem": "Dit is een constatering van Gods vermogen (potentialiteit), geen toezegging van Zijn daad (actualiteit). Een belofte moet zekerheid bieden, geen mogelijkheid.",
+        "ernst": "MATIG"
+      },
+      {
+        "aspect": "Dominantie van anekdotes",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "Het lange verhaal over de boer en de haas.",
+        "probleem": "De tijd die aan de illustratie wordt besteed gaat ten koste van de verkondiging van het heil. Het versterkt het 'praten over'.",
+        "ernst": "MATIG"
+      }
+    ],
+    "gebeuren_score": "6",
+    "gebeuren_toelichting": "De preek is een mooi verhaal *over* God, maar wordt pas op het allerlaatst een ontmoeting *met* God. De taal is beschrijvend, niet scheppend.",
+    "sacramentele_kracht": "5",
+    "sacramentele_toelichting": "Er wordt weinig 'bediend'. De prediker fungeert meer als duider van het leven dan als heraut van de Koning."
+  },
+  "theologische_diepte_analyse": {
+    "openbaringsleer": {
+      "god_als_spreker": "Matig. God wordt vooral besproken als object van handelen ('God kan geen muur bouwen').",
+      "prediker_als_mandataris": "De prediker spreekt op eigen gezag als gelovige waarnemer, minder als gemachtigde ambtsdrager die 'namens Christus' spreekt.",
+      "tekstueel_bewijs": [
+        "Ik weet het niet.",
+        "Misschien zegt u wel..."
+      ]
+    },
+    "pneumatologie": {
+      "geest_rol_erkend": "Impliciet.",
+      "perlocutie_theologie": "De prediker lijkt te vertrouwen op de emotionele impact van het lied aan het einde.",
+      "tekstueel_bewijs": [
+        "Begin gewoon maar te zingen."
+      ]
+    },
+    "sacramentstheologie": {
+      "preek_als_genademiddel": "Beperkt. De preek verwijst naar genade, maar 'is' het nauwelijks.",
+      "epifanisch_taalgebruik": "De metafoor van het 'inknippen' heeft epifanische potentie, maar wordt anekdotisch uitgewerkt.",
+      "tekstueel_bewijs": [
+        "Woorden breken altijd in."
+      ]
+    }
+  },
+  "aanbevelingen": {
+    "werkwoord_audit_samenvatting": "De preek wordt gedomineerd door assertieve werkwoorden in de beschrijvende sfeer ('is', 'komt', 'weten'). Er is een opvallend tekort aan sterke commissieven ('Ik beloof', 'God zal') en declaratieven ('Ik verkondig'). De prediker praat *over* de situatie in plaats van de situatie te veranderen met het Woord.",
+    "performatieve_intensivering": {
+      "nodig": "true",
+      "specifieke_suggesties": [
+        {
+          "huidige_formulering": "God kan je bereiken.",
+          "voorgestelde_revisie": "God bereikt u hier en nu. Zijn liefde breekt op dit moment door uw muren heen.",
+          "verschil": "Van potentialiteit (kan) naar actualiteit (doet). Van beschrijving naar bediening."
+        },
+        {
+          "huidige_formulering": "Dat is het Evangelie voor vandaag.",
+          "voorgestelde_revisie": "Zo verkondig ik u het Evangelie: Uw muren zijn doorbroken door de liefde van Christus.",
+          "verschil": "Maakt de preek tot een daad van verkondiging (declaratief)."
+        }
+      ]
+    },
+    "toezegging_versterking": {
+      "nodig": "true",
+      "probleem": "De toezegging is nu verpakt in een kinderliedje en een constatering van mogelijkheid.",
+      "suggestie": "Gebruik de autoriteit van de tekst (Handelingen 16) om de hoorder direct aan te spreken.",
+      "voorbeeldzinnen": [
+        "Zoals de boeien bij Paulus losvielen, zo spreekt Christus u nu vrij van uw angst.",
+        "Ik zeg u toe in de Naam van Jezus: geen duisternis is te diep voor Zijn licht."
+      ]
+    },
+    "adressering_verbetering": {
+      "nodig": "false",
+      "probleem": "De adressering is op zich goed (veel 'u' en 'jij'), maar de inhoud van de adressering is vaak vragend in plaats van gevend.",
+      "suggestie": "Behoud de 'u', maar verander de modus van vraag naar gift.",
+      "voorbeeldzinnen": []
+    },
+    "indicatief_imperatief_herstel": {
+      "nodig": "false",
+      "probleem": "N.v.t.",
+      "suggestie": "N.v.t."
+    },
+    "overall_beoordeling": "ADEQUAAT",
+    "slotopmerking": "Een creatieve en empathische preek met sterke beelden. De homiletische winst ligt in het durven inzetten van de 'illocutionaire kracht'. U beschrijft prachtig dat Jezus 'inbreekt', maar u mag als prediker die inbraak ook daadwerkelijk *plegen* door het Woord met meer volmacht aan het hart te leggen. Wees niet bang om namens God te spreken in plaats van alleen over Hem."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_schulz_von_thun": "Schulz von Thun zou deze preek waarschijnlijk hoog waarderen op het 'relationele aspect' (empathie met lijden) en 'expressieve aspect' (authenticiteit prediker). SAT onthult echter dat de 'zakelijke inhoud' (informatie over God) domineert over het 'appèl' en vooral over de 'scheppende daad'. Waar SvT tevreden is met 'goed contact', eist SAT een 'goddelijke daad'.",
+    "verschil_met_retoriek": "Retorisch is de preek sterk (mooie opbouw, beeldspraak). Illocutionair is hij zwakker omdat de 'force' van de taalhandeling (het daadwerkelijk vrijspreken of toezeggen) achterblijft bij de retorische versiering.",
+    "unieke_inzichten_SAT": "SAT laat zien waarom deze preek, ondanks de mooie woorden, misschien toch 'leeg' kan voelen voor een hoorder die echt bevrijding zoekt: er wordt *over* bevrijding verteld, maar de bevrijding wordt niet *voltrokken* in de taalhandeling."
+  },
+  "appendices": {
+    "volledige_werkwoord_lijst": {
+      "assertief": [
+        "was",
+        "zei",
+        "weten",
+        "komen",
+        "is",
+        "blijft",
+        "gebeurt",
+        "zwijgt",
+        "suggereren",
+        "klopt"
+      ],
+      "directief": [
+        "vraag",
+        "omhels",
+        "zing",
+        "luister"
+      ],
+      "expressief": [
+        "dankbaar zijn",
+        "angstig kijken",
+        "voelen",
+        "niet weten"
+      ],
+      "commissief": [
+        "zal zijn",
+        "kan bereiken",
+        "zal ervaren"
+      ],
+      "declaratief": [
+        "gebied (citaat)",
+        "is (in definierende zin)"
+      ]
+    },
+    "kernzinnen_analyse": [
+      {
+        "zin": "De naam van Jezus is in staat om op elke plek te komen.",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Beschrijft een eigenschap van de Naam. Kracht: Informatief/Bemoedigend.",
+        "effectiviteit": "Matig. Het objectiveert de Naam in plaats van hem te gebruiken."
+      },
+      {
+        "zin": "Ik gebied u in de Naam van Jezus Christus uit haar weg te gaan!",
+        "categorie": "DECLARATIEF",
+        "illocutionaire_kracht": "Exorcisme/Bevel met goddelijke kracht.",
+        "effectiviteit": "Hoog (binnen het Bijbelverhaal), maar functioneert in de preek slechts als citaat."
+      },
+      {
+        "zin": "God kan je bereiken.",
+        "categorie": "COMMISSIEF",
+        "illocutionaire_kracht": "Toezegging van mogelijkheid.",
+        "effectiviteit": "Matig. 'Kan' verzwakt de belofte."
+      }
+    ],
+    "notities": "De preek bevat een interessante theologische spanning: God kan het kwaad niet buitenhouden (assertief), maar kan er wel doorheen breken (assertief/commissief). De prediker kiest voor een kwetsbare theologie, wat past bij de moderne context, maar verliest daardoor aan kerygmatische kracht."
+  }
+}

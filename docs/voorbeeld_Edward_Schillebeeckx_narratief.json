@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "titel_preek": "De weg naar vrijheid: De voorloper",
+    "bijbeltekst": "Markus 1:1-8 (met verwijzingen naar Jesaja 40)",
+    "analyse_datum": "2023-10-27",
+    "geschat_aantal_woorden": "1450"
+  },
+  "actantiele_analyse": {
+    "primair_narratief_programma": {
+      "beschrijving": "God (de Sterkere) bevrijdt zijn volk door de weg van de woestijn te gaan, in tegenstelling tot de machtsvertoon van Babylon.",
+      "subject": {
+        "identificatie": "God / Jezus (De Sterkere / De Komende)",
+        "tekstueel_bewijs": [
+          "Gods macht zegeviert in onmacht",
+          "Jezus zélf zich een weg banen door de woestijn",
+          "het vernederd en verdeemoedigd volk door God wordt opgericht"
+        ],
+        "frequentie_score": "8"
+      },
+      "object": {
+        "identificatie": "Bevrijding / Thuiskomst / Menselijk Geluk",
+        "tekstueel_bewijs": [
+          "de bevrijding van het vernederde en verknechte volk",
+          "Zijn eer-en-roem... is het geluk en de bevrijding van zijn volk"
+        ],
+        "aard_van_object": "SOTERIOLOGISCH"
+      },
+      "zender": {
+        "identificatie": "Gods trouw / Gods wezen",
+        "tekstueel_bewijs": [
+          "omdat Israëls God zijn geloften trouw blijft",
+          "God is een God die blijvend DE KOMENDE is"
+        ],
+        "rol_interpretatie": "LIEFHEBBENDE_VADER"
+      },
+      "ontvanger": {
+        "identificatie": "Het volk (Israël / De mensheid / Wij)",
+        "tekstueel_bewijs": [
+          "ten aanschouwen van allen",
+          "voor ons"
+        ],
+        "positie_hoorder": "De hoorder is primair Ontvanger van de bevrijding, maar wordt later in het secundaire programma Subject van de verkondiging."
+      },
+      "helper": {
+        "identificatie": "De Voorloper (Johannes/Jesaja) / De Woestijn (als louteringsweg)",
+        "tekstueel_bewijs": [
+          "Johannes de Doper is deze 'aggelos': bode en voorloper",
+          "barre woestijn is de weg van zijn volk"
+        ],
+        "rol_van_god": "God is het Subject dat handelt.",
+        "rol_van_geest": "Impliciet in de 'dynamiek' van de bevrijding."
+      },
+      "tegenstander": {
+        "identificatie": "Babylonische macht / De 'gladde weg' / Slavernij",
+        "tekstueel_bewijs": [
+          "Babylons macht",
+          "gladde, vanzelfsprekende triomfantelijke weg",
+          "verknechting"
+        ],
+        "ernst_tegenstander": "KOSMISCH",
+        "toelichting_ernst": "De tegenstander is niet slechts een persoonlijk gebrek, maar een systeem van onderdrukking en valse glorie (Babylon) dat tegenover Gods manier van werken staat."
+      }
+    },
+    "secundair_narratief_programma": {
+      "aanwezig": "true",
+      "beschrijving": "De gelovigen (wij/dominicanen) moeten als voorlopers Jezus aanwijzen in de geschiedenis.",
+      "subject": "De Christen / De Kerk (Wij)",
+      "object": "Het aanwijzen van Jezus (Getuigenis)",
+      "verhouding_tot_primair": "HIËRARCHISCH",
+      "toelichting_verhouding": "Het menselijk handelen (aanwijzen) is noodzakelijk om het primaire handelen (Gods bevrijding) zichtbaar te maken, maar vervangt het niet. Wij zijn slechts 'onnutte dienstknechten'."
+    },
+    "actantieel_schema_visualisatie": {
+      "zender_naar_ontvanger": "Gods Trouw → Bevrijding → Het Volk",
+      "helper_subject_tegenstander": "Voorloper/Woestijn → God/Jezus ← Babylonische Macht",
+      "subject_naar_object": "God/Jezus → Bevrijding"
+    }
+  },
+  "grammaticale_analyse": {
+    "subject_check": {
+      "god_als_subject_count": "18",
+      "mens_als_subject_count": "12",
+      "ratio": "1.5",
+      "voorbeelden_god_subject": [
+        "Gods macht zegeviert",
+        "Hij zal u dopen met de heilige Geest",
+        "God wordt opgericht"
+      ],
+      "voorbeelden_mens_subject": [
+        "Wij... hem... zouden verkondigen",
+        "zullen we... door de woestijn heen moeten",
+        "het volk moet een weg... aanleggen"
+      ],
+      "rutledge_score": "7"
+    },
+    "modale_analyse": {
+      "devoir_faire": {
+        "prominentie": "6",
+        "voorbeelden": [
+          "doén wat die jesajaanse profeet deed",
+          "zullen we in feite steeds weer door de woestijn heen moeten"
+        ]
+      },
+      "vouloir_faire": {
+        "prominentie": "4",
+        "voorbeelden": [
+          "om iets van bevrijding voor anderen waar te maken"
+        ]
+      },
+      "savoir_faire": {
+        "prominentie": "8",
+        "voorbeelden": [
+          "het publiek wél weet wat er aan de hand is",
+          "wiens geheim hij aan het publiek vooraf verraadt"
+        ]
+      },
+      "pouvoir_faire": {
+        "prominentie": "7",
+        "voorbeelden": [
+          "Gods macht zegeviert in onmacht",
+          "die sterker is dan ik"
+        ]
+      },
+      "dominante_modaliteit": "SAVOIR",
+      "modale_interpretatie": "De preek leunt sterk op inzicht (Savoir): het doorzien van de paradox dat Gods macht (Pouvoir) zich toont in onmacht (woestijn) en niet in Babylonische pracht. De ethiek (Devoir) vloeit voort uit dit nieuwe kijken."
+    }
+  },
+  "semiotisch_vierkant_analyse": {
+    "primaire_tegenstelling": {
+      "s1": "Gods Weg (Woestijn/Onmacht/Bevrijding)",
+      "s2": "Babylons Weg (Boulevard/Macht/Onderdrukking)",
+      "niet_s1": "Valse Triomf (Ideologisch 'God met ons')",
+      "niet_s2": "Echte Vrijheid (Thuiskomst)"
+    },
+    "beweging_in_preek": "De preek beweegt van de verleiding van S2 (de pracht van Babylon) naar de noodzaak van S1 (de woestijn) om bij ~S2 (Vrijheid) te komen.",
+    "theologische_resolutie": "De paradox wordt opgelost in Christus: Hij is de Sterkere die de weg van de zwakte (woestijn) kiest. Vrijheid is niet 'ontsnappen aan de woestijn' maar 'God ontmoeten in de woestijn'.",
+    "ernst_van_s2": "Zeer serieus. Babylon is fascinerend en machtig ('the greatest show on earth'). Dit maakt de keuze voor de woestijn existentieel zwaar."
+  },
+  "diagnostische_evaluatie": {
+    "primaire_classificatie": "GENADE",
+    "classificatie_toelichting": "Hoewel de preek eindigt met een oproep tot actie ('doén wat Johannes deed'), is de dieptestructuur theocentrisch. God is de enige ware Bevrijder. De mens redt zichzelf niet door de woestijnweg te banen; de mens *bereidt* de weg voor God die komt. De identiteit van God ('De Komende') staat centraal, niet de prestatie van de mens. De menselijke rol is die van de 'onnutte dienstknecht' die slechts wijst naar de Ander.",
+    "indicatoren_moralisme": [
+      {
+        "indicator": "Oproep tot imitatie aan het slot",
+        "tekstueel_bewijs": "doén wat die jesajaanse profeet deed; doén wat Johannes de Voorloper deed",
+        "ernst": "MATIG"
+      }
+    ],
+    "indicatoren_genade": [
+      {
+        "indicator": "Gods eer gekoppeld aan menselijk geluk (Sola Gratia)",
+        "tekstueel_bewijs": "Zijn eer-en-roem... is het geluk en de bevrijding van zijn volk",
+        "sterkte": "ZEER_STERK"
+      },
+      {
+        "indicator": "De mens als onwaardige ontvanger/dienaar",
+        "tekstueel_bewijs": "Allebei voelen ze zich onnutte dienstknechten... ik ben niet waardig",
+        "sterkte": "STERK"
+      }
+    ],
+    "exemplarisme_check": {
+      "aanwezig": "true",
+      "beschrijving": "Er is sprake van exemplarisme, maar van een specifiek 'vocational' type. Johannes is geen moreel voorbeeld van braafheid, maar een model van verwijzing.",
+      "bijbelse_figuren_als_model": [
+        "Johannes de Doper",
+        "De Jesajaanse profeet"
+      ],
+      "alternatieve_lezing": "De preek is al vrij theocentrisch. Een moralistische valkuil zou zijn: 'Wees nederig zoals Johannes'. Schillebeeckx zegt: 'Wijs Jezus aan zoals Johannes'."
+    },
+    "identificatie_patroon": {
+      "hoorder_identificeert_met": "SUBJECT_HELD",
+      "effect_op_hoorder": "De hoorder wordt geïdentificeerd met de Voorloper (Subject van het secundaire programma). Dit geeft waardigheid (wij zijn nodig) maar ook nederigheid (het gaat niet om ons).",
+      "theologische_implicatie": "Dit voorkomt passiviteit, maar behoudt de afhankelijkheid van Christus als de eigenlijke Hoofdrolspeler."
+    },
+    "narratieve_coherentie": {
+      "coherentie_score": "9",
+      "coherentie_beschrijving": "De twee programma's (God redt, wij wijzen aan) zijn uitstekend geïntegreerd via het beeld van de 'bode' in het toneelstuk.",
+      "spanning_punten": [
+        "Geen significante spanning; de hiërarchie is helder."
+      ]
+    }
+  },
+  "theologische_diepte_analyse": {
+    "soteriologie": {
+      "primaire_model": "CHRISTUS_VICTOR",
+      "tekstueel_bewijs": "De nadruk op 'bevrijding', 'uittocht' en de strijd tegen 'Babylon' wijst op een bevrijdingstheologische variant van Christus Victor.",
+      "menselijke_rol_in_redding": "ACTIEVE_PARTICIPANT",
+      "toelichting": "De mens participeert niet in de verlossing zelf (die is van God), maar in de *bemiddeling* en *aankondiging* ervan."
+    },
+    "pneumatologie": {
+      "rol_heilige_geest": "EXTERNE_HELPER",
+      "competentie_schenking": "De Geest wordt genoemd in de tekst ('Hij zal u dopen met de heilige Geest'), maar in de preekanalyse speelt de Geest een impliciete rol als de kracht achter de 'bevrijdingsroes' en de moed om de woestijn in te gaan."
+    },
+    "hamartologie": {
+      "aard_van_zonde": "KOSMISCHE_MACHT",
+      "ernst_diagnose": "Zonde wordt hier vooral gedefinieerd als systemische onderdrukking (Babylon) en de menselijke neiging tot machtsvertoon. Het is ernstig omdat het haaks staat op Gods wezen."
+    },
+    "eschatologie": {
+      "hoop_structuur": "REEDS_EN_NOG_NIET",
+      "actant_van_voltooiing": "God (De Komende)"
+    }
+  },
+  "aanbevelingen": {
+    "actantiele_audit_samenvatting": "De preek heeft een sterke theocentrische basisstructuur. God is de handelende persoon die bevrijding brengt door de paradoxale weg van de woestijn. De hoorder wordt niet verpletterd onder een wet van perfectie, maar uitgenodigd in een roeping van getuigenis. De verhouding tussen God (Hoofdrolspeler) en mens (Voorloper/Bode) wordt consequent volgehouden.",
+    "subject_herpositionering": {
+      "nodig": "false",
+      "huidige_probleem": "N.v.t.",
+      "voorgestelde_herpositionering": "N.v.t.",
+      "voorbeeld_revisie": "N.v.t."
+    },
+    "identificatie_herstel": {
+      "nodig": "false",
+      "problematische_identificatie": "Geen. De identificatie met de 'bode' is theologisch gezond omdat de bode per definitie van zichzelf afwijst.",
+      "voorgestelde_identificatie": "Blijf de hoorder positioneren als 'bode' en niet als 'messias'.",
+      "strategie": "De huidige strategie werkt: benadrukken dat wij 'onnutte dienstknechten' zijn."
+    },
+    "modale_balans": {
+      "huidige_onbalans": "Lichte nadruk op Savoir (inzicht in de paradox) en Devoir (taak om te wijzen).",
+      "voorgestelde_balans": "Meer nadruk op Pouvoir (de kracht van de Geest) om de woestijnweg daadwerkelijk vol te houden.",
+      "concrete_suggestie": "Benadruk dat God niet alleen de weg toont, maar ons ook draagt als wij door de woestijn gaan (Helper-rol van God versterken in het secundaire programma)."
+    },
+    "tegenstander_intensivering": {
+      "nodig": "false",
+      "huidige_status": "De tegenstander (Babylon/Machtsvertoon) is robuust en cultureel relevant neergezet.",
+      "voorgestelde_intensivering": "N.v.t.",
+      "theologische_rationale": "N.v.t."
+    },
+    "narratieve_hierarchie_herstel": {
+      "nodig": "false",
+      "probleem": "N.v.t.",
+      "voorgestelde_structuur": "N.v.t."
+    },
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een meesterlijke preek die de valkuil van moralisme vermijdt door de hoorder een duidelijke, maar bescheiden rol (bode) te geven binnen het grote drama van Gods bevrijding. De culturele exegese (Babylon vs. Woestijn) versterkt de genade-boodschap: God kiest voor de onaanzienlijken."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_retorische_analyse": "Retorisch lijkt de preek een politiek/maatschappelijk betoog over bevrijding. Actantiëel blijkt echter dat de 'Agency' volledig bij God ligt ('Gods eer is het geluk van de mens'), wat het behoedt voor louter sociaal activisme.",
+    "verschil_met_exegese": "Exegetisch focust men vaak op de historische Johannes. Greimas laat zien hoe Johannes hier functioneert als een 'actant' (de Helper/Bode) die een model wordt voor de hoorder, los van de historische context.",
+    "unieke_inzichten_greimas": "Het model onthult de dubbele laag: het kosmische drama (God vs. Babylon) en het existentiële drama (Wij als bodes). Het laat zien dat onze 'actie' slechts bestaat bij gratie van Gods 'hoofdrol'."
+  },
+  "appendices": {
+    "volledige_subject_lijst": [
+      "God",
+      "Jezus",
+      "Johannes de Doper",
+      "De profeet (Jesaja)",
+      "Het volk",
+      "Wij (christenen/dominicanen)"
+    ],
+    "volledige_object_lijst": [
+      "Bevrijding",
+      "Weg door de woestijn",
+      "Aankondiging van de Messias",
+      "Geluk van het volk"
+    ],
+    "werkwoord_frequentie": {
+      "bevrijden/redden": {
+        "count": "8",
+        "primair_subject": "God"
+      },
+      "weg banen/aanleggen": {
+        "count": "6",
+        "primair_subject": "Mens (in opdracht van God)"
+      },
+      "verkondigen/aanwijzen": {
+        "count": "5",
+        "primair_subject": "Johannes/Wij"
+      }
+    },
+    "notities": "Opvallend is de synthese tussen bevrijdingstheologie en klassieke theologie: God is Subject, maar de mens wordt ingeschakeld in de 'praxis' van het koninkrijk."
+  }
+}

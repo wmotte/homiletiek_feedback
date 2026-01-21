@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "titel_preek": "De weg naar vrijheid: De voorloper",
+    "bijbeltekst": "Marcus 1:1-8",
+    "analyse_datum": "2023-10-27",
+    "geschat_aantal_woorden": "1450"
+  },
+  "drievoudige_structuur_analyse": {
+    "locutie": {
+      "beschrijving": "Een gedetailleerde exegetische en cultuurhistorische uiteenzetting over de figuur van Johannes de Doper als 'aggelos' (bode) in vergelijking met Vondels drama's en de Babylonische processiewegen versus de woestijnweg van Jesaja.",
+      "exegetische_kwaliteit": "Zeer hoog (academisch niveau, legt verbanden met Jesaja, Exodus, Babylonische archeologie)",
+      "omvang_procent": "85%"
+    },
+    "illocutie": {
+      "beschrijving": "De prediker doceert, legt uit, analyseert literaire structuren en trekt een ethische parallel voor de hedendaagse gelovige. De kracht is primair informatief en in tweede instantie appellerend.",
+      "primaire_kracht": "ASSERTEREN",
+      "helderheid_score": "8",
+      "voorbeelden": [
+        "We moeten dit eerste gedeelte van de Mk.-proloog zo ongeveer zien als...",
+        "Het is soms goed te verwijlen bij...",
+        "In het christendom... gaat het inderdaad om bevrijding"
+      ]
+    },
+    "perlocutie": {
+      "beoogd_effect": "Intellectueel inzicht in de bijbelse achtergrond en ethische bereidheid om 'door de woestijn' te gaan (lijden/moeite accepteren).",
+      "pneumatologisch_bewustzijn": "Beperkt expliciet; het effect lijkt afhankelijk van het intellectuele begrip van de hoorder.",
+      "perlocutionaire_werkwoorden": [
+        "begrijpen",
+        "inzien",
+        "beseffen",
+        "doen (navolgen)"
+      ]
+    }
+  },
+  "werkwoord_analyse": {
+    "assertieven": {
+      "frequentie": "Zeer hoog",
+      "procent": "75%",
+      "voorbeelden": [
+        "Johannes de Doper is deze 'aggelos'",
+        "Gods macht zegeviert in onmacht",
+        "Dit is de adventsboodschap van vandaag",
+        "God is een God die blijvend DE KOMENDE is"
+      ],
+      "dominante_werkwoorden": [
+        "zijn",
+        "betekenen",
+        "verwijzen",
+        "zien",
+        "weten"
+      ]
+    },
+    "directieven": {
+      "frequentie": "Matig",
+      "procent": "15%",
+      "voorbeelden": [
+        "We moeten dit... zien als",
+        "Om te begrijpen... moeten we... voor ogen brengen",
+        "doén wat die jesajaanse profeet deed"
+      ],
+      "dominante_werkwoorden": [
+        "moeten",
+        "doen",
+        "voor ogen brengen"
+      ],
+      "fundament_check": "false"
+    },
+    "expressieven": {
+      "frequentie": "Laag",
+      "procent": "5%",
+      "voorbeelden": [
+        "Je voelt aan dat...",
+        "Je zièt in deze dynamische teksten..."
+      ],
+      "dominante_werkwoorden": [
+        "voelen",
+        "zien (ervaren)"
+      ]
+    },
+    "commissieven": {
+      "frequentie": "Zeer laag",
+      "procent": "5%",
+      "voorbeelden": [
+        "waarbij we zeker zijn dat God ons begeleidt"
+      ],
+      "dominante_werkwoorden": [
+        "begeleiden (in bijzin)",
+        "trouw blijven (als feit vermeld)"
+      ],
+      "kwaliteit": "Zwak. Het zijn constateringen over Gods trouw, geen directe toezeggingen 'Ik beloof u'."
+    },
+    "declaratieven": {
+      "frequentie": "Nihil",
+      "procent": "0%",
+      "voorbeelden": [],
+      "dominante_werkwoorden": [],
+      "autoriteit": "Niet van toepassing (prediker spreekt als hoogleraar, niet als mandataris die scheppend spreekt)"
+    }
+  },
+  "constatief_performatief_diagnose": {
+    "primaire_classificatie": "CONSTATIEF_SURPLUS",
+    "constatief_percentage": "75%",
+    "performatief_percentage": "5%",
+    "constatief_surplus_analyse": {
+      "aanwezig": "true",
+      "ernst": "ERNSTIG",
+      "indicatoren": [
+        "Veelvuldig gebruik van 'men', 'het publiek', 'de joden'",
+        "Uitleg over de tekst in plaats van verkondiging vanuit de tekst",
+        "Vergelijkingen met Vondel en Babylonische archeologie die de afstand vergroten"
+      ],
+      "effect_op_hoorder": "De hoorder wordt toeschouwer van een interessant theologisch college. Er wordt over God gesproken als object van studie."
+    },
+    "performatief_deficit_analyse": {
+      "aanwezig": "true",
+      "ernst": "ERNSTIG",
+      "missende_elementen": [
+        "Directe toezegging van vergeving of nabijheid",
+        "Aanspraak in de 2e persoon enkelvoud ('U')",
+        "Declaratie van Christus' aanwezigheid nu"
+      ],
+      "effect_op_hoorder": "De hoorder moet zelf de vertaalslag maken van 'informatie over toen' naar 'heil voor nu'."
+    },
+    "toezegging_check": {
+      "toezegging_aanwezig": "false",
+      "aantal_toezeggen": "0",
+      "kwaliteit_toezeggen": "Niet aanwezig als directe speech act. Wel als beschrijving: 'eenvoudigweg omdat Israëls God zijn geloften trouw blijft' (dit is een assertief over een commissief).",
+      "voorbeelden": [],
+      "moment_in_preek": "N.v.t."
+    }
+  },
+  "adressering_analyse": {
+    "persoonsvorm_distributie": {
+      "eerste_persoon": {
+        "frequentie": "Matig",
+        "gebruik": "Vooral 'wij' in de zin van 'wij moderne mensen' of 'wij dominicanen'."
+      },
+      "tweede_persoon": {
+        "frequentie": "Zeer laag",
+        "gebruik": "Zelden directe aanspraak. Soms retorisch: 'Je zièt...'.",
+        "performatieve_context": "Nee"
+      },
+      "derde_persoon": {
+        "frequentie": "Hoog",
+        "gebruik": "Over 'de profeet', 'Markus', 'het volk', 'God', 'Jezus'.",
+        "distantie_effect": "Creëert grote afstand; objectiverend."
+      }
+    },
+    "tijdsdimensie": {
+      "verleden_tijd": {
+        "frequentie": "50%",
+        "gebruik": "Historische exegese, Babylon, Jesaja."
+      },
+      "tijdloos_present": {
+        "frequentie": "40%",
+        "gebruik": "Theologische waarheden ('Gods macht zegeviert in onmacht')."
+      },
+      "actueel_present": {
+        "frequentie": "10%",
+        "gebruik": "Toepassing ('Ook nú')."
+      }
+    },
+    "adressering_effectiviteit": "3"
+  },
+  "sacramenteel_patroon_analyse": {
+    "patroon_identificatie": "FOUTIEF",
+    "foutief_patroon": {
+      "aanwezig": "true",
+      "beschrijving": "Assertief (Exegese/Historie) → Directief (Ethisch appèl) zonder performatieve tussenstap.",
+      "voorbeelden": [
+        "Assertief: Uitleg over de woestijnweg in Jesaja/Markus.",
+        "Directief: 'zullen we in feite steeds weer door de woestijn heen moeten om iets van bevrijding... waar te maken'."
+      ],
+      "probleem": "De 'woestijn' wordt een ethische opdracht voor de mens, in plaats van een heilsplek waar God de mens ontmoet. De last wordt op de schouders van de hoorder gelegd."
+    },
+    "sacramenteel_patroon": {
+      "aanwezig": "false",
+      "beschrijving": "De beweging van 'God doet dit nu aan u' ontbreekt.",
+      "voorbeelden": [],
+      "kwaliteit": "N.v.t."
+    },
+    "indicatief_imperatief_verhouding": {
+      "indicatief_aanwezig": "true",
+      "imperatief_gefundeerd": "false",
+      "voorbeelden_goede_verhouding": [],
+      "voorbeelden_slechte_verhouding": [
+        "De indicatief is historisch ('Jezus ging de weg'), de imperatief is actueel ('Wij moeten de weg gaan'). De sacramentele brug ('Jezus neemt u nu mee op de weg') ontbreekt."
+      ]
+    }
+  },
+  "diagnostische_evaluatie": {
+    "primaire_diagnose": "INFORMATIEF_DOCEREND",
+    "diagnose_toelichting": "De preek is een intellectueel hoogstaand college over de literaire en historische achtergronden van de Markus-proloog. Schillebeeckx spreekt als een academicus die 'het publiek' uitlegt hoe ze de tekst moeten lezen (vergelijking met Vondel). God en Jezus zijn onderwerp van gesprek, maar treden niet handelend op in de taalhandeling zelf. De preek informeert over heil, maar bedient het niet.",
+    "sterke_punten": [
+      {
+        "aspect": "Exegetische diepgang",
+        "categorie": "ASSERTIEF",
+        "tekstueel_bewijs": "Verwijzing naar Babylonische processiewegen en Jesaja 40.",
+        "effect": "Geeft diep inzicht in de historische context en de radicaliteit van de bijbelse boodschap."
+      }
+    ],
+    "zwakke_punten": [
+      {
+        "aspect": "Gebrek aan performatieve kracht",
+        "categorie": "DECLARATIEF",
+        "tekstueel_bewijs": "Geheel afwezig.",
+        "probleem": "De hoorder wordt niet aangesproken als zondaar die vergeving ontvangt of als gelovige die gesterkt wordt, maar als student die moet begrijpen.",
+        "ernst": "ERNSTIG"
+      },
+      {
+        "aspect": "Moralistische toepassing",
+        "categorie": "DIRECTIEF",
+        "tekstueel_bewijs": "zullen we in feite steeds weer door de woestijn heen moeten",
+        "probleem": "Zonder voorafgaande toezegging van kracht wordt de 'woestijn' een zware menselijke prestatie.",
+        "ernst": "MATIG"
+      }
+    ],
+    "gebeuren_score": "3",
+    "gebeuren_toelichting": "Het is een intellectueel 'gebeuren' (inzicht), maar geen sacramenteel 'gebeuren' (ontmoeting).",
+    "sacramentele_kracht": "2",
+    "sacramentele_toelichting": "De taal schept geen nieuwe werkelijkheid, maar beschrijft een oude werkelijkheid en een ethisch ideaal."
+  },
+  "theologische_diepte_analyse": {
+    "openbaringsleer": {
+      "god_als_spreker": "God wordt geciteerd (via Jesaja/Markus), maar spreekt niet direct in het *hic et nunc* van de preek.",
+      "prediker_als_mandataris": "De prediker positioneert zich als uitlegger (hermeneut) eerder dan als heraut (kerygmaticus).",
+      "tekstueel_bewijs": [
+        "Het is soms goed te verwijlen bij...",
+        "Om te begrijpen wat hier bedoeld wordt..."
+      ]
+    },
+    "pneumatologie": {
+      "geest_rol_erkend": "Impliciet in de tekst (Dopen met de Geest wordt genoemd in de lezing), maar in de preek speelt de Geest nauwelijks een rol in de toepassing.",
+      "perlocutie_theologie": "De toepassing leunt zwaar op menselijk inzicht en wilskracht ('wij moeten doen').",
+      "tekstueel_bewijs": [
+        "doén wat Johannes de Voorloper deed"
+      ]
+    },
+    "sacramentstheologie": {
+      "preek_als_genademiddel": "Nee, de preek functioneert als catechese/onderwijs.",
+      "epifanisch_taalgebruik": "Er wordt verwezen naar epifanie ('Gods heerlijkheid toont zich'), maar de taal zelf is niet epifanisch.",
+      "tekstueel_bewijs": [
+        "Dáárin, zegt Jesaja, 'wordt Gods heerlijkheid zichtbaar'"
+      ]
+    }
+  },
+  "aanbevelingen": {
+    "werkwoord_audit_samenvatting": "De preek wordt gedomineerd door assertieve werkwoorden in de derde persoon ('is', 'betekent', 'verwijst'). Dit creëert afstand en objectivering. Directieven verschijnen aan het einde als ethische consequentie. Commissieven en Declaratieven ontbreken nagenoeg volledig, waardoor het hart van het evangelie (de toezegging) niet klopt.",
+    "performatieve_intensivering": {
+      "nodig": "true",
+      "specifieke_suggesties": [
+        {
+          "huidige_formulering": "God is een God die blijvend DE KOMENDE is.",
+          "voorgestelde_revisie": "Ik verkondig u vandaag: God komt naar u toe. Hij is hier.",
+          "verschil": "Van een dogmatische stelling over God naar een actuele ontmoeting met God."
+        },
+        {
+          "huidige_formulering": "zullen we in feite steeds weer door de woestijn heen moeten",
+          "voorgestelde_revisie": "Christus gaat met u de woestijn in. Hij laat u niet alleen in uw dorheid.",
+          "verschil": "Van een zware opdracht naar een troostrijke belofte (commissief)."
+        }
+      ]
+    },
+    "toezegging_versterking": {
+      "nodig": "true",
+      "probleem": "De preek legt uit *dat* er bevrijding is, maar zegt deze bevrijding niet *toe*.",
+      "suggestie": "Voeg na de uitleg van de 'woestijn' een expliciete belofte toe.",
+      "voorbeeldzinnen": [
+        "De Heer zegt u toe: Ik baan voor u een weg waar geen weg is.",
+        "Uw zonden en uw falen in de woestijn zijn u vergeven."
+      ]
+    },
+    "adressering_verbetering": {
+      "nodig": "true",
+      "probleem": "Te veel 'men', 'het publiek', 'wij' (algemeen).",
+      "suggestie": "Spreek de gemeente direct aan als degenen tot wie God spreekt.",
+      "voorbeeldzinnen": [
+        "U bent die mensen in de woestijn.",
+        "God spreekt vandaag tot u."
+      ]
+    },
+    "indicatief_imperatief_herstel": {
+      "nodig": "true",
+      "probleem": "De imperatief ('wij moeten wijzen') volgt op een historische indicatief, niet op een actuele heilsindicatief.",
+      "suggestie": "Eerst de genade toezeggen, dan pas tot navolging roepen."
+    },
+    "overall_beoordeling": "VERBETERING_NODIG",
+    "slotopmerking": "De theologische en exegetische inhoud is excellent en rijk. Om dit tot een preek te maken die 'gebeurt', moet de stap gemaakt worden van de collegezaal naar de kansel. Durf niet alleen *over* de Bevrijder te spreken, maar spreek *namens* Hem de bevrijding uit over de hoorders."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_schulz_von_thun": "Schulz von Thun zou deze preek waarschijnlijk positief beoordelen op 'zakelijk aspect' (heldere uitleg) en 'zelfopenbaring' (betrokkenheid bij bevrijding). SAT onthult echter het theologische tekort: het ontbreken van de scheppende daad van God (declaratief). SvT ziet de preek als communicatie van mens tot mens; SAT ziet dat de 'verticale' illocutie ontbreekt.",
+    "verschil_met_retoriek": "Retorisch is de preek goed opgebouwd met mooie beelden (Vondel, Babylon). Illocutionair is hij echter zwak omdat hij blijft steken in beschrijving. Retoriek gaat over overtuigingskracht; Illocutie gaat over daadkracht.",
+    "unieke_inzichten_SAT": "SAT laat zien waarom een preek die 'waar' is (orthodox, bijbelgetrouw) toch 'mislukt' kan zijn als genademiddel: omdat het het heil niet bedient maar slechts bespreekt."
+  },
+  "appendices": {
+    "volledige_werkwoord_lijst": {
+      "assertief": [
+        "is",
+        "zien",
+        "verschijnt",
+        "verdwijnt",
+        "introduceert",
+        "legt uit",
+        "weten",
+        "verraadt",
+        "staat geschreven",
+        "betekent"
+      ],
+      "directief": [
+        "moeten zien",
+        "moeten voor ogen brengen",
+        "doén",
+        "verkondigen",
+        "aanwijzen"
+      ],
+      "expressief": [
+        "voel aan",
+        "ziet",
+        "opvalt"
+      ],
+      "commissief": [
+        "begeleidt (in bijzin)",
+        "trouw blijft (als feit)"
+      ],
+      "declaratief": []
+    },
+    "kernzinnen_analyse": [
+      {
+        "zin": "In het christendom... gaat het inderdaad om bevrijding",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Definiëren van het geloof (constatief).",
+        "effectiviteit": "Informatief sterk, performatief zwak."
+      },
+      {
+        "zin": "zullen we in feite steeds weer door de woestijn heen moeten",
+        "categorie": "DIRECTIEF",
+        "illocutionaire_kracht": "Oproep tot lijden/volharding.",
+        "effectiviteit": "Zwaar, zonder directe troost."
+      },
+      {
+        "zin": "God is een God die blijvend DE KOMENDE is",
+        "categorie": "ASSERTIEF",
+        "illocutionaire_kracht": "Theologische definitie.",
+        "effectiviteit": "Hoog abstractieniveau."
+      }
+    ],
+    "notities": "De preek is een typisch voorbeeld van academische homiletiek: rijk aan inzicht, arm aan toezegging."
+  }
+}

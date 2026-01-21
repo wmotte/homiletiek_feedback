@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "titel_preek": "De Identiteit van de Gewonde Opgestane",
+    "bijbeltekst": "Psalm 8:5-6 & Lukas 24:36-49",
+    "analyse_datum": "2024-05-20",
+    "geschat_aantal_woorden": "2100"
+  },
+  "actantiele_analyse": {
+    "primair_narratief_programma": {
+      "beschrijving": "Jezus openbaart Zichzelf in Zijn lichamelijke gebrokenheid om de menselijke angst en schaamte over het lichaam weg te nemen en het lichaam te heiligen.",
+      "subject": {
+        "identificatie": "Jezus Christus (De Opgestane)",
+        "tekstueel_bewijs": [
+          "Jezus Zelf stond in hun midden",
+          "Hij liet hun de handen en de voeten zien",
+          "Hij nam het aan en at het voor hun ogen op",
+          "Hij heiligt het [lichaam]"
+        ],
+        "frequentie_score": "9"
+      },
+      "object": {
+        "identificatie": "De heiliging en aanvaarding van het menselijk lichaam (inclusief kwetsbaarheid)",
+        "tekstueel_bewijs": [
+          "Jezus vindt zijn identiteit in zijn lichaam",
+          "Hij omhelst de kwetsbaarheid van het lichaam",
+          "Vrede zij u"
+        ],
+        "aard_van_object": "SOTERIOLOGISCH"
+      },
+      "zender": {
+        "identificatie": "God de Vader (impliciet, als degene die Hem mens maakte en opwekte)",
+        "tekstueel_bewijs": [
+          "de Vader heeft hem mens gemaakt",
+          "God heeft ons juist geschapen met een lijf"
+        ],
+        "rol_interpretatie": "LIEFHEBBENDE_VADER"
+      },
+      "ontvanger": {
+        "identificatie": "De discipelen / De gemeente (mensen die willen ontsnappen aan hun lichaam)",
+        "tekstueel_bewijs": [
+          "Voor u en mij",
+          "Hij is een steun voor iedereen die worstelt met pijn"
+        ],
+        "positie_hoorder": "De hoorder identificeert zich met de Ontvanger (de bange/schamende mens)"
+      },
+      "helper": {
+        "identificatie": "De wonden (gaten/bloed) en het voedsel (vis/honing)",
+        "tekstueel_bewijs": [
+          "Zijn doorboorde handen bepalen wie hij is",
+          "Daarmee demonstreert Jezus iets belangrijks"
+        ],
+        "rol_van_god": "God (in Christus) is het Subject",
+        "rol_van_geest": "Genoemd in de slotfase ('kracht uit de hoogte') als toekomstige helper"
+      },
+      "tegenstander": {
+        "identificatie": "De menselijke wens tot 'ontsnapping' (Gnosticisme), Schaamte, Angst voor sterfelijkheid",
+        "tekstueel_bewijs": [
+          "de wens om te ontsnappen",
+          "schaamte",
+          "angst en zeer bevreesd",
+          "idee dat wij als mensen onvolmaakt zijn"
+        ],
+        "ernst_tegenstander": "KOSMISCH",
+        "toelichting_ernst": "De tegenstander is niet slechts een slechte gewoonte, maar een existentiële verwerping van de schepping (het lichaam) en de doodsdrift."
+      }
+    },
+    "secundair_narratief_programma": {
+      "aanwezig": "true",
+      "beschrijving": "De gemeente trekt de wereld in om fysieke barmhartigheid te tonen.",
+      "subject": "De Gemeente / De Leerlingen",
+      "object": "Getuigenis en fysieke zorg (handen, voeten, arm om schouder)",
+      "verhouding_tot_primair": "HIËRARCHISCH",
+      "toelichting_verhouding": "Het secundaire programma (missie) vloeit logisch voort uit het primaire (Jezus' aanvaarding van het lichaam). Omdat Hij het lichaam heeft geheiligd, kunnen wij het inzetten."
+    },
+    "actantieel_schema_visualisatie": {
+      "zender_naar_ontvanger": "Vader → Heiliging van het Lichaam → Bange Mens",
+      "helper_subject_tegenstander": "Wonden/Tekenen → Jezus → Ontsnappingsdrang/Schaamte",
+      "subject_naar_object": "Jezus → Heiliging van het Lichaam"
+    }
+  },
+  "grammaticale_analyse": {
+    "subject_check": {
+      "god_als_subject_count": "Ca. 35 (Jezus staat, zegt, toont, eet, opent verstand, heiligt, etc.)",
+      "mens_als_subject_count": "Ca. 25 (Wij willen ontsnappen, wij schamen ons, wij moeten naar buiten)",
+      "ratio": "1.4",
+      "voorbeelden_god_subject": [
+        "Jezus Zelf stond in hun midden",
+        "Hij nam het aan en at het",
+        "Toen opende Hij hun verstand",
+        "God heeft ons juist geschapen met een lijf"
+      ],
+      "voorbeelden_mens_subject": [
+        "Wij halen die eigenschappen van God niet",
+        "Ik zou wel een geest willen zijn",
+        "Jullie moeten naar de ander"
+      ],
+      "rutledge_score": "8"
+    },
+    "modale_analyse": {
+      "devoir_faire": {
+        "prominentie": "4",
+        "voorbeelden": [
+          "Jullie moeten naar buiten",
+          "Dan moet je dat toch eerlijk vertalen"
+        ]
+      },
+      "vouloir_faire": {
+        "prominentie": "7",
+        "voorbeelden": [
+          "Ik zou wel een geest willen zijn",
+          "Daar verlang ik soms naar"
+        ]
+      },
+      "savoir_faire": {
+        "prominentie": "6",
+        "voorbeelden": [
+          "Toen opende Hij hun verstand",
+          "Weten dat Jezus niet mislukt is"
+        ]
+      },
+      "pouvoir_faire": {
+        "prominentie": "8",
+        "voorbeelden": [
+          "Hij is niet kapot te krijgen",
+          "Hij heiligt het",
+          "Bekleed worden met kracht uit de hoogte"
+        ]
+      },
+      "dominante_modaliteit": "POUVOIR",
+      "modale_interpretatie": "De preek draait om het onvermogen van de mens om zijn lichaam te accepteren (gebrek aan Pouvoir/Vouloir) en Jezus' macht (Pouvoir) om de dood en schaamte te overwinnen in datzelfde lichaam."
+    }
+  },
+  "semiotisch_vierkant_analyse": {
+    "primaire_tegenstelling": {
+      "s1": "Lichamelijkheid / Incarnatie (Aanvaarding)",
+      "s2": "Sterfelijkheid / Gebrokenheid (De realiteit)",
+      "niet_s1": "Gnosticisme / Escapisme (Ontkenning lichaam)",
+      "niet_s2": "Opstanding (Overwinning op dood IN lichaam)"
+    },
+    "beweging_in_preek": "De preek start bij S2 (pijnlijke realiteit). De mens zoekt ~S1 (vlucht uit lichaam). Jezus blokkeert ~S1 en beweegt van S2 naar ~S2 (Opstanding) zonder S1 (Lichaam) te verliezen.",
+    "theologische_resolutie": "De synthese is de 'Gewonde Opgestane': Het lichaam wordt niet verworpen, maar meegenomen door de dood heen naar het leven.",
+    "ernst_van_s2": "Zeer ernstig. De preek besteedt veel tijd aan de fysieke aftakeling (DNA slijtage, rugpijn), waardoor de genade (S1/~S2) concreet landt."
+  },
+  "diagnostische_evaluatie": {
+    "primaire_classificatie": "GENADE",
+    "classificatie_toelichting": "Deze preek is fundamenteel theocentrisch. De menselijke reflex (vluchten voor het lichaam, schaamte) wordt niet beantwoord met een opdracht ('doe beter je best'), maar met een Goddelijke actie (Jezus komt in het midden, toont wonden, eet). De mens is primair ontvanger van deze nieuwe realiteit. De ethische oproep aan het einde ('ga naar buiten') is stevig verankerd in de voorafgaande indicatief van Christus' werk.",
+    "indicatoren_moralisme": [
+      {
+        "indicator": "Imperatief aan het einde",
+        "tekstueel_bewijs": "Petrus, gooi die luiken eens op! ... Jullie moeten naar de ander.",
+        "ernst": "GERING"
+      }
+    ],
+    "indicatoren_genade": [
+      {
+        "indicator": "God als Subject van de identiteitsverlening",
+        "tekstueel_bewijs": "Jezus’ identiteit zijn de gaten en de wonden... Hij heiligt het.",
+        "sterkte": "ZEER_STERK"
+      },
+      {
+        "indicator": "Identificatie met zwakheid",
+        "tekstueel_bewijs": "Ik ben er een van jullie! Ik weet van je pijn.",
+        "sterkte": "STERK"
+      }
+    ],
+    "exemplarisme_check": {
+      "aanwezig": "false",
+      "beschrijving": "Jezus is niet slechts een voorbeeld van 'hoe om te gaan met pijn', Hij is de ontologische grond voor de hoop. Hij 'heiligt' het lichaam, wat meer is dan een voorbeeld geven.",
+      "bijbelse_figuren_als_model": [
+        "Geen (behalve Jezus als Verlosser)"
+      ],
+      "alternatieve_lezing": "N.v.t."
+    },
+    "identificatie_patroon": {
+      "hoorder_identificeert_met": "ONTVANGER_GEREDDE",
+      "effect_op_hoorder": "De hoorder mag zijn/haar eigen lichaam (met gebreken) aanvaarden omdat Christus dat ook doet. Dit werkt bevrijdend en therapeutisch.",
+      "theologische_implicatie": "Incarnatorische soteriologie: redding is niet 'uit' de wereld, maar 'van' de wereld."
+    },
+    "narratieve_coherentie": {
+      "coherentie_score": "9",
+      "coherentie_beschrijving": "De beweging van 'menselijke schaamte over het lichaam' naar 'Christus' aanvaarding van het lichaam' naar 'inzet van het lichaam voor de naaste' is logisch en theologisch consistent.",
+      "spanning_punten": []
+    }
+  },
+  "theologische_diepte_analyse": {
+    "soteriologie": {
+      "primaire_model": "PARTICIPATIE",
+      "tekstueel_bewijs": "Christus deelt in onze kwetsbaarheid ('Ik ben een van jullie') en neemt die mee de opstanding in.",
+      "menselijke_rol_in_redding": "PASSIEF_ONTVANGER"
+    },
+    "pneumatologie": {
+      "rol_heilige_geest": "EXTERNE_HELPER",
+      "competentie_schenking": "De Geest wordt expliciet genoemd als de 'kracht uit de hoogte' die nodig is voor de missie (v. 49), wat voorkomt dat de missie puur wilskracht wordt."
+    },
+    "hamartologie": {
+      "aard_van_zonde": "ONTOLOGISCHE_BESCHADIGING",
+      "ernst_diagnose": "Zonde wordt hier vooral geduid als gebrokenheid, sterfelijkheid en de neiging tot escapisme (verwerping van de schepping). Dit is een diepe, existentiële diagnose."
+    },
+    "eschatologie": {
+      "hoop_structuur": "REEDS_EN_NOG_NIET",
+      "actant_van_voltooiing": "God (Jezus' opstanding is het begin, de voltooiing volgt)"
+    }
+  },
+  "aanbevelingen": {
+    "actantiele_audit_samenvatting": "De preek heeft een gezonde 'Grace-structure'. Het Subject (Jezus) overwint de Tegenstander (schaamte/dood/escapisme) ten behoeve van de Ontvanger (de mens). De preek vermijdt de valkuil om de mens tot held te maken die zijn eigen lichaam moet accepteren; het is Jezus' acceptatie die de onze mogelijk maakt.",
+    "subject_herpositionering": {
+      "nodig": "false",
+      "huidige_probleem": "N.v.t.",
+      "voorgestelde_herpositionering": "N.v.t.",
+      "voorbeeld_revisie": "N.v.t."
+    },
+    "identificatie_herstel": {
+      "nodig": "false",
+      "problematische_identificatie": "Geen, de identificatie met de bange discipelen is correct.",
+      "voorgestelde_identificatie": "N.v.t.",
+      "strategie": "N.v.t."
+    },
+    "modale_balans": {
+      "huidige_onbalans": "Goede balans. De nadruk op 'moeten' aan het einde is functioneel.",
+      "voorgestelde_balans": "Misschien het 'moeten' in de slotfase iets meer koppelen aan het 'zullen' (belofte van de Geest).",
+      "concrete_suggestie": "In plaats van 'Jullie moeten naar buiten', sterker benadrukken: 'Omdat Hij leeft, zúllen jullie naar buiten gaan, gedreven door Zijn Geest.'"
+    },
+    "tegenstander_intensivering": {
+      "nodig": "false",
+      "huidige_status": "De Tegenstander (fysieke aftakeling en dood) wordt zeer realistisch en zwaar neergezet, wat de redding des te krachtiger maakt.",
+      "voorgestelde_intensivering": "N.v.t.",
+      "theologische_rationale": "N.v.t."
+    },
+    "narratieve_hierarchie_herstel": {
+      "nodig": "false",
+      "probleem": "Geen.",
+      "voorgestelde_structuur": "N.v.t."
+    },
+    "overall_beoordeling": "EXCELLENT",
+    "slotopmerking": "Een sterke, theocentrische preek die de valkuilen van moralisme en exemplarisme vermijdt. De prediker durft de fysieke realiteit van het lijden (S2) volledig onder ogen te zien, waardoor de boodschap van de opstanding (S1/~S2) niet goedkoop klinkt, maar als een daadwerkelijke verlossing. De toepassing naar de missie volgt organisch uit de theologie."
+  },
+  "comparatieve_analyse": {
+    "verschil_met_retorische_analyse": "Retorisch valt het beeldend taalgebruik op (kibbeling, DNA). Actantieel wordt duidelijk dat deze beelden niet slechts illustraties zijn, maar 'Helpers' in het narratief die de realiteit van de Incarnatie bewijzen.",
+    "verschil_met_exegese": "Exegetisch is de observatie over Psalm 8 (God vs Engelen) correct. Semiotisch wordt duidelijk hoe deze exegetische keuze functioneert om de 'Tegenstander' (menselijke kleinheid) te introduceren, die later door het Subject (Jezus) wordt opgelost.",
+    "unieke_inzichten_greimas": "Het model laat zien dat de 'wenst tot ontsnapping' functioneert als een anti-Subject beweging. Genade is hier niet alleen vergeving van schuld, maar het herstellen van de waarde van het object (het lichaam) dat door het Subject (de mens) was afgeschreven."
+  },
+  "appendices": {
+    "volledige_subject_lijst": [
+      "Jezus (staat, zegt, toont, eet, opent, zendt)",
+      "God/Vader (heeft gemaakt, ziet om, denkt aan)",
+      "Wij/Mens (willen ontsnappen, schamen ons, fietsen, sterven)",
+      "Discipelen (worden angstig, geven vis, geloven niet)"
+    ],
+    "volledige_object_lijst": [
+      "Het lichaam/Lijf",
+      "Vrede",
+      "Vis/Honing",
+      "De Schriften",
+      "Bekering en vergeving"
+    ],
+    "werkwoord_frequentie": {
+      "opstaan/opwekken": {
+        "count": "8",
+        "primair_subject": "God/Jezus"
+      },
+      "zien/kijken": {
+        "count": "12",
+        "primair_subject": "Mens/Discipelen"
+      },
+      "eten": {
+        "count": "5",
+        "primair_subject": "Jezus"
+      }
+    },
+    "notities": "Opvallend is de fysieke taal ('kibbeling', 'grijze haren'). Dit versterkt de semiotische as van de werkelijkheid tegenover de schijn/geest."
+  }
+}

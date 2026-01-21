@@ -111,7 +111,7 @@ for input_file in "$INPUT_DIR"/*.txt; do
     else
         echo "🧠 Running Transactional Analysis..."
         ./analyze_transactional.py --input "$input_file" --no-summary
-        
+
         # Move output
         latest_output=$(ls -t "$OUTPUT_DIR"/${base_name}_transactional_*.json 2>/dev/null | head -n 1)
         if [ -n "$latest_output" ]; then
@@ -119,6 +119,60 @@ for input_file in "$INPUT_DIR"/*.txt; do
             echo "✅ Saved to: $target_file"
         else
             echo "❌ Transactional analysis failed or no output found."
+        fi
+    fi
+
+    # --- 6. Conceptual Metaphor Theory (CMT) Analysis ---
+    target_file="$DOCS_DIR/${base_name}_metafoor.json"
+    if [ -f "$target_file" ]; then
+        echo "⏭️  Metaphor Analysis already exists in $DOCS_DIR. Skipping..."
+    else
+        echo "🔍 Running Conceptual Metaphor Theory (CMT) Analysis..."
+        ./analyze_metafoor.py --input "$input_file" --no-summary
+
+        # Move output
+        latest_output=$(ls -t "$OUTPUT_DIR"/${base_name}_metafoor_*.json 2>/dev/null | head -n 1)
+        if [ -n "$latest_output" ]; then
+            mv "$latest_output" "$target_file"
+            echo "✅ Saved to: $target_file"
+        else
+            echo "❌ Metaphor analysis failed or no output found."
+        fi
+    fi
+
+    # --- 7. Narrative Semiotics (Greimas Actantial Model) Analysis ---
+    target_file="$DOCS_DIR/${base_name}_narratief.json"
+    if [ -f "$target_file" ]; then
+        echo "⏭️  Narrative Analysis already exists in $DOCS_DIR. Skipping..."
+    else
+        echo "🎭 Running Narrative Semiotics (Greimas) Analysis..."
+        ./analyze_narratief.py --input "$input_file" --no-summary
+
+        # Move output
+        latest_output=$(ls -t "$OUTPUT_DIR"/${base_name}_narratief_*.json 2>/dev/null | head -n 1)
+        if [ -n "$latest_output" ]; then
+            mv "$latest_output" "$target_file"
+            echo "✅ Saved to: $target_file"
+        else
+            echo "❌ Narrative analysis failed or no output found."
+        fi
+    fi
+
+    # --- 8. Speech Act Theory (Taalhandelingstheorie) Analysis ---
+    target_file="$DOCS_DIR/${base_name}_taalhandeling.json"
+    if [ -f "$target_file" ]; then
+        echo "⏭️  Speech Act Analysis already exists in $DOCS_DIR. Skipping..."
+    else
+        echo "💬 Running Speech Act Theory (Austin & Searle) Analysis..."
+        ./analyze_taalhandeling.py --input "$input_file" --no-summary
+
+        # Move output
+        latest_output=$(ls -t "$OUTPUT_DIR"/${base_name}_taalhandeling_*.json 2>/dev/null | head -n 1)
+        if [ -n "$latest_output" ]; then
+            mv "$latest_output" "$target_file"
+            echo "✅ Saved to: $target_file"
+        else
+            echo "❌ Speech Act analysis failed or no output found."
         fi
     fi
 
