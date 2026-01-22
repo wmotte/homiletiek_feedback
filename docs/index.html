@@ -503,6 +503,22 @@
 <script>
     let currentTheme = 'dark';
 
+    // Store combined analysis data when a combined JSON is uploaded
+    let combinedAnalysisData = null;
+
+    // Analysis type mapping for display names and detection
+    const ANALYSIS_TYPE_CONFIG = {
+        'dekker': { name: 'Dekker analyse', detectKey: 'analyse_per_criterium' },
+        'kolb': { name: 'Kolb analyse', detectKey: 'kolb_fasen_analyse' },
+        'aristoteles': { name: 'Aristoteles analyse', detectKey: 'aristotelische_modi_analyse' },
+        'schulz_von_thun': { name: 'Schulz von Thun analyse', detectKey: 'schulz_von_thun_analyse' },
+        'transactional': { name: 'Transactionele Analyse', detectKey: 'ta_analyse' },
+        'esthetiek': { name: 'Esthetiek analyse', detectKey: 'esthetische_analyse' },
+        'metafoor': { name: 'Metafoor (CMT) analyse', detectKey: 'primaire_analyse' },
+        'narratief': { name: 'Narratief (Greimas) analyse', detectKey: 'semiotische_analyse' },
+        'taalhandeling': { name: 'Taalhandeling (SAT) analyse', detectKey: 'taalhandeling_analyse' }
+    };
+
     /**
      * Converts straight quotes to curly quotes with proper Dutch language support.
      * Handles cases like 's ochtends, 's avonds, etc.
@@ -638,10 +654,22 @@
         updateInfoBlock(analysisTypeSelector.value);
         loadExample(exampleSelector.value, analysisTypeSelector.value);
 
-        exampleSelector.addEventListener('change', (e) => loadExample(e.target.value, analysisTypeSelector.value));
+        exampleSelector.addEventListener('change', (e) => {
+            // Reset combined mode when selecting an example
+            combinedAnalysisData = null;
+            exampleSelector.style.display = '';
+            // Restore full dropdown options
+            restoreFullAnalysisDropdown();
+            loadExample(e.target.value, analysisTypeSelector.value);
+        });
         analysisTypeSelector.addEventListener('change', (e) => {
             updateInfoBlock(e.target.value);
-            loadExample(exampleSelector.value, e.target.value);
+            // Check if we're in combined mode
+            if (combinedAnalysisData) {
+                handleCombinedAnalysisTypeChange(e.target.value);
+            } else {
+                loadExample(exampleSelector.value, e.target.value);
+            }
         });
         document.getElementById('sermon-upload').addEventListener('change', handleSermonUpload);
         document.getElementById('json-upload').addEventListener('change', handleJsonUpload);
@@ -734,10 +762,239 @@
                 renderAnalysis(json);
                 switchTab('analysis');
             } catch (error) {
+                console.error("JSON parse error:", error);
                 alert("Ongeldig JSON bestand!");
             }
         };
         reader.readAsText(file);
+    }
+
+    /**
+     * Main render function that handles both combined and single analysis JSON files.
+     * Combined JSON has: { source: "...", analyses: { dekker: {...}, aristoteles: {...}, ... } }
+     * Single JSON has the analysis data directly at the root level.
+     */
+    function renderAnalysis(json) {
+        // Check if this is a combined analysis JSON
+        if (json.metadata && json.metadata.type === 'combined_analysis' && json.source && json.analyses) {
+            handleCombinedAnalysis(json);
+            return;
+        }
+
+        // Single analysis JSON - detect type and render
+        const analysisType = detectAnalysisType(json);
+        if (analysisType) {
+            renderAnalysisByType(analysisType, json);
+        } else {
+            // Fallback to Dekker if detection fails
+            console.warn("Could not detect analysis type, defaulting to Dekker");
+            renderAnalysisDekker(json);
+        }
+    }
+
+    /**
+     * Detect the analysis type from the JSON structure.
+     */
+    function detectAnalysisType(json) {
+        // Check for unique keys that identify each analysis type
+        if (json.analyse_per_criterium) return 'dekker';
+        if (json.kolb_fasen_analyse) return 'kolb';
+        if (json.aristotelische_modi_analyse) return 'aristoteles';
+        if (json.schulz_von_thun_analyse) return 'schulz_von_thun';
+        if (json.ta_analyse) return 'transactional';
+        if (json.esthetische_analyse || json.totaalbeeld_esthetiek) return 'esthetiek';
+        if (json.primaire_analyse && json.primaire_analyse.dominante_domeinen) return 'metafoor';
+        if (json.semiotische_analyse || json.actantiele_analyse) return 'narratief';
+        if (json.taalhandeling_analyse || json.werkwoord_analyse) return 'taalhandeling';
+        return null;
+    }
+
+    /**
+     * Render an analysis by its type identifier.
+     */
+    function renderAnalysisByType(type, data) {
+        // Update info block for the analysis type
+        const infoType = type === 'schulz_von_thun' ? 'schulz' : type;
+        updateInfoBlock(infoType);
+
+        switch(type) {
+            case 'dekker':
+                renderAnalysisDekker(data);
+                break;
+            case 'kolb':
+                renderAnalysisKolb(data);
+                break;
+            case 'aristoteles':
+                renderAnalysisAristoteles(data);
+                break;
+            case 'schulz_von_thun':
+                renderAnalysisSchulzVonThun(data);
+                break;
+            case 'transactional':
+                renderAnalysisTransactional(data);
+                break;
+            case 'esthetiek':
+                renderAnalysisEsthetiek(data);
+                break;
+            case 'metafoor':
+                renderAnalysisMetafoor(data);
+                break;
+            case 'narratief':
+                renderAnalysisNarratief(data);
+                break;
+            case 'taalhandeling':
+                renderAnalysisTaalhandeling(data);
+                break;
+            default:
+                console.warn(`Unknown analysis type: ${type}`);
+                renderAnalysisDekker(data);
+        }
+    }
+
+    /**
+     * Handle a combined analysis JSON file.
+     * This updates the dropdown to show only available analyses and renders the source text.
+     */
+    function handleCombinedAnalysis(json) {
+        // Store the combined data
+        combinedAnalysisData = json;
+
+        // Display the source text in the preek tab
+        if (json.source) {
+            renderSermon(json.source);
+        }
+
+        // Show warnings if any
+        if (json.warnings && json.warnings.length > 0) {
+            console.warn("Analyse waarschuwingen:", json.warnings);
+            // Show a notification about warnings
+            const warningCount = json.warnings.length;
+            setTimeout(() => {
+                alert(`Let op: ${warningCount} analyse(s) zijn niet succesvol uitgevoerd.\n\nDetails:\n${json.warnings.join('\n')}`);
+            }, 100);
+        }
+
+        // Update the analysis type dropdown to show only available analyses
+        updateAnalysisDropdownForCombined(json.available_analyses || Object.keys(json.analyses));
+
+        // Hide the example selector since we're using uploaded data
+        const exampleSelector = document.getElementById('example-select');
+        if (exampleSelector) {
+            exampleSelector.style.display = 'none';
+        }
+
+        // Render the first available analysis
+        const availableTypes = json.available_analyses || Object.keys(json.analyses);
+        if (availableTypes.length > 0) {
+            const firstType = availableTypes[0];
+            const analysisTypeSelector = document.getElementById('analysis-type-select');
+            if (analysisTypeSelector) {
+                analysisTypeSelector.value = firstType === 'schulz_von_thun' ? 'schulz' : firstType;
+            }
+            renderAnalysisByType(firstType, json.analyses[firstType]);
+        }
+    }
+
+    /**
+     * Update the analysis type dropdown to show only the available analyses from combined JSON.
+     */
+    function updateAnalysisDropdownForCombined(availableTypes) {
+        const selector = document.getElementById('analysis-type-select');
+        if (!selector) return;
+
+        // Map internal keys to dropdown values
+        const keyToDropdownValue = {
+            'dekker': 'dekker',
+            'kolb': 'kolb',
+            'aristoteles': 'aristoteles',
+            'schulz_von_thun': 'schulz',
+            'transactional': 'transactional',
+            'esthetiek': 'esthetiek',
+            'metafoor': 'metafoor',
+            'narratief': 'narratief',
+            'taalhandeling': 'taalhandeling'
+        };
+
+        const displayNames = {
+            'dekker': 'Dekker analyse',
+            'kolb': 'Kolb analyse',
+            'aristoteles': 'Aristoteles analyse',
+            'schulz': 'Schulz von Thun analyse',
+            'transactional': 'Transactionele Analyse',
+            'esthetiek': 'Esthetiek analyse',
+            'metafoor': 'Metafoor (CMT) analyse',
+            'narratief': 'Narratief (Greimas) analyse',
+            'taalhandeling': 'Taalhandeling (SAT) analyse'
+        };
+
+        // Clear existing options
+        selector.innerHTML = '';
+
+        // Add options for available analyses
+        availableTypes.forEach(type => {
+            const dropdownValue = keyToDropdownValue[type] || type;
+            const option = document.createElement('option');
+            option.value = dropdownValue;
+            option.textContent = displayNames[dropdownValue] || type;
+            selector.appendChild(option);
+        });
+    }
+
+    /**
+     * Restore the analysis type dropdown to show all analysis types.
+     */
+    function restoreFullAnalysisDropdown() {
+        const selector = document.getElementById('analysis-type-select');
+        if (!selector) return;
+
+        const allOptions = [
+            { value: 'kolb', text: 'Kolb analyse' },
+            { value: 'dekker', text: 'Dekker analyse' },
+            { value: 'aristoteles', text: 'Aristoteles analyse' },
+            { value: 'schulz', text: 'Schulz von Thun analyse' },
+            { value: 'transactional', text: 'Transactionele Analyse' },
+            { value: 'esthetiek', text: 'Esthetiek analyse' },
+            { value: 'metafoor', text: 'Metafoor (CMT) analyse' },
+            { value: 'narratief', text: 'Narratief (Greimas) analyse' },
+            { value: 'taalhandeling', text: 'Taalhandeling (SAT) analyse' }
+        ];
+
+        selector.innerHTML = '';
+        allOptions.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt.value;
+            option.textContent = opt.text;
+            selector.appendChild(option);
+        });
+    }
+
+    /**
+     * Handle analysis type change when using combined data.
+     */
+    function handleCombinedAnalysisTypeChange(dropdownValue) {
+        if (!combinedAnalysisData) return false;
+
+        // Map dropdown values to internal keys
+        const dropdownToKey = {
+            'dekker': 'dekker',
+            'kolb': 'kolb',
+            'aristoteles': 'aristoteles',
+            'schulz': 'schulz_von_thun',
+            'transactional': 'transactional',
+            'esthetiek': 'esthetiek',
+            'metafoor': 'metafoor',
+            'narratief': 'narratief',
+            'taalhandeling': 'taalhandeling'
+        };
+
+        const internalKey = dropdownToKey[dropdownValue] || dropdownValue;
+
+        if (combinedAnalysisData.analyses && combinedAnalysisData.analyses[internalKey]) {
+            renderAnalysisByType(internalKey, combinedAnalysisData.analyses[internalKey]);
+            return true;
+        }
+
+        return false;
     }
 
     function renderSermon(text) {
