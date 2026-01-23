@@ -2438,11 +2438,24 @@
             }
 
             if (incoherentiePunten.length > 0) {
-                coherentieHTML += '<div><strong>Incoherentiepunten:</strong><ul style="margin: 0.25rem 0 0 1rem; font-size: 0.85rem;">';
+                coherentieHTML += '<div style="margin-top: 1rem;"><strong style="color: var(--warning-color);">Incoherentiepunten:</strong>';
                 incoherentiePunten.forEach(p => {
-                    coherentieHTML += `<li>${formatText(p)}</li>`;
+                    // Handle both string and object formats
+                    if (typeof p === 'string') {
+                        coherentieHTML += `<p style="margin: 0.5rem 0; font-size: 0.85rem; padding-left: 0.5rem; border-left: 2px solid var(--warning-color);">${formatText(p)}</p>`;
+                    } else {
+                        const ernstColor = (p.ernst === 'ERNSTIG' || p.ernst === 'HOOG') ? 'var(--danger-color)' : p.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
+                        coherentieHTML += `
+                            <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid ${ernstColor}; font-size: 0.85rem;">
+                                <p style="margin: 0;"><strong>Locatie:</strong> ${formatText(p.locatie || '')}</p>
+                                ${p.metafoor_a && p.metafoor_b ? `<p style="margin: 0.25rem 0; font-size: 0.8rem;"><strong>Conflict:</strong> ${formatText(p.metafoor_a)} vs. ${formatText(p.metafoor_b)}</p>` : ''}
+                                ${p.conflict_beschrijving ? `<p style="margin: 0.25rem 0; font-size: 0.8rem;">${formatText(p.conflict_beschrijving)}</p>` : ''}
+                                ${p.entailment_conflict ? `<p style="margin: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted);"><strong>Entailment conflict:</strong> ${formatText(p.entailment_conflict)}</p>` : ''}
+                                ${p.ernst ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.75rem; color: ${ernstColor};">[${translateTag(p.ernst)}]</p>` : ''}
+                            </div>`;
+                    }
                 });
-                coherentieHTML += '</ul></div>';
+                coherentieHTML += '</div>';
             }
 
             coherentieCard.innerHTML = `
@@ -2526,7 +2539,7 @@
 
         let risicosHTML = '';
         risicos.forEach(r => {
-            const ernstColor = r.ernst === 'ERNSTIG' ? 'var(--danger-color)' : r.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
+            const ernstColor = (r.ernst === 'ERNSTIG' || r.ernst === 'HOOG') ? 'var(--danger-color)' : r.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
             risicosHTML += `
                 <div style="margin-bottom: 0.75rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid ${ernstColor};">
                     <p style="margin: 0;"><strong>${translateTag(r.risico_type)}</strong> <span style="color: ${ernstColor};">(${translateTag(r.ernst)})</span>: ${formatText(r.beschrijving)}</p>
@@ -2715,6 +2728,34 @@
                 </div>
             `;
             container.appendChild(aanbevCard);
+        }
+
+        // Comparatieve Analyse
+        const compAnalMetafoor = data.comparatieve_analyse || {};
+        if (compAnalMetafoor.verschil_met_esthetiek || compAnalMetafoor.verschil_met_kolb || compAnalMetafoor.unieke_inzichten_CMT) {
+            const compAnalMetafoorCard = document.createElement('div');
+            compAnalMetafoorCard.className = 'card';
+
+            let compAnalMetafoorHTML = '';
+            if (compAnalMetafoor.verschil_met_esthetiek) {
+                compAnalMetafoorHTML += `<p style="margin-bottom: 0.75rem; font-size: 0.85rem;"><strong>vs. Esthetiek:</strong> ${formatText(compAnalMetafoor.verschil_met_esthetiek)}</p>`;
+            }
+            if (compAnalMetafoor.verschil_met_kolb) {
+                compAnalMetafoorHTML += `<p style="margin-bottom: 0.75rem; font-size: 0.85rem;"><strong>vs. Kolb:</strong> ${formatText(compAnalMetafoor.verschil_met_kolb)}</p>`;
+            }
+            if (compAnalMetafoor.unieke_inzichten_CMT) {
+                compAnalMetafoorHTML += `<p style="margin-bottom: 0; font-size: 0.85rem;"><strong>Unieke inzichten CMT:</strong> ${formatText(compAnalMetafoor.unieke_inzichten_CMT)}</p>`;
+            }
+
+            compAnalMetafoorCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Comparatieve analyse</span>
+                </div>
+                <div class="text-content">
+                    ${compAnalMetafoorHTML}
+                </div>
+            `;
+            container.appendChild(compAnalMetafoorCard);
         }
 
         // Appendices
@@ -2915,7 +2956,7 @@
                         <span style="font-size: 0.9rem;"><strong>${mod.label}</strong></span>
                         <span style="font-family: var(--font-mono); font-weight: bold; color: ${mod.color}; font-size: 0.85rem;">${score}/10</span>
                     </div>
-                    ${voorbeelden.length > 0 ? `<p style="font-size: 0.75rem; color: var(--text-muted); margin: 0.25rem 0 0 0; font-style: italic;">"${voorbeelden[0]}"</p>` : ''}
+                    ${voorbeelden.length > 0 ? `<p style="font-size: 0.75rem; color: var(--text-muted); margin: 0.25rem 0 0 0; font-style: italic;">\u201c${voorbeelden[0]}\u201d</p>` : ''}
                 </div>
             `;
         });
@@ -3075,7 +3116,7 @@
                     <strong style="color: var(--warning-color);">⚠ Subject herpositionering nodig</strong>
                     <p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Probleem:</strong> ${formatText(aanbev.subject_herpositionering.huidige_probleem || '')}</p>
                     <p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Voorgesteld:</strong> ${formatText(aanbev.subject_herpositionering.voorgestelde_herpositionering || '')}</p>
-                    ${aanbev.subject_herpositionering.voorbeeld_revisie ? `<p style="font-size: 0.8rem; font-style: italic; margin: 0.25rem 0; color: var(--text-muted);">"${aanbev.subject_herpositionering.voorbeeld_revisie}"</p>` : ''}
+                    ${aanbev.subject_herpositionering.voorbeeld_revisie ? `<p style="font-size: 0.8rem; font-style: italic; margin: 0.25rem 0; color: var(--text-muted);">\u201c${aanbev.subject_herpositionering.voorbeeld_revisie}\u201d</p>` : ''}
                 </div>
             `;
         }
@@ -3181,7 +3222,7 @@
                         <strong>${cat.emoji} ${cat.label}</strong>
                         <span style="font-family: var(--font-mono); font-weight: bold; color: var(--primary-color);">${freq} (${pct})</span>
                     </div>
-                    ${examples.length > 0 ? `<p style="font-size: 0.8rem; color: var(--text-muted); margin: 0.5rem 0 0 0; font-style: italic;">"${examples[0]}"</p>` : ''}
+                    ${examples.length > 0 ? `<p style="font-size: 0.8rem; color: var(--text-muted); margin: 0.5rem 0 0 0; font-style: italic;">\u201c${examples[0]}\u201d</p>` : ''}
                 </div>
             `;
         });
@@ -3246,6 +3287,359 @@
         `;
         container.appendChild(toezegCard);
 
+        // Constatief/Performatief Diagnose Details
+        const constPerfDiag = data.constatief_performatief_diagnose || {};
+        if (constPerfDiag.constatief_surplus_analyse || constPerfDiag.performatief_deficit_analyse) {
+            const constPerfCard = document.createElement('div');
+            constPerfCard.className = 'card';
+
+            let constPerfHTML = '';
+
+            const surplus = constPerfDiag.constatief_surplus_analyse || {};
+            if (surplus.aanwezig === 'true' || surplus.aanwezig === true) {
+                const ernstColor = surplus.ernst === 'ERNSTIG' ? 'var(--danger-color)' : surplus.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
+                constPerfHTML += `
+                    <div style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-element); border-radius: 6px; border-left: 3px solid ${ernstColor};">
+                        <strong>Constatief surplus</strong> <span style="color: ${ernstColor};">(${translateTag(surplus.ernst || 'Onbekend')})</span>
+                        ${surplus.indicatoren?.length ? `<ul style="margin: 0.5rem 0 0 0; font-size: 0.85rem;">${surplus.indicatoren.map(i => `<li>${formatText(i)}</li>`).join('')}</ul>` : ''}
+                        ${surplus.effect_op_hoorder ? `<p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: var(--text-muted);"><strong>Effect:</strong> ${formatText(surplus.effect_op_hoorder)}</p>` : ''}
+                    </div>`;
+            }
+
+            const deficit = constPerfDiag.performatief_deficit_analyse || {};
+            if (deficit.aanwezig === 'true' || deficit.aanwezig === true) {
+                const ernstColor = deficit.ernst === 'ERNSTIG' ? 'var(--danger-color)' : deficit.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
+                constPerfHTML += `
+                    <div style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-element); border-radius: 6px; border-left: 3px solid ${ernstColor};">
+                        <strong>Performatief deficit</strong> <span style="color: ${ernstColor};">(${translateTag(deficit.ernst || 'Onbekend')})</span>
+                        ${deficit.missende_elementen?.length ? `<ul style="margin: 0.5rem 0 0 0; font-size: 0.85rem;">${deficit.missende_elementen.map(e => `<li>${formatText(e)}</li>`).join('')}</ul>` : ''}
+                        ${deficit.effect_op_hoorder ? `<p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: var(--text-muted);"><strong>Effect:</strong> ${formatText(deficit.effect_op_hoorder)}</p>` : ''}
+                    </div>`;
+            }
+
+            if (constPerfHTML) {
+                constPerfCard.innerHTML = `
+                    <div class="card-header">
+                        <span class="card-title">Constatief/Performatief diagnose</span>
+                    </div>
+                    <div class="text-content">
+                        ${constPerfHTML}
+                    </div>
+                `;
+                container.appendChild(constPerfCard);
+            }
+        }
+
+        // Diagnostische Evaluatie Details
+        const diagEval = data.diagnostische_evaluatie || {};
+        if (diagEval.diagnose_toelichting || diagEval.sterke_punten?.length || diagEval.zwakke_punten?.length) {
+            const diagEvalCard = document.createElement('div');
+            diagEvalCard.className = 'card';
+
+            let diagEvalHTML = '';
+
+            if (diagEval.primaire_diagnose) {
+                const diagnoseColor = diagEval.primaire_diagnose.includes('EVANGELISCH') || diagEval.primaire_diagnose.includes('GENADE') ? 'var(--success-color)' :
+                                     diagEval.primaire_diagnose.includes('WETTISCH') || diagEval.primaire_diagnose.includes('MORALISME') ? 'var(--danger-color)' : 'var(--warning-color)';
+                diagEvalHTML += `<p style="margin-bottom: 0.75rem;"><strong>Primaire diagnose:</strong> <span style="color: ${diagnoseColor};">${translateTag(diagEval.primaire_diagnose)}</span></p>`;
+            }
+
+            if (diagEval.diagnose_toelichting) {
+                diagEvalHTML += `<p style="margin-bottom: 1rem; font-size: 0.9rem;">${formatText(diagEval.diagnose_toelichting)}</p>`;
+            }
+
+            if (diagEval.sterke_punten?.length) {
+                diagEvalHTML += '<div style="margin-bottom: 1rem;"><strong style="color: var(--success-color);">Sterke punten:</strong>';
+                diagEval.sterke_punten.forEach(s => {
+                    diagEvalHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid var(--success-color); font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>${formatText(s.aspect || '')}</strong> (${translateTag(s.categorie || '')})</p>
+                            ${s.tekstueel_bewijs ? `<p style="margin: 0.25rem 0; font-style: italic; color: var(--text-muted);">${formatText(s.tekstueel_bewijs)}</p>` : ''}
+                            ${s.effect ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem;">${formatText(s.effect)}</p>` : ''}
+                        </div>`;
+                });
+                diagEvalHTML += '</div>';
+            }
+
+            if (diagEval.zwakke_punten?.length) {
+                diagEvalHTML += '<div style="margin-bottom: 1rem;"><strong style="color: var(--danger-color);">Zwakke punten:</strong>';
+                diagEval.zwakke_punten.forEach(z => {
+                    const ernstColor = z.ernst === 'ERNSTIG' ? 'var(--danger-color)' : z.ernst === 'MATIG' ? 'var(--warning-color)' : 'var(--success-color)';
+                    diagEvalHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; border-left: 3px solid ${ernstColor}; font-size: 0.85rem;">
+                            <p style="margin: 0;"><strong>${formatText(z.aspect || '')}</strong> (${translateTag(z.categorie || '')}) <span style="color: ${ernstColor};">[${translateTag(z.ernst || '')}]</span></p>
+                            ${z.tekstueel_bewijs ? `<p style="margin: 0.25rem 0; font-style: italic; color: var(--text-muted);">${formatText(z.tekstueel_bewijs)}</p>` : ''}
+                            ${z.probleem ? `<p style="margin: 0.25rem 0 0 0; font-size: 0.8rem;">${formatText(z.probleem)}</p>` : ''}
+                        </div>`;
+                });
+                diagEvalHTML += '</div>';
+            }
+
+            if (diagEval.gebeuren_toelichting) {
+                diagEvalHTML += `<p style="font-size: 0.85rem; margin-top: 0.5rem;"><strong>Gebeuren:</strong> ${formatText(diagEval.gebeuren_toelichting)}</p>`;
+            }
+            if (diagEval.sacramentele_toelichting) {
+                diagEvalHTML += `<p style="font-size: 0.85rem; margin-top: 0.5rem;"><strong>Sacramentele kracht:</strong> ${formatText(diagEval.sacramentele_toelichting)}</p>`;
+            }
+
+            diagEvalCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Diagnostische evaluatie</span>
+                </div>
+                <div class="text-content">
+                    ${diagEvalHTML}
+                </div>
+            `;
+            container.appendChild(diagEvalCard);
+        }
+
+        // Adressering Analyse
+        const adressering = data.adressering_analyse || {};
+        if (adressering.persoonsvorm_distributie || adressering.tijdsdimensie) {
+            const adresseringCard = document.createElement('div');
+            adresseringCard.className = 'card';
+
+            let adresseringHTML = '';
+
+            const pvd = adressering.persoonsvorm_distributie || {};
+            if (pvd.eerste_persoon || pvd.tweede_persoon || pvd.derde_persoon) {
+                adresseringHTML += '<div style="margin-bottom: 1rem;"><strong>Persoonsvorm distributie:</strong>';
+                if (pvd.eerste_persoon) {
+                    adresseringHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>1e persoon:</strong> ${pvd.eerste_persoon.frequentie || ''} — ${formatText(pvd.eerste_persoon.gebruik || '')}</p>`;
+                }
+                if (pvd.tweede_persoon) {
+                    adresseringHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>2e persoon:</strong> ${pvd.tweede_persoon.frequentie || ''} — ${formatText(pvd.tweede_persoon.gebruik || '')}`;
+                    if (pvd.tweede_persoon.performatieve_context) {
+                        adresseringHTML += ` <em>(Performatief: ${pvd.tweede_persoon.performatieve_context})</em>`;
+                    }
+                    adresseringHTML += '</p>';
+                }
+                if (pvd.derde_persoon) {
+                    adresseringHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>3e persoon:</strong> ${pvd.derde_persoon.frequentie || ''} — ${formatText(pvd.derde_persoon.gebruik || '')}`;
+                    if (pvd.derde_persoon.distantie_effect) {
+                        adresseringHTML += ` <em>(${formatText(pvd.derde_persoon.distantie_effect)})</em>`;
+                    }
+                    adresseringHTML += '</p>';
+                }
+                adresseringHTML += '</div>';
+            }
+
+            const tijd = adressering.tijdsdimensie || {};
+            if (tijd.verleden_tijd || tijd.tijdloos_present || tijd.actueel_present) {
+                adresseringHTML += '<div style="margin-bottom: 1rem;"><strong>Tijdsdimensie:</strong>';
+                if (tijd.verleden_tijd) {
+                    adresseringHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Verleden:</strong> ${tijd.verleden_tijd.frequentie || ''} — ${formatText(tijd.verleden_tijd.gebruik || '')}</p>`;
+                }
+                if (tijd.tijdloos_present) {
+                    adresseringHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Tijdloos present:</strong> ${tijd.tijdloos_present.frequentie || ''} — ${formatText(tijd.tijdloos_present.gebruik || '')}</p>`;
+                }
+                if (tijd.actueel_present) {
+                    adresseringHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Actueel present:</strong> ${tijd.actueel_present.frequentie || ''} — ${formatText(tijd.actueel_present.gebruik || '')}</p>`;
+                }
+                adresseringHTML += '</div>';
+            }
+
+            if (adressering.adressering_effectiviteit) {
+                const effScore = parseInt(adressering.adressering_effectiviteit) || 0;
+                const effClass = effScore >= 7 ? 'score-high' : effScore >= 4 ? 'score-mid' : 'score-low';
+                adresseringHTML += `<p><strong>Effectiviteit:</strong> <span class="score-badge ${effClass}" style="font-size: 0.75rem; padding: 0.15rem 0.5rem;">${effScore}/10</span></p>`;
+            }
+
+            adresseringCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Adressering analyse</span>
+                </div>
+                <div class="text-content">
+                    ${adresseringHTML}
+                </div>
+            `;
+            container.appendChild(adresseringCard);
+        }
+
+        // Sacramenteel Patroon Analyse
+        const sacrPatroon = data.sacramenteel_patroon_analyse || {};
+        if (sacrPatroon.patroon_identificatie || sacrPatroon.foutief_patroon?.aanwezig || sacrPatroon.sacramenteel_patroon?.aanwezig) {
+            const sacrPatroonCard = document.createElement('div');
+            sacrPatroonCard.className = 'card';
+
+            let sacrPatroonHTML = '';
+
+            if (sacrPatroon.patroon_identificatie) {
+                const patroonColor = sacrPatroon.patroon_identificatie === 'SACRAMENTEEL' ? 'var(--success-color)' :
+                                    sacrPatroon.patroon_identificatie === 'FOUTIEF' ? 'var(--danger-color)' : 'var(--warning-color)';
+                sacrPatroonHTML += `<p style="margin-bottom: 0.75rem;"><strong>Patroon:</strong> <span style="color: ${patroonColor};">${translateTag(sacrPatroon.patroon_identificatie)}</span></p>`;
+            }
+
+            const foutief = sacrPatroon.foutief_patroon || {};
+            if (foutief.aanwezig === 'true' || foutief.aanwezig === true) {
+                sacrPatroonHTML += `
+                    <div style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-element); border-radius: 6px; border-left: 3px solid var(--danger-color);">
+                        <strong style="color: var(--danger-color);">Foutief patroon aanwezig</strong>
+                        ${foutief.beschrijving ? `<p style="margin: 0.5rem 0; font-size: 0.85rem;">${formatText(foutief.beschrijving)}</p>` : ''}
+                        ${foutief.probleem ? `<p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: var(--text-muted);"><strong>Probleem:</strong> ${formatText(foutief.probleem)}</p>` : ''}
+                        ${foutief.voorbeelden?.length ? `<p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; font-style: italic;">${foutief.voorbeelden.map(v => formatText(v)).join('; ')}</p>` : ''}
+                    </div>`;
+            }
+
+            const sacr = sacrPatroon.sacramenteel_patroon || {};
+            if (sacr.aanwezig === 'true' || sacr.aanwezig === true) {
+                sacrPatroonHTML += `
+                    <div style="margin-bottom: 1rem; padding: 0.75rem; background: var(--bg-element); border-radius: 6px; border-left: 3px solid var(--success-color);">
+                        <strong style="color: var(--success-color);">Sacramenteel patroon aanwezig</strong>
+                        ${sacr.beschrijving ? `<p style="margin: 0.5rem 0; font-size: 0.85rem;">${formatText(sacr.beschrijving)}</p>` : ''}
+                        ${sacr.kwaliteit ? `<p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: var(--text-muted);"><strong>Kwaliteit:</strong> ${formatText(sacr.kwaliteit)}</p>` : ''}
+                    </div>`;
+            }
+
+            const indImp = sacrPatroon.indicatief_imperatief_verhouding || {};
+            if (indImp.indicatief_aanwezig !== undefined || indImp.imperatief_gefundeerd !== undefined) {
+                const indAanwezig = indImp.indicatief_aanwezig === 'true' || indImp.indicatief_aanwezig === true;
+                const impFund = indImp.imperatief_gefundeerd === 'true' || indImp.imperatief_gefundeerd === true;
+                sacrPatroonHTML += `
+                    <div style="margin-bottom: 0.5rem;">
+                        <strong>Indicatief/Imperatief:</strong>
+                        <span style="margin-left: 0.5rem; color: ${indAanwezig ? 'var(--success-color)' : 'var(--danger-color)'};">Indicatief: ${indAanwezig ? '✓' : '✗'}</span>
+                        <span style="margin-left: 0.5rem; color: ${impFund ? 'var(--success-color)' : 'var(--danger-color)'};">Imperatief gefundeerd: ${impFund ? '✓' : '✗'}</span>
+                    </div>`;
+                if (indImp.voorbeelden_goede_verhouding?.length) {
+                    sacrPatroonHTML += `<p style="font-size: 0.8rem; color: var(--success-color); margin: 0.25rem 0;"><strong>Goed:</strong> ${indImp.voorbeelden_goede_verhouding.map(v => formatText(v)).join('; ')}</p>`;
+                }
+                if (indImp.voorbeelden_slechte_verhouding?.length) {
+                    sacrPatroonHTML += `<p style="font-size: 0.8rem; color: var(--danger-color); margin: 0.25rem 0;"><strong>Slecht:</strong> ${indImp.voorbeelden_slechte_verhouding.map(v => formatText(v)).join('; ')}</p>`;
+                }
+            }
+
+            sacrPatroonCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Sacramenteel patroon analyse</span>
+                </div>
+                <div class="text-content">
+                    ${sacrPatroonHTML}
+                </div>
+            `;
+            container.appendChild(sacrPatroonCard);
+        }
+
+        // Theologische Diepte Analyse
+        const theoDiepte = data.theologische_diepte_analyse || {};
+        if (theoDiepte.openbaringsleer || theoDiepte.pneumatologie || theoDiepte.sacramentstheologie) {
+            const theoDiepteCard = document.createElement('div');
+            theoDiepteCard.className = 'card';
+
+            let theoDiepteHTML = '';
+
+            const openb = theoDiepte.openbaringsleer || {};
+            if (openb.god_als_spreker || openb.prediker_als_mandataris) {
+                theoDiepteHTML += '<div style="margin-bottom: 1rem;"><strong>Openbaringsleer:</strong>';
+                if (openb.god_als_spreker) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>God als spreker:</strong> ${formatText(openb.god_als_spreker)}</p>`;
+                if (openb.prediker_als_mandataris) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Prediker als mandataris:</strong> ${formatText(openb.prediker_als_mandataris)}</p>`;
+                if (openb.tekstueel_bewijs?.length) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">${openb.tekstueel_bewijs.map(t => formatText(t)).join('; ')}</p>`;
+                theoDiepteHTML += '</div>';
+            }
+
+            const pneum = theoDiepte.pneumatologie || {};
+            if (pneum.geest_rol_erkend || pneum.perlocutie_theologie) {
+                theoDiepteHTML += '<div style="margin-bottom: 1rem;"><strong>Pneumatologie:</strong>';
+                if (pneum.geest_rol_erkend) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Geest rol erkend:</strong> ${formatText(pneum.geest_rol_erkend)}</p>`;
+                if (pneum.perlocutie_theologie) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Perlocutie theologie:</strong> ${formatText(pneum.perlocutie_theologie)}</p>`;
+                if (pneum.tekstueel_bewijs?.length) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">${pneum.tekstueel_bewijs.map(t => formatText(t)).join('; ')}</p>`;
+                theoDiepteHTML += '</div>';
+            }
+
+            const sacr = theoDiepte.sacramentstheologie || {};
+            if (sacr.preek_als_genademiddel || sacr.epifanisch_taalgebruik) {
+                theoDiepteHTML += '<div style="margin-bottom: 1rem;"><strong>Sacramentstheologie:</strong>';
+                if (sacr.preek_als_genademiddel) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Preek als genademiddel:</strong> ${formatText(sacr.preek_als_genademiddel)}</p>`;
+                if (sacr.epifanisch_taalgebruik) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.85rem;"><strong>Epifanisch taalgebruik:</strong> ${formatText(sacr.epifanisch_taalgebruik)}</p>`;
+                if (sacr.tekstueel_bewijs?.length) theoDiepteHTML += `<p style="margin: 0.25rem 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">${sacr.tekstueel_bewijs.map(t => formatText(t)).join('; ')}</p>`;
+                theoDiepteHTML += '</div>';
+            }
+
+            theoDiepteCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Theologische diepte analyse</span>
+                </div>
+                <div class="text-content">
+                    ${theoDiepteHTML}
+                </div>
+            `;
+            container.appendChild(theoDiepteCard);
+        }
+
+        // Comparatieve Analyse
+        const compAnal = data.comparatieve_analyse || {};
+        if (compAnal.verschil_met_schulz_von_thun || compAnal.verschil_met_retoriek || compAnal.unieke_inzichten_SAT) {
+            const compAnalCard = document.createElement('div');
+            compAnalCard.className = 'card';
+
+            let compAnalHTML = '';
+            if (compAnal.verschil_met_schulz_von_thun) {
+                compAnalHTML += `<p style="margin-bottom: 0.75rem; font-size: 0.85rem;"><strong>vs. Schulz von Thun:</strong> ${formatText(compAnal.verschil_met_schulz_von_thun)}</p>`;
+            }
+            if (compAnal.verschil_met_retoriek) {
+                compAnalHTML += `<p style="margin-bottom: 0.75rem; font-size: 0.85rem;"><strong>vs. Retoriek:</strong> ${formatText(compAnal.verschil_met_retoriek)}</p>`;
+            }
+            if (compAnal.unieke_inzichten_SAT) {
+                compAnalHTML += `<p style="margin-bottom: 0; font-size: 0.85rem;"><strong>Unieke inzichten SAT:</strong> ${formatText(compAnal.unieke_inzichten_SAT)}</p>`;
+            }
+
+            compAnalCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Comparatieve analyse</span>
+                </div>
+                <div class="text-content">
+                    ${compAnalHTML}
+                </div>
+            `;
+            container.appendChild(compAnalCard);
+        }
+
+        // Appendices
+        const appTaal = data.appendices || {};
+        if (appTaal.volledige_werkwoord_lijst || appTaal.kernzinnen_analyse?.length || appTaal.notities) {
+            const appTaalCard = document.createElement('div');
+            appTaalCard.className = 'card';
+
+            let appTaalHTML = '';
+
+            const werkwLijst = appTaal.volledige_werkwoord_lijst || {};
+            if (Object.keys(werkwLijst).length > 0) {
+                appTaalHTML += '<div style="margin-bottom: 1rem;"><strong>Werkwoordenlijst:</strong>';
+                for (const [cat, woorden] of Object.entries(werkwLijst)) {
+                    if (Array.isArray(woorden) && woorden.length > 0) {
+                        appTaalHTML += `<p style="margin: 0.25rem 0; font-size: 0.8rem;"><strong>${cat}:</strong> ${woorden.join(', ')}</p>`;
+                    }
+                }
+                appTaalHTML += '</div>';
+            }
+
+            if (appTaal.kernzinnen_analyse?.length) {
+                appTaalHTML += '<div style="margin-bottom: 1rem;"><strong>Kernzinnen analyse:</strong>';
+                appTaal.kernzinnen_analyse.forEach(kz => {
+                    appTaalHTML += `
+                        <div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-element); border-radius: 4px; font-size: 0.8rem;">
+                            <p style="margin: 0; font-style: italic;">${formatText(kz.zin || '')}</p>
+                            <p style="margin: 0.25rem 0 0 0;"><strong>Categorie:</strong> ${translateTag(kz.categorie || '')} | <strong>Kracht:</strong> ${formatText(kz.illocutionaire_kracht || '')} | <strong>Effectiviteit:</strong> ${formatText(kz.effectiviteit || '')}</p>
+                        </div>`;
+                });
+                appTaalHTML += '</div>';
+            }
+
+            if (appTaal.notities) {
+                appTaalHTML += `<p style="margin: 0; font-style: italic; color: var(--text-muted); font-size: 0.85rem;">${formatText(appTaal.notities)}</p>`;
+            }
+
+            appTaalCard.innerHTML = `
+                <div class="card-header">
+                    <span class="card-title">Appendices</span>
+                </div>
+                <div class="text-content">
+                    ${appTaalHTML}
+                </div>
+            `;
+            container.appendChild(appTaalCard);
+        }
+
         // Aanbevelingen
         const aanbeveCard = document.createElement('div');
         aanbeveCard.className = 'card full-width';
@@ -3258,8 +3652,8 @@
             perfIntens.specifieke_suggesties.forEach(sug => {
                 suggestiesHTML += `
                     <div style="background: var(--bg-element); padding: 0.75rem; border-radius: 6px; margin-bottom: 0.75rem;">
-                        <p style="margin: 0 0 0.5rem 0;"><strong>Huidig:</strong> "${sug.huidige_formulering}"</p>
-                        <p style="margin: 0; color: var(--success-color);"><strong>Voorgesteld:</strong> "${sug.voorgestelde_revisie}"</p>
+                        <p style="margin: 0 0 0.5rem 0;"><strong>Huidig:</strong> ${formatText(sug.huidige_formulering)}</p>
+                        <p style="margin: 0; color: var(--success-color);"><strong>Voorgesteld:</strong> ${formatText(sug.voorgestelde_revisie)}</p>
                         <p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; font-style: italic; color: var(--text-muted);">${sug.verschil}</p>
                     </div>
                 `;

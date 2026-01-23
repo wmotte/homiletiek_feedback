@@ -13,8 +13,6 @@ import json
 import datetime
 import argparse
 import subprocess
-import glob
-from pathlib import Path
 
 # Configuration
 OUTPUT_DIR = "outputs"
@@ -25,91 +23,68 @@ ANALYSES = [
         "id": "dekker",
         "name": "Dekker (8 Stellingen)",
         "script": "./analyze_sermon_dekker.py",
-        "suffix": "",  # Dekker has no suffix in output filename
-        "output_pattern": lambda base: f"{base}_*.json"
+        "suffix": "_dekker",
     },
     {
         "id": "aristoteles",
         "name": "Aristoteles (Retorische Driehoek)",
         "script": "./analyze_aristoteles.py",
         "suffix": "_aristoteles",
-        "output_pattern": lambda base: f"{base}_aristoteles_*.json"
     },
     {
         "id": "kolb",
         "name": "Kolb (Leercyclus)",
         "script": "./analyze_kolb_cyclus.py",
         "suffix": "_kolb",
-        "output_pattern": lambda base: f"{base}_kolb_*.json"
     },
     {
         "id": "schulz_von_thun",
         "name": "Schulz von Thun (Communicatie Vierkant)",
         "script": "./analyze_schulz_von_thun.py",
         "suffix": "_schulz_von_thun",
-        "output_pattern": lambda base: f"{base}_schulz_von_thun_*.json"
     },
     {
         "id": "transactional",
         "name": "Transactionele Analyse (Berne)",
         "script": "./analyze_transactional.py",
         "suffix": "_transactional",
-        "output_pattern": lambda base: f"{base}_transactional_*.json"
     },
     {
         "id": "esthetiek",
         "name": "Esthetiek (Schoonheid en Vorm)",
         "script": "./analyze_esthetiek.py",
         "suffix": "_esthetiek",
-        "output_pattern": lambda base: f"{base}_esthetiek_*.json"
     },
     {
         "id": "metafoor",
         "name": "Metafoor (Conceptuele Metafoortheorie)",
         "script": "./analyze_metafoor.py",
         "suffix": "_metafoor",
-        "output_pattern": lambda base: f"{base}_metafoor_*.json"
     },
     {
         "id": "narratief",
         "name": "Narratief (Greimas Actantieel Model)",
         "script": "./analyze_narratief.py",
         "suffix": "_narratief",
-        "output_pattern": lambda base: f"{base}_narratief_*.json"
     },
     {
         "id": "taalhandeling",
         "name": "Taalhandeling (Speech Act Theory)",
         "script": "./analyze_taalhandeling.py",
         "suffix": "_taalhandeling",
-        "output_pattern": lambda base: f"{base}_taalhandeling_*.json"
     },
 ]
 
 
-def find_latest_output(base_name, analysis):
+def get_output_file(base_name, analysis, output_dir):
     """
-    Find the most recent output file for a given analysis type.
+    Get the expected output file path for a given analysis type.
+    Output filenames are now fixed (no timestamps).
     """
-    pattern = os.path.join(OUTPUT_DIR, analysis["output_pattern"](base_name))
-    files = glob.glob(pattern)
-
-    # For dekker (no suffix), we need to exclude other analysis types
-    if analysis["id"] == "dekker":
-        exclude_suffixes = ["_aristoteles_", "_kolb_", "_schulz_von_thun_",
-                          "_transactional_", "_esthetiek_", "_metafoor_",
-                          "_narratief_", "_taalhandeling_"]
-        files = [f for f in files if not any(s in f for s in exclude_suffixes)]
-
-    if not files:
-        return None
-
-    # Sort by modification time, most recent first
-    files.sort(key=os.path.getmtime, reverse=True)
-    return files[0]
+    return os.path.join(output_dir, f"{base_name}{analysis['suffix']}.json")
 
 
-def run_analysis(input_file, analysis, timeout=300):
+def run_analysis(input_file, analysis, output_dir, timeout=300):
     """
     Run a single analysis script and return success status.
     """
@@ -124,8 +99,8 @@ def run_analysis(input_file, analysis, timeout=300):
     print(f"{'='*60}")
 
     try:
-        # Run the analysis script with --no-summary flag if available
-        cmd = [sys.executable, script, "--input", input_file, "--no-summary"]
+        # Run the analysis script with --output-dir and --no-summary flags
+        cmd = [sys.executable, script, "--input", input_file, "--output-dir", output_dir, "--no-summary"]
         result = subprocess.run(
             cmd,
             capture_output=True,
@@ -152,9 +127,9 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Voorbeelden:
-  python run_combined_analysis.py --i input/mijn_preek.txt
-  python run_combined_analysis.py -i input/preek_02.txt --output-dir outputs
-  python run_combined_analysis.py -i input/preek.txt --skip-existing
+  python run_combined_analysis.py -i input/mijn_preek.txt
+  python run_combined_analysis.py -i input/preek_02.txt --output-dir my_output
+  python run_combined_analysis.py -i input/preek.txt --force  # heranalyse alles
 
 Deze tool voert alle 9 analyses uit:
   1. Dekker (8 Stellingen)
@@ -185,9 +160,9 @@ Output:
         help=f"Output directory voor JSON bestanden (default: {OUTPUT_DIR})"
     )
     parser.add_argument(
-        "--skip-existing",
+        "--force",
         action="store_true",
-        help="Sla analyses over waarvoor al een output bestand bestaat"
+        help="Voer alle analyses opnieuw uit, ook als output al bestaat"
     )
     parser.add_argument(
         "--timeout",
@@ -239,49 +214,49 @@ Output:
     for analysis in ANALYSES:
         analysis_id = analysis["id"]
         analysis_name = analysis["name"]
+        expected_output = get_output_file(base_name, analysis, output_dir)
 
-        # Check if we should skip existing
-        if args.skip_existing:
-            existing_file = find_latest_output(base_name, analysis)
-            if existing_file:
-                print(f"\nSkipping {analysis_name}: output already exists at {existing_file}")
-                results["skipped"].append(analysis_id)
+        # Check if output already exists
+        output_exists = os.path.exists(expected_output)
 
-                # Load existing data
-                try:
-                    with open(existing_file, 'r', encoding='utf-8') as f:
-                        analyses_data[analysis_id] = json.load(f)
-                except Exception as e:
-                    warnings.append(f"Kon bestaand bestand niet laden voor {analysis_name}: {e}")
-                continue
+        # Skip if output exists (unless --force is set)
+        if output_exists and not args.force:
+            print(f"\nSkipping {analysis_name}: output already exists at {expected_output}")
+            results["skipped"].append(analysis_id)
+
+            # Load existing data
+            try:
+                with open(expected_output, 'r', encoding='utf-8') as f:
+                    analyses_data[analysis_id] = json.load(f)
+            except Exception as e:
+                warnings.append(f"Kon bestaand bestand niet laden voor {analysis_name}: {e}")
+            continue
 
         # Run the analysis
-        success, error_msg = run_analysis(input_file, analysis, timeout=args.timeout)
+        success, error_msg = run_analysis(input_file, analysis, output_dir, timeout=args.timeout)
 
         if success:
-            # Find the output file
-            output_file = find_latest_output(base_name, analysis)
-            if output_file:
-                print(f"Analyse geslaagd: {output_file}")
+            # Check the output file
+            if os.path.exists(expected_output):
+                print(f"Analyse geslaagd: {expected_output}")
                 results["successful"].append(analysis_id)
 
                 # Load the analysis data
                 try:
-                    with open(output_file, 'r', encoding='utf-8') as f:
+                    with open(expected_output, 'r', encoding='utf-8') as f:
                         analyses_data[analysis_id] = json.load(f)
                 except Exception as e:
                     warnings.append(f"Kon output niet laden voor {analysis_name}: {e}")
                     results["failed"].append(analysis_id)
             else:
-                warnings.append(f"Analyse {analysis_name} voltooide maar output bestand niet gevonden")
+                warnings.append(f"Analyse {analysis_name} voltooide maar output bestand niet gevonden: {expected_output}")
                 results["failed"].append(analysis_id)
         else:
             print(f"WAARSCHUWING: Analyse {analysis_name} mislukt: {error_msg}")
             warnings.append(f"Analyse {analysis_name} mislukt: {error_msg}")
             results["failed"].append(analysis_id)
 
-    # Create combined JSON
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    # Create combined JSON (no timestamp in filename)
     combined_output = {
         "metadata": {
             "type": "combined_analysis",
@@ -299,7 +274,7 @@ Output:
     }
 
     # Save combined JSON
-    combined_filename = os.path.join(output_dir, f"{base_name}_combined_{timestamp}.json")
+    combined_filename = os.path.join(output_dir, f"{base_name}_combined.json")
     try:
         with open(combined_filename, 'w', encoding='utf-8') as f:
             json.dump(combined_output, f, indent=2, ensure_ascii=False)

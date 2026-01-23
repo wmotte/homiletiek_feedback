@@ -76,16 +76,15 @@ def analyze_sermon_schulz(text, prompt_template):
 
     return response.text
 
-def save_output(input_filename, json_content):
+def save_output(input_filename, json_content, output_dir=OUTPUT_DIR):
     """
-    Saves the JSON content to the outputs directory with a timestamp.
+    Saves the JSON content to the specified output directory.
     """
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     base_name = os.path.splitext(os.path.basename(input_filename))[0]
-    output_filename = f"{OUTPUT_DIR}/{base_name}_schulz_von_thun_{timestamp}.json"
+    output_filename = f"{output_dir}/{base_name}_schulz_von_thun.json"
 
     try:
         # Ensure json_content is valid JSON string
@@ -201,6 +200,12 @@ Deze tool analyseert de preek op:
         help="Pad naar het inputbestand (.txt)"
     )
     parser.add_argument(
+        "--output-dir",
+        type=str,
+        default=OUTPUT_DIR,
+        help=f"Output directory voor JSON bestanden (default: {OUTPUT_DIR})"
+    )
+    parser.add_argument(
         "--no-summary",
         action="store_true",
         help="Onderdruk de samenvatting in de console"
@@ -208,6 +213,7 @@ Deze tool analyseert de preek op:
 
     args = parser.parse_args()
     input_file = args.input
+    output_dir = args.output_dir
 
     print("="*70)
     print("📡 SCHULZ VON THUN COMMUNICATIE ANALYSE")
@@ -233,7 +239,7 @@ Deze tool analyseert de preek op:
         json_response = analyze_sermon_schulz(sermon_text, prompt_template)
 
         # Save output
-        output_file = save_output(input_file, json_response)
+        output_file = save_output(input_file, json_response, output_dir)
 
         # Print summary
         if output_file and not args.no_summary:

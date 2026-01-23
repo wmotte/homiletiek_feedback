@@ -22,35 +22,28 @@ OUTPUT_DIR = "outputs"
 
 def validate_input(text):
     """
-    Validates if the sermon text contains scripture readings at the beginning.
-    Searches for keywords like 'Lezing', 'Schrift', 'Matteüs', 'Jesaja', etc.
-    in the first 50 lines.
+    Validates if the sermon text is substantial enough for Dekker analysis.
+    Checks for minimum length and basic structure.
     """
-    lines = text.split('\n')[:50]
-    header_text = '\n'.join(lines).lower()
-    
-    # Keywords that suggest a scripture reading section
-    keywords = [
-        r"lezing", r"schrift", r"bijbel", 
-        r"matteüs", r"marcus", r"lucas", r"johannes", 
-        r"jesaja", r"psalm", r"genesis", r"exodus",
-        r"korintiërs", r"romeinen"
-    ]
-    
-    found = False
-    for keyword in keywords:
-        if re.search(keyword, header_text):
-            found = True
-            break
-            
-    if not found:
-        # Fallback: check for verse notation like "1:1" or "2-3" combined with a name
-        if re.search(r"\d+:\d+", header_text):
-            found = True
+    lines = text.split('\n')
+    non_empty_lines = [line for line in lines if line.strip()]
 
-    if not found:
-        raise ValueError("Schriftlezingen niet meegeleverd (of niet herkend in de eerste regels).")
-    
+    # Check minimum length (at least 50 non-empty lines for meaningful analysis)
+    if len(non_empty_lines) < 50:
+        raise ValueError(
+            f"Preektekst te kort voor Dekker-analyse. "
+            f"Gevonden: {len(non_empty_lines)} regels. Minimaal vereist: 50 regels."
+        )
+
+    # Estimate word count (rough: avg 8 words per non-empty line)
+    estimated_words = sum(len(line.split()) for line in non_empty_lines)
+    if estimated_words < 500:
+        raise ValueError(
+            f"Preektekst te kort voor Dekker-analyse. "
+            f"Geschat aantal woorden: {estimated_words}. Minimaal vereist: 500 woorden."
+        )
+
+    print(f"✓ Preektekst validatie geslaagd: {len(non_empty_lines)} regels, ~{estimated_words} woorden")
     return True
 
 def analyze_sermon(text, prompt_template):
@@ -76,61 +69,94 @@ def analyze_sermon(text, prompt_template):
     
     return response.text
 
-def save_output(input_filename, json_content):
+def save_output(input_filename, json_content, output_dir=OUTPUT_DIR):
     """
-    Saves the JSON content to the outputs directory with a timestamp.
+    Saves the JSON content to the specified output directory.
     """
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
-        
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
     base_name = os.path.splitext(os.path.basename(input_filename))[0]
-    output_filename = f"{OUTPUT_DIR}/{base_name}_{timestamp}.json"
-    
+    output_filename = f"{output_dir}/{base_name}_dekker.json"
+
     try:
         # Ensure json_content is valid JSON string
         parsed_json = json.loads(json_content)
         with open(output_filename, 'w', encoding='utf-8') as f:
             json.dump(parsed_json, f, indent=2, ensure_ascii=False)
-        print(f"Analysis saved to: {output_filename}")
+        print(f"✅ Analysis saved to: {output_filename}")
+        return output_filename
     except json.JSONDecodeError:
-        print("Error: content returned was not valid JSON.")
+        print("❌ Error: content returned was not valid JSON.")
         # Save raw content for debugging
-        with open(f"{output_filename}.raw", 'w', encoding='utf-8') as f:
+        raw_filename = f"{output_filename}.raw"
+        with open(raw_filename, 'w', encoding='utf-8') as f:
             f.write(json_content)
-        print(f"Raw content saved to: {output_filename}.raw")
+        print(f"💾 Raw content saved to: {raw_filename}")
+        return None
 
 def main():
-    parser = argparse.ArgumentParser(description="Analyseer een preek aan de hand van de thesen van Dr. W.M. Dekker.")
-    parser.add_argument("--i", "--input", type=str, default=DEFAULT_INPUT_FILE, help="Pad naar het inputbestand (.txt)")
-    args = parser.parse_index_args() if hasattr(parser, 'parse_index_args') else parser.parse_args()
-    
-    input_file = args.i
+    parser = argparse.ArgumentParser(
+        description="Analyseer een preek aan de hand van de thesen van Dr. W.M. Dekker.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Voorbeelden:
+  python analyze_sermon_dekker.py
+  python analyze_sermon_dekker.py --input input/mijn_preek.txt
+  python analyze_sermon_dekker.py -i input/preek_02.txt --output-dir my_output
+        """
+    )
+    parser.add_argument(
+        "-i", "--input",
+        type=str,
+        default=DEFAULT_INPUT_FILE,
+        help="Pad naar het inputbestand (.txt)"
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default=OUTPUT_DIR,
+        help=f"Output directory voor JSON bestanden (default: {OUTPUT_DIR})"
+    )
+    parser.add_argument(
+        "--no-summary",
+        action="store_true",
+        help="Onderdruk de samenvatting in de console"
+    )
+    args = parser.parse_args()
 
-    print(f"Reading input file: {input_file}")
+    input_file = args.input
+    output_dir = args.output_dir
+
+    print("="*70)
+    print("📖 DEKKER ANALYSE VOOR HOMILETIEK")
+    print("="*70)
+    print(f"📖 Input bestand: {input_file}\n")
+
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
             sermon_text = f.read()
-            
-        print("Validating input...")
+
+        print("✓ Validatie wordt uitgevoerd...")
         validate_input(sermon_text)
-        print("Input validated: Scripture readings present.")
-        
-        print("Reading prompt...")
+
+        print("✓ Prompt template wordt geladen...")
         with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
             prompt_template = f.read()
-            
-        print("Analyzing with Gemini...")
+
+        print("✓ Analyse wordt gestart met Gemini AI...")
         json_response = analyze_sermon(sermon_text, prompt_template)
-        
-        save_output(input_file, json_response)
-        
+
+        save_output(input_file, json_response, output_dir)
+
     except FileNotFoundError as e:
-        print(f"Error: {e}")
+        print(f"❌ Bestand niet gevonden: {e}")
     except ValueError as e:
-        print(f"Validation Error: {e}")
+        print(f"❌ Validatie fout: {e}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"❌ Er is een onverwachte fout opgetreden: {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     main()
