@@ -16,6 +16,14 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+def count_words(text):
+    """
+    Count the actual number of words in the sermon text.
+    Returns the word count.
+    """
+    words = text.split()
+    return len(words)
+
 # Configuration
 API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 DEFAULT_INPUT_FILE = "input/preek_01.txt"
@@ -36,7 +44,7 @@ def validate_input(text):
         )
     return True
 
-def analyze_sermon_transactional(text, prompt_template):
+def analyze_sermon_transactional(text, prompt_template, word_count):
     """
     Calls Gemini API to analyze the sermon using Transactional Analysis framework.
     """
@@ -48,7 +56,22 @@ def analyze_sermon_transactional(text, prompt_template):
     genai.configure(api_key=API_KEY)
     model = genai.GenerativeModel('gemini-3-pro-preview')
 
-    full_prompt = f"{prompt_template}\n\n--- BEGIN PREEK ---\n{text}\n--- EINDE PREEK ---"
+    # Calculate estimated duration (100 words per minute)
+    estimated_duration = round(word_count / 100)
+
+    full_prompt = f"""{prompt_template}
+
+--- BELANGRIJKE METADATA ---
+Het exacte aantal woorden in deze preek is: {word_count}
+Geschatte duur bij 100 woorden/minuut: {estimated_duration} minuten
+
+Gebruik deze exacte waarden in je metadata sectie:
+- "geschatte_woordlengte": {word_count}
+- "geschatte_tijdsduur_minuten": {estimated_duration}
+
+--- BEGIN PREEK ---
+{text}
+--- EINDE PREEK ---"""
 
     print("📡 Versturen naar Gemini API voor Transactionele Analyse...")
     print("⚙️  Dit kan enkele seconden duren...")
@@ -191,7 +214,7 @@ def main():
         with open(input_file, 'r', encoding='utf-8') as f:
             sermon_text = f.read()
 
-        validate_input(sermon_text)
+        word_count = validate_input(sermon_text)
 
         with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
             prompt_template = f.read()

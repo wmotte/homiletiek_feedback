@@ -17,6 +17,14 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+def count_words(text):
+    """
+    Count the actual number of words in the sermon text.
+    Returns the word count.
+    """
+    words = text.split()
+    return len(words)
+
 # Configuration
 API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 DEFAULT_INPUT_FILE = "input/preek_01.txt"
@@ -38,18 +46,18 @@ def validate_input(text):
             f"Gevonden: {len(non_empty_lines)} regels. Minimaal vereist: 50 regels."
         )
 
-    # Estimate word count (rough: avg 8 words per non-empty line)
-    estimated_words = sum(len(line.split()) for line in non_empty_lines)
-    if estimated_words < 500:
+    # Count actual words
+    word_count = count_words(text)
+    if word_count < 500:
         raise ValueError(
             f"Preektekst te kort voor Kolb-analyse. "
-            f"Geschat aantal woorden: {estimated_words}. Minimaal vereist: 500 woorden."
+            f"Aantal woorden: {word_count}. Minimaal vereist: 500 woorden."
         )
 
-    print(f"✓ Preektekst validatie geslaagd: {len(non_empty_lines)} regels, ~{estimated_words} woorden")
-    return True
+    print(f"✓ Preektekst validatie geslaagd: {len(non_empty_lines)} regels, {word_count} woorden")
+    return word_count
 
-def analyze_sermon_kolb(text, prompt_template):
+def analyze_sermon_kolb(text, prompt_template, word_count):
     """
     Calls Gemini API to analyze the sermon using Kolb's Learning Cycle framework.
     """
@@ -62,7 +70,22 @@ def analyze_sermon_kolb(text, prompt_template):
     # This model is needed for the comprehensive analytical task
     model = genai.GenerativeModel('gemini-3-pro-preview')
 
-    full_prompt = f"{prompt_template}\n\n--- BEGIN PREEK ---\n{text}\n--- EINDE PREEK ---"
+    # Calculate estimated duration (100 words per minute)
+    estimated_duration = round(word_count / 100)
+
+    full_prompt = f"""{prompt_template}
+
+--- BELANGRIJKE METADATA ---
+Het exacte aantal woorden in deze preek is: {word_count}
+Geschatte duur bij 100 woorden/minuut: {estimated_duration} minuten
+
+Gebruik deze exacte waarden in je metadata sectie:
+- "geschatte_woordlengte": {word_count}
+- "geschatte_tijdsduur_minuten": {estimated_duration}
+
+--- BEGIN PREEK ---
+{text}
+--- EINDE PREEK ---"""
 
     print("📡 Versturen naar Gemini API voor analyse...")
     print("⚙️  Dit kan 30-60 seconden duren vanwege de complexiteit van de analyse...")
@@ -221,7 +244,7 @@ Deze tool analyseert de preek op:
 
         # Validate input
         print("✓ Validatie wordt uitgevoerd...")
-        validate_input(sermon_text)
+        word_count = validate_input(sermon_text)
 
         # Read prompt template
         print("✓ Prompt template wordt geladen...")
