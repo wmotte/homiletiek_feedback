@@ -54,7 +54,7 @@ def analyze_sermon_transactional(text, prompt_template, word_count):
     print(f"DEBUG: API Key found. Length: {len(API_KEY)}")
     print(f"DEBUG: Key starts with: {API_KEY[:4]}...")
     genai.configure(api_key=API_KEY)
-    model = genai.GenerativeModel('gemini-3-pro-preview')
+    model = genai.GenerativeModel('gemini-3.1-pro-preview')
 
     # Calculate estimated duration (100 words per minute)
     estimated_duration = round(word_count / 100)
@@ -219,7 +219,7 @@ def main():
         with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
             prompt_template = f.read()
 
-        json_response = analyze_sermon_transactional(sermon_text, prompt_template)
+        json_response = analyze_sermon_transactional(sermon_text, prompt_template, word_count)
         output_file = save_output(input_file, json_response, output_dir)
 
         if output_file and not args.no_summary:

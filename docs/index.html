@@ -770,6 +770,11 @@
      * Single JSON has the analysis data directly at the root level.
      */
     function renderAnalysis(json) {
+        // Unwrap array-wrapped JSON (e.g. [{...}])
+        if (Array.isArray(json) && json.length > 0) {
+            json = json[0];
+        }
+
         // Check if this is a combined analysis JSON
         if (json.metadata && json.metadata.type === 'combined_analysis' && json.source && json.analyses) {
             handleCombinedAnalysis(json);
@@ -796,7 +801,7 @@
         if (json.kolb_fasen_analyse) return 'kolb';
         if (json.aristotelische_modi_analyse) return 'aristoteles';
         if (json.schulz_von_thun_analyse) return 'schulz_von_thun';
-        if (json.ta_analyse) return 'transactional';
+        if (json.ta_analyse || json.ego_posities_scan || json.transactie_analyse) return 'transactional';
         if (json.esthetische_analyse || json.totaalbeeld_esthetiek) return 'esthetiek';
         if (json.primaire_analyse && json.primaire_analyse.dominante_domeinen) return 'metafoor';
         if (json.semiotische_analyse || json.actantiele_analyse) return 'narratief';

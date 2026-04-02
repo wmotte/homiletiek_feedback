@@ -66,8 +66,8 @@ def analyze_sermon_schulz(text, prompt_template, word_count):
 
     genai.configure(api_key=API_KEY)
 
-    # Use gemini-3-pro-preview for high quality analysis
-    model = genai.GenerativeModel('gemini-3-pro-preview')
+    # Use gemini-3.1-pro-preview for high quality analysis
+    model = genai.GenerativeModel('gemini-3.1-pro-preview')
 
     # Calculate estimated duration (100 words per minute)
     estimated_duration = round(word_count / 100)
@@ -259,7 +259,7 @@ Deze tool analyseert de preek op:
 
         # Analyze with Gemini
         print("✓ Analyse wordt gestart met Gemini AI...")
-        json_response = analyze_sermon_schulz(sermon_text, prompt_template)
+        json_response = analyze_sermon_schulz(sermon_text, prompt_template, word_count)
 
         # Save output
         output_file = save_output(input_file, json_response, output_dir)

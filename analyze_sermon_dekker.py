@@ -68,7 +68,7 @@ def analyze_sermon(text, prompt_template, word_count):
     # Use gemini-1.5-flash for speed/cost efficiency, or pro if deeper reasoning needed.
     # User requested gemini-pro-2.5 which doesn't exist yet, assuming they mean 1.5-pro or latest.
     # I'll use gemini-1.5-pro for high quality analysis.
-    model = genai.GenerativeModel('gemini-3-pro-preview')
+    model = genai.GenerativeModel('gemini-3.1-pro-preview')
 
     # Calculate estimated duration (100 words per minute)
     estimated_duration = round(word_count / 100)

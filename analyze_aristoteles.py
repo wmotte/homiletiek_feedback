@@ -67,9 +67,9 @@ def analyze_sermon_aristoteles(text, prompt_template, word_count):
 
     genai.configure(api_key=API_KEY)
 
-    # Use gemini-3-pro-preview for high quality rhetorical analysis
+    # Use gemini-3.1-pro-preview for high quality rhetorical analysis
     # This model is needed for nuanced understanding of persuasive elements
-    model = genai.GenerativeModel('gemini-3-pro-preview')
+    model = genai.GenerativeModel('gemini-3.1-pro-preview')
 
     # Calculate estimated duration (100 words per minute)
     estimated_duration = round(word_count / 100)
