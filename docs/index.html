@@ -460,8 +460,8 @@
         </select>
 
         <nav class="tab-nav">
-            <button class="tab-btn active" onclick="switchTab('analysis')">Analyse dashboard</button>
-            <button class="tab-btn" onclick="switchTab('sermon')">Preektekst</button>
+            <button class="tab-btn" onclick="switchTab('analysis')">Analyse dashboard</button>
+            <button class="tab-btn active" onclick="switchTab('sermon')">Preektekst</button>
         </nav>
     </div>
 
@@ -475,7 +475,7 @@
 </header>
 
 <main>
-    <div id="tab-analysis" class="tab-content active">
+    <div id="tab-analysis" class="tab-content">
         <div id="analysis-info-block" class="info-block">
             <div class="info-block-title">
                 Over deze analyse
@@ -488,7 +488,7 @@
         </div>
     </div>
 
-    <div id="tab-sermon" class="tab-content">
+    <div id="tab-sermon" class="tab-content active">
         <div id="sermon-view">
             <div id="sermon-content" class="sermon-text">
                 <em>Geen preektekst geladen.</em>
@@ -650,6 +650,7 @@
         const analysisTypeSelector = document.getElementById('analysis-type-select');
         updateInfoBlock(analysisTypeSelector.value);
         loadExample(exampleSelector.value, analysisTypeSelector.value);
+        switchTab('sermon');
 
         exampleSelector.addEventListener('change', (e) => {
             // Reset combined mode when selecting an example
