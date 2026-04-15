@@ -780,7 +780,7 @@
             try {
                 const json = JSON.parse(e.target.result);
                 renderAnalysis(json);
-                switchTab('analysis');
+                switchTab('sermon');
             } catch (error) {
                 console.error("JSON parse error:", error);
                 alert("Ongeldig JSON bestand!");
