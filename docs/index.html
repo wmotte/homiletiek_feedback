@@ -440,6 +440,7 @@
         </h1>
         
         <select class="example-selector" id="example-select">
+            <option value="voorbeeld_Barmhartige_Samaritaan">Preek Barmhartige Samaritaan - Lucas 10:25–37</option>
             <option value="voorbeeld_Edward_Schillebeeckx">Preek Edward Schillebeeckx - datum onbekend</option>
             <option value="voorbeeld_Dorothee_Sölle">Preek Dorothee Sölle - 8 januari 1968</option>
             <option value="voorbeeld_31_maart_2024_Otte">Preek Wim Otte - 31 maart 2024</option>
@@ -660,6 +661,7 @@
         });
         analysisTypeSelector.addEventListener('change', (e) => {
             updateInfoBlock(e.target.value);
+            switchTab('analysis');
             // Check if we're in combined mode
             if (combinedAnalysisData) {
                 handleCombinedAnalysisTypeChange(e.target.value);
@@ -672,6 +674,22 @@
 
     async function loadExample(baseName, analysisType) {
         try {
+            // First fetch the base JSON to check for a combined analysis file
+            const baseJsonRes = await fetch(`${baseName}.json`);
+            let baseJsonData = null;
+            if (baseJsonRes.ok) {
+                let parsed = await baseJsonRes.json();
+                if (Array.isArray(parsed) && parsed.length > 0) parsed = parsed[0];
+                if (parsed.metadata && parsed.metadata.type === 'combined_analysis' && parsed.source && parsed.analyses) {
+                    handleCombinedAnalysis(parsed);
+                    // Keep example selector visible (handleCombinedAnalysis hides it for uploads)
+                    const exampleSelector = document.getElementById('example-select');
+                    if (exampleSelector) exampleSelector.style.display = '';
+                    return;
+                }
+                baseJsonData = parsed;
+            }
+
             const textRes = await fetch(`${baseName}.txt`);
             if(!textRes.ok) throw new Error(`Kon ${baseName}.txt niet laden`);
             const text = await textRes.text();
@@ -687,9 +705,15 @@
             else if (analysisType === 'narratief') jsonSuffix = '_narratief';
             else if (analysisType === 'taalhandeling') jsonSuffix = '_taalhandeling';
 
-            const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
-            if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
-            const data = await jsonRes.json();
+            // Reuse cached base JSON for dekker (no suffix), otherwise fetch the specific file
+            let data;
+            if (jsonSuffix === '' && baseJsonData) {
+                data = baseJsonData;
+            } else {
+                const jsonRes = await fetch(`${baseName}${jsonSuffix}.json`);
+                if(!jsonRes.ok) throw new Error(`Kon ${baseName}${jsonSuffix}.json niet laden`);
+                data = await jsonRes.json();
+            }
 
             if (analysisType === 'kolb') {
                 renderAnalysisKolb(data);
